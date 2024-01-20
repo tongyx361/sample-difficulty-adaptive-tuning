@@ -1,0 +1,2541 @@
+[
+  {
+    "ans": "C",
+    "gt": "A",
+    "err": false,
+    "question": "A car is being driven, in a straight line and at a uniform speed, towards the base of a vertical tower. The top of the tower is observed from the car and, in the process, it takes 10 minutes for the angle of elevation to change from 45\u00b0 to 60\u00b0. After how much more time will this car reach the base of the tower?\nAnswer Choices: (A) 5 (\u221a3 + 1)  (B) 6 (\u221a3 + \u221a2)  (C) 7 (\u221a3 \u2013 1)  (D) 8 (\u221a3 \u2013 2)  (E) None of these Let's write a program.",
+    "output": "Let's take the base of the tower as the origin and the top of the tower as the point (1, 0).\nThe car is moving in the direction of the x-axis.\nAt time t = 0, the angle of elevation is 45\u00b0 and the position of the car is (0, 0).\nAt time t = 10, the angle of elevation is 60\u00b0 and the position of the car is (10, 0).\nThe above information can be represented diagrammatically as follows:\nHere, the blue line represents the path of the car.\nThe red line is the base of the tower.\nThe black line is the top of the tower.\nThe green line is the required path of the car.\nThe distance covered by the car in 10 minutes is 10 units.\nThe required time = (10 units)/(8 units/minute) = 10/8 minutes\n= 10/8 \u00d7 60 seconds\n= 75 seconds.\nANSWER C 7(\u221a3 \u2013 1)",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": true,
+    "gt": "E",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 8, in <module>\n  File \"<string>\", line 2, in run_it\nNameError: name 'original_price' is not defined\n",
+    "question": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?\nAnswer Choices: (A) $61 (B) $65 (C) $67.40 (D) $70 (E) $78.20 Let's write a program.",
+    "output": "price = 0.78 * original_price\nprice = price - 20\nprice = price + 1.9\nhalf_original_price = original_price / 2\ncondition = price - half_original_price\nprint(original_price)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": true,
+    "gt": "A",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 295, in execute_code\n    code = black.format_str(code_str, mode=black.FileMode())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1079, in format_str\n    dst_contents = _format_str_once(src_contents, mode=mode)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1089, in _format_str_once\n    src_node = lib2to3_parse(src_contents.lstrip(), mode.target_versions)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/parsing.py\", line 127, in lib2to3_parse\n    raise exc from None\nblack.parsing.InvalidInput: Cannot parse: 3:0: print(x)\n",
+    "question": "Find out which of the following values is the multiple of X, if it is divisible by 9 and 12?\nAnswer Choices: (A) 36 (B) 15 (C) 17 (D) 5 (E) 7 Let's write a program.",
+    "output": "x = 36\nif x % 9 == 0 and x % 12 == 0:\nprint(x)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "-0.30000000000000004",
+    "question": "If the probability that Stock A will increase in value during the next month is 0.56, and the probability that Stock B will increase in value during the next month is 0.74. What is the greatest value for the probability that neither of these two events will occur?\nAnswer Choices: (A) 0.22 (B) 0.26 (C) 0.37 (D) 0.46 (E) 0.63 Let's write a program.",
+    "output": "import math\n\n# define the probabilities\np1 = 0.56\np2 = 0.74\n\n# calculate the probability of neither event occurring\np_neither = 1 - (p1 + p2)\n\nprint(p_neither)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article?\nAnswer Choices: (A) 270 (B) 300 (C) 280 (D) 320 (E) 315 Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nSP = 360\nCP = (SP)*[100/(100+P)]\n= 360 * [100/(100+20)]\n= 360 * [100/120] = Rs.300\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "D",
+    "err": false,
+    "question": "20 marbles were pulled out of a bag of only white marbles, painted black, and then put back in. Then, another 20 marbles were pulled out, of which 1 was black, after which they were all returned to the bag. If the percentage of black marbles pulled out the second time represents their percentage in the bag, how many marbles in total Q does the bag currently hold?\nAnswer Choices: (A) 40 (B) 200 (C) 380 (D) 400 (E) 3200 Let's write a program.",
+    "output": "Let's think about the multi-choice question step by step.\nFirst, there are only white marbles in the bag.\nAfter the first draw, the number of white marbles Q is reduced by 20.\nAfter the second draw, the number of white marbles Q is reduced by 19.\nThe percentage of black marbles pulled out the second time represents their percentage in the bag.\nThis means that 1/20 of the reduced number of white marbles is black.\nThe total number of white marbles is 20/1 = 200.\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "67600",
+    "question": "Find the total no. of distinct bike no.'s that can beformed using 2 letters followed by 2 no.'s. How many letters need to be distinct?\nAnswer Choices: (A) 74453 (B) 64543 (C) 74325 (D) 65000 (E) 97656 Let's write a program.",
+    "output": "from math import pow\r\n# total no. of distinct bike no.'s that can be formed using 2 letters followed by 2 no.'s\r\ntotal_no = pow(26, 2) * pow(10, 2)\r\nprint(int(total_no))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "13.333333333333334",
+    "question": "A train running at a speed of 100 miles/hour, takes 10 hours to reach its destination. After covering quarter of the distance, it starts raining and the train has to be slowed to speed of 75 miles/hour. What is the total journey duration?\nAnswer Choices: (A) 10 (B) 11.5 (C) 12.5 (D) 13.5 (E) 15 Let's write a program.",
+    "output": "initial_speed = 100 # miles/hour\r\ninitial_time = 10 # hours\r\n\r\nquarter_distance = initial_speed * initial_time / 4\r\n\r\nrainy_speed = 75 # miles/hour\r\n\r\ntime_to_cover_quarter_distance = quarter_distance / rainy_speed\r\n\r\ntotal_journey_duration = initial_time + time_to_cover_quarter_distance\r\n\r\nprint(total_journey_duration)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "20.0",
+    "question": "Of the 200 students in a school, at least 45% attended the prom night and at least 35% took part in the debating session. What is the maximum number of students who could have neither attended the prom night nor the debating session?\nAnswer Choices: (A) 27 (B) 81 (C) 90 (D) 99 (E) 110 Let's write a program.",
+    "output": "total_students = 200\n\n# Calculate the number of students who attended the prom night\nprom_attendance = (45/100) * total_students\n\n# Calculate the number of students who attended the debating session\ndebate_attendance = (35/100) * total_students\n\n# Calculate the number of students who attended both events\nboth_events = prom_attendance + debate_attendance\n\n# Calculate the number of students who attended neither event\nneither_event = total_students - both_events\n\n# The maximum number of students who could have neither attended the prom night nor the debating session\n# is the number of students who attended the prom night but not the debating session\nmax_neither = prom_attendance - debate_attendance\n\nprint(min(max_neither, neither_event))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "1.0",
+    "question": "A sales person gets a 10% commission on each sale he makes. How many sales of $250 each must he make in order to reach a salary of at least $1000?\nAnswer Choices: (A) 15 (B) 24 (C) 25 (D) 40 (E) 52 Let's write a program.",
+    "output": "commission_per_sale = 250 * 0.10\ntotal_commission = 250 * 0.10\n\nnum_of_sales = total_commission / commission_per_sale\n\nprint(num_of_sales)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "B",
+    "err": false,
+    "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?\nAnswer Choices: (A) 226 (B) 230 (C) 240 (D) 260 (E) 280 Let's write a program.",
+    "output": "Let's think about the multi-choice question step by step.\nTotal cost = 110*420 = 46200\nTotal revenue = 46200+626400 = 678400\nMinimum selling price per component = 678400/420 = 160\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "4100",
+    "question": "At a certain factory, 10 percent of the staplers produced on Monday were defective and 2 percent of the non-defective staplers were rejected by mistake. If 72 of the non-defective staplers were rejected, what was the number of staplers produced that day?\nAnswer Choices: (A) 4,000 (B) 4,200 (C) 4,500 (D) 4,800 (E) 5,000 Let's write a program.",
+    "output": "defective_staplers = 10\nnon_defective_staplers = 90\nrejected_staplers = 2\nrejected_non_defective_staplers = 72\n\ntotal_staplers = (defective_staplers + rejected_non_defective_staplers) / (rejected_staplers / 100)\nprint(int(total_staplers))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "30",
+    "question": "Machine A puts out a yo-yo every 6 minutes. Machine B puts out a yo-yo every 9 minutes. After how many minutes will they have produced 10 yo-yos?\nAnswer Choices: (A) 24 minutes (B) 32 minutes (C) 36 minutes (D) 64 minutes (E) 72 minutes Let's write a program.",
+    "output": "import math\n\n# Define the time taken by each machine to produce a yo-yo\nmachine_A_time = 6\nmachine_B_time = 9\n\n# Define the total yo-yos needed\ntotal_yo_yos = 10\n\n# Calculate the least common multiple of the times taken by each machine\nlcm_time = math.lcm(machine_A_time, machine_B_time)\n\n# Calculate the time needed to produce the total yo-yos\ntotal_time = total_yo_yos * lcm_time / machine_A_time\n\nprint(int(total_time))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "15",
+    "question": "Add: +45 and -30\nAnswer Choices: (A) -30 (B) +30 (C) 0 (D) 15 (E) -15 Let's write a program.",
+    "output": "add = 45\nsubtract = 30\n\nresult = add - subtract\n\nprint(result)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "5040",
+    "question": "In how many ways can the letters of the word \"PROBLEC\" be rearranged to make 7 letter words such that none of the letters repeat?\nAnswer Choices: (A) 2! (B) 3! (C) 7! (D) 8! (E) 9! Let's write a program.",
+    "output": "import math\n\n# define the word\nword = \"PROBLEM\"\n\n# calculate the number of ways to arrange the letters\n# each letter is distinct, so we can rearrange them in 1! ways\n# since there are 7 letters, the total number of ways is 7!\ntotal_ways = math.factorial(7)\n\nprint(total_ways)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "Let A and B be independent events with P (A) = 0.2 and P(B) = 0.8. Find P(A/B)?\nAnswer Choices: (A) 0.2 (B) 0.4 (C) 0.6 (D) 1.2 (E) 1.5 Let's write a program.",
+    "output": "PA = 0.2\nPB = 0.8\nP(A/B) = PA*PB/(PA+PB)\n= 0.2*0.8/(0.2+0.8)\n= 0.16/1\n= 0.16\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "Consider there is an staircase elevator and you are coming down. If you walk 20 steps and stop, then you reach bottom in 10 minutes. If you walk 10 steps and stop, you reach to the ground in 20 minutes. What is the speed of the elevator?\nAnswer Choices: (A) 1 step/minute (B) 2 step/minute (C) 3 step/minute (D) 4 step/minute (E) None of the above Let's write a program.",
+    "output": "Let's start with the equation of motion\r\nS = (100 - 20) / (20*10) [speed = distance/time]\r\nS = 80 / 200\r\nS = 2 step/minute\r\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "Last year, a Home Appliance Store sold an average(arithmetic mean) of 42 microwave ovens per month. In the first 10 months of this year,the store has sold an average(arithmetic mean) of only 20 microwave ovens per month. What was the average number of microwave ovens sold per month during the entire 22 months period ?\nAnswer Choices: (A) 21 (B) 30 (C) 31 (D) 32 (E) None of the above Let's write a program.",
+    "output": "Let's think about the multi-choice question step by step.\nSolution:\nTotal ovens sold in 10 months = 20*10 = 200\nTotal ovens sold in next 12 months = 42*12 = 504\nTotal ovens sold = 200+504 = 704\nAverage = 704/22 = 32\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "D",
+    "err": false,
+    "question": "An exam is given in a certain class. The average (arithmetic mean) of the highest score and the lowest score is equal to x. If the average score for the entire class is equal to y and there are z students in the class, where z > 5, then in terms of x, y, and z, what is the average score for the class excluding the highest and lowest scorers?\nAnswer Choices: (A)  (zy \u2013 2x) /z (B)  (zy \u2013 2) /z (C)  (zx \u2013 y) / (z \u2013 2)  (D)  (zy \u2013 2x) / (z -2)  (E)  (zy \u2013 x) / (z + 2)  Let's write a program.",
+    "output": "Let's assume the following values:\nHighest score = 100\nLowest score = 0\nAverage score of highest and lowest score = x = 50\nTotal score of class = y = 2000\nNumber of students = z = 100\nRequired average = (zx - y) / (z - 2)\n= (100*50 - 2000) / (100 - 2)\n= (5000 - 2000) / 98\n= 3000 / 98\n= 30.20\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": true,
+    "gt": "C",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 6, in <module>\n  File \"<string>\", line 2, in run_it\nNameError: name 'x' is not defined\n",
+    "question": "[5 + ? \u00d7 19 - 15 - 7]/[13 \u00d7 13 - 156] = 6\nAnswer Choices: (A) 4 (B) 4.5 (C) 5 (D) 5.5 (E) 6.5 Let's write a program.",
+    "output": "let_x = (5 + (x*19) - 15 - 7) / (13*13 - 156)\n\nif let_x == 6:\n    print(x)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "120.0",
+    "question": "A grocer makes a 25% profit on the selling price for each bag of flour it sells. If he sells each bag for $100 and makes $3,000 in profit, how many bags did he sell?\nAnswer Choices: (A) 12 (B) 16 (C) 24 (D) 30 (E) 40 Let's write a program.",
+    "output": "profit_per_bag=25\r\nselling_price=100\r\ntotal_profit=3000\r\nno_bags=total_profit/(profit_per_bag/100*selling_price)\r\nprint(no_bags)\r",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Alex and Jacob works at a toy shop that make toys. Alex takes 7 hours to make a toy, and Jacob takes 9 hours to make a toy. During a month, both of them makes 35 toys in total. If both of them have worked for almost similar number of hours how many toys have been prepared by Jacob?\nAnswer Choices: (A) 15 (B) 16 (C) 17 (D) 18 (E) 19 Let's write a program.",
+    "output": "Let's assume the number of toys made by Jacob is x.\nWe know that Alex takes 7 hours to make a toy and Jacob takes 9 hours to make a toy.\nSo, the ratio of the number of toys made by Alex and Jacob is 7:9.\nLet's write the equation.\n7/9 = 35/(x+35)\n7x = 9*35 - 9*35\n7x = 9*35\nx = 15\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "37.5",
+    "question": "John likes to have lightly flavored tea every evening. In a 50% strong milk tea, he replaces 15% of it with milk twice. Then, he replaces 10 percent of the resultant solution with more milk.\nWhat is the final concentration of tea John drinks?\nAnswer Choices: (A) 15.38% (B) 42% (C) 39.86% (D) 22.35% (E) 32.51% Let's write a program.",
+    "output": "tea_concentration_initial = 50\nreplacement_1 = 15/100\nreplacement_2 = 10/100\n\ntotal_replacement = replacement_1 + replacement_2\n\nfinal_concentration = (tea_concentration_initial * (1 - total_replacement))\n\nprint(final_concentration)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "0",
+    "question": "In a class 1/16 of the students study math, 1/10 of the students study bio, 1/8 of the students study english. The total number of students is a 4 digit number. Find the diffrence between maximum number of students and minimum number of students.\nAnswer Choices: (A) 8880 (B) 8870 (C) 8890 (D) 7890 (E) 6780 Let's write a program.",
+    "output": "from sympy import symbols, solve\r\n\r\n# students = total number of students\r\ns = symbols('students')\r\n\r\n# 1/16 of the students study math\r\nmath = s/16\r\n\r\n# 1/10 of the students study bio\r\nbio = s/10\r\n\r\n# 1/8 of the students study english\r\nenglish = s/8\r\n\r\n# total number of students is a 4 digit number\r\neq = math + bio + english - s\r\n\r\nanswer = solve(eq, s)[0]\r\n\r\nmax_students = answer\r\nmin_students = int(answer * 0.8)\r\n\r\ndifference = max_students - min_students\r\n\r\nprint(difference)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "1.4",
+    "question": "On a normal day Bill usually averages about 15 mph when riding his bicycle. On a windy day, his speed is reduced by 4 mph. How far can Bill travel on a windy day in 21 minutes? Round to the nearest hundredth.\nAnswer Choices: (A) 2 miles (B) 2.25 miles (C) 3.25 miles (D) 3.85 miles (E) 2.85 miles Let's write a program.",
+    "output": "speed_normal = 15\r\nspeed_windy = 11\r\n\r\ntime = 21\r\n\r\ndistance = abs(speed_normal - speed_windy) * time / 60\r\n\r\nprint(round(distance, 2))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "70.0",
+    "question": "A retailer sold an appliance for 40 percent above cost, which represented a gross profit of $20.00. For what price did the retailer sell the appliance?\nAnswer Choices: (A) $27.30 (B) $51.00 (C) $63.00 (D) $70.00 (E) $91.00 Let's write a program.",
+    "output": "cost = 20/0.4\r\nselling_price = cost + 20\r\nprint(selling_price)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years\nAnswer Choices: (A) 750 (B) 700 (C) 620 (D) 600 (E) None of these Let's write a program.",
+    "output": "Let's calculate the amount to be paid\nWe know that,\nAmount = Principal + S.I.\nAmount = P + S.I. = 500 + S.I.\nS.I. = 500 \u00d7 6 \u00d7 4 / 100 = 120\nAmount = 500 + 120 = 620\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": true,
+    "gt": "A",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 24, in <module>\n  File \"<string>\", line 14, in run_it\nNameError: name 'random' is not defined\n",
+    "question": "A computer routine was developed to generate two numbers (x,y) the first being a random number between 0 and 100 inclusive, and the second being less than or equal to the square root of the first. Each of the following pair satisfies the routine except\nAnswer Choices: (A)  (99,10)  (B)  (85,9)  (C)  (50,7)  (D)  (1,1)  (E)  (1,0)  Let's write a program.",
+    "output": "import math\n\n# Define the function to generate the numbers\ndef generate_numbers():\n    # Generate the first number\n    x = random.randint(0, 100)\n    # Generate the second number\n    y = math.sqrt(x)\n    # Return the pair\n    return (x, y)\n\n# Initialize the random number generator\nrandom.seed()\n\n# Test each pair except\nfor pair in [(99, 10), (85, 9), (50, 7), (1, 1), (1, 0)]:\n    # Generate the numbers\n    generated_numbers = generate_numbers()\n    # Check if the pair is equal\n    if generated_numbers != pair:\n        print(generated_numbers)\n        break",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "A jeep travels a certain distance taking 6 hours in the forward journey. During the return journey, it increased its speed by 12km/hr and took 4 hours. What is the distance travelled by the jeep?\nAnswer Choices: (A) 126km (B) 144km (C) 127km (D) 228km (E) 128km Let's write a program.",
+    "output": "let distance x\nt1=6hr\nt2=4hr\nlet speed y\nx/y=6\nx/y+12=4\nsolve equation 1 and 2\nx=126km\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": true,
+    "gt": "A",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 295, in execute_code\n    code = black.format_str(code_str, mode=black.FileMode())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1079, in format_str\n    dst_contents = _format_str_once(src_contents, mode=mode)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1089, in _format_str_once\n    src_node = lib2to3_parse(src_contents.lstrip(), mode.target_versions)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/parsing.py\", line 127, in lib2to3_parse\n    raise exc from None\nblack.parsing.InvalidInput: Cannot parse: 1:4: let myBrotherBeAge = 2\n",
+    "question": "When I was 2 years old, my brother was half my age. Now I am 60 years old, how old is my brother?\nAnswer Choices: (A) A) 59 (B) B) 69 (C) C) 79 (D) D) 89 (E) E) 99 Let's write a program.",
+    "output": "let myBrotherBeAge = 2\r\nlet myAge = 60\r\n\r\nif(myAge == 2):\r\n  myBrotherBeAge = myAge/2\r\n\r\nprint(myBrotherBeAge)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "B",
+    "err": false,
+    "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?\nAnswer Choices: (A) 20% (B) 28% (C) 36% (D) 40% (E) 42% Let's write a program.",
+    "output": "Let's say the wholesale cost of the appliance is 100$\nRetail price becomes 160$\nActual selling price becomes 128$\nSo the appliance is sold at 36% more than its wholesale cost.\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "5.0",
+    "question": "On a map, the length of the road from Town F to Town G is measured to be 20 inches. On this map, 1/4 inch represents an actual distance of 10 miles. What is the actual distance, in miles, from Town F to Town G along this road?\nAnswer Choices: (A) 800 (B) 720 (C) 960 (D) 1140 (E) 1160 Let's write a program.",
+    "output": "actual_distance_in_inch = 20\nactual_distance_in_mile = 1/4\nactual_distance = 20*1/4\nprint(actual_distance)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "When folded into two equal halves a rectangular sheet had a perimeter of 48cm for each part folded along one set of sides and the same is 66cm when folded along the other set of sides. Find the area of the sheet.\nAnswer Choices: (A) 1584 (B) 1120 (C) 792 (D) 1320 (E) 1200 Let's write a program.",
+    "output": "Let's think about the multi-choice question.\nlet length=x and breadth=y\nperimeter of one part =48cm\n2(x+y)=48\nx+y=24.......(1)\nwhen folded along the breadth\nperimeter of one part=66cm\n2(x+0.5y)=66\nx+0.5y=33......(2)\nsolving 1 and 2\ny=112\nx=128\narea of the sheet=xy=128*112=14016cm2\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "864",
+    "question": "Suppose you can travel from a place M to a place N by 3 buses, from place N to place O by 4 buses, from place O to place P by 1 buses and from place P to place Q by 3 buses. In how many ways can you travel from M to Q ?\nAnswer Choices: (A) 24 (B) 36 (C) 72 (D) 84 (E) None Let's write a program.",
+    "output": "import math\n\n# define the number of buses for each trip\ntrip1 = 3\ntrip2 = 4\ntrip3 = 1\ntrip4 = 3\n\n# calculate the total number of ways\ntotal_ways = math.factorial(trip1) * math.factorial(trip2) * math.factorial(trip3) * math.factorial(trip4)\n\nprint(total_ways)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "9.128709291752768",
+    "question": "A rectangular solid, 3 x 4 x 15, is inscribed in a sphere, so that all eight of its vertices are on the sphere. What is the diameter of the sphere?\nAnswer Choices: (A)  13.3542 (B)  15.8113 (C)  18.3451 (D)  19.5667 (E)  20.8888 Let's write a program.",
+    "output": "import math\n\n# dimensions of the rectangular solid\na = 3\nb = 4\nc = 15\n\n# calculate the diameter of the sphere\ndiameter = math.sqrt((a**2 + b**2 + c**2)/3)\n\nprint(diameter)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "sqrt(73)",
+    "question": "A starts travel towards south 3km, then travel 5 km towards east, and again travels 3 km to north, and finally travels 2km towards west. In the end how far from is A from home?\nAnswer Choices: (A) 3km (B) 2km (C) 4km (D) 5km (E) 6km Let's write a program.",
+    "output": "from sympy.geometry import Point, Line\n\n# define the initial point\nA = Point(0, 0)\n\n# define the lines\nline_south = Line(A, A.translate(3, 0))\nline_east = Line(A.translate(3, 0), A.translate(3+5, 0))\nline_north = Line(A.translate(3+5, 0), A.translate(3+5, -3))\nline_west = Line(A.translate(3+5, -3), A.translate(3+5-2, -3))\n\n# find the intersection points\nB = line_south.intersection(line_east)[0]\nC = line_east.intersection(line_north)[0]\nD = line_north.intersection(line_west)[0]\n\n# find the distance from A to D\ndistance = D.distance(A)\n\nprint(distance)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "While selling a watch, a shopkeeper gives a discount of 5%. If he gives a discount of 7%, he earns Rs. 15 less as profit. The marked price of the watch is:\nAnswer Choices: (A) Rs. 697.50 (B) Rs. 712.50 (C) Rs. 787.50 (D) Rs. 750 (E) Rs. 780 Let's write a program.",
+    "output": "Let's think about the multi-choice question step by step.\nLet the marked price of the watch be Rs. x.\n(7% of x) - (5% of x) = 15\n7x/100 - 5x/100 = 15 => 2x/100 = 15 => x = 750.\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "A",
+    "err": false,
+    "question": "A student instead of finding the value of 7/8 of a number, found the value of 7/18 of the number. If his answer differed from the actual one by 770, find the that number.\nAnswer Choices: (A) 1584 (B) 2520 (C) 1728 (D) 1656 (E) None Let's write a program.",
+    "output": "Let's think about the multi-choice question step by step.\nLet the number be x.\nThen, 7x/18 - 7x/8 = 770\n(7x/18 - 7x/8) = 770\nx = (770 * 8 * 18) / (7 * 18 - 7 * 8) = 1656\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "20000.0",
+    "question": "The monthly salary S of a shop assistant is the sum of a fixed salary of $500 plus 5% of all monthly sales. What should the monthly sales be so that her monthly salary reaches $1500?\nAnswer Choices: (A) $50000 (B) $40000 (C) $30000 (D) $20000 (E) None of these Let's write a program.",
+    "output": "import sympy as sp\n\n# define the variables\nS = sp.Symbol('S')\n\n# define the equation\neq = sp.Eq(S, 500 + (5/100)*S)\n\n# solve the equation\nsolution = sp.solve(eq, S)\n\n# calculate the monthly sales\nmonthly_sales = (1500 - 500) / 0.05\n\n# print the result\nprint(monthly_sales)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "500.0",
+    "question": "An aeroplane flies along the four sides of a square at the speeds of 200, 400, 600 and 800km/hr. Find the average speed of the plane around the field?\nAnswer Choices: (A) 384 (B) 562 (C) 458 (D) 156 (E) 452 Let's write a program.",
+    "output": "speed = 200\nspeed += 400\nspeed += 600\nspeed += 800\naverage = speed/4\nprint(average)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Jack buys 18 sharpeners (white and brown) for rs. 100. If he pays 1 rupee more for each white than brown sharpeners. How many of white and how many brown sharpeners did he buy?\nAnswer Choices: (A) 10,8 (B) 9,8 (C) 7,8 (D) 5,6 (E) 11,12 Let's write a program.",
+    "output": "Let's find the number of white sharpeners and brown sharpeners by using the given information in the problem.\n18 sharpeners cost Rs. 100. So, each sharper costs Rs. 100/18 = Rs. 5.5\n10 white sharpeners cost Rs. 10. So, 1 white sharpeners cost Rs. 10/10 = Rs. 1\n1 brown sharpeners cost Rs. 5.5 - Rs. 1 = Rs. 4.5. So, 8 brown sharpeners cost Rs. 4.5 * 8 = Rs. 36\nThe total cost of 10 white sharpeners and 8 brown sharpeners is Rs. 10 + Rs. 36 = Rs. 46\nTherefore, the number of white sharpeners and brown sharpeners are 10 and 8 respectively.\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "A",
+    "err": false,
+    "question": "Hoses A and B spout water at different constant rates, and hose A can fill a certain pool in 8 hours. Hose A filled the pool alone for the first 2 hours and the two hoses, working together, then finished filling the pool in another 3 hours. How many hours would it have taken hose B, working alone, to fill the entire pool?\nAnswer Choices: (A) 8 (B) 15 (C) 12 (D) 6 (E) 3 Let's write a program.",
+    "output": "Let's say rate of A = A\nand rate of B = B\nA can fill the pool in 8 hours.\nIn 2 hours A can fill 1/4th of the pool.\nWorking together, in 3 hours A can fill 1/8th of the pool.\nRemaining is 3/8th of the pool which is filled by B in 3 hours.\nRate of B = 3/8\nTime taken by B to fill the entire pool = 8/3\n= 2.67 hours\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": true,
+    "gt": "C",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 2\n    Reduction = 120-96 = 24\n                ^^^^^^\nSyntaxError: cannot assign to expression\n",
+    "question": "If 120 is reduced to 96, what is the reduction percent?\nAnswer Choices: (A) 30% (B) 40% (C) 20% (D) 10% (E) 5% Let's write a program.",
+    "output": "Reduction = 120-96 = 24\r\nReductionPercent = (24/120)*100\r\nprint(ReductionPercent)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": true,
+    "gt": "A",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 6, in <module>\n  File \"<string>\", line 3, in run_it\nTypeError: 'int' object is not subscriptable\n",
+    "question": "I know a 5 digit number having a property that with a 1 after it, it is three times as large as it would be with a 1 before it.\nWhat is that number?\nAnswer Choices: (A) 42857 (B) 32456 (C) 76523 (D) 24567 (E) 43566 Let's write a program.",
+    "output": "for i in range(100000, 1000000):\n    if str(i) + '1' * len(str(i))[::-1] == str(3 * i):\n        print(i)\n        break",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "B",
+    "err": false,
+    "question": "At Daifu university, 24% of all students are members of both a chess club and a swim team. If 20% of members of the swim team are not members of the chess club, what percentage of all Daifu students are members of the swim team?\nAnswer Choices: (A) 20% (B) 30% (C) 40% (D) 50% (E) 60% Let's write a program.",
+    "output": "Let's assume the total number of students to be 100.\nLet's also assume the number of students who are members of both clubs to be 24.\nSo, the number of students who are members of the chess club alone = 100 - 24 = 76\nOut of the 76 students who are members of the chess club alone, 20% are not members of the swim team i.e. 20/100 * 76 = 15\nThe number of students who are members of the swim team = 76 - 15 = 61\nThe percentage of students who are members of the swim team = 61/100 * 100 = 61%\nThe correct answer is E",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "858000",
+    "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?\nAnswer Choices: (A) 81900 (B) 85995 (C) 85800 (D) 90000 (E) None of these Let's write a program.",
+    "output": "current_population = 78000\r\nannual_increase = 5\r\ncity_population_after_2_years = current_population + (current_population * annual_increase * 2)\r\nprint(city_population_after_2_years)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "2.0",
+    "question": "Two cars start at the same time from opposite ends of a highway that is 50 miles long. One car is riding at 12 mph and the second car is riding at 13 mph. How long after they begin will they meet?\nAnswer Choices: (A)  1 (B)  1.25 (C)  1.50 (D)  1.75 (E)  2 Let's write a program.",
+    "output": "distance = 50\nspeed1 = 12\nspeed2 = 13\n\ntime = distance / (speed1 + speed2)\n\nprint(time)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "A",
+    "err": false,
+    "question": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?\nAnswer Choices: (A) 30000 (B) 415000 (C) 31500 (D) 50000 (E) None of these Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nSalary = 1500 Rupees\nCommission = 15%\nLet the monthly sale be x\nThen x + 15% of x = 1500 + 6000\n=> (115/100)x = 7500\n=> x = 31500\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "D",
+    "err": false,
+    "question": "A man borrows Rs.360 If he pays it back in 12 monthly installments of Rs.31.50, what is his interest rate?\nAnswer Choices: (A) 1.5% (B) 4.5% (C) 10% (D) 5% (E) 12% Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\n31.50=360*12*R/100\nR=10%\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "The price of a product is reduced by 30% . By what percentage should it be increased to make it 100%\nAnswer Choices: (A) 41.86% (B) 42.86% (C) 43.86% (D) 44.86% (E) 45.86% Let's write a program.",
+    "output": "let price of product initially=100\npresent price=70\nto make it 100% it should be increased by=100-70=30\n%increase=30*100/70=42.86%\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "I have a money pouch containing Rs. 700. There are equal number of 25 paise coins, 50 paise coins and one rupee coins.\nHow many of each are there?\nAnswer Choices: (A) 453 (B) 651 (C) 400 (D) 487 (E) 286 Let's write a program.",
+    "output": "Let's assume the number of each type of coin is x.\nThen,\n0.25x + 0.50x + x = 700.\nSolving this equation we get x = 400.\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "C",
+    "err": false,
+    "question": "A man spends Rs. 3500 per month and saves 12 1/2% of his income. His monthly income is ?\nAnswer Choices: (A) Rs. 4400 (B) Rs. 4270 (C) Rs. 4000 (D) Rs. 3937.50 (E) None of these Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nTotal Saving = 3500+12.5% of 3500 = Rs. 3937.50\nThe answer is Option D",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "544.4444444444445",
+    "question": "Five dozen toys are packed in a box and 98 boxes are kept in a tempo. How many tempos can lift 29400 toys in one round ?\nAnswer Choices: (A) 4 (B) 5 (C) 7 (D) 6 (E) 8 Let's write a program.",
+    "output": "toys_per_tempo=54\ntotal_toys=29400\nto_be_packed_in_one_tempo=total_toys/toys_per_tempo\nprint(to_be_packed_in_one_tempo)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "45",
+    "question": "There are 10 oranges in a basket. Find the no. of ways in which 2 oranges are chosen from the basket?\nAnswer Choices: (A) 45 (B) 90 (C) 120 (D) 150 (E) 180 Let's write a program.",
+    "output": "import math\n\n# total no. of oranges\ntotal_oranges = 10\n\n# no. of oranges to be chosen\nchosen_oranges = 2\n\n# calculate the no. of ways\nways = math.comb(total_oranges, chosen_oranges)\n\nprint(ways)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": true,
+    "gt": "D",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 20, in <module>\n  File \"<string>\", line 16, in run_it\nAttributeError: 'list' object has no attribute 'keys'\n",
+    "question": "A company contracts to paint 3 houses. Mr.Brown can paint a house in 6 days while Mr.Black would take 8 days and Mr.Blue 12 days. After 8 days Mr.Brown goes on vacation and Mr. Black begins to work for a period of 6 days. How many days will it take Mr.Blue to complete the contract?\nAnswer Choices: (A) 7 (B) 8 (C) 10 (D) 11 (E) 12 Let's write a program.",
+    "output": "from sympy import symbols, Eq, solve\r\n\r\n# brown = days required by Brown, black = days required by Black, blue = days required by Blue\r\nbrown, black, blue = symbols('brown, black, blue')\r\n\r\neq1 = Eq(brown, 6)\r\neq2 = Eq(black, 8)\r\neq3 = Eq(blue, 12)\r\n\r\neq4 = Eq(brown+black, 8)\r\neq5 = Eq(black+blue, 6)\r\n\r\nanswer_dict = solve((eq1, eq2, eq3, eq4, eq5), (brown, black, blue))\r\n\r\nfor i in list(answer_dict.keys()):\r\n  answer_dict[str(i)] = answer_dict.pop(i)\r\n\r\nprint(answer_dict['blue'])",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "Train A leaves a station every 16 minutes and Train B leaves every 17 minutes. If both trains just left the station simultaneously, how long until they do so again?\nAnswer Choices: (A) 272 minutes (B) 304 minutes (C) 190 minutes (D) 70 minutes (E) 35 minutes Let's write a program.",
+    "output": "First train = 16 minutes\nSecond train = 17 minutes\nLCM of 16 and 17 = 136\nTime taken by both trains to leave simultaneously again = 136 minutes\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "-144",
+    "question": "A hollow cube of size 5cm is taken, with the thickness of 1cm. It is made of smaller cubes of size 1cm .If the outer surface of the cube is painted how many faces of the smaller cubes remain unpainted?\nAnswer Choices: (A) 438 (B) 550 (C) 500 (D) 450 (E) 498 Let's write a program.",
+    "output": "cube_size = 5\r\nthickness = 1\r\ntotal_volume = cube_size**3\r\ntotal_surface = 6 * cube_size**2\r\nsmall_cube_size = 1\r\nsmall_cube_volume = small_cube_size**3\r\npainted_surface = total_surface\r\nunpainted_surface = 6 * small_cube_size**2 - painted_surface\r\nprint(unpainted_surface)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "err": true,
+    "gt": "D",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 4\n    squashed = 90/10 * (total - cocoa) = 81\n               ^^^^^^^^^^^^^^^^^^^^^^^\nSyntaxError: cannot assign to expression\n",
+    "question": "In a chocolate store, all chocolates are either vanilla or cocoa flavored only. 10% of the chocolates are cocoa flavored, 90% of the rest are squashed. What percentage of the chocolates are both vanilla flavored and not squashed?\nAnswer Choices: (A) 1% (B) 2% (C) 5% (D) 9% (E) 10% Let's write a program.",
+    "output": "total = 100\ncocoa = 10\nsquashed = 90/10 * (total - cocoa) = 81\nvanilla_not_squashed = total - cocoa - squashed = 10\nprint(vanilla_not_squashed)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "31",
+    "question": "There is well of depth 30m and frog is at bottom of the well. He jumps 3m up one day and falls back 2m down the same day. How many days will it take for the frog to come out of the well?\nAnswer Choices: (A) 25 days (B) 26 days (C) 27 days (D) 28 days (E) 29 days Let's write a program.",
+    "output": "n=30\nt=1\nwhile(n!=0):\n    n=n-3\n    n=n+2\n    t=t+1\nprint(t)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "None",
+    "question": "The sum of the 5 consecutive two digit odd numbers when divided by 10 becomes a perfect square, which of the following can be one of these 5 numbers?\nAnswer Choices: (A) 47 (B) 91 (C) 41 (D) 67 (E) 44 Let's write a program.",
+    "output": "def find_number():\n    for i in range(19, 100, 2):\n        if (i + (i + 2) + (i + 4) + (i + 6) + (i + 8)) % 10 == 0:\n            return i + 4\n\nprint(find_number())",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "800",
+    "question": "In a class, 8% of total students are interested in Football. 4/5 of total students are interested in Cricket. 10% of total students are interested in Basketball and remaining 20 students are not interested in any games. How many students are there in the class?\nAnswer Choices: (A) 850 (B) 800 (C) 900 (D) 950 (E) 1000 Let's write a program.",
+    "output": "total_students = 800\r\nprint(total_students)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "Q is as much younger than R as he is older than T. If the sum of the ages of R and T is 50 years. What is definitely the difference between R and Q's age?\nAnswer Choices: (A) 22 (B) 27 (C) 29 (D) Cannot be determined (E) None of the above Let's write a program.",
+    "output": "R = 0\nQ = 0\nT = 50-R-Q\nSo, R-Q = T-Q\nR+T = 50\nSo, (T-Q)+(R-Q) = 50\nOr, 2T = 50\nOr, T = 25\nOr, R = 25\nSo, (R-Q) = 25-Q\nMinimum value of Q can be 25, if Q = R\nSo, (R-Q) = 0\nBut, if Q > R, then (R-Q) < 0\nSo, (R-Q) cannot be determined.\nTherefore, Answer will be D",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "50.25",
+    "question": "Calculate the maximum distance you can travel with $8.50 on a cab which charges $3.50 for the first quarter-mile and 10 cents for each additional quarter mile.\nAnswer Choices: (A) 11.75 miles (B) 12.75 miles (C) 17.75 miles (D) 14.75 miles (E) 10.75 miles Let's write a program.",
+    "output": "total_money = 8.50\nfirst_quarter_mile = 3.50\nquarter_mile = 0.10\n\n# calculate the remaining money after the first quarter-mile\nremaining_money = total_money - first_quarter_mile\n\n# calculate the maximum distance after the first quarter-mile\nmax_distance = remaining_money / quarter_mile\n\n# calculate the total distance\ntotal_distance = 0.25 + max_distance\n\nprint(total_distance)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "-25.0",
+    "question": "In IPL season, Sachin current batting average is 51. In the finals, he scores 78 runs, then is batting average will be 54. Find out the total number of matches played by Sachin in this season.\nAnswer Choices: (A) 6 (B) 8 (C) 9 (D) 10 (E) 11 Let's write a program.",
+    "output": "current_batting_average = 51\r\nfinals_score = 78\r\nnew_batting_average = 54\r\n\r\ntotal_matches = (finals_score / (current_batting_average - new_batting_average)) + 1\r\n\r\nprint(total_matches)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "1024",
+    "question": "Amy is organizing her bookshelves and finds that she has 10 different types of books. She then codes each book with either a single letter or a pair of two different letters. If each type of book is uniquely represented by either a single letter or pair of letters, what is the smallest number of letters Amy will need to create the codes for all 10 types of books? (Assume the order of letters in a pair does not matter.)\nAnswer Choices: (A) 3 (B) 4 (C) 5 (D) 10 (E) 20 Let's write a program.",
+    "output": "import math\n\n# number of types of books\ntypes_of_books = 10\n\n# calculate the smallest number of letters needed\n# since each type of book is uniquely represented by either a single letter or pair of letters\n# we can represent each type of book with 2^n letters, where n is the number of types of books\n\nletters_needed = 2**types_of_books\n\nprint(letters_needed)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "A rectangular piece of 150 sq m has a length which is 1m more than the 4 times the breadth. What is the perimeter of the piece?\nAnswer Choices: (A) 60 m (B) 61 m (C) 62 m (D) 63 m (E) 64 m Let's write a program.",
+    "output": "length = 1 + 4*breadth\narea = 150\nlength*breadth = 150\n(1 + 4*breadth)*breadth = 150\n4*breadth^2 + breadth - 150 = 0\nbreadth = 5\nlength = 21\nperimeter = 2*(length + breadth)\nperimeter = 2*(21+5)\nperimeter = 62\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "C",
+    "err": false,
+    "question": "One gram of a certain health food contains 9 percent of the minimum daily requirement of vitamin E and 8 percent of the minimum daily requirement of vitamin A. If vitamins E and A are to be obtained from no other source, how many grams of the health food must be eaten daily to provide at least the minimum daily requirement of both vitamins?\nAnswer Choices: (A) 8.5 (B) 10.5 (C) 12.5 (D) 14.5 (E) 16.5 Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nLet x be the amount of health food eaten daily.\n0.09x >= 8 --> x >= 8.88.\n0.08x >= 9 --> x >= 11.11.\nThe answer is D.",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "21",
+    "question": "Assistants are needed to prepare for preparation. Each helper can make either 2 large cakes or 35 small cakes/hr. The kitchen is available for 3 hours and 20 large cakes & 700 small cakes are needed. How many helpers are required?\nAnswer Choices: (A) 8 (B) 10 (C) 12 (D) 15 (E) 19 Let's write a program.",
+    "output": "from sympy.solvers import solve\nfrom sympy import Symbol\n\n\na = 3\nb = 2\nc = 35\nd = 700\n\nx = Symbol('x')\n\nresult = int(solve((a-x)*b + x*c - d, x)[0])\n\nprint(result)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "33.0",
+    "question": "R, S, T, and U are points on a line, and U is the midpoint of line segment ST. If the lengths of line segments RS, RT, and ST are 5, 17, and 22, respectively. What is the length of line segment RU?\nAnswer Choices: (A) 6 (B) 7 (C) 8 (D) 9 (E) 10 Let's write a program.",
+    "output": "length_of_RS = 5\r\nlength_of_RT = 17\r\nlength_of_ST = 22\r\n\r\n# Since U is the midpoint of ST, the length of UT will be half of the length of ST\r\nlength_of_UT = length_of_ST / 2\r\n\r\n# The length of RU will be the sum of the length of RS, RT and UT\r\nlength_of_RU = length_of_RS + length_of_RT + length_of_UT\r\n\r\nprint(length_of_RU)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "4.0",
+    "question": "Six pita breads contain the same amount of falafel as do two rolls. Three rolls contain the same amount of falafel as five baguettes do. Two baguettes contain the same amount of falafel as how many pita breads?\nAnswer Choices: (A) 12/25 (B) 3/2 (C) 3 (D) 2 (E) 25/3 Let's write a program.",
+    "output": "falafel_in_pita=6\nfalafel_in_roll=3\nfalafel_in_baguettes=2\npita_in_roll=2\nrolls_in_baguettes=3\npita_in_baguettes=2*falafel_in_pita/falafel_in_roll\nprint(pita_in_baguettes)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "A shopkeeper in order to promote his new shop put a discount of 20% on all the items for one day. Now he must sell the items at original price the other day. By what percentage must he increase the price to original?\nAnswer Choices: (A) 21% (B) 20% (C) 25% (D) 33% (E) 18% Let's write a program.",
+    "output": "let original price = 100\ndiscount = 20\nselling price = 100-20 = 80\nrequired price = 100\nincrease = 100 - 80 = 20\nincrease percentage = 20/80 * 100 = 25%\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "The bus fare for two persons for travelling between Agra and Aligarh id four-thirds the train fare between the same places for one person. The total fare paid by 6 persons travelling by bus and 8 persons travelling by train between the two places is Rs.1512. Find the train fare between the two places for one person?\nAnswer Choices: (A) 126 (B) 77 (C) 88 (D) 66 (E) 54 Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nLet the train fare between the two places for one person be Rs.t\nBus fare between the two places for two persons Rs.4/3 t\n=> 6/2 (4/3 t) + 8(t) = 1512\n=> 12t = 1512 => t = 126.\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "22",
+    "question": "A rectangle has a length of 8 centimeters and a width of 3 centimeters. Find the perimeter.\nAnswer Choices: (A) 18cm (B) 22cm (C) 20cm (D) 30cm (E) 28cm Let's write a program.",
+    "output": "length = 8\r\nwidth = 3\r\n\r\nperimeter = 2 * (length + width)\r\n\r\nprint(perimeter)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "6",
+    "question": "Suppose you want to arrange your English, Hindi, Mathematics, History, Geography and Science books on a shelf. In how many ways can you do it ?\nAnswer Choices: (A) 520 (B) 720 (C) 920 (D) None (E) Cannot be determined Let's write a program.",
+    "output": "import math\n# define the number of books\nbooks = 6\n# calculate the number of ways using permutation formula: n!/(n-r)!\nways = math.factorial(books) / math.factorial(books - 1)\nprint(int(ways))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "err": true,
+    "gt": "E",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 295, in execute_code\n    code = black.format_str(code_str, mode=black.FileMode())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1079, in format_str\n    dst_contents = _format_str_once(src_contents, mode=mode)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1089, in _format_str_once\n    src_node = lib2to3_parse(src_contents.lstrip(), mode.target_versions)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/parsing.py\", line 127, in lib2to3_parse\n    raise exc from None\nblack.parsing.InvalidInput: Cannot parse: 2:10: space = 6 inches\n",
+    "question": "A straight picket fence is composed of x pickets each of which is 1/2 inch wide. If there are 6 inches of space between each pair of pickets, which of the following represents the length of fence in feet?\nAnswer Choices: (A) 13x/2 (B) 13x/2 - 6 (C) 13x/24 (D)  (13x+1) /24 (E)  (13x-12) /24 Let's write a program.",
+    "output": "pickets = x\nspace = 6 inches\nlength = (13x-12)/24\nprint(length)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "190.0",
+    "question": "A ship went on a voyage. After it had traveled 180 miles a plane started with 10 times the speed of the ship. Find the distance when they meet from starting point.\nAnswer Choices: (A) 238 (B) 289 (C) 200 (D) 287 (E) 187 Let's write a program.",
+    "output": "speed_ship = 180\r\nspeed_plane = 10\r\n\r\ntime_ship = 180 / speed_ship\r\n\r\ndistance_plane = speed_plane * time_ship\r\n\r\ndistance_when_they_meet = 180 + distance_plane\r\n\r\nprint(distance_when_they_meet)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "E",
+    "err": false,
+    "question": "In a large forest, 300 deer were caught, tagged, and returned during 2001. During 2002, 500 deer were caught at random, of which only 20 had tags from the previous year. If the percent of deer in the forest that had tags during the second year and were caught in the 500 deer sample is representative of the percent of the total deer population in the forest with tags, what is the total deer population in the forest (assuming no change in population between 2001 and 2002)?\nAnswer Choices: (A) 300 (B) 500 (C) 5000 (D) 6000 (E) 7500 Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nThe problem asks for the total number of deers in the forest.\nSince the number of deers caught in the forest in 2002 is 20, then 20/500*100=4% of the total number of deers in the forest was caught and tagged in 2001.\nThus, 100-4=96% of the total number of deers in the forest was not caught and tagged in 2001.\nTherefore, 100% (100/96=100/96*100=25/24) of the total number of deers in the forest had tags during the second year.\nSince 300 deers were caught, tagged, and returned during 2001, then 25/24*300=270.5 is 20% of the total number of deers in the forest.\nThus, 100% (100/20*100=500) of the total number of deers in the forest.\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "0.5",
+    "question": "In a railway station, there are two trains going. One in the harbor line and one in the main line, each having a frequency of 10 minutes. The main line service starts at 5 o'clock and the harbor line starts at 5.02 A.M. A man goes to the station every day to catch the first train that comes. What is the probability of the man catching the first train?\nAnswer Choices: (A) 0.9 (B) 0.8 (C) 0.6 (D) 0.65 (E) 1.5 Let's write a program.",
+    "output": "import math\n\n# Define the frequency of the trains\nfrequency_train1 = 10 # in minutes\nfrequency_train2 = 10 # in minutes\n\n# Define the time the trains depart\ntime_train1 = 5 # in minutes\ntime_train2 = 5.02 # in minutes\n\n# Calculate the probability of catching the first train\nprobability_train1 = frequency_train1/(frequency_train1 + frequency_train2)\nprobability_train2 = frequency_train2/(frequency_train1 + frequency_train2)\n\n# Print the probability of catching the first train\nprint(probability_train1)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "25.999999999999996",
+    "question": "The average (arithmetic mean) of the weight of 10 vehicles is 12.2 tons. The average weight of the group of vehicles increased by 2.6 tons after a new heavy duty truck was added to the group? What is the weight in tons of the heavy duty truck?\nAnswer Choices: (A) 40.8 (B) 41.6 (C) 42.2 (D) 43.5 (E) 44.8 Let's write a program.",
+    "output": "old_average = 12.2\nnew_average = 12.2 + 2.6\n\nchange_in_average = new_average - old_average\n\nweight_of_heavy_duty_truck = change_in_average * 10\n\nprint(weight_of_heavy_duty_truck)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "Boomtown urban planners expect the city\u2019s population to increase by 10% per year over the next two years. If that projection were to come true, the population two years from now would be exactly double the population of one year ago. Which of the following is closest to the percent population increase in Boomtown over the last year?\nAnswer Choices: (A) 20% (B) 40% (C) 50% (D) 65% (E) 75% Let's write a program.",
+    "output": "Let's assume the population of the city two years ago was 100.\nIf the population increased by 10% over the last year, then it increased to 110.\nIf it increased to 110 over the last year, it will increase by 10/11 = 0.91 = 9.1% over the next year.\nThus, the population of the city will increase by 9.1% over the last year.\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "-34 -62",
+    "question": "Arjun and Sajal are friends, each has some money. If Arun gives $30 to Sajal, the Sajal will have twice the money left with Arjun. But, if Sajal gives $10 to Arjun, Arjun will have thrice as much as is left with Sajal. How much money does each have?\nAnswer Choices: (A) 62, 35 (B) 62, 34 (C) 34, 62 (D) 42, 62 (E) 62, 42 Let's write a program.",
+    "output": "from sympy import Eq, Symbol, solve\r\n\r\n# x = money Arjun has, y = money Sajal has\r\nx, y = Symbol('x'), Symbol('y')\r\n\r\neq1 = Eq((x-30), 2*(y+30))\r\neq2 = Eq((y-10), 3*(x+10))\r\n\r\nanswer = solve((eq1, eq2), (x, y))\r\n\r\nprint(answer[x], answer[y])",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "30.0",
+    "question": "Julie\u2019s yard is rectangular. One side of the yard is 100 feet wide. The total area of the yard is 3,000 square feet. What is the length of the other side of the yard?\nAnswer Choices: (A) 30 feet (B) 20 feet (C) 10 feet (D) 50 feet (E) 60 feet Let's write a program.",
+    "output": "ft = 100\narea = 3000\n\nlength = area/ft\n\nprint(length)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "242",
+    "question": "The greatest common factor of two positive integers is 11. The least common multiple of these two integers is 7700. If one of the integers is 350, what is the other?\nAnswer Choices: (A) 242 (B) 308 (C) 352 (D) 412 (E) 456 Let's write a program.",
+    "output": "import math\n\n# define the variables\ngcf = 11\nlcm = 7700\nnum1 = 350\n\n# formula to find the second number\nnum2 = (gcf * lcm) / num1\n\n# print the result\nprint(int(num2))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "A square piece of cloth is trimmed by 4 feet on one edge to form a rectangular piece, which is then cut diagonally in half to create two triangles. If the area of each of triangle is 70 square feet, what was the perimeter (in feet) of the original piece of square cloth?\nAnswer Choices: (A) 56 (B) 58 (C) 60 (D) 62 (E) 64 Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nLet x be the side of the square.\nThe perimeter of the square is 4x.\nThe area of the square is x^2.\nThe area of each triangle is 70 square feet, so the total area of the square is 2*70 = 140 square feet.\nx^2 = 140\nx = 12\nThe perimeter of the square is 4*12 = 48.\nThe square was trimmed by 4 feet on one edge, so the original perimeter was 48+4 = 52.\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "18.0",
+    "question": "The length of the ribbon was originally 30 cm. It was reduced in the ratio 5 : 3. What is its length now?\nAnswer Choices: (A) 18 (B) 30 (C) 6 (D) 15 (E) 12 Let's write a program.",
+    "output": "ribbon_originally_length=30\r\nratio_reduced=5/3\r\nribbon_length_now=ribbon_originally_length/ratio_reduced\r\nprint(ribbon_length_now)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "3",
+    "question": "M = abc is a three digit number and N = cba, if M > N and M - N + 396c = 990. Then how many values of M are more than 300.\nAnswer Choices: (A) 20 (B) 30 (C) 40 (D) 200 (E) None Let's write a program.",
+    "output": "from sympy import Eq, Symbol, solve\r\n\r\n# x = number which is 300 less than 200\r\nx = Symbol('abc')\r\neq = Eq((100*x)+300, 200*x)\r\n\r\nanswer = solve(eq)\r\n\r\nprint(answer[0])",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "E",
+    "err": false,
+    "question": "there are more than 501 students in a school such that 20% of them exactly took physics and 28% of them exactly took math. What could be the least possible no of students in the school?\nAnswer Choices: (A) 550 (B) 570 (C) 600 (D) 700 (E) none of these Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nTotal Number of Students = n\nNumber of Students who took Physics = 20 % of n = 20/100 * n\nNumber of Students who took Math = 28 % of n = 28/100 * n\nNumber of Students who took both = 20 % of n = 20/100 * n\nSo, Total Number of Students = n = 20/100 * n + 28/100 * n - 20/100 * n\nor n = 28/100 * n\nor 100n = 28n\nor 8n = 100\nor n = 100/8\ni.e. n = 125\nBut number of students must be a whole number.\nSo, 125 * 4 = 500\nHence, Minimum Number of Students = 500\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "56",
+    "question": "If Raj was one-third as old as Rahim 5 years back and Raj is 17 years old now, How old is Rahim now?\nAnswer Choices: (A) 37 (B) 41 (C) 40 (D) 42 (E) 43 Let's write a program.",
+    "output": "Raj_age_5_back = 17\nRahim_age_5_back = 3 * Raj_age_5_back\nRahim_now = Rahim_age_5_back + 5\nprint(Rahim_now)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "15.393804002589984",
+    "question": "A cow is tethered in the middle of a field with a 14 feet long rope. If the cow grazes 10 sq.ft. per day, then approximately what time will be taken by the cow to graze the whole field?\nAnswer Choices: (A) 51 days (B) 61 days (C) 71 days (D) 81 days (E) 91 days Let's write a program.",
+    "output": "import math\n\n# define the variables\nrope_length = 14\nsq_ft_per_day = 10\n\n# calculate the area of the field grazed\narea = math.pi * (rope_length/2)**2\n\n# calculate the time taken to graze the field\ntime = area / sq_ft_per_day\n\n# print the result\nprint(time)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "A book was sold for Rs 27.50 with a profit of 10%. If it were sold for Rs. 25.75, then would have been percentage of profit and loss ?\nAnswer Choices: (A) 2% Profit (B) 3% Profit (C) 2% Loss (D) 3% Loss (E) 4% Loss Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nSP=27.50: profit =10%\nCP= 27.50*100/110 =25\nWhen sp =25.75 ,profit = 25-25.75=0.75\nProfit =0.75*100/25 =3%\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "3",
+    "question": "In how many ways can a teacher in a kindergarten school arrange a group of 3 children (Susan, Tim and Zen) on 3 identical chairs in a straight line so that Susan is on the left of Tim?\nAnswer Choices: (A) 7 (B) 3 (C) 2 (D) 1 (E) 6 Let's write a program.",
+    "output": "import math\n\n# Total number of ways to arrange 3 children is 3!\ntotal_ways = math.factorial(3)\n\n# Number of ways to arrange Susan, Tim and Zen on the left of Tim\n# This can be done in 2 ways. Susan can be on the left of Tim or Tim can be on the left of Susan\nways_to_arrange = 2\n\n# Total number of ways to arrange the children with Susan on the left of Tim\ntotal_ways_with_susan_left_of_tim = total_ways // ways_to_arrange\n\nprint(total_ways_with_susan_left_of_tim)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "The telephone bill of a certain establishment is party fixed and partly varies as the number of calls consumed. When in a certain month 540 calls made the bill is Rs.1800. In another month 620 calls are consumed then the bill becomes Rs.2040. In another month 500 units are consumed due to more\nholidays. The bill for that month would be :\nAnswer Choices: (A) Rs.1560 (B) Rs.1680 (C) Rs.1840 (D) Rs.1950 (E) Rs.1690 Let's write a program.",
+    "output": "Let's assume fixed amount of the bill is 'a' and variable amount is 'b'\nAs per the given condition,\n540*b+a = 1800\n620*b+a = 2040\n500*b+a = ?\n540*b+a = 1800 ----(1)\n620*b+a = 2040 ----(2)\n(1) - (2) --> 80b = 240 --> b = 3\na = 1800 - 540*3 = 1800 - 1620 = 180\nvariable amount of the bill is 3 and fixed amount is 180\nIn another month 500 units are consumed, so bill = 500*3 + 180 = 1680\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "328.63353450309967",
+    "question": "Two balls A and B rotate along a circular track. Ball A makes 2 full rotations in 26 minutes. Ball B makes 5 full rotation in 35 minutes. If they start rotating now from the same point, when will they be at the same starting point again?\nAnswer Choices: (A) 1 hour and 31 minutes (B) 2 hour and 31 minutes (C) 3 hour and 31 minutes (D) 4 hour and 31 minutes (E) 5 hour and 31 minutes Let's write a program.",
+    "output": "import math\n\n# define the time for each ball to make one full rotation\ntime_A = 26 / 2\ntime_B = 35 / 5\n\n# calculate the relative speed\nspeed_rel = math.sqrt(time_A**2 - time_B**2)\n\n# calculate the time required to reach the same starting point again\ntime_total = 2 * 30 / speed_rel\n\n# print the result\ntime_total_minutes = time_total * 60\nprint(time_total_minutes)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "20",
+    "question": "A bookshelf contains 45 books, 30 of which are hardcover and 20 of which are fiction. What is the maximum number of books that are both hardcover and fiction?\nAnswer Choices: (A) 10 (B) 15 (C) 18 (D) 20 (E) 30 Let's write a program.",
+    "output": "total_books = 45\r\nhardcover_books = 30\r\nfiction_books = 20\r\n\r\nmax_both = min(hardcover_books, fiction_books)\r\n\r\nprint(max_both)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "49",
+    "question": "A newspaper costs $4 on Sunday and $1 the rest of the days of the week. If a hotel orders twice as many papers on Sunday as it does the rest of the days of the week and pays $210 per week for newspapers, how many newspapers does it buy on Monday?\nAnswer Choices: (A) 15 (B) 30 (C) 45 (D) 60 (E) 75 Let's write a program.",
+    "output": "rest_of_week_daily_cost = 1\nsunday_daily_cost = 4\n\ntotal_cost_per_week = 210\n\nsunday_paper_cost = 2 * rest_of_week_daily_cost\n\ntotal_sunday_papers = (total_cost_per_week - (7 * rest_of_week_daily_cost)) / sunday_daily_cost\n\ntotal_monday_papers = total_sunday_papers - 1\n\nprint(int(total_monday_papers))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "A",
+    "err": false,
+    "question": "A number of friends decided to go on a picnic and planned to spend Rs. 96 on eatables. Four of them, however, did not turn up. As a consequence, the remaining ones had to contribute Rs. 4 extra, each. The number of those who attended the picnic was\nAnswer Choices: (A) 8 (B) 12 (C) 16 (D) 24 (E) 25 Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nLet the number of friends who attended the picnic be x.\nThe number of friends who did not attend is 4.\nThe total amount of money spent on eatables is Rs. 96.\nThe amount of money spent by the 4 friends who did not attend is 4*4=Rs.16.\nThe amount of money spent by each of the x friends who attended is 96/x.\nThe total amount of money spent by the x friends who attended is x*96/x=Rs.96.\nThe total amount of money spent by the 4 friends who did not attend and the x friends who attended is 16+96=Rs.112.\nThe number of friends who attended the picnic is 112/4=28.\nThe answer is E.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "11.0",
+    "question": "A wire in the shape of rectangle of length 27 cm and breadth 17 cm is rebent to form a square. What will be the measure of each side?\nAnswer Choices: (A) 9 (B) 11 (C) 22 (D) 25 (E) 31 Let's write a program.",
+    "output": "length = 27\r\nbreadth = 17\r\n\r\n# When the wire is rebent to form a square, the perimeter of the rectangle becomes the perimeter of the square\r\n# Therefore, 2*(length + breadth) = 4*side\r\n\r\nside = (length + breadth) / 4\r\n\r\nprint(side)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "A man divides Rs 8600 among 5 sons, 4 daughters and 2 nephews. If each daughter receives four times as much as each nephew, and each son receives five as much as each nephew. How much does each daughter receive ?\nAnswer Choices: (A) Rs 400 (B) Rs 500 (C) Rs 600 (D) Rs 700 (E) Rs 800 Let's write a program.",
+    "output": "Let the share of each nephew be Rs.x.\nThen, share of each daughter = Rs.4x, share of each son = Rs.5x.\nSo, 5*5x + 4*4x + 2*x = 8600\n25x + 16x + 2x = 8600\n=43x = 8600\n=x = 200.\n= Daughter receives 4x = 4*200 = Rs.800.\nThe answer is E.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "43.5",
+    "question": "Silu and Meenu were walking on the road.\nSilu said, \"I weigh 51 Kgs. How much do you weigh?\"\nMeenu replied that she wouldn't reveal her weight directly as she is overweight.\nBut she said, \"I weigh 29 Kgs plus half of my weight. \"How much does Meenu weigh?\nAnswer Choices: (A) 12 (B) 28 (C) 27 (D) 58 (E) 91 Let's write a program.",
+    "output": "meenu_weight=29\r\nsilu_weight=51\r\nmeenu_half_weight=meenu_weight/2\r\ntotal_meenu_weight=meenu_weight+meenu_half_weight\r\nprint(total_meenu_weight)\r\n",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "75",
+    "question": "Roy was suffering from severe headaches. He went to see his doctor and the doctor gave him 5 tablets asking him to take one tablet every 15 minutes.\nHow much time will it take Roy to consume all the 5 tablets?\nAnswer Choices: (A) 45 Min (B) 75 Min (C) 90 Min (D) 120 Min (E) 60 Min Let's write a program.",
+    "output": "time_taken_to_consume_all_tablets=5*15\nprint(time_taken_to_consume_all_tablets)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "90",
+    "question": "In a bag of red and green sweets, the ratio of red sweets to green sweets is 3:4. If the bag contains 120 green sweets, how many red sweets are there?\nAnswer Choices: (A) 90 (B) 80 (C) 95 (D) 100 (E) 85 Let's write a program.",
+    "output": "RedSweets = 3\r\nGreenSweets = 4\r\nTotalSweets = 120\r\nnumberofRedSweets = (RedSweets/GreenSweets)*TotalSweets\r\nprint(int(numberofRedSweets))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": true,
+    "gt": "C",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 15, in <module>\n  File \"<string>\", line 11, in run_it\nUnboundLocalError: cannot access local variable 'n' where it is not associated with a value\n",
+    "question": "A club consists of members whose ages are in A.P. The common difference being 3 months. If the youngest member of the club is just 7 years old and the sum of the ages of all the members is 250, then number of members in the club are :\nAnswer Choices: (A) 18 (B) 20 (C) 25 (D) 26 (E) 27 Let's write a program.",
+    "output": "import math\n\n# define the variables\na = 7 # youngest member age\nd = 3 # common difference\nsum_of_ages = 250 # sum of all ages\n\n# formula for sum of an A.P. = n/2[2a+(n-1)d]\n# we can find the number of members by rearranging the formula\nn = sum_of_ages / (2*(2*a+(n-1)*d))\n\n# print the result\nprint(int(n))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "M men agree to purchase a gift for Rs. D. If 3 men drop out how much more will each have to contribute towards the purchase of the gift?\nAnswer Choices: (A) D/ (M-3)  (B) MD/3 (C) M/ (D-3)  (D) 3D/ (M2-3M)  (E) None of these Let's write a program.",
+    "output": "Let's think about the multi-choice question step by step.\nEach of M men have to contribute = D/M.\nIf 3 men drop then each of remaining men have to pay = D/(M-3).\nTherefore after 3 were drop each have to contribute = D/[(M-3)*M].\ni.e. D/(M2-3M).\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "1800.0",
+    "question": "At what price should the Karan mark a sewing machine that costs him Rs. 1200/- so that even after offering a 20% discount, he makes 20% profit?\nAnswer Choices: (A) 1,879 (B) 1,875 (C) 1,876 (D) 1,872 (E) 1,800 Let's write a program.",
+    "output": "CP = 1200\r\nSP = 1200*(120/100)\r\nMP = SP*(100/80)\r\nprint(MP)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "A",
+    "err": false,
+    "question": "Train \u2018A\u2019 leaves Mumbai Central for Lucknow at 11 am, running at the speed of 40 kmph. Train \u2018B\u2019 leaves Mumbai Central for Lucknow by the same route at 2 pm on the same day, running at the speed of 72 kmph. At what time will the two trains meet each other?\nAnswer Choices: (A) 12 am on the next day (B) 5 am on the next day (C) 5 pm on the next day (D) 2 pm on the next day (E) None of these Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nDistance travelled by train A in 2 hours = 40 * 2 = 80 km\nDistance travelled by train B in 6 hours = 72 * 6 = 432 km\nRelative speed of train B over train A = 72 - 40 = 32 kmph\nTime taken by the trains to meet = 80/32 = 2 2/3 hours\n= 2 am on the next day\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "Mark told John \"If you give me half your money I will have Rs.75. John said, \"if you give me one third of your money, I will have Rs.75/-. How much money did John have ?\nAnswer Choices: (A) 22 (B) 60 (C) 28 (D) 26 (E) 18 Let's write a program.",
+    "output": "Let's think about the multi-choice question.\nLet the money with John = x. Then,\nMoney given to Mark = x/2.\nMoney left with John = x- (x/2) = x/2.\nNow, money left with John = Money given to Mark\nx/2 = 75\nx = 150.\nTherefore, John had Rs.150/- in the beginning.\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "108",
+    "question": "The number of water lilies on a certain lake doubles every two days. If there is exactly one water lily on the lake, it takes 60 days for the lake to be fully covered with water lilies. In how many days will the lake be fully covered with lilies, if initially there were 64 water lilies on it?\nAnswer Choices: (A) 15 (B) 28 (C) 30 (D) 53 (E) 59 Let's write a program.",
+    "output": "def calculate_days(initial_lilies, total_lilies):\n    days = 0\n    while initial_lilies < total_lilies:\n        initial_lilies *= 2\n        days += 2\n    return days\n\ntotal_lilies = 2**60\ninitial_lilies = 64\n\ndays = calculate_days(initial_lilies, total_lilies)\n\nprint(days)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "x men working x hours per day can do x units of a work in x days. How much work can be completed by y men working y hours per day in y days?\nAnswer Choices: (A) x2/y2 units (B) y3/x2 units (C) x3/y2 units (D) y2/x2 units (E) None of these Let's write a program.",
+    "output": "Let's take the values of x, y as 2, 3.\n2 men working 2 hours can do 2 units of work in 2 days.\n\u2234 22\u00d72\u00d72=23=8 units\n3 men working 3 hours can do 3 units of work in 3 days.\n\u2234 32\u00d73\u00d73=33=27 units\nIf same 2 men work for 3 days, they can do (2/3)3=2/3\u00d732=4 units\nIf same 3 men work for 2 days, they can do (3/2)2=3/2\u00d722=9/2 units\n\u2234 y2/x2 units\nAnswer D",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "90",
+    "question": "ABCDE is a regular pentagon with F at its center. How many different quadrilaterals can be formed by joining 4 of the points A,B,C,D,E and F?\nAnswer Choices: (A) 12 (B) 10 (C) 5 (D) 15 (E) 20 Let's write a program.",
+    "output": "import math\n\n# Total number of points\ntotal_points = 6\n\n# Number of points to choose\npoints_to_choose = 4\n\n# Since it is a regular pentagon, the points can be chosen in 5C4 ways\n# But, the chosen points can be re-arranged in 4! ways\n# So, the total number of quadrilaterals will be 5C4 * 4!\n\nquadrilaterals = math.comb(total_points, points_to_choose) * math.factorial(points_to_choose - 1)\n\nprint(quadrilaterals)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "Points A, B, C, D lie in this order on the circumference of a circle. Minor arc AC is 160\u00b0, and minor arc BD is 150\u00b0. If B bisects minor arc AC, then what is the measure of minor arc AD?\nAnswer Choices: (A) 80\u00b0 (B) 130\u00b0 (C) 140\u00b0 (D) 160\u00b0 (E) 220\u00b0 Let's write a program.",
+    "output": "let's consider the diagram below\narc AC = 160 deg\narc BD = 150 deg\nsince B bisects AC, then arc AB = arc BC = 80 deg\nsince BD is 150 deg, then arc BD = 150 deg\ntherefore, arc AD = 360 - (160 + 150 + 80) = 80 deg\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "-7.5",
+    "question": "If 75 percent of the employees of a certain company take a winter vacation, 40 percent take a winter and a summer vacation, and 20 percent take neither a winter nor a summer vacation, what Q percent of the employees take a summer vacation but not a winter vacation?\nAnswer Choices: (A) 5% (B) 15% (C) 25% (D) 35% (E) 45% Let's write a program.",
+    "output": "total = 100\r\nwinter = 75\r\nsummer = 40\r\nneither = 20\r\n\r\nsummer_only = summer - (winter + neither)/2\r\nprint(summer_only)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "The cross-section of a canal is shaped like a trapezium. If the canal is 10 m wide at the top and 6 m wide at the bottom and the area of cross-section is 640 square meters, the depth of cannel is?\nAnswer Choices: (A) 26 (B) 28 (C) 21 (D) 80 (E) 23 Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nArea of canal = 640 m2\n1/2 (10 + 6) * h = 640\n=> h = 80 m\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "During one season, a tennis team won 20 matches and lost 30% of their matches. What was the number of matches that the team lost?\nAnswer Choices: (A) 70 (B) 30 (C) 3 (D) 7 (E) 5 Let's write a program.",
+    "output": "let total be x\nwon = 20\nlost = 30/100*x\ntotal = won+lost\nx = 50\nlost = 30/100*50 = 15\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "1875pi",
+    "question": "A point on the edge of a fan blade that is rotating in a plane 10 centimeters from the center of the fan. What is the distance traveled, in centimeters, by this point after 30 seconds when the fan runs at the rate of 300 revolutions per minutes?\nAnswer Choices: (A) 750pi (B) 1500pi (C) 1875pi (D) 3000pi (E) 7500pi Let's write a program.",
+    "output": "Distance traveled in 30 seconds = 300*30/60*10/pi = 1500*10/pi = 15000/pi = 1875pi",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "28.0",
+    "question": "If n is such that 36 \u2264 n \u2264 72, then x = (n2 + 2\u221an(n + 4) + 16) / (n+ 4\u221an+ 4) satisfies\nAnswer Choices: (A) 20 < x < 54 (B) 23 < x < 58 (C) 25 < x < 64 (D) 28 < x < 60 (E) None of these Let's write a program.",
+    "output": "import math\n\n# define the range of n\nn_min = 36\nn_max = 72\n\n# calculate x\nx = (n_min**2 + 2*math.sqrt(n_min)*(n_min + 4) + 16) / (n_min+ 4*math.sqrt(n_min)+ 4)\n\n# print the range of x\nprint(x)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "15.666666666666666",
+    "question": "At its maximum speed, a space shuttle can travel 700m high in 40 seconds. It will also take 5 seconds to pass a point. What then is the length of the space shuttle?\nAnswer Choices: (A) 50 m (B) 75 m (C) 100 m (D) 125 m (E) 150 m Let's write a program.",
+    "output": "speed = 700/40\npass_point = 5\nlength = (700+5)/(40+5)\nprint(length)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "B",
+    "err": false,
+    "question": "A starts a business with Rs.40,000. After 2 months, B joined him with Rs.60,000. C joined them after some more time with Rs.120,000. At the end of the year, out of a total profit of Rs.375,000, C gets Rs.150,000 as his share. How many months after B joined the business, did C join?\nAnswer Choices: (A) 2 months (B) 4 months (C) 23 months (D) 24 months (E) 84 months Let's write a program.",
+    "output": "Let's denote the number of months after B joined the business, as x.\nA:B:C\n=40000\u00d712:60000\u00d7(12\u2212x):120000\u00d7x\n=40\u00d712:60\u00d7(12\u2212x):120x\n=40:5\u00d712:10\u00d7x\n=8:10:x\n=4:5:x\nC's share =375000\u00d710/9=4375000/9\n=Rs.500000/9\nIf C's share =Rs.150000\nThen, x=84 months\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "85.84073464102067",
+    "question": "A paper is in a square form whose one side is 20 cm. Two semi circles are drawn on its opposites as diameters. If these semi circles are cut down what is the area of the remaining paper?\nAnswer Choices: (A) 8.75 (B) 8.79 (C) 8.75 (D) 8.71 (E) 8.72 Let's write a program.",
+    "output": "import math\n\n# define the side of the square\nside = 20\n\n# calculate the area of the square\narea_square = side**2\n\n# calculate the area of one semi circle\n# which is pi*r^2/2\narea_semi_circle = math.pi*(side/2)**2/2\n\n# the area of the remaining paper is the area of the square minus the area of two semi circles\narea_remaining = area_square - 2*area_semi_circle\n\nprint(area_remaining)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "1.5",
+    "question": "An athlete runs M miles in 4 hours, then rides a bike N miles in the same number of hours. Which of the following represents the average speed, in miles per hour, for these two activities combined?\nAnswer Choices: (A) M + N / 8 (B) 2M + N / 8 (C) M + N / 4 (D) M + 3N / 8 (E) M + N / 5 Let's write a program.",
+    "output": "M = 4\r\nN = 8\r\nprint((M+N)/8)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "96.0",
+    "question": "8 man work for 6 days to complete a work. How many men are required to complete same work in 1/2 day.\nAnswer Choices: (A) 93 men (B) 94 men (C) 95 men (D) 96 men (E) 97 men Let's write a program.",
+    "output": "man_work_days=8\nfor_days=6\ntotal_work_done=man_work_days*for_days\nnow_days=1/2\ntotal_work_done_now=total_work_done/now_days\nman_required=total_work_done_now\nprint(man_required)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "E",
+    "err": false,
+    "question": "64 boys and 40 girls form a group for social work. During their membership drive, the same number of boys and girls joined the group. How many members does the group have now, if the ratio of boys to girls is 4:3?\nAnswer Choices: (A) 277 (B) 288 (C) 200 (D) 277 (E) 168 Let's write a program.",
+    "output": "Let's assume the number of boys and girls who joined during the membership drive is x.\nNow, the number of boys and girls in the group will be 64 + x and 40 + x respectively.\nThe ratio of boys to girls is 4:3.\n(64 + x)/(40 + x) = 4/3\nSolving for x, we get x = 20.\nHence, the total number of members in the group now is 64 + 40 + 20 = 200.\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "4.0",
+    "question": "A cyclist travels at 12 miles per hour. How many minutes will it take to travel 48 miles?\nAnswer Choices: (A) 1 (B) 240 (C) 30 (D) 60 (E) 120 Let's write a program.",
+    "output": "speed = 12\r\ndistance = 48\r\n\r\ntime = distance / speed\r\n\r\nprint(time)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Kevin drove from A to B at a constant speed of 70 mph. Once he reached B, he turned right around with pause, and returned to A at a constant speed of 90 mph. Exactly 3 hours before the end of his trip, he was still approaching B, only 70 miles away from it. What is the distance between A and B?\nAnswer Choices: (A) 180 (B) 90 (C) 270 (D) 360 (E) None of the above Let's write a program.",
+    "output": "Let's assume the distance between A and B as D.\nKevin would have arrived at B at 90 mph at 2.30 pm. So he must have started at 2 pm.\nKevin would have reached A at 11 am. So he must have started at 11 am.\nHe must have taken 3 hours to travel from A to B.\n3 hours before the end of the trip means 10 am. So he must have started at 10 am.\nHe covered 2 hours at 90 mph and 1 hour at 70 mph to reach B.\nSo he covered 2.30 hours at 70 mph to reach B.\nDistance = Speed * Time\nD = 70 * 2.30 = 180 miles\nCorrect answer : A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "A",
+    "err": false,
+    "question": "30 is subtracted from a number, it is reduced to its one third. What is the value of 50% of that number?\nAnswer Choices: (A) 22.5 (B) 84 (C) 21 (D) 24 (E) 25 Let's write a program.",
+    "output": "let num=30\r\nnum-30=num/3\r\nnum=90\r\n50% of 90=45\r\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "E",
+    "err": false,
+    "question": "If a man rows at the rate of 4 kmph in still water and his rate against the current is 2 kmph, then the man's rate along the current is:\nAnswer Choices: (A) 15 kmph (B) 6 kmph (C) 12 kmph (D) 14 kmph (E) 6 kmph Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nMan's rate in still water = 4 kmph\nMan's rate against the current = 2 kmph\nLet man's rate along the current be x kmph\nThen, man's rate in still water = 4 kmph\n=> (4+x)/2 = x\n=> 4+x = 2x\n=> x = 4 kmph\nThe answer is Option A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "-127",
+    "question": "The sum of the digits of a three digit number is 17, and the sum of the squares of its digits is 109. If we subtract 495 from the number, we shall get a number consisting of the same digits written in the reverse order. Find the number.\nAnswer Choices: (A) 368 (B) 377 (C) 288 (D) 997 (E) 112 Let's write a program.",
+    "output": "def is_reverse_of(n):\n    # Get the list of digits\n    digits = [int(d) for d in str(n)]\n    # Calculate the sum of the digits and the sum of the squares of the digits\n    sum_digits = sum(digits)\n    sum_squares = sum(d**2 for d in digits)\n    # Check if the conditions are satisfied\n    if sum_digits == 17 and sum_squares == 109:\n        # Subtract 495 from the number\n        n -= 495\n        return n\n    return None\n\n# Start from the smallest three digit number\nfor i in range(100, 1000):\n    n = is_reverse_of(i)\n    if n is not None:\n        print(n)\n        break",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "X and Y are two alloys which were made by mixing zinc and copper in the ratio 6:9 and 7:11, respectively. If 40 grams of alloy X and 60 grams of alloy Y are melted and mixed to form alloy Z, what is the ratio of zinc and copper in the alloy Z ?\nAnswer Choices: (A) 69:91 (B) 59:91 (C) 59:90 (D) 59:91 (E) 69:101 Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nIn the ratio 6:9, the mean is 7.\nIn the ratio 7:11, the mean is 8.\nSo the ratio of zinc and copper in the alloy Z is 59:91.\nThe answer is D.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "24",
+    "question": "The nefarious bandit Hoopsmot decides to go in with his criminal partner Smolapon to purchase a number of senators. Hoopsmot contributes $16,000 to their bribery pool, and Smolapon contributes just $4,000. Their total allows them to influence 30 senators. How many senators of these can be considered Hoopsmot's?\nAnswer Choices: (A) 18 (B) 20 (C) 22 (D) 24 (E) 26 Let's write a program.",
+    "output": "import math\n\n# define the total number of senators\ntotal_senators = 30\n\n# define the contributions\ncontribution_hoopsmot = 16000\ncontribution_smolapon = 4000\n\n# calculate the number of senators Smolapon can influence\nsenators_smolapon = contribution_smolapon / (contribution_hoopsmot + contribution_smolapon) * total_senators\n\n# calculate the number of senators Hoopsmot can influence\nsenators_hoopsmot = total_senators - senators_smolapon\n\n# print the result\nprint(int(senators_hoopsmot))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "B",
+    "err": false,
+    "question": "The difference between the squares of two numbers is 256000 and the sum of the numbers is 1000. The numbers are\nAnswer Choices: (A) 600, 400 (B) 628, 372 (C) 640, 360 (D) None of these (E) Cannot be determined Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nLet the numbers be x and y. Then,\nx2 - y2 = 256000\nx + y = 1000\nx2 - y2 = (x + y)(x - y) = 1000(x - y)\n256000 = 1000(x - y)\n(x - y) = 256 = 160 = 20\nx = 160 + y\nNow,\n(160 + y)2 - y2 = 256000\n(1602 - y2) + 2 * 160 * y + y2 = 256000\n320000 + 320y = 256000\n32y = 64000\ny = 200\nx = 160 + 200 = 360\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "86.25592417061611",
+    "question": "An astronaut weighing 211 pounds on Earth would weigh 182 pounds on Venus. The weight of the astronaut on Venus would be approximately what percent of the astronaut\u2019s weight on Earth?\nAnswer Choices: (A) 50% (B) 60% (C) 70% (D) 86% (E) 90% Let's write a program.",
+    "output": "weight_on_venus = 182\nweight_on_earth = 211\npercentage = (weight_on_venus/weight_on_earth) * 100\nprint(percentage)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "A man walks at 5 kmph for 6 hrs and at 4 kmph for 12 hrs. His average speed is\nAnswer Choices: (A) 4 1/3 km/h (B) 7 2/3 km/h (C) 9 \u00bd km/h (D) 8 km/h (E) 81 km/h Let's write a program.",
+    "output": "Let's think about the multi-choice question step by step.\nTotal distance travelled = (5 * 6) + (4 * 12) = 30 + 48 = 78 km\nTotal time taken = 6 + 12 = 18 hrs\nAverage speed = 78/18 = 4 1/3 km/h\nThe answer is Option A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "C",
+    "err": false,
+    "question": "[(272 - 32) (124 + 176)] / (17 x 15 - 15) = ?\nAnswer Choices: (A) 0 (B) 2.25 (C) 300 (D) 400 (E) None of these Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\n[(272 - 32) (124 + 176)] / (17 x 15 - 15) = 240 x 300 / 255 = 400\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "3",
+    "question": "Everyone in the family earns money each month. If the total income of a family per month is $9000 and the median income is $3000, how many members are there in the family?\nAnswer Choices: (A) 2 (B) 3 (C) 4 (D) 5 (E) 6 Let's write a program.",
+    "output": "total_income = 9000\r\nmedian_income = 3000\r\n\r\n# Calculate the sum of the middle two numbers\r\nmiddle_two_sum = 2*median_income\r\n\r\n# Calculate the sum of the remaining numbers\r\nremaining_sum = total_income - middle_two_sum\r\n\r\n# Calculate the number of members\r\nnum_members = remaining_sum / median_income + 2\r\n\r\nprint(int(num_members))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "770",
+    "question": "The bus fare of one adult is Rs. 140 from Ranchi to Patna and bus fare of a child is half the fare of one adult between the same places. What is the total bus fare of 4 adults and 3 children between same places?\nAnswer Choices: (A) Rs. 666 (B) Rs. 670 (C) Rs. 700 (D) Rs. 570 (E) Rs. 770 Let's write a program.",
+    "output": "adult_bus_fare=140\r\nchild_bus_fare=70\r\ntotal_adults=4\r\ntotal_children=3\r\ntotal_bus_fare=(total_adults*adult_bus_fare)+(total_children*child_bus_fare)\r\nprint(total_bus_fare)\r",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "-496000",
+    "question": "An organization decided to raise Rs. 6 lakh by collecting equal contribution from each of its employees. If each of them had contributed Rs. 60 extra, the contribution would have been Rs. 6.24 lakh. How many employees are there in that organization?\nAnswer Choices: (A) 300 (B) 200 (C) 400 (D) 100 (E) 500 Let's write a program.",
+    "output": "extra_contribution = 60\ntotal_contribution = 6240000\noriginal_contribution = total_contribution - (extra_contribution * 600000)\nemployees = int(original_contribution / extra_contribution)\nprint(employees)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "600",
+    "question": "If there are 5,000 voters out of which 20% are not eligible to vote and there are two candidates contesting. The winning candidate won by 15% of the votes. What is the total number of votes he got ?\nAnswer Choices: (A) 3267 (B) 2678 (C) 2797 (D) 2300 (E) 2781 Let's write a program.",
+    "output": "total_voters = 5000\r\nnot_eligible_voters = 20/100 * total_voters\r\ntotal_eligible_voters = total_voters - not_eligible_voters\r\nwinning_candidate_votes = 15/100 * total_eligible_voters\r\nprint(int(winning_candidate_votes))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "8",
+    "question": "For bringing each copper coin from the bottom of a river, a coin-diver gets 20 cents, and for each brass coin she gets 25 cents. If after one dive, she got $3.40. What is the minimum number of copper coins that she brought?\nAnswer Choices: (A) 4 (B) 3 (C) 2 (D) 1 (E) 0 Let's write a program.",
+    "output": "diver = 20\nbrass = 25\ncopper = 0\n\nwhile(diver*copper + brass*copper < 340):\n    copper += 1\n\nprint(copper)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "600",
+    "question": "Ram and Krishna start from A and B, respectively, at the same time and travel towards each other at constant speeds of 20m/s and 40m/s, respectively, along the same route. Ram meets Krishna at point C on the road after 10 seconds. Find the total distance between A to B.\nAnswer Choices: (A) 700 meters (B) 1000 meters (C) 700 kilometers (D) 555 meters (E) 600 meters Let's write a program.",
+    "output": "Vr=20 #velocity of ram\nVk=40 #velocity of krishna\nt=10 #time\nd=Vr*t+Vk*t #distance traveled by both\nprint(d)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "43.0",
+    "question": "Car \u2018X\u2019 covers a distance of 320 kms in 8 hours and car \u2018Y\u2019 covers a distance of 415 kms in 5 hrs. What is the difference in the speed of the two cars?\nAnswer Choices: (A) 42kms/hr (B) 41km/hr (C) 43kms/hr (D) 45kms/hr (E) None of these Let's write a program.",
+    "output": "speed_car_X = 320/8\nspeed_car_Y = 415/5\ndifference = abs(speed_car_X - speed_car_Y)\nprint(difference)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "2",
+    "question": "Winson runs from his home to his school at an average speed of 10 miles/hr, and then walks home along the same route at an average speed of 5 miles/hr. If the whole journey took one hour, how many miles is his home from his school?\nAnswer Choices: (A) 9 (B) 6 (C) 4 (D) 3 (E) 2 Let's write a program.",
+    "output": "from sympy.solvers import solve\nfrom sympy import Symbol\n\n\nx = Symbol('x')\n\nresult = solve( x/10 + (2*x)/5 - 1)[0]\n\nprint(result)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "A sporting goods store carries only yellow and white golf balls. At the beginning of the day it had 600 golf balls in stock, and by the end of the day it had sold 80% of its inventory of golf balls. If the store sold an equal number of yellow and white golf balls, and in doing so sold all of its white golf balls, how many yellow golf balls did the store have to begin the day?\nAnswer Choices: (A) 80 (B) 120 (C) 240 (D) 320 (E) 360 Let's write a program.",
+    "output": "Let's denote the number of white golf balls as w and the number of yellow golf balls as y. Remember that w + y = 600.\nSince the store sold an equal number of white and yellow golf balls, it sold w = y = 600/2 = 300 golf balls.\nAlso, the store sold 80% of its inventory, so it sold 80/100 * 600 = 480 golf balls.\nNow, use the above information to write an equation and solve for y.\ny + 300 = 480\ny = 180\nUse this value to calculate the number of white golf balls at the beginning of the day:\nw = 180 * 2 = 360\nThe answer is E",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "12.5",
+    "question": "A flagstaff 17.5 metre high casts a shadow of length 40.25 metre. The height of building, which casts a shadow of length 28.75 metre under similar conditions will be :\nAnswer Choices: (A) 12 metre (B) 12.5 metre (C) 13.5 metre (D) 14 metre (E) 15 metre Let's write a program.",
+    "output": "import math\n\n# define the height and length of the flagstaff\nheight_flagstaff = 17.5\nlength_flagstaff = 40.25\n\n# calculate the height of the building using the ratio of the lengths\nheight_building = (28.75 / length_flagstaff) * height_flagstaff\n\n# print the height of the building\nprint(height_building)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "0.14018691588785046",
+    "question": "Two cars are travelling from the same starting point in the same direction, having started their commute at the same time. The first car travels at a steady rate of 55 mph, while the second travels at a steady rate of 52 mph. How much time will pass before the cars are 15 miles away from each other?\nAnswer Choices: (A) 3 hours (B) 5 hours (C) 6 hours (D) 4 hours (E) 7 hours Let's write a program.",
+    "output": "FirstCar = 55\r\nSecondCar = 52\r\nRelativeSpeed = FirstCar + SecondCar\r\nprint(15/RelativeSpeed)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "0.36",
+    "question": "The events A and B are independent. The probability that event A occurs is 0.6, and the probability that at least one of the events A or B occurs is 0.96. What is the probability that event B occurs?\nAnswer Choices: (A) 0.5 (B) 0.6 (C) 0.7 (D) 0.8 (E) 0.9 Let's write a program.",
+    "output": "import math\n\n# define the probability of event A\nP_A = 0.6\n\n# define the probability of at least one of the events A or B\nP_A_or_B = 0.96\n\n# The probability that event A occurs is 0.6, and the probability that at least one of the events A or B occurs is 0.96.\n# So, the probability of event B is P_A_or_B - P_A\nP_B = P_A_or_B - P_A\n\nprint(P_B)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "1.240490014699032",
+    "question": "The ratio of the volumes of a cube to that of the sphere which will fit inside the cube is?\nAnswer Choices: (A) 2: \u03c0 (B) 7:2 (C) 8:2 (D) 6: \u03c0 (E) 8:3 Let's write a program.",
+    "output": "import math\n\n# Define the side of the cube\nside_cube = 6\n\n# Calculate the volume of the cube\nvolume_cube = side_cube ** 3\n\n# Calculate the radius of the sphere that will fit inside the cube\nradius_sphere = side_cube / math.sqrt(3)\n\n# Calculate the volume of the sphere\nvolume_sphere = (4/3) * math.pi * (radius_sphere ** 3)\n\n# Calculate the ratio of the volumes of the cube to the sphere\nratio = volume_cube / volume_sphere\n\n# Print the ratio\nprint(ratio)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": true,
+    "gt": "E",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 295, in execute_code\n    code = black.format_str(code_str, mode=black.FileMode())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1079, in format_str\n    dst_contents = _format_str_once(src_contents, mode=mode)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1089, in _format_str_once\n    src_node = lib2to3_parse(src_contents.lstrip(), mode.target_versions)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/parsing.py\", line 127, in lib2to3_parse\n    raise exc from None\nblack.parsing.InvalidInput: Cannot parse: 10:0: print(1)\n",
+    "question": "My wall contains 8 red colour ties, 13 violet colour ties,10 blue colour ties, 5 pink colour ties, 4 green colour ties. If electricity is gone and I want at least two ties of same colour then how many ties I should take out from my rack?\nAnswer Choices: (A) 2 (B) 3 (C) 4 (D) 5 (E) 6 Let's write a program.",
+    "output": "red = 8\nviolet = 13\nblue = 10\npink = 5\ngreen = 4\n\nmin_tie = 2\n\nif red >= min_tie:\nprint(1)\nelif violet >= min_tie:\nprint(2)\nelif blue >= min_tie:\nprint(3)\nelif pink >= min_tie:\nprint(4)\nelif green >= min_tie:\nprint(5)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "10.416666666666668",
+    "question": "Find 25/12*5\nAnswer Choices: (A) 2.5498 (B) 0.4167 (C) 3.3987 (D) 8.5497 (E) 5.6312 Let's write a program.",
+    "output": "print(25/12*5)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "2.0",
+    "question": "The value of log2 4 is:\nAnswer Choices: (A) 2 (B) 4 (C) 6 (D) 8 (E) 12 Let's write a program.",
+    "output": "import math\n\n# calculate log base 2 of 4\nlog_value = math.log2(4)\n\nprint(log_value)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Calculate the percentage gain of a merchant who purchased 90 kg of oranges for Rs. 450 and sold the whole lot at the rate of Rs. 7.50 per kg.\nAnswer Choices: (A) 50 % (B) 60 % (C) 55 % (D) 70 % (E) 58% Let's write a program.",
+    "output": "C.P. of 1 kg = 450/90 = Rs. 5\nS.P. of 1 kg = Rs. 7.50\nGain % = 2.50/5 * 100 = 50 %\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "D",
+    "err": false,
+    "question": "A train M leaves City A at 5 am and reaches City B at 9am. Another train N leaves City B at 7am and reaches City A at 1030am. At what time do the 2 trains cross one another?\nAnswer Choices: (A) 1 hr 23 min (B) 1 hr 15 min (C) 1 hr 8 min (D) 56 min (E) 55 min Let's write a program.",
+    "output": "Let's find the time of meeting.\nThe speed of the train M is 4 times the speed of the train N.\nThe time of meeting can be found by dividing the distance of the train M by 4 times the speed of the train N.\nThe time of meeting is 1 hours 8 minutes.\nThe answer is C.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "9.000000000000002",
+    "question": "Janice bikes at 10 miles per hour, while Jennie bikes at 20. How long until they have collectively biked 1 mile?\nAnswer Choices: (A) 1 minute (B) 2 minutes (C) 3 minutes (D) 4 minutes (E) 5 minutes Let's write a program.",
+    "output": "janice_speed = 10\r\njennie_speed = 20\r\ntotal_distance = 1\r\n\r\n# calculate time taken by Janice\r\ntime_janice = total_distance / janice_speed\r\n\r\n# calculate time taken by Jennie\r\ntime_jennie = total_distance / jennie_speed\r\n\r\n# calculate total time\r\ntotal_time = time_janice + time_jennie\r\n\r\n# convert total time from hours to minutes\r\ntotal_time_minutes = total_time * 60\r\n\r\nprint(total_time_minutes)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "1.9047619047619047",
+    "question": "In an exam, a candidate secured 504 marks of the maximum mark of M. If the maximum mark M is converted into 800 marks, he would have secured 420 marks. What is the value of M?\nAnswer Choices: (A) 278 (B) 2890 (C) 270 (D) 2702 (E) 960 Let's write a program.",
+    "output": "MaxMarks = 800\r\nScore = 420\r\nprint(MaxMarks/Score)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "1.25",
+    "question": "If Jill needed to buy 10 bottles of soda for a party in which 8 people attended, how many bottles of soda will she need to buy for a party in which 12 people are attending?\nAnswer Choices: (A) 6 (B) 8 (C) 10 (D) 12 (E) 14 Let's write a program.",
+    "output": "NeededBottles = 10\r\nAttendingPeople = 8\r\nprint(NeededBottles/AttendingPeople)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "15.0",
+    "question": "Two ants are standing side-by-side. One ant, which is 4 inches tall, casts a shadow that is 10 inches long. The other ant is 6 inches tall. Compute, in inches, the length of the shadow that the taller ant casts.\nAnswer Choices: (A) 36 (B) 28 (C) 42 (D) 15 (E) 20 Let's write a program.",
+    "output": "import math\n\n# define the heights and lengths of the ants and their shadows\nheight1 = 4\nlength1 = 10\nheight2 = 6\n\n# calculate the length of the shadow that the taller ant casts using the proportion of heights and lengths\nlength2 = (length1 / height1) * height2\n\nprint(length2)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "err": true,
+    "gt": "C",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 295, in execute_code\n    code = black.format_str(code_str, mode=black.FileMode())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1079, in format_str\n    dst_contents = _format_str_once(src_contents, mode=mode)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1089, in _format_str_once\n    src_node = lib2to3_parse(src_contents.lstrip(), mode.target_versions)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/parsing.py\", line 127, in lib2to3_parse\n    raise exc from None\nblack.parsing.InvalidInput: Cannot parse: 1:3: Let's define the cost of papering as function of height and semi-perimeter\n",
+    "question": "The height of a room to its semi-perimeter is 2:5. It costs Rs.260 to paper the walls of the room with paper 50cm wide at Rs.2 per meter allowing an area of 15 sq.m for doors and windows. The height of the room is:\nAnswer Choices: (A) 2.6m (B) 3.9m (C) 4m (D) 4.2m (E) 4.4m Let's write a program.",
+    "output": "Let's define the cost of papering as function of height and semi-perimeter\ncost_of_paper = 260  # total cost of papering [Rs.]\ncost_per_m2 = 2  # cost of papering per m2 [Rs.]\narea_doors_windows = 15  # area of doors and windows m2\npaper_width = 50  # width of paper [cm]\n\n# calculate the total area to be papered\ntotal_area = cost_of_paper / cost_per_m2\n\n# calculate the height of the room\nheight = total_area / (2 * (2 * total_area - area_doors_windows))\n\n# print the height of the room\nprint(height)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": true,
+    "gt": "E",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 337, in extract_ans_considering_code\n    result, error = task.get(timeout=timeout)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/multiprocessing/pool.py\", line 770, in get\n    raise TimeoutError\nmultiprocessing.context.TimeoutError\n",
+    "question": "The sum of k consecutive integers is 51. If the least integer is -50, then k =\nAnswer Choices: (A) 40 (B) 62 (C) 82 (D) 92 (E) 102 Let's write a program.",
+    "output": "def find_k(sum_val, least_val):\n    k = 1\n    while True:\n        curr_sum = sum_val - (k-1)*least_val\n        if curr_sum == 0:\n            return k\n        k += 1\n\nprint(find_k(51, -50))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "50",
+    "question": "In a survey of students, each student selected from a list of 10 songs the 2 songs that the student liked best. If each song was selected 5 times, how many students were surveyed?\nAnswer Choices: (A) 96 (B) 48 (C) 32 (D) 25 (E) 18 Let's write a program.",
+    "output": "total_songs = 10\r\nsongs_selected = 2\r\ntimes_selected = 5\r\n\r\nstudents = (total_songs * songs_selected * times_selected) / 2\r\n\r\nprint(int(students))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "If one of the roots of the quadratic equation x^2 + mx + 22 = 0 is 1.5, then what is the value of m?\nAnswer Choices: (A) -23.5 (B) -17.5 (C) -10.5 (D) -16.2 (E) Cannot be determined Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nExplanatory Answer\nWe know that the product of the roots of a quadratic equation ax^2 + bx + c = 0 is c/a\nIn the given equation, x^2 + mx + 22 = 0, the product of the roots = 22/1 = 22.\nThe question states that one of the roots of this equation = 1.5\nIf x1 and x2 are the roots of the given quadratic equation and let x1 = 1.5\nTherefore, x2 = 22/1.5= 14.66.\nIn the given equation, m is the co-efficient of the x term.\nWe know that the sum of the roots of the quadratic equation ax^2 + bx + c = 0 is-b/a = -m/a = -m\nSum of the roots = 1.5 + 14.66 = 16.16.\nTherefore, the value of m = -16.16.\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "604800",
+    "question": "At an election meeting 10 speakers are to address the meeting. The only protocol to be observed is that whenever they speak the pm should speak before the mp and the mp should speak before the mla. In how many ways can the meeting be held?\nAnswer Choices: (A) 10!/3 (B) 10!/6 (C) 10!/2 (D) 10!/4 (E) 10!/5 Let's write a program.",
+    "output": "import math\n\n# number of speakers\nn = 10\n\n# number of protocols\nk = 3\n\n# number of ways to arrange the speakers\narrangements = math.factorial(n) / math.factorial(k)\n\nprint(int(arrangements))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "49.51456310679611",
+    "question": "Anna is able to buy 5 more articles for $300 after the price of each article decreased by 15%. What is the new selling price of each article?\nAnswer Choices: (A) $8 (B) $10 (C) $13.6 (D) $22.9 (E) $40 Let's write a program.",
+    "output": "price = 300\nquantity = 5\ndiscount = 15/100\n\noriginal_price = price / (quantity + discount)\nnew_price = original_price - (original_price * discount)\n\nprint(new_price)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "11",
+    "question": "In a row of children Neha is 12th from left end and Radha is 6th from right end. When Radha is shifted to left by 2 places and Neha is shifted to right by 2 places there 6 children between Radha and Neha. How many children are there in the row?\nAnswer Choices: (A) 23 (B) 27 (C) 26 (D) 28 (E) 29 Let's write a program.",
+    "output": "total_children = 0\ntotal_children += 1 + 6 + 1 # 6 children between Radha and Neha\ntotal_children += 1 + 2 # Neha and Radha\nprint(total_children)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "0.5",
+    "question": "10kg of a mixture contains 30% sand and 70% clay. In order to make the mixture contain equal quantities of clay and sand how much of the mixture is to be removed and replaced with pure sand?\nAnswer Choices: (A) 10/7 (B) 20/7 (C) 30/7 (D) 40/7 (E) 50/7 Let's write a program.",
+    "output": "total_mixture = 10\r\nsand_percent = 30\r\nclay_percent = 70\r\n\r\nsand_in_mixture = (sand_percent/100) * total_mixture\r\nclay_in_mixture = (clay_percent/100) * total_mixture\r\n\r\nequal_sand_and_clay = (sand_in_mixture + clay_in_mixture) / 2\r\n\r\nmixture_to_remove = equal_sand_and_clay / total_mixture\r\n\r\nprint(mixture_to_remove)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "20.0",
+    "question": "A man spends 70% of his income. If his income increases by 20%, then what will be his new expenditure?\nAnswer Choices: (A) 58.3% (B) 62.5% (C) 63.5% (D) 64.5% (E) 65.5% Let's write a program.",
+    "output": "initial_income = 100\nexpenditure = 0.70 * initial_income\nnew_income = initial_income + 0.20 * initial_income\nnew_expenditure = 0.70 * new_income\nincrease_in_expenditure = new_expenditure - expenditure\npercentage_increase = (increase_in_expenditure / expenditure) * 100\nprint(percentage_increase)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "7",
+    "question": "What is the greatest number of identical bouquets that can be made out of 28 white and 98 red tulips if no flowers are to be left out? (Two bouquets are identical whenever the number of red tulips in the two bouquets is equal and the number of white tulips in the two bouquets is equal.)\nAnswer Choices: (A) 4 (B) 7 (C) 10 (D) 14 (E) 21 Let's write a program.",
+    "output": "import math\n\n# Number of white and red tulips\nwhite_tulips = 28\nred_tulips = 98\n\n# Calculate the number of bouquets\nbouquets = min(white_tulips // 4, red_tulips // 4)\n\nprint(bouquets)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "9",
+    "question": "Sharon works for 5 hours to earn enough tips to buy an ice cream cake, while Karen works for 4. After how many hours will they be able to buy the cake together?\nAnswer Choices: (A) 1 hour (B) 2 hours (C) 3 hours (D) 4 hours (E) 5 hours Let's write a program.",
+    "output": "SharonWorks = 5\r\nKarenWorks = 4\r\nprint(SharonWorks+KarenWorks)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "B",
+    "err": false,
+    "question": "If x<0, y>0, and |x^3| > |y^2|, which of the following must be true?\nAnswer Choices: (A) x > y (B) y^2 > x^2 (C) -x^3 < y^2 (D) \u2013x < y (E) x < \u2013y Let's write a program.",
+    "output": "Let's let x = -2 and y = 1\n|x^3| = |-2^3| = 8\n|y^2| = |1^2| = 1\nSo |x^3| > |y^2|\nNow check each option\nA. x > y -2 > 1 - Wrong\nB. y^2 > x^2 1 > 4 - Wrong\nC. -x^3 < y^2 - 8 < 1 - Wrong\nD. \u2013x < y -2 < 1 - Wrong\nE. x < \u2013y 1 < -2 - Wrong\nThe only option that always holds true is C",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "100.0",
+    "question": "Printer A and Printer B can each print 1\u20442 page per second. How long will it take both printers working together to print 100 pages?\nAnswer Choices: (A) 25 seconds (B) 50 seconds (C) 100 seconds (D) 200 seconds (E) 400 seconds Let's write a program.",
+    "output": "import math\n\n# define the rate of printing for each printer\nrate_printer_A = 1/2\nrate_printer_B = 1/2\n\n# calculate the combined rate\ncombined_rate = rate_printer_A + rate_printer_B\n\n# calculate the time needed to print 100 pages\ntime_needed = 100 / combined_rate\n\n# print the result\nprint(time_needed)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "A",
+    "err": false,
+    "question": "Two ants are moving from their farms towards each other. Ant A is moving at a speed of 9 cm per hour and ant B is moving at a speed of 6 cm per hour. If the farms are 75 cm away from each other, what will be the distance (in cm) that ant A travels until meeting ant B?\nAnswer Choices: (A) 45 (B) 48 (C) 51 (D) 54 (E) 57 Let's write a program.",
+    "output": "Let's calculate the relative speed of the two ants. The ants are moving towards each other, so their relative speed is 9 + 6 = 15 cm per hour.\nThe distance between the farms is 75 cm. To meet, the ants must travel this distance, which is the same as the distance ant A travels.\ntime = distance / speed\ntime = 75 / 15\ntime = 5 hours\nThe answer is D.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "23.649999999999977",
+    "question": "Roberts has a property worth of $1023.65. But in a record his property worth is written as greatest positive even integer less than or equal to his property worth and it is divisible by 100. Find the difference between actual property and recorded property worth?\nAnswer Choices: (A) 23.65 (B) 1000 (C) 35.62 (D) 2.65 (E) 1023.65 Let's write a program.",
+    "output": "actual_property_worth = 1023.65\nrecorded_property_worth = 1000\ndifference = actual_property_worth - recorded_property_worth\nprint(difference)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "A",
+    "err": false,
+    "question": "A man spend 810 in buying trouser at Rs 70 each and shirt at 30 each. What will be the ratio of trouser and shirt when the maximum number of trouser is purchased?\nAnswer Choices: (A) 9 Trousers (B) 8 Trousers (C) 10 Trousers (D) 7 Trousers (E) 11 Trousers Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nTotal money spent = 810\nTrouser price = 70\nShirt price = 30\nMaximum number of trousers he can buy = 810/70 = 11\nRatio of trousers and shirt = 11:3\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "2.847457627118644",
+    "question": "If a subscription for 15 issues of a magazine costs $42.00 and represents a saving of 25 percent of the cover prices, what is the cover price per issue?\nAnswer Choices: (A) $7.73 (B) $6.73 (C) $5.73 (D) $4.73 (E) $3.73 Let's write a program.",
+    "output": "total_issues=15\ncost=42\ncover_price=cost/(total_issues-25/100)\nprint(cover_price)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": true,
+    "gt": "E",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 337, in extract_ans_considering_code\n    result, error = task.get(timeout=timeout)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/multiprocessing/pool.py\", line 770, in get\n    raise TimeoutError\nmultiprocessing.context.TimeoutError\n",
+    "question": "Christopher and Jonathan were having bets. They decide that a coin will be flipped twenty times and each time it turns heads, Christopher will give $2 to Jonathan and each time it turns out to be Tails, Jonathan will give 3$ to Christopher. After flipping for twenty times none of the both won or lost any amount.\nHow many times did the coin landed on Heads ?\nAnswer Choices: (A) 10 (B) 23 (C) 16 (D) 18 (E) 12 Let's write a program.",
+    "output": "Heads = 0\r\nTails = 0\r\nTotal = 0\r\nwhile Heads is not 20 and Tails is not 20:\r\n Total = Total + 1\r\n if Total is 20:\r\n  print(Total)\r\n else:\r\n  if Total > 20:\r\n   Heads = Total\r\n   Tails = 0\r\n  else:\r\n   Heads = 0\r\n   Tails = Total",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "Allen starts from X, goes to Y. At the same time Bob starts from Y and goes towards X. Once Allen reaches Y he changes his direction and returns to X. Once Bob reaches X, he changes his direction and returns to Y. Throughout Allen travels at 54 kmph and Bob travels at 78kmph. By the time they meet for the second time, Bob covers 48 km more than Allen. Find the distance between X and Y.\nAnswer Choices: (A) 144km (B) 72 km (C) 126km (D) 84 km (E) 48km Let's write a program.",
+    "output": "Let's denote the distance between X and Y as d. Then,\nDistance covered by Allen first time = d\nDistance covered by Bob first time = d\nDistance covered by Allen second time = 2d\nDistance covered by Bob second time = 2d + 48\nTotal distance covered by Allen = d + 2d = 3d\nTotal distance covered by Bob = d + 2d + 48 = 3d + 48\nSince, Allen covers 3d distance and Bob covers 3d + 48 distance, so Allen's speed is 3d/3d+48 = 1 - 48/3d+48 = 1 - 16/d+16\nBob's speed is 3d+48/3d = 1 + 48/3d\nSo, we get that Allen's speed is 16/d+16 of Bob's speed.\nSince, Allen's speed is 54 kmph, so d + 16 = 54*16/54 = 16\nd = 16 - 16 = 0\nSo, the distance between X and Y is 0 km.\nI think there is a mistake in the question. The distance between X and Y should be 48 km.\nThen, the answer is E",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "C",
+    "err": false,
+    "question": "Tires of a certain brand, when purchased new, last for four years. A customer can choose to purchase the new tires at a cost of $180 per tire or can have his current tires repaired at a cost of $40 per tire, a repair that will make the current tires last for one additional year. The average cost per year of the new tires is what percent greater than the cost of repairing the current tires?\nAnswer Choices: (A) 8% (B) 10% (C) 12.5% (D) 16.7% (E) 25% Let's write a program.",
+    "output": "Let's assume the cost of the new tire is $400 ( 4 * 100), the customer can choose to replace all four tires for $180 or repair all four tires for $40 each.\nAnother way to look at the problem is:\nCost of new tire = 400\nCost of repair = 4 * 40 = 160\nPercentage change = (400 - 160)*100/160 = 25%\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "A rope 20 meters long is cut into two pieces. If the length of one piece of rope is 3 meters shorter than the length of the other, what is the length, in meters, of the longer piece of rope?\nAnswer Choices: (A) 7.5 (B) 8.9 (C) 9.9 (D) 11.5 (E) 11.7 Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nLet x be the length of the longer piece of rope. Then the length of the shorter piece of rope is x - 3.\nx + (x - 3) = 20\n2x - 3 = 20\n2x = 23\nx = 11.5\nThe answer is D.",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "30000.0",
+    "question": "Jerry purchased a 1-year $5,000 bond that paid an annual interest rate of 12% compounded every six months. How much interest had this bond accrued at maturity?\nAnswer Choices: (A) $5102 (B) $618 (C) $216 (D) $202 (E) $200 Let's write a program.",
+    "output": "import math\n\n# define the variables\nprincipal = 5000\nrate = 12/2 # 12% per annum compounded semi annually\ntime = 1 # in years\n\n# calculate the amount at maturity\namount = principal * math.pow((1 + rate), time)\n\n# calculate the interest\ninterest = amount - principal\n\n# print the interest\nprint(interest)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": true,
+    "gt": "D",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 27, in <module>\n  File \"<string>\", line 24, in run_it\nIndexError: list index out of range\n",
+    "question": "Decipher the following multiplication table:\nM A D\nB E\n-------------\nM A D\nR A E\n-------------\nA M I D\nAnswer Choices: (A) 9 2 0 0 (B) 9 2 0 9 (C) 9 2 0 1 (D) 9 2 0 7 (E) 9 2 2 2 Let's write a program.",
+    "output": "def decipher(letter):\n    if letter == 'M':\n        return 13\n    elif letter == 'A':\n        return 1\n    elif letter == 'D':\n        return 4\n    elif letter == 'B':\n        return 2\n    elif letter == 'E':\n        return 5\n    else:\n        return 0\n\n# read the multiplication table from the question\ntable = [['M', 'A', 'D'], ['B', 'E']]\n\n# convert each letter to its corresponding number\ntable_decoded = [[decipher(letter) for letter in row] for row in table]\n\n# do the multiplication\nresult = table_decoded[0][0] * table_decoded[0][1] * table_decoded[0][2]\nresult += table_decoded[1][0] * table_decoded[1][1] * table_decoded[1][2]\n\nprint(result)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": true,
+    "gt": "D",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 8, in <module>\n  File \"<string>\", line 2, in run_it\nNameError: name 'AjayAgeTenYearsBack' is not defined\n",
+    "question": "Sachin was twice as old as Ajay 10 years back. How old is Ajay today if Sachin will be 40 years old in 10 years\nAnswer Choices: (A) 18 (B) 25 (C) 15 (D) 20 (E) 21 Let's write a program.",
+    "output": "SachinAgeTenYearsBack = 2*AjayAgeTenYearsBack\r\nSachinAgeIn10Years = 40\r\n#AjayAgeTenYearsBack = SachinAgeTenYearsBack/2\r\nAjayAgeIn10Years = (SachinAgeIn10Years - SachinAgeTenYearsBack)/2\r\nAjayAgeToday = AjayAgeIn10Years + 10\r\nprint(AjayAgeToday)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "What will be the cost of gardening 1-metre \u2013 broad boundary around a rectangular plot having perimeter of 340 metres at the rate of 10 per square metre?\nAnswer Choices: (A) 3400 (B) 1700 (C) 3440 (D) Cannot be determined (E) None of these Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nIn this question, we are having perimeter.\nWe know Perimeter = 2(l+b), right\nSo,\n2(l+b) = 340\nAs we have to make 1-metre broad boundary around this, so\nArea of boundary = ((l+2)+(b+2)-lb)\n= 2(l+b)+4 = 340+4 = 344\nSo required cost will be = 344 * 10 = 3440\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "1.5",
+    "question": "Last year, 34 percent of Ace Book Company's sales revenue came from the sale of novels. Of the remaining revenue, 1/3 was from the sale of biographies. The company's revenue from the sale of novels was approximately, how many times its revenue from the sale of biographies?\nAnswer Choices: (A) 1.3 (B) 1.5 (C) 2.1 (D) 2.5 (E) 3.1 Let's write a program.",
+    "output": "total_revenue = 100\nnovel_revenue = 34\nbiography_revenue = (total_revenue - novel_revenue) * (1/3)\nx = novel_revenue / biography_revenue\nprint(round(x, 1))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "D",
+    "err": false,
+    "question": "A bee bypasses 0.05% of flowers it flies by because it can sense they don't have any nectar in them. How many flowers will the bee fly by to bypass 8 flowers?\nAnswer Choices: (A) 2000 (B) 4000 (C) 8000 (D) 16000 (E) 32000 Let's write a program.",
+    "output": "Bypassing 8 flowers means bypassing 8/100 * 100 = 800 flowers.\nIf 0.05% of the flowers have no nectar, then 100% - 0.05% = 99.95% of the flowers have nectar.\nTherefore, the bee flies by 800 / 99.95 = 8000 flowers to bypass 8 flowers.\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "0",
+    "question": "Fernando purchased a university meal plan that allows him to have a total of 3 lunches and 3 dinners per week. If the cafeteria is closed on weekends and Fernando always goes home for a dinner on Friday nights, how many options does he have to allocate his meals?\nAnswer Choices: (A) 5C3*4C3 (B) 5C4*4C2 (C) 5C2*4C4 (D) 5C6*4C5 (E) 4C3*4C3 Let's write a program.",
+    "output": "from math import comb\n\n# number of meals per week\nmeals_per_week = 3 + 3\n\n# number of meals Fernando can choose from\nmeals_from = 5  # 3 lunches and 2 dinners\n\n# number of ways to choose 3 meals from 5\noptions = comb(meals_from, meals_per_week)\n\nprint(options)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "What should come in place of the question mark(?) in each of the following questions ?\na2 - b2/(a + b)2 (?)=(a - b)2\nAnswer Choices: (A)  (a + b)  (a - b)  (B)  (a - b) 2 (C)  (a + b) 2 (D) a3 + b3 (E) None of these Let's write a program.",
+    "output": "import sympy as sp\n\na, b = sp.symbols('a b')\nexpr = (a**2 - b**2) / (a + b)**2\nsimplified_expr = sp.simplify(expr)\nprint(simplified_expr)",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "D",
+    "err": false,
+    "question": "A number is as much greater than 36 as is less than 86. Find the Number.\nAnswer Choices: (A) 60 (B) 56 (C) 51 (D) 61 (E) 41 Let's write a program.",
+    "output": "let x be the number.\nx = 86-36\nx = 50\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "5000",
+    "question": "A certain phone manufacturer ships its products in crates. A crate consists of p pallets, and each pallet holds 1250 phones. If the manufacturer ships 4 crates, how many phones are shipped?\nAnswer Choices: (A) 1000p (B) 1500p (C) 2000p (D) 2500p (E) 30000 Let's write a program.",
+    "output": "p = 4\npales = 1250\ntotal = p*pales\nprint(total)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "D",
+    "err": false,
+    "question": "A can construct a wall in 40 min and B can construct the wall in 45 min. How many hours is needed to contruct a wall if both the person working together.\nAnswer Choices: (A) 20 min (B) 22 min (C) 23 min (D) 21 min (E) 20 min Let's write a program.",
+    "output": "A = 1/40\r\nB = 1/45\r\n1/40 + 1/45 = 9/180 = 1/20\r\n20 min\r\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "3.0083333333333333",
+    "question": "An express electric train takes exact three seconds to enter tunnel which is 1 mile long.\nIf train is traveling at 120 mile an hour, how long will it take to pass completely through the tunnel ?\nAnswer Choices: (A) 43 seconds (B) 39 seconds (C) 20 seconds (D) 33 seconds (E) 55 seconds Let's write a program.",
+    "output": "length_of_tunnel=1\r\nspeed_of_train=120\r\ntime_to_enter_tunnel=3\r\ntime_to_pass_tunnel=time_to_enter_tunnel+length_of_tunnel/speed_of_train\r\nprint(time_to_pass_tunnel)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "A",
+    "err": false,
+    "question": "A merchant receives an invoice for a motor boat for $20 000 with terms 4/30, n/100. What is the highest simple interest rate at which he can afford to borrow money in order to take advantage of the discount?\nAnswer Choices: (A) 247.67 (B) 237.67 (C) 227.67 (D) 215.67 (E) None of these Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nPW of 4/30 is 20000*4/30 = 2666.67\nHe can only afford to borrow 2666.67\n=> Simple interest = 2666.67*100*R/100 = 2666.67*R\n2666.67*R = 2666.67\n=> R = 100\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "252",
+    "question": "There are ten lime soda bottles on a table in a restaurant. They are to be served among two different groups of customers consisting of 5 members each. How many ways are there to create these 2 groups?\nAnswer Choices: (A) 90 (B) 105 (C) 126 (D) 252 (E) 525 Let's write a program.",
+    "output": "import math\n\n# number of ways to create 2 groups of 5 from 10\ngroup_ways = math.comb(10, 5)\n\nprint(group_ways)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "A special cereal mixture contains rice, wheat and corn in the ratio of 2:3:5. If a bag of the mixture contains 3 pounds of rice, how much corn does it contain?\nAnswer Choices: (A) 6.5 (B) 7.5 (C) 7 (D) 6 (E) None of the above Let's write a program.",
+    "output": "cereal_ratio_rice:wheat:corn=2:3:5\nratio_in_one_bag_rice=2/5\nrice_in_one_bag=3\ncorn_in_one_bag=5*3/2=7.5\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": true,
+    "gt": "E",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 2\nSyntaxError: import * only allowed at module level\n",
+    "question": "You can purchase one soda and two energy bars for 150 cents, or two sodas and three energy bars for 300\ncents. If the costs of the items do not change, compute the cost in cents of six sodas and seven bars.\nAnswer Choices: (A) 500 (B) 600 (C) 750 (D) 800 (E) 900 Let's write a program.",
+    "output": "from sympy import *\n\nfrom sympy.solvers.solveset import linsolve\n\nx, y = symbols('x, y')\n\na = 150\na_x = 6\na_y = 7\n\nvalues = list(linsolve([a_x*x + a_y*y - a, x + 2*y - 2], (x, y)))[0]\n\nanswer = int(a_x*values[0] + a_y*values[1])\n\nprint(answer)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "B",
+    "err": false,
+    "question": "A pen company produces very fine quality of writing pens. Company knows that on average 10% of the produced pens are always defective so are rejected before packing. Company promises to deliver 7200 pens to its wholesaler at Rs. 10 each. It estimates the overall profit on all the manufactured pens to be 25%. What is the manufactured cost of each pen?\nAnswer Choices: (A) Rs. 6 (B) Rs. 7.2 (C) Rs. 5.6 (D) Rs. 8 (E) None of these Let's write a program.",
+    "output": "Let's solve the multi-choice question step by step.\nTotal cost for producing 7200 pens = 7200 \u00d7 10 = 72000\nSince 25% of the pens are defective, so 25% of 72000 = 1800 pens are rejected.\nManufactured cost of each pen = 72000/(7200 - 1800)\n= 72000/5400 = Rs. 13.33\nTherefore, manufactured cost of each pen is Rs. 13.33.\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "A two digit number exceeds the sum of the digits of that number by 18. If the digit at the unit's place is double the digit in the ten's place, what is the number?\nAnswer Choices: (A) 12 (B) 24 (C) 42 (D) 48 (E) 49 Let's write a program.",
+    "output": "Let's reason about the multi-choice question.\nLet the ten's digit be x. Then, unit's digit = 2x.\nNumber = 10x + 2x = 12x, Sum of digits = x + 2x = 3x.\n12x - 3x = 18 => x = 6.\nHence, required number = 12x = 48.\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "1 1\n2 1\n3 1\n4 1\n5 1\n6 1\n7 1\n8 1\n9 1\n10 1\n11 1\n12 1\n13 1\n14 1\n15 1\n16 1\n17 1\n18 1\n19 1\n20 1\n21 1\n22 1\n23 1\n24 1\n25 1\n26 1\n27 1\n28 1\n29 1\n30 1\n31 1\n32 1\n33 1\n34 1\n35 1\n36 1\n37 1\n38 1\n39 1\n40 1\n41 1\n42 1\n43 1\n44 1\n45 1\n46 1\n47 1\n48 1\n49 1\n50 1\n51 1\n52 1\n53 1\n54 1\n55 1\n56 1\n57 1\n58 1\n59 1\n60 1\n61 1\n62 1\n63 1\n64 1\n65 1\n66 1\n67 1\n68 1\n69 1\n70 1\n71 1\n72 1\n73 1\n74 1\n75 1\n76 1\n77 1\n78 1\n79 1\n80 1\n81 1\n82 1\n83 1\n84 1\n85 1\n86 1\n87 1\n88 1\n89 1\n90 1\n91 1\n92 1\n93 1\n94 1\n95 1\n96 1\n97 1\n98 1\n99 1",
+    "question": "Suppose for any real number x, [x] denotes the greatest integer less than or equal to x. Let L(x,y) = [x] + [y] + [x + y] and R(x,y) = [2x] + [2y]. Then it is impossible to find any two positive real numbers x and y for which\nAnswer Choices: (A) L (x,y)  = R (x,y)  (B) L (x,y)  \u2260 R (x,y)  (C) L (x,y)  < R (x,y)  (D) L (x,y)  < R (x,y)  (E) None Let's write a program.",
+    "output": "import math\n\ndef L(x, y):\n    return math.floor(x) + math.floor(y) + math.floor(x + y)\n\ndef R(x, y):\n    return math.floor(2*x) + math.floor(2*y)\n\nfor x in range(1, 100):\n    for y in range(1, 100):\n        if L(x, y) == R(x, y):\n            print(x, y)\n            break\n    else:\n        print(None)\n        break",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": true,
+    "gt": "B",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 295, in execute_code\n    code = black.format_str(code_str, mode=black.FileMode())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1079, in format_str\n    dst_contents = _format_str_once(src_contents, mode=mode)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1089, in _format_str_once\n    src_node = lib2to3_parse(src_contents.lstrip(), mode.target_versions)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/parsing.py\", line 127, in lib2to3_parse\n    raise exc from None\nblack.parsing.InvalidInput: Cannot parse: 1:3: 36 seconds\n",
+    "question": "Three bells ring at intervals of 36 seconds, 40 seconds and 48 seconds, respectively. They start ringing together at a particular time. When they will ring together again?\nAnswer Choices: (A) After 6 minutes (B) After 12 minutes (C) After 18 minutes (D) After 24 minutes (E) none Let's write a program.",
+    "output": "36 seconds\r\n40 seconds\r\n48 seconds\r\nleast_common_multiple=[36,40,48]\r\nprint(least_common_multiple)\r\nanswer=60\r\nprint(answer)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "21.0",
+    "question": "An electric pole, 14 metres high, casts a shadow of 10 metres. Find the height of a tree that casts a shadow of 15 metres under similar conditions.\nAnswer Choices: (A) 21 (B) 22 (C) 20 (D) 23 (E) 24 Let's write a program.",
+    "output": "electric_pole_height = 14\r\nelectric_pole_shadow = 10\r\ntree_shadow = 15\r\n\r\n# Find the height of the tree\r\ntree_height = (tree_shadow * electric_pole_height) / electric_pole_shadow\r\n\r\nprint(tree_height)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "30",
+    "question": "At my favorite fruit stand, an orange costs 18 dollars, a pineapple costs 27 dollars, and a grape costs 15 dollars. Using the same logic, can you tell how much a mango costs?\nAnswer Choices: (A) 22 dollars (B) 15 dollars (C) 20 dollars (D) 18 dollars (E) 10 dollars Let's write a program.",
+    "output": "orange = 18\npineapple = 27\ngrape = 15\n\nmango = orange + pineapple - grape\n\nprint(mango)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": true,
+    "gt": "C",
+    "raw_ans": "",
+    "question": "In the coordinate plane, a triangle has vertices at (a,0), (b,0), and (x,y). If a>x>b>0>y, which of the following represents the area of that triangle?\nAnswer Choices: (A)  (ay\u2212by) /2 (B)  (ab\u2212ay) /2 (C)  (by\u2212ay) /2 (D)  (ay+by) /x (E)  (a\u2212b) /2y Let's write a program.",
+    "output": "import sympy as sp\n\n# define the variables\na, b, x, y = sp.symbols('a b x y')\n\n# The formula for the area of a triangle in a coordinate plane is 1/2 * base * height\n# Here, the base is the difference between x and b and the height is the difference between y and 0\n# So, the area is (x - b) * (y - 0) / 2\n# Let's simplify this expression\n\narea = (x - b) * (y - 0) / 2\narea = sp.simplify(area)\n\n# This matches none of the options. Let's see if we can manipulate the options to match our expression\n\nfor option in ['A', 'B', 'C', 'D', 'E']:\n    if option == 'A':\n        option_ab = (a * y - b * y) / 2\n    if option == 'B':\n        option_ab = (a * b - a * y) / 2\n    if option == 'C':\n        option_ab = (b * y - a * y) / 2\n    if option == 'D':\n        option_ab = (a * y + b * y) / x\n    if option == 'E':\n        option_ab = (a - b) / (2 * y)\n\n    if area == option_ab:\n        print(option)\n        break",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "120",
+    "question": "A car finishes a journey in 20 hours at the speed of 60 km/hr. If the same distance is to be covered in 10 hours, how much speed does the car gain?\nAnswer Choices: (A) 80 kmph (B) 50 kmph (C) 120 kmph (D) 70 kmph (E) 80 kmph Let's write a program.",
+    "output": "car_finishes_journey_in_hrs=20\r\nspeed_km_hr=60\r\nsame_distance_cover_in_10_hrs=10\r\ngain_speed=speed_km_hr*2\r\nprint(gain_speed)\r\n",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "0.011111111111111112",
+    "question": "Three friends Alan, Roger and Peter attempt to answer a question on an exam. Alan randomly guesses the answer, giving him a 1/5 probability of guessing correctly. Roger cheats by looking at the paper of the student in front of him, giving him a 2/3 probability of answering correctly. And Peter dutifully performs the calculations, then marks the answer, giving him a 5/6 probability of a correct answer. What is the probability that the question is answered correctly, but not via cheating?\nAnswer Choices: (A) 1/18 (B) 1/9 (C) 23/90 (D) 5/18 (E) 13/45 Let's write a program.",
+    "output": "def probability_correct_answer():\n    # probability of correct answer by Alan\n    alan_prob = 1/5\n    # probability of correct answer by Roger\n    roger_prob = 2/3\n    # probability of correct answer by Peter\n    peter_prob = 5/6\n    # probability of correct answer without cheating\n    correct_answer = alan_prob * (1 - roger_prob) * (1 - peter_prob)\n    return correct_answer\n\nprint(probability_correct_answer())",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "0.34156525697441564",
+    "question": "The difference between simple interest and C.I. at the same rate for Rs.5000 for 2 years in Rs.72. The rate of interest is?\nAnswer Choices: (A) 10% (B) 12% (C) 6% (D) 8% (E) 4% Let's write a program.",
+    "output": "import math\n\n# define the variables\nP = 5000  # principal amount\nr = 2  # rate of interest\nt = 2  # time in years\n\n# calculate the difference between simple interest and C.I.\nS = (P * r * t)/100\nC = P * math.exp(r/100) - P\n\n# calculate the rate of interest\nr = (math.log(S/C))/t\n\n# print the result\nprint(r)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "C",
+    "err": false,
+    "question": "All 250 files on Sam's hard drive are infected by either a virus or a worm or both. The number of files that are infected only by a worm is 2.5 times the number of files that are infected by both a virus and a worm. If 50% of the files were not infected by a virus, how many of Sam's files were NOT infected by a worm?\nAnswer Choices: (A) 50 (B) 70 (C) 75 (D) 100 (E) 125 Let's write a program.",
+    "output": "Let's say the number of files infected by both a virus and a worm is x.\nThen, the number of files infected by a worm only is 2.5x.\nThe total number of files is 250.\nThe number of files that are infected by a virus only is 250 - 50% of 250 = 125.\n2.5x = 125 - x\n3.5x = 125\nx = 35\nThe number of files that are not infected by a worm is 250 - 35 = 215.\nThe answer is E.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "A father wants to divide Rs. 5100 between his two sons, Mohan and Sohan who are 23 and 24 at present. He divides the amount in such a way that if their shares are invested at compound interest at 4% p.a. they will receive equal amount on attaining the age of 26 years. Find Mohan's share.\nAnswer Choices: (A) 2400 (B) 2500 (C) 2600 (D) 2700 (E) None of these Let's write a program.",
+    "output": "Let's reason about the multi-choice question.\nLet Mohan's share be Rs. x.\nSohan's share = Rs. (5100 - x).\nMohan's share of the amount at the end of 26 years = x + 23x\u2044100 = 23x\u204426.\nSohan's share of the amount at the end of 26 years = (5100 - x) + 24(5100 - x)\u2044100 = 24(5100 - x)\u204426.\n\u2234 23x\u204426 = 24(5100 - x)\u204426 \u21d2 x = 2400.\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": true,
+    "gt": "C",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 5\n    1400 = 1400\n    ^^^^\nSyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='?\n",
+    "question": "What is 60% of 30% of 1400 grams?\nAnswer Choices: (A) 450 gms (B) 100 gms (C) 252 gms (D) 240 gms (E) None of these Let's write a program.",
+    "output": "grams\npercentage = 60\nof = 30\n1400 = 1400\nresult = (60/100)*(30/100)*1400\nprint(result)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "C",
+    "err": false,
+    "question": "A certain liquid passes through a drain at a rate of w/25 gallons every x seconds. At that rate, how many minutes will it take y gallons to pass through the drain?\nAnswer Choices: (A) y/ (1200xy)  (B) 20xy/w (C) 5xy/ (12w)  (D) w/ (3xy)  (E) 3y/ (wx)  Let's write a program.",
+    "output": "Let's say w = 25 gallons/sec and x = 60 sec\nThat means the drain will pass 25 gallons every 60 seconds.\nSo if y = 125 gallons, then it will take 5 minutes to pass through the drain.\nSo if we keep w and x constant, y will be directly proportional to the time it takes to pass through the drain.\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "A coin made of alloy of aluminum and silver measures 2 x 15 mm (it is 2 mm thick and its diameter is 15 mm). If the weight of the coin is 30 grams and the volume of aluminum in the alloy equals that of silver, what will be the weight of a coin measuring 1 x 30 mm made of pure aluminum if silver is twice as heavy as aluminum?\nAnswer Choices: (A) 36 grams (B) 40 grams (C) 42 grams (D) 48 grams (E) 50 grams Let's write a program.",
+    "output": "Let's assume the following -\nWeight of coin = 30 grams\nVolume of aluminum in the alloy = Volume of silver in the alloy\nAssume x to be the weight of silver in the alloy.\nThus, weight of aluminum in the alloy = (30-x)\nSince the volume of aluminum in the alloy is equal to the volume of silver in the alloy,\npi*(15/2)^2 * (2) = pi*(7.5)^2 * (x)\nSolving for x, we get x = 20 grams.\nThus, silver is 20 grams and aluminum is 10 grams.\nThe question states that silver is twice as heavy as aluminum.\nSo, 20 = 10 * 2^n\nSolving for n, we get n = 1\nSo, the new coin which is 1 mm thick and measures 30 mm in diameter is made of pure aluminum.\nSo, its weight will be 10 * 1.\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "100",
+    "question": "If 10 is subtracted from 2/3 of a number the result is equal to sum of 40 and 1/3 of the number. Find the number\nAnswer Choices: (A) 100 (B) 160 (C) 150 (D) 210 (E) 220 Let's write a program.",
+    "output": "from sympy.solvers import solve\nfrom sympy import Symbol\n\n\nx = Symbol('x')\n\nresult = solve((2/3)*x -10 + x/3, x)[0]\n\nresult = 100\n\nprint(result)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": true,
+    "gt": "C",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 22, in <module>\n  File \"<string>\", line 17, in run_it\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/sympy/core/relational.py\", line 510, in __bool__\n    raise TypeError(\"cannot determine truth value of Relational\")\nTypeError: cannot determine truth value of Relational\n",
+    "question": "What is the largest integral value of 'k' for which the quadratic equation x2 - 5x + k = 0 will have two real and distinct roots?\nAnswer Choices: (A) 9 (B) 7 (C) 3 (D) 8 (E) 12 Let's write a program.",
+    "output": "import sympy as sp\n\n# define the variables\nx, k = sp.symbols('x k')\n\n# define the quadratic equation\neq = x**2 - 5*x + k\n\n# the quadratic equation will have two real and distinct roots if the discriminant is greater than 0\n# the discriminant of a quadratic equation ax^2 + bx + c = 0 is b^2 - 4ac\ndiscriminant = 5**2 - 4*1*k\n\n# we need to find the largest integral value of k for which the discriminant is greater than 0\nk_values = []\nfor k in range(-100, 100):\n    if discriminant.subs(k, k) > 0:\n        k_values.append(k)\n\n# print the largest integral value of k\nprint(max(k_values))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "960",
+    "question": "900 + 5 \u00d7 12 = ?\nAnswer Choices: (A) 820 (B) 202 (C) 420 (D) 209 (E) 960 Let's write a program.",
+    "output": "x = 900 + (5*12)\nprint(x)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "15.666666666666668",
+    "question": "Shweta rides at the rate of 10 km per hour but stops for 10 minutes to take rest at the end of every 15 km. How many hours will she take to cover 100 km\nAnswer Choices: (A) 9 hours. (B) 10 hours. (C) 11 hours. (D) 12 hours. (E) 13 hours. Let's write a program.",
+    "output": "speed = 10\r\nrest = 10/60\r\ndistance = 100\r\n\r\ntotal_time = distance/speed + (distance/15)-1\r\nprint(total_time)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "Mr.Sam takes 17 hours to go by train to a certain city and return by car. He loses 4 hours if he goes both ways by train. How long would he have taken if he had traveled by car in both ways?\nAnswer Choices: (A) 22 hrs (B) 18 hrs (C) 16 hrs (D) 20 hrs (E) 13 hrs Let's write a program.",
+    "output": "Let's think about the multi-choice question.\nLet the time taken by train be x hours.\nx + 4 = 2 * 17\nx = 30 hours\nIf he travels by car in both ways, he will take 30 * 2 = 60 hours.\nThe answer is E",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Jim filled his dog's bowl with dog food. Starting at 8:00 am, Jim's dog ate exactly once an hour, consuming exactly 1/3 of the dog food remaining in the bowl at each feeding session. Approximately, what percent of the original food was in the dog's bowl right before the dog began to eat at noon of the same day?\nAnswer Choices: (A) 20% (B) 25% (C) 30% (D) 35% (E) 40% Let's write a program.",
+    "output": "Let's assume there is 100 units of food in the bowl initially.\nBetween 8:00 - 11:00, the dog eats 1/3 of the remaining food 3 times.\nUnits of food eaten = 3 * (1/3) * 100 = 100\nUnits of food remaining = 100 - 100 = 0\nIf there is 0 units of food remaining, it means the dog has eaten the entire 100 units of food.\nTherefore, the answer is 100/100 * 100% = 100% ANS:A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": true,
+    "gt": "A",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 8, in <module>\n  File \"<string>\", line 5, in run_it\nUnboundLocalError: cannot access local variable 'total' where it is not associated with a value\n",
+    "question": "John conducted a survey about car color. 60% of the people who took the survey were women. Of the men who were surveyed, 75% preferred red cars over green cars. If 10 men liked green cars more than red, how many people took the survey?\nAnswer Choices: (A) 100 (B) 120 (C) 50 (D) 200 (E) 80 Let's write a program.",
+    "output": "total_men = 10\ngreen_cars = 10\nred_cars = 75/100 * total_men\ntotal_women = 60/100 * total\ntotal = total_men + total_women\nprint(int(total))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "20",
+    "question": "How many ways A boy can reach the top of stairs which contain 10 steps, when he can take either one or two steps every time?\nAnswer Choices: (A) 88 (B) 89 (C) 90 (D) 91 (E) 92 Let's write a program.",
+    "output": "stairs = 10\r\nsteps = 2\r\nreach = stairs*steps\r\nprint(reach)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "A",
+    "err": false,
+    "question": "IF one gallon of soft drink is made of 40% orange juice and 60% water, how many additional gallons of orange juice must be mixed in order to make the orange juice 60% of the soft drink?\nAnswer Choices: (A) 0.5 (B) 1 (C) 1.25 (D) 1.5 (E) 2 Let's write a program.",
+    "output": "Let's say orange = 40% of 1 gallon = 0.4 gallons\nthen water = 0.6 gallons\n%age of orange = 0.4/1.0 = 40%\n%age of water = 0.6/1.0 = 60%\nthe above values are for 1 gallon of soft drink\nwe need to make the orange 60%\nlets say we have x gallons of orange juice\nthen we have 1 gallon of soft drink with 0.4 gallons of orange\nhow many gallons of orange must be added to get 60% = x*0.4 + 0.6 = 0.6\nx = 1.25 gallons\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "7",
+    "question": "What is the units digit of 9^3-7?\nAnswer Choices: (A) 1 (B) 3 (C) 5 (D) 2 (E) 4 Let's write a program.",
+    "output": "def find_unit_digit(base, exponent, coefficient):\n    # find the unit digit of base^exponent\n    unit_digit = (base**exponent) % 10\n    # return the unit digit after multiplying with coefficient\n    return (unit_digit * coefficient) % 10\n\n# calculate the unit digit of 9^3-7\nunit_digit = find_unit_digit(9, 3, -7)\nprint(unit_digit)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "0.2",
+    "question": "5 horses are in a race. Mr.Jain selects two of horses at random and bets on them. The probability that he selected the winning horse is\nAnswer Choices: (A) 1/5 (B) 2/5 (C) 3/5 (D) 4/5 (E) 6/5 Let's write a program.",
+    "output": "import math\n\n# total number of horses\ntotal_horses = 5\n\n# number of winning horses\nwinning_horses = 1\n\n# probability of winning\nprobability_winning = winning_horses / total_horses\n\nprint(probability_winning)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "None",
+    "question": "On dividing 2272 and 875 by a 3-digit number N, we get the same remainder. The sum of the digits of N is:\nAnswer Choices: (A) 10 (B) 11 (C) 12 (D) 13 (E) 14 Let's write a program.",
+    "output": "def find_number():\n    for i in range(100, 1000):\n        if (2272 - i) % 875 == 0 and (875 - i) % 875 == 0:\n            return i\n\nprint(find_number())",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "E",
+    "err": false,
+    "question": "On a test the passing students had an average of 83, while the failing students had an average\nof 55. If the overall class average was 76, what percent of the class passed?\nAnswer Choices: (A) 44% (B) 66% (C) 68% (D) 72% (E) 75% Let's write a program.",
+    "output": "Let's think about the multi-choice question.\nLet n be the number of students in the class.\nThe total for all students is 76n.\nThe total for the passing students is 83n/2.\nThe total for the failing students is 55n/2.\n83n/2 + 55n/2 = 76n\n28n = 28n\nn = 1\nSo the number of passing students is 83/2 = 42.\nThe percent of students who passed is 42/100 = 42%.\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "97",
+    "question": "The average wages of a worker during a fortnight comprising of 15 consecutive working days was $90 per day. During the first 7 days, his average wage was $87 per day and the average wage during the last 7 days was $92 per day. What was his wage on the 8th day?\nAnswer Choices: (A) $83 (B) $92 (C) $90 (D) $97 (E) $104 Let's write a program.",
+    "output": "days = 15\r\ntotal_pay = 15*90\r\nfirst_7_days_pay = 7*87\r\nlast_7_days_pay = 7*92\r\nwage_8th_day = total_pay - first_7_days_pay - last_7_days_pay\r\nprint(wage_8th_day)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": true,
+    "gt": "B",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 2\nSyntaxError: import * only allowed at module level\n",
+    "question": "Two numbers are in the ratio 3:5. If 9 is subtracted from each, the new numbers are in the ratio 12:23. The smaller number is?\nAnswer Choices: (A) 21 (B) 33 (C) 35 (D) 42 (E) 58 Let's write a program.",
+    "output": "from sympy import *\n\nfrom sympy.solvers.solveset import linsolve\n\nx, y = symbols('x, y')\n\nvalues = list(linsolve([3*x - 9/5*y - 12, 5*x - 23/9*y - 39], (x, y)))[0]\n\nanswer = round(min(values), 2)\n\nprint(answer)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "60",
+    "question": "If 6 yrs are subtracted from the present age of Ajay and the remainder is divided by 18, then the present age of Rahul is obtained. If Rahul is 2 yrs younger to Denis whose age is 5 yrs, then what is Ajay's present age?\nAnswer Choices: (A) 40 (B) 60 (C) 70 (D) 80 (E) 90 Let's write a program.",
+    "output": "present_age_dennis=5\npresent_age_rahul=present_age_dennis-2\nremainder=present_age_rahul*18\najay_present_age=remainder+6\nprint(ajay_present_age)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "0.4",
+    "question": "Anna has 4 books. If she decide to arrange the 4 books in every possible combination and moved just one book every minute, how long would it taken by her ?\nAnswer Choices: (A) 22 minutes (B) 30 minutes (C) 15 minutes (D) 24 minutes (E) 35 minutes Let's write a program.",
+    "output": "import math\n\n# number of books\nbooks = 4\n\n# total combinations = 4!\ntotal_combinations = math.factorial(books)\n\n# time taken = total combinations / 60\ntime_taken = total_combinations / 60\n\nprint(time_taken)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "E",
+    "err": false,
+    "question": "The manufacturer of tyres is offering a 20% discount on the price of its tubeless tyres. Some retailers are offering additional discounts. If a retailer offers an additional 20% discount, then what is the total discount available at that retailer?\nAnswer Choices: (A) 10% (B) 25% (C) 28% (D) 30% (E) 36% Let's write a program.",
+    "output": "let price of tyre = 100\n20% discount = 100-80 = 20\n20% discount = 100-20 = 80\ntotal discount = 80+20 = 100-10 = 90\n= 10%\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "54.0",
+    "question": "A rectangular parking space is marked out by painting three of its sides. If the length of the unpainted side is 9 feet, and the sum of the lengths of the painted sides is 37 feet, then what is the area of the parking space in square feet?\nAnswer Choices: (A) 46 (B) 81 (C) 126 (D) 252 (E) None Let's write a program.",
+    "output": "length = 9\npainted_lengths = 37\n\n# Since the painted sides are on the ends, the unpainted side on the other end will have the same length as the unpainted side on the first end.\n# The sum of the painted lengths is 2x the length of the unpainted side.\n\nunpainted_length = length * 2 / 3\n\n# Area of the parking space = length * unpainted_length\narea = length * unpainted_length\n\nprint(area)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "20",
+    "question": "Peter wants to find 10 additional people to form a scavenger hunt team with him. If he has 10 friends who would like to participate, how many choices does he have for forming his team?\nAnswer Choices: (A) 0 (B) 1 (C) 2 (D) 3 (E) 4 Let's write a program.",
+    "output": "peter_friends = 10\nadditional_people = 10\n\ntotal_people = peter_friends + additional_people\n\nprint(total_people)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "71.0",
+    "question": "The average weight of 10 oarsmen in a boat is increased by 1.8 kg when one of the crew, who weighs 53 kg is replaced by a new man. Find the weight of the new man.\nAnswer Choices: (A) 71 (B) 62 (C) 43 (D) 67 (E) 40 Let's write a program.",
+    "output": "total_men = 10\nweight_increase_per_man = 1.8\nweight_of_new_man = 53 + (total_men * weight_increase_per_man)\nprint(weight_of_new_man)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": true,
+    "gt": "A",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 306, in execute_code\n    exec(code, globals(), locals())\n  File \"<string>\", line 16, in <module>\n  File \"<string>\", line 12, in run_it\nUnboundLocalError: cannot access local variable 'n' where it is not associated with a value\n",
+    "question": "A box contains a certain number of balls, marked successively from 1 to n. If there are 45 different ways that two balls can be selected from the box such that the ball with number 3 marked on it is not selected, then what is the value of n?\nAnswer Choices: (A) 11 (B) 10 (C) 9 (D) 8 (E) 7 Let's write a program.",
+    "output": "import math\n\n# define the function to calculate combinations\ndef combination(n, r):\n    return math.factorial(n) / (math.factorial(r) * math.factorial(n - r))\n\n# define the total number of ways\ntotal_ways = 45\n\n# calculate the number of balls\nn = 3 + combination(n - 3, 2) / combination(n, 2)\n\n# print the result\nprint(int(n))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "I and II only",
+    "question": "If Q, a positive integer, has 5 factors, which of the following must be true about Q?\nI. Q is the square of a prime number.\nII. Q is the fourth power of a prime number.\nIII. Q is the product of two prime numbers.\nAnswer Choices: (A) I only (B) III only (C) II only (D) I and II only (E) I and III only Let's write a program.",
+    "output": "def is_perfect_square(n):\n    # Returns True if n is a perfect square\n    return int(n**0.5)**2 == n\n\ndef is_perfect_fourth_power(n):\n    # Returns True if n is a perfect fourth power\n    return int(n**0.25)**4 == n\n\ndef is_product_of_two_prime_numbers(n):\n    # Returns True if n is the product of two prime numbers\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            j = n // i\n            if j == 1 or j % 2 != 0:\n                return False\n    return True\n\n# Q, a positive integer, has 5 factors\n# So, Q must be a perfect square, a perfect fourth power or a product of two prime numbers\n# Checking for each\n\nif is_perfect_square(5) or is_perfect_fourth_power(5) or is_product_of_two_prime_numbers(5):\n    print('I and II only')\nelse:\n    print('III only')",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "8",
+    "question": "If 6x - y = 24 and y = 3x, what is the value of x?\nAnswer Choices: (A) 8 (B) 9 (C) 10 (D) 11 (E) 12 Let's write a program.",
+    "output": "import sympy as sp\n\n# define the variables\nx, y = sp.symbols('x y')\n\n# define the equations\neq1 = sp.Eq(6*x - y, 24)\neq2 = sp.Eq(y, 3*x)\n\n# solve the system of equations\nsolution = sp.solve((eq1, eq2), (x, y))\n\n# print the value of x\nprint(solution[x])",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "D",
+    "err": false,
+    "question": "You can rent DVDs at a local video store for $4.00 per movie without a membership. However, if you purchase a membership for $7.00 per month, you can rent DVDs for $2.00 each. What is the minimum amount of DVDs you would have to rent to make it worth it to purchase the membership?\nAnswer Choices: (A) 1 (B) 2 (C) 3 (D) 4 (E) 5 Let's write a program.",
+    "output": "without = 4+7 = 11\nwith = 2+7 = 9\ndifference = 11-9 = 2\nso 2 DVDs will be worth it\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "116",
+    "question": "A bag of cat food weighs 7 pounds and 4 ounces. How much does the bag weigh in ounces?\nAnswer Choices: (A)  108 (B)  112 (C)  116 (D)  120 (E)  124 Let's write a program.",
+    "output": "pounds = 7\nounces = 4\n\ntotal_ounces = pounds * 16 + ounces\n\nprint(total_ounces)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "160.0",
+    "question": "By himself, Jack can clean a yacht in 12 hours. On a particular day, he happens to finish two-thirds of the work. The remaining portion of the work is done by Jill, whose rate of cleaning is just 5% of what Jack can do. How long does it take Jill to finish the remaining work?\nAnswer Choices: (A) 4 (B) 8 (C) 22 (D) 50 (E) 20 Let's write a program.",
+    "output": "jack_rate = 1/12\r\nremaining_work = 2/3\r\njill_rate = 5/100 * jack_rate\r\n\r\ntime_jill = remaining_work / jill_rate\r\n\r\nprint(time_jill)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Professors borrowed Rs. 5000 from the university at simple interest. After 3 years, the university got Rs. 300 on interest. What was the rate of interest per annum?\nAnswer Choices: (A) 2% (B) 8% (C) 5% (D) 10% (E) None of these Let's write a program.",
+    "output": "Let's calculate the rate of interest per annum\nP = Rs.5000\nSI = Rs.300\nT = 3 years\nR = ?\nR = (100\u00d7SI)/PT = (100\u00d7300)/(5000\u00d73) = 2%\nThe answer is Option A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "err": true,
+    "gt": "B",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 295, in execute_code\n    code = black.format_str(code_str, mode=black.FileMode())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1079, in format_str\n    dst_contents = _format_str_once(src_contents, mode=mode)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1089, in _format_str_once\n    src_node = lib2to3_parse(src_contents.lstrip(), mode.target_versions)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/parsing.py\", line 127, in lib2to3_parse\n    raise exc from None\nblack.parsing.InvalidInput: Cannot parse: 1:3: Let's find the actual selling price of the article.\n",
+    "question": "In a sale, a discount of 20% was available on all the articles. If Vinit purchased an article for Rs.4578 in the sale. What was the actual selling price of the article?\nAnswer Choices: (A) s.5050 (B) s.5723 (C) s.5040 (D) s.4950 (E) s.4870 Let's write a program.",
+    "output": "Let's find the actual selling price of the article.\ndiscount = 20%\ncost = 4578\n\n# calculate the sale price\nsale_price = cost / (1 - discount / 100)\n\n# print the sale price\nprint(sale_price)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "3.7037037037037037",
+    "question": "If 27 bottles of soda cost A cents, how much will B bottles cost in dollars?\nAnswer Choices: (A) AB/2700 (B) 27/AB (C) AB/270 (D) 2700/AB (E) 100AB/27 Let's write a program.",
+    "output": "A = 27\r\nB = 100\r\nprint(B/A)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "40",
+    "question": "A bag contains 11 candy bars: three cost 50 cents each, four cost $1 each and four cost $2\neach. How many ways can 3 candy bars be selected from the 11 candy bars so that the total cost is more than $4?\nAnswer Choices: (A) 8 (B) 28 (C) 46 (D) 66 (E) 70 Let's write a program.",
+    "output": "from math import comb\n\n# define the number of candy bars of each type\ncandy_bars_50 = 3\ncandy_bars_1 = 4\ncandy_bars_2 = 4\n\n# calculate the total number of ways to select 3 candy bars\ntotal_ways = 0\nfor i in range(3, 12):\n    ways_50 = comb(candy_bars_50, i - 3) if i - 3 <= candy_bars_50 else 0\n    ways_1 = comb(candy_bars_1, i - 3) if i - 3 <= candy_bars_1 else 0\n    ways_2 = comb(candy_bars_2, i - 3) if i - 3 <= candy_bars_2 else 0\n    total_ways += ways_50 + ways_1 + ways_2\n\n# print the total number of ways\nprint(total_ways)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "68",
+    "question": "At a conference, one team is made up of 4 men and 4 women. Four presenters are chosen to present the team's findings in front of the entire conference. How many different groups of presenters can be chosen from the team if a team cannot be composed of men only or women only? (Two groups of presenters are considered different if at least one presenter is different.)\nAnswer Choices: (A) 120 (B) 19 (C) 180 (D) 420 (E) 460 Let's write a program.",
+    "output": "import math\n\n# total number of ways to choose 4 presenters from 8\ntotal_ways = math.comb(8, 4)\n\n# total number of ways to choose 4 presenters from 4 men\nman_only_ways = math.comb(4, 4)\n\n# total number of ways to choose 4 presenters from 4 women\nwoman_only_ways = math.comb(4, 4)\n\n# total number of ways to choose 4 presenters from a team that consists of only men or only women\nnot_allowed_ways = man_only_ways + woman_only_ways\n\n# total number of ways to choose 4 presenters from a team that consists of both men and women\nallowed_ways = total_ways - not_allowed_ways\n\nprint(allowed_ways)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "40",
+    "question": "Exactly 2/5th of the children in a certain class are girls. If there are 100 boys in the class, how many girls are in the class?\nAnswer Choices: (A) 50 (B) 100 (C) 150 (D) 200 (E) 70 Let's write a program.",
+    "output": "boys = 100\ngirls = boys * (2/5)\nprint(int(girls))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "0.97",
+    "question": "Two numbers are said to be relatively prime if they share no common positive factors other than 1. Set S contains the set of integers from 1 to 1,000, inclusive. What is the probability that a number chosen from S is relatively prime to 1,000?\nAnswer Choices: (A) 5/7 (B) 3/5 (C) 4/7 (D) 2/5 (E) 2/7 Let's write a program.",
+    "output": "import math\n\n# define the set S\nS = set(range(1, 1001))\n\n# define the number\nnum = 1000\n\n# find the factors of num\nfactors = set(range(2, int(math.sqrt(num))+1))\n\n# find the common factors of S and num\ncommon_factors = factors.intersection(S)\n\n# find the numbers in S that are relatively prime to num\nrelatively_prime = S.difference(common_factors)\n\n# calculate the probability\nprobability = len(relatively_prime) / len(S)\n\nprint(probability)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "49999.99999999999",
+    "question": "At the of his one-year investment, Charles received $54,080, including interest and principal from a certain investment. If the investment paid an annual interest of 8 percent compounded semi-annually, which of the following is the amount of money that Charles originally invested?\nAnswer Choices: (A) $45,000 (B) $50,000 (C) $54,000 (D) $59,000 (E) $62,000 Let's write a program.",
+    "output": "import math\n\n# define the variables\ntotal_amount = 54080\nannual_interest_rate = 0.08\ncompounds_per_year = 2\n\n# calculate the principal amount\nprincipal_amount = total_amount / ((1 + annual_interest_rate/compounds_per_year)**compounds_per_year)\n\n# print the result\nprint(principal_amount)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "200",
+    "question": "Joe's age, Joe's sister's age and Joe\u2019s fathers age sums up to 100. When Joe is as old as his father, Joe's sister will be twice as old as now. When Joe is as old as his father then his father is twice as old as when his sister was as old as her father. Find the age of Joe's father?\nAnswer Choices: (A) 45 (B) 48 (C) 50 (D) 55 (E) 58 Let's write a program.",
+    "output": "joe_age = 0\nsister_age = 0\nfather_age = 100\n\njoe_age = father_age / 2 \nsister_age = 2 * sister_age \n\nfather_age = 2 * father_age \nprint(father_age)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "0.25",
+    "question": "If one third of 3/4 of a number is 21. Then, find the number?\nAnswer Choices: (A) 84 (B) 66 (C) 28 (D) 19 (E) 11 Let's write a program.",
+    "output": "let_number = 21\r\none_third = 1/3\r\nthree_four = 3/4\r\n\r\nnumber = one_third * three_four\r\n\r\nprint(number)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "If m > 0, y > 0, and x is m percent of 4y, then, in terms of y, m is what percentage of x?\nAnswer Choices: (A) y/400 (B) 4y (C) 50y (D) 2500/y (E) 5000/y Let's write a program.",
+    "output": "Let's say y = 100\nThen m = 400\nTherefore x = 400\nm as a percentage of x = 400/400 * 100 = 100%\nNow, plug y = 100 into the answer choices.\nA y/400 = 100/400 = 1/4\nB 4y = 400\nC 50y = 5000\nD 2500/y = 2500/100 = 250\nE 5000/y = 5000/100 = 50\nFrom the answer choices, only D = 2500/y matches.\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "48",
+    "question": "A man wants to eat fruit for breakfast and vegetable for dinner. He has 6 different types of fruit and 8 different types of vegetables. He can only eat one type at a time. In how many ways can he eat breakfast and dinner.\nAnswer Choices: (A) 54 (B) 24 (C) 48 (D) 20 (E) 36 Let's write a program.",
+    "output": "import math\n# define the number of fruits and vegetables\nfruits = 6\nvegetables = 8\n# calculate the number of ways he can eat breakfast and dinner\nways = fruits * vegetables\nprint(ways)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "0.9185400000000001",
+    "question": "There is a 90% chance that a registered voter in Burghtown voted in the last election. If five registered voters are chosen at random, what is the approximate likelihood that exactly four of them voted in the last election?\nAnswer Choices: (A) 26.2% (B) 32.8% (C) 43.7% (D) 59.0% (E) 65.6% Let's write a program.",
+    "output": "import math\n\n# define the probability of voting\np_vote = 0.9\n# define the probability of not voting\np_not_vote = 0.1\n# define the number of voters\nn = 5\n# calculate the probability of exactly 4 voters\np_4_voters = math.comb(n, 4) * (p_vote ** 4) * (p_not_vote ** 1)\n# calculate the probability of exactly 5 voters\np_5_voters = math.comb(n, 5) * (p_vote ** 5) * (p_not_vote ** 0)\n# calculate the total likelihood\nlikelihood = p_4_voters + p_5_voters\n# print the result\nprint(likelihood)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "68.0",
+    "question": "Alice wants to put up fencing around three sides of her rectangular yard and leave one side of 10 meters unfenced. If the yard has an area of 240 square meters, how many meters of fencing does she need?\nAnswer Choices: (A) 58 (B) 62 (C) 66 (D) 70 (E) 74 Let's write a program.",
+    "output": "area = 240\nlength = 10\nbreadth = area/length\ntotal_fencing = 2*length + 2*breadth\nprint(total_fencing)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "2000",
+    "question": "John would make the 3-letter codes with diffenrent 5 vowels and 20 consonants with the condition that the middle letter must be vowel and the first letter and the third letter must be different from each other and are both consonant. How many different codes can be made?\nAnswer Choices: (A) 1,980 (B) 2,020 (C) 2,100 (D) 2,200 (E) 1,900 Let's write a program.",
+    "output": "from math import pow\n\n# Total number of vowels and consonants\ntotal = 20 + 5\n\n# Total ways to select the middle letter (as it has to be a vowel)\nmiddle_letter_ways = 5\n\n# Total ways to select the first and third letters (as they have to be consonants and different from each other)\nfirst_third_letters_ways = pow(20, 2)\n\n# Total ways to select all three letters\ntotal_ways = middle_letter_ways * first_third_letters_ways\n\nprint(int(total_ways))",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "What is the sum of three consecutive integers whose product can be expressed as 727+728+729.\nAnswer Choices: (A) 37 (B) 38 (C) 36 (D) 30 (E) 39 Let's write a program.",
+    "output": "Product of three numbers can be expressed as 727+728+729 = 3*243 = 3*3^5\nSo, the sum of three numbers = 3*(1+3+3^2+3^3+3^4+3^5)\n= 3*(1+3+9+27+81+243)\n= 3*369\n= 1077\nThe answer is E",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "err": true,
+    "gt": "D",
+    "raw_ans": "Traceback (most recent call last):\n  File \"/path/to/project/home/src/utils.py\", line 295, in execute_code\n    code = black.format_str(code_str, mode=black.FileMode())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1079, in format_str\n    dst_contents = _format_str_once(src_contents, mode=mode)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/__init__.py\", line 1089, in _format_str_once\n    src_node = lib2to3_parse(src_contents.lstrip(), mode.target_versions)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/ssddata/tongyx/miniconda3/envs/def/lib/python3.11/site-packages/black/parsing.py\", line 127, in lib2to3_parse\n    raise exc from None\nblack.parsing.InvalidInput: Cannot parse: 1:3: Let's think about the multi-choice question.\n",
+    "question": "The capacity of a tank of dimensions (8 m \u00d7 6 m \u00d7 2.5 m) is\nAnswer Choices: (A) 120 litres (B) 1200 litres (C) 12000 litres (D) 120000 litres (E) None of these Let's write a program.",
+    "output": "Let's think about the multi-choice question.\ncapacity = 8*6*2.5*1000\nprint(capacity)\nThe answer is D",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "E",
+    "raw_ans": "1096010",
+    "question": "The population of a city is 5265526. If there are 4169516 adults in the city, how many children are there in the city?\nAnswer Choices: (A) 1095961 (B) 1065961 (C) 1085961 (D) 1097961 (E) 1096061 Let's write a program.",
+    "output": "population = 5265526\nadults = 4169516\nchildren = population - adults\nprint(children)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "1800.0",
+    "question": "It takes a worker 9 minutes to drive from home to work at an average rate of 20 kilometers per hour. How many minutes will it take the worker to cycle from home to work along the same route at an average rate of 6 kilometers per hour?\nAnswer Choices: (A) 30 (B) 32 (C) 35 (D) 36 (E) 40 Let's write a program.",
+    "output": "speed_in_kmph=20\nspeed_in_cycles=6\ntime_in_minutes=9\ndistance=speed_in_kmph*time_in_minutes\ntime_in_cycles=(distance/speed_in_cycles)*60\nprint(time_in_cycles)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "12.5",
+    "question": "Two friends are eating a jar full of candies. Had P eaten alone, it would have taken him 10 minutes to finish the candies in the jar. Had Q eaten alone, it would have taken her 5 minutes to finish half the jar. Since both of them are eating simultaneously, how many minutes would it take them to empty the jar?\nAnswer Choices: (A) 4 (B) 5 (C) 6 (D) 7 (E) 8 Let's write a program.",
+    "output": "t1 = 10\nt2 = 5\n# Since the work is being done in tandem, we can add the time taken by both\ntime_taken = t1 + (t2/2)\nprint(time_taken)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "725.0",
+    "question": "A grocery sells a bag of ice for $1.25, and makes 20% profit. If it sells 500 bags of ice, how much total profit does it make?\nAnswer Choices: (A) 125 (B) 150 (C) 225 (D) 250 (E) 275 Let's write a program.",
+    "output": "price = 1.25\r\nprofit = 0.20\r\nbags = 500\r\n\r\ntotal_profit = (price + profit) * bags\r\n\r\nprint(total_profit)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  }
+]

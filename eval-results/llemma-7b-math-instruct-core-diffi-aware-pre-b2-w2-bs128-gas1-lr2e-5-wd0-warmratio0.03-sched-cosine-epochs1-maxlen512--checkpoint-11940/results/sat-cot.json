@@ -1,0 +1,1930 @@
+[
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "10",
+    "question": "If $\\frac{x-1}{3}=k$ and $k=3$, what is the value of $x$ ? \nAnswer Choices: (A) 2 (B) 4 (C) 9 (D) 10",
+    "output": "Substitute 3 for $k$ in $\\frac{x-1}{3}=k$ to get $\\frac{x-1}{3}=3$. Multiplying both sides by 3 gives $x-1=9$, and adding 1 to both sides gives $x=\\boxed{10}$. The answer is 10",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "For $i=\\sqrt{-1}$, what is the sum $(7+3 i)+(-8+9 i)$ ? \nAnswer Choices: (A) $-1+12 i$ (B) $-1-6 i$ (C) $15+12 i$ (D) $15-6 i$",
+    "output": "$(7+3 i)+(-8+9 i) = 7-8+3i+9i = -1+12i$. The answer is A.",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "On Saturday afternoon, Armand sent $m$ text messages each hour for 5 hours, and Tyrone sent $p$ text messages each hour for 4 hours. Which of the following represents the total number of messages sent by Armand and Tyrone on Saturday afternoon? \nAnswer Choices: (A) $9 m p$ (B) $20 m p$ (C) $5 m+4 p$ (D) $4 m+5 p$",
+    "output": "We have to find the total number of messages sent by Armand and Tyrone.\nArmand sent $m$ messages each hour for 5 hours. So, the total number of messages sent by Armand is $5m$.\nTyrone sent $p$ messages each hour for 4 hours. So, the total number of messages sent by Tyrone is $4p$.\nTherefore, the total number of messages sent by Armand and Tyrone is $5m+4p$.\nThe correct answer is C.",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "Kathy is a repair technician for a phone company. Each week, she receives a batch of phones that need repairs. The number of phones that she has left to fix at the end of each day can be estimated with the equation $P=108-23 d$, where $P$ is the number of phones left and $d$ is the number of days she has worked that week. What is the meaning of the value 108 in this equation? \nAnswer Choices: (A) Kathy will complete the repairs within 108 days. (B) Kathy starts each week with 108 phones to fix. (C) Kathy repairs phones at a rate of 108 per hour. (D) Kathy repairs phones at a rate of 108 per day.",
+    "output": "The meaning of the number 108 is that it is the number of phones that Kathy repairs in a week. She repairs 108 phones in 7 days, so she repairs 108/7 = 16 phones per day. The number 108 is not the number of days she works, or the number of phones she starts with, or the rate at which she repairs phones. The answer is D.",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "$$\\left(x^{2} y-3 y^{2}+5 x y^{2}\\right)-\\left(-x^{2} y+3 x y^{2}-3 y^{2}\\right)$$Which of the following is equivalent to the expression above? \nAnswer Choices: (A) $4 x^{2} y^{2}$ (B) $8 x y^{2}-6 y^{2}$ (C) $2 x^{2} y+2 x y^{2}$ (D) $2 x^{2} y+8 x y^{2}-6 y^{2}$",
+    "output": "Let's reason about the multi-choice question.\n$\\left(x^{2} y-3 y^{2}+5 x y^{2}\\right)-\\left(-x^{2} y+3 x y^{2}-3 y^{2}\\right)$\n$x^{2} y-3 y^{2}+5 x y^{2}+x^{2} y-3 x y^{2}+3 y^{2}$\n$2x^{2}y+2xy^{2}$\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "47",
+    "question": "$$h=3 a+28.6$$A pediatrician uses the model above to estimate the height $h$ of a boy, in inches, in terms of the boy's age $a$, in years, between the ages of 2 and 5. Based on the model, what is the estimated increase, in inches, of a boy's height each year? \nAnswer Choices: (A) 3 (B) $\\quad 5.7$ (C) 9.5 (D) 14.3",
+    "output": "Let's solve the multi-choice question step by step.\nLet a be the age of the boy in years.\nHis height h is given by $h=3 a+28.6$.\nFor example, the boy's height at age $a=2$ is $h=3(2)+28.6=34$ inches.\nAt age $a=5$, his height is $h=3(5)+28.6=81$ inches.\nThe increase in height is $81-34=\\boxed{47}$ inches.\nThe answer is 47",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "$$m=\\frac{\\left(\\frac{r}{1,200}\\right)\\left(1+\\frac{r}{1,200}\\right)^{N}}{\\left(1+\\frac{r}{1,200}\\right)^{N}-1} P$$The formula above gives the monthly payment $m$ needed to pay off a loan of $P$ dollars at $r$ percent annual interest over $N$ months. Which of the following gives $P$ in terms of $m, r$, and $N$ ? \nAnswer Choices: (A) $P=\\frac{\\left(\\frac{r}{1,200}\\right)\\left(1+\\frac{r}{1,200}\\right)^{N}}{\\left(1+\\frac{r}{1,200}\\right)^{N}-1} m$ (B) $P=\\frac{\\left(1+\\frac{r}{1,200}\\right)^{N}-1}{\\left(\\frac{r}{1,200}\\right)\\left(1+\\frac{r}{1,200}\\right)^{N}} m$ (C) $P=\\left(\\frac{r}{1,200}\\right) m$ (D) $P=\\left(\\frac{1,200}{r}\\right) m$",
+    "output": "Let's solve the multi-choice question step by step.\nThis question can be solved by taking P as the subject of the formula and then solving for P.\nI'm going to work with the first equation and rewrite it in the following manner:\n$m=\\frac{\\left(\\frac{r}{1,200}\\right)\\left(1+\\frac{r}{1,200}\\right)^{N}}{\\left(1+\\frac{r}{1,200}\\right)^{N}-1} P$\n$m\\left(1+\\frac{r}{1,200}\\right)^{N}-1=\\left(\\frac{r}{1,200}\\right)\\left(1+\\frac{r}{1,200}\\right)^{N} P$\n$m\\left(1+\\frac{r}{1,200}\\right)^{N}=\\left(\\frac{r}{1,200}\\right)\\left(1+\\frac{r}{1,200}\\right)^{N} P+1$\n$m=\\left(\\frac{r}{1,200}\\right) P+1$\nAnd now we can easily solve for P:\n$P=\\left(\\frac{1,200}{r}\\right) m$\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "4",
+    "question": "If $\\frac{a}{b}=2$, what is the value of $\\frac{4 b}{a}$ ? \nAnswer Choices: (A) 0 (B) 1 (C) 2 (D) 4",
+    "output": "Replacing $a$ with $2b$ in the given equation, we get $\\frac{2b}{b}=2$.  Multiplying both sides by 2, we get $\\frac{4b}{b}=4$.  So the answer is $\\boxed{4}$. The answer is 4",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "(-12,-20)",
+    "question": "$$\\begin{array}{r}3 x+4 y=-23 \\\\2 y-x=-19\\end{array}$$What is the solution $(x, y)$ to the system of equations above? \nAnswer Choices: (A) $(-5,-2)$ (B) $(3,-8)$ (C) $(4,-6)$ (D) $(9,-6)$",
+    "output": "Let's solve the multi-choice question step by step.\n$\\begin{array}{r r r r}\n3 x &+& 4 y & = & -23 \\\\\n2 y & - & x & = & -19\n\\end{array}$\n\nWe can multiply the second equation by 2, so that the coefficients of $x$ in the two equations are the same, and then subtract the second equation from the first: \\begin{align*}\n3x + 4y &= -23\\\\\n4y - 2x &= -38\\\\\n\\hline\n5x &= -61\\\\\n\\end{align*}We find that $x = -12$. Plugging this into the second equation, we can find $y$: \\begin{align*}\n2y - (-12) &= -19\\\\\n2y &= -41\\\\\ny &= -20.\n\\end{align*}The solution $(x,y)$ is $\\boxed{(-12, -20)}$. The answer is (-12,-20)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "32",
+    "question": "$$g(x)=a x^{2}+24$$For the function $g$ defined above, $a$ is a constant and $g(4)=8$. What is the value of $g(-4)$ ? \nAnswer Choices: (A) 8 (B) 0 (C) -1 (D) -8",
+    "output": "Let's think about the multi-choice question step by step.\nSince $g(4)=8$, we have $4^2 \\cdot a = 8$, so $a=2$. Hence, $g(-4) = (-4)^2 \\cdot 2 = \\boxed{32}$. The answer is 32",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "2.95",
+    "question": "$$\\begin{aligned}& b=2.35+0.25 x \\\\& c=1.75+0.40 x\\end{aligned}$$In the equations above, $b$ and $c$ represent the price per pound, in dollars, of beef and chicken, respectively, $x$ weeks after July 1 during last summer. What was the price per pound of beef when it was equal to the price per pound of chicken? \nAnswer Choices: (A) $\\$ 2.60$ (B) $\\$ 2.85$ (C) $\\$ 2.95$ (D) $\\$ 3.35$",
+    "output": "Let $b=c$. Then we have $2.35+0.25x=1.75+0.40x$. It follows that $0.60x=0.65$, so $x=1.1$. Thus, $b=2.35+0.25(1.1)=\\boxed{\\$ 2.95}$. The answer is 2.95",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "A line in the $x y$-plane passes through the origin and has a slope of $\\frac{1}{7}$. Which of the following points lies on the line? \nAnswer Choices: (A) $(0,7)$ (B) $(1,7)$ (C) $(7,7)$ (D) $(14,2)$",
+    "output": "The slope of a line through the origin is $\\frac{y}{x}$.  So, we can write the slope as $\\frac{1}{7}=\\frac{y}{x}$.  Thus, $y=\\frac{1}{7}x$.  Substituting the points in $(x,y)$ form, we can test which, if any, satisfies this equation.  We find that  $(0,0)$, $(1,1)$, and $(7,1)$ do not satisfy the equation, while $(14,2)$ does.  Thus, $\\boxed{(14,2)}$ is the answer. The answer is (D)",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "\\frac{2x+7}{2x+5}",
+    "question": "If $x>3$, which of the following is equivalent to $\\frac{1}{\\frac{1}{x+2}+\\frac{1}{x+3}}$ ? \nAnswer Choices: (A) $\\frac{2 x+5}{x^{2}+5 x+6}$ (B) $\\frac{x^{2}+5 x+6}{2 x+5}$ (C) $2 x+5$ (D) $x^{2}+5 x+6$",
+    "output": "Let's think about the multi-choice question.\nWe first simplify the denominator of the fraction: $$\\frac{1}{\\frac{1}{x+2}+\\frac{1}{x+3}}=\\frac{1}{\\frac{x+3+x+2}{x+2}\\cdot(x+3)}=\\frac{1}{\\frac{2x+5}{x+2}\\cdot(x+3)}=\\frac{1}{2x+5}\\cdot\\frac{x+3}{x+2}$$We can now multiply both the numerator and the denominator by $\\frac{2x+5}{x+2}$ to get $$\\frac{1}{2x+5}\\cdot\\frac{x+3}{x+2}\\cdot\\frac{2x+5}{x+2}=\\frac{x+3}{4x^2+11x+10}$$We can simplify the numerator of the fraction and we get $$\\frac{x+3}{4x^2+11x+10}=\\frac{x+3}{(4x+10)(x+1)}=\\frac{(x+3)}{(2x+5)(2x+2)}$$We can now split the fraction into two fractions and simplify: \\begin{align*}\n\\frac{(x+3)}{(2x+5)(2x+2)}&=\\frac{A}{2x+5}+\\frac{B}{2x+2}\\\\\n&=\\frac{2x+5}{(2x+5)(2x+2)}+\\frac{2x+2}{(2x+5)(2x+2)}\\\\\n&=\\frac{2x+5}{4x^2+11x+10}+\\frac{2x+2}{4x^2+11x+10}\\\\\n&=\\frac{2x+5}{4x^2+11x+10}+\\frac{2}{4x^2+11x+10}\\\\\n&=\\frac{2x+5+2}{4x^2+11x+10}\\\\\n&=\\frac{2x+7}{4x^2+11x+10}\\\\\n&=\\boxed{\\frac{2x+7}{2x+5}}.\n\\end{align*}. The answer is \\frac{2x+7}{2x+5}",
+    "matching_err": true,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "A",
+    "err": false,
+    "question": "If $3 x-y=12$, what is the value of $\\frac{8^{x}}{2^{y}}$ ? \nAnswer Choices: (A) $2^{12}$ (B) 4 (C) $8^{2}$ (D) The value cannot be determined from the information given.",
+    "output": "Let's solve the multi-choice question step by step.\nIf $3 x-y=12$, what is the value of $\\frac{8^{x}}{2^{y}}$ ?\nA. $2^{12}$\nB. 4\nC. $8^{2}$\nD. The value cannot be determined from the information given.\nLet's reason about the multi-choice question.\nSince there is no information about $x$ and $y$ (other than the constraint given), they can be any real numbers. Thus, the value of the expression cannot be determined from the information given.\nThe answer is D.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "If $(a x+2)(b x+7)=15 x^{2}+c x+14$ for all values of $x$, and $a+b=8$, what are the two possible values for $c$ ? \nAnswer Choices: (A) 3 and 5 (B) 6 and 35 (C) 10 and 21 (D) 31 and 41",
+    "output": "Let's think about the multi-choice question.\nWe know that $(a x+2)(b x+7)=15 x^{2}+c x+14$.\nExpanding we have: $a b x^{2}+7 a x+2 b x+14=15 x^{2}+c x+14$.\nComparing coefficients we have: $ab=15$, $7a+2b=c$ and $14=14$.\nSolving for $a$ and $b$ we have: $a=3$ and $b=5$ or $a=5$ and $b=3$.\nSince $a+b=8$ we have: $c=7 \\cdot 3+2 \\cdot 5=31$ or $c=7 \\cdot 5+2 \\cdot 3=41$.\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "If $y=k x$, where $k$ is a constant, and $y=24$ when $x=6$, what is the value of $y$ when $x=5$ ? \nAnswer Choices: (A) 6 (B) 15 (C) 20 (D) 23",
+    "output": "Let's think about the multi-choice question step by step.\nWe can solve this problem by substitution. We get $y=k x$ and set $x=6$ and $y=24$ to find $k=\\frac{24}{6}=4$. So when $x=5,y=4 \\times 5=\\boxed{20}$.\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "C",
+    "err": false,
+    "question": "If $16+4 x$ is 10 more than 14 , what is the value of $8 x$ ? \nAnswer Choices: (A) 2 (B) 6 (C) 16 (D) 80 5",
+    "output": "Let's think about the multi-choice question.\nWe have (16+4 x) = 14+ 10\nTherefore 4 x = 10\nTherefore $8 x = 8 \\times 10 = \\boxed{80}$. The answer is D",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "$$\\begin{aligned}1 \\text { decagram } & =10 \\text { grams } \\\\1,000 \\text { milligrams } & =1 \\text { gram }\\end{aligned}$$A hospital stores one type of medicine in 2-decagram containers. Based on the information given in the box above, how many 1-milligram doses are there in one 2-decagram container? \nAnswer Choices: (A) $\\quad 0.002$ (B) $\\quad 200$ (C) $\\quad 2,000$ (D) 20,000",
+    "output": "We have $1 \\text{ decagram} = 10 \\text{ grams}$. So, $2 \\text{ decagrams} = 2 \\cdot 10 \\text{ grams} = 20 \\text{ grams}$. Now, we know that $1,000 \\text{ milligrams} = 1 \\text{ gram}$, so $20 \\text{ grams} = 20,000 \\text{ milligrams}$. Therefore, there are $20,000$ one-milligram doses in one 2-decagram container. The answer is D.",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "For what value of $n$ is $|n-1|+1$ equal to 0 ? \nAnswer Choices: (A) 0 (B) 1 (C) 2 (D) There is no such value of $n$.",
+    "output": "Let's think about the multi-choice question.\nSolution 1 : If $|n-1| = 0$, then $n-1 = 0$ and $n=1$. But then $|n-1|+1 = 1+1 = 2$. If $|n-1| > 0$, then we can safely say that $|n-1|+1 > 0$.\nSolution 2: $|n-1|+1 = 0$ if and only if $|n-1| = -1$. Is there a real number $n$ for which $n-1 = -1$ ? The answer is no, because if $n-1 = -1$, then $n = 0$, and the absolute value of 0 is 0, not $-1$.\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "$$.a=1,052+1.08 t.$$.The speed of a sound wave in air depends on the air temperature. The formula above shows the relationship between $a$, the speed of a sound wave, in feet per second, and $t$, the air temperature, in degrees Fahrenheit $\\left({ }^{\\circ} \\mathrm{F}\\right)$.Which of the following expresses the air temperature in terms of the speed of a sound wave? \nAnswer Choices: (A) $t=\\frac{a-1,052}{1.08}$ (B) $t=\\frac{a+1,052}{1.08}$ (C) $t=\\frac{1,052-a}{1.08}$ (D) $t=\\frac{1.08}{a+1,052}$",
+    "output": "Let's solve the multi-choice question step by step.\nSpeed of a sound wave in air depends on the air temperature. The formula above shows the relationship between a, the speed of a sound wave, in feet per second, and t, the air temperature, in degrees Fahrenheit (\u00b0F). Which of the following expresses the air temperature in terms of the speed of a sound wave?\nFrom the formula, we can express air temperature (t) in terms of the speed of a sound wave (a) as follows:\nt = (1052 + 1.08a)/1.08\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "$$.a=1,052+1.08 t.$$.The speed of a sound wave in air depends on the air temperature. The formula above shows the relationship between $a$, the speed of a sound wave, in feet per second, and $t$, the air temperature, in degrees Fahrenheit $\\left({ }^{\\circ} \\mathrm{F}\\right)$.At which of the following air temperatures will the speed of a sound wave be closest to 1,000 feet per second? \nAnswer Choices: (A) $-46^{\\circ} \\mathrm{F}$ (B) $-48^{\\circ} \\mathrm{F}$ (C) $-49^{\\circ} \\mathrm{F}$ (D) $-50^{\\circ} \\mathrm{F}$",
+    "output": "Let's think about the multi-choice question step by step.\nThe answer is D\nSolution: Sound travels at approximately 1,000 feet per second when it travels in air at an air temperature of 32 degrees Fahrenheit. As the air temperature decreases, the speed of the sound wave increases. At -50 degrees Fahrenheit, the speed of sound is 1,081 feet per second. At -49 degrees Fahrenheit, the speed of sound is 1,082 feet per second. At -48 degrees Fahrenheit, the speed of sound is 1,083 feet per second. At -46 degrees Fahrenheit, the speed of sound is 1,084 feet per second. As the air temperature decreases, the speed of the sound wave increases. -50 degrees Fahrenheit is the closest to 1,000 feet per second.",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "A",
+    "err": false,
+    "question": "Which of the following numbers is NOT a solution of the inequality $3 x-5 \\geq 4 x-3$ ? \nAnswer Choices: (A) -1 (B) -2 (C) -3 (D) -5",
+    "output": "Let's think about the multi-choice question step by step.\n$3 x-5 \\geq 4 x-3$\n$2 \\geq x$\nThe answer is C -3",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "C",
+    "err": false,
+    "question": "\\begin{center}\\begin{tabular}{|c|c|c|c|c|c|}\\cline { 3 - 5 }\\multicolumn{2}{c|}{} & \\multicolumn{3}{c|}{Course} & \\multicolumn{1}{c|}{} \\\\\\cline { 2 - 5 }\\multicolumn{2}{c|}{} & Algebra I & Geometry & $\\begin{array}{c}\\text { Algebra } \\\\ \\text { II }\\end{array}$ & \\multirow{2}{*}{Total} \\\\\\hline\\multirow{2}{*}{Gender} & Female & 35 & 53 & 62 &  \\\\\\cline { 2 - 5 }& Male & 44 & 59 & 57 & 160 \\\\\\hline& Total & 79 & 112 & 119 & 310 \\\\\\hline\\end{tabular}\\end{center}A group of tenth-grade students responded to a survey that asked which math course they were currently enrolled in. The survey data were broken down as shown in the table above. Which of the following categories accounts for approximately 19 percent of all the survey respondents? \nAnswer Choices: (A) Females taking Geometry (B) Females taking Algebra II (C) Males taking Geometry (D) Males taking Algebra I",
+    "output": "Let's solve the multi-choice question step by step.\nThe number of students taking Algebra I is 35 + 44 = 79.\nThe number of students taking Geometry is 53 + 59 = 112.\nThe number of students taking Algebra II is 62 + 57 = 119.\nThe total number of students is 79 + 112 + 119 = 310.\nThe number of female students taking Geometry is 53 + 62 = 115.\nThe number of female students taking Algebra II is 62 + 57 = 119.\nThe number of male students taking Geometry is 59 + 57 = 116.\nThe number of male students taking Algebra I is 35 + 44 = 79.\nThe total number of female students taking math is 115 + 119 = 234.\nThe total number of male students taking math is 116 + 79 = 195.\nThe total number of students taking math is 234 + 195 = 429.\n234/429 = 0.55, which is about 19 percent.\nThe answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "C",
+    "err": false,
+    "question": "\\begin{center}\\begin{tabular}{|c|c|c|c|c|c|c|}\\hline\\multicolumn{7}{|c|}{Lengths of Fish (in inches)} \\\\\\hline8 & 9 & 9 & 9 & 10 & 10 & 11 \\\\\\hline11 & 12 & 12 & 12 & 12 & 13 & 13 \\\\\\hline13 & 14 & 14 & 15 & 15 & 16 & 24 \\\\\\hline\\end{tabular}\\end{center}The table above lists the lengths, to the nearest inch, of a random sample of 21 brown bullhead fish. The outlier measurement of 24 inches is an error. Of the mean, median, and range of the values listed, which will change the most if the 24 -inch measurement is removed from the data? \nAnswer Choices: (A) Mean (B) Median (C) Range (D) They will all change by the same amount.",
+    "output": "Let's think about the multi-choice question step by step.\nThe outlier increases each of the measures of center (mean, median, and range) by a different amount. Removing the outlier changes each of these measures by the same amount.\nThe answer is D.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "$$\\begin{aligned}& y<-x+a \\\\& y>x+b\\end{aligned}$$In the $x y$-plane, if $(0,0)$ is a solution to the system of inequalities above, which of the following relationships between $a$ and $b$ must be true? \nAnswer Choices: (A) $a>b$ (B) $b>a$ (C) $|a|>|b|$ (D) $a=-b$",
+    "output": "Let's reason about the multi-choice question.\nIf $(0,0)$ is a solution, then $0<-0+a$ and $0>-0+b$.\nHence, $a>b$.\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "A food truck sells salads for $\\$ 6.50$ each and drinks for $\\$ 2.00$ each. The food truck's revenue from selling a total of 209 salads and drinks in one day was $\\$ 836.50$. How many salads were sold that day? \nAnswer Choices: (A) 77 (B) 93 (C) 99 (D) 105",
+    "output": "Let's think about the multi-choice question step by step.\nIf $s$ is the number of salads sold and $d$ the number of drinks sold, then the total revenue is $6.5s+2d=836.5$. We can solve for $d$ to get $d= \\frac{836.5-6.5s}{2}$.\nNow, we can use the answer choices to get the value of $s$ as the only salads sold is 77.\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "D",
+    "err": false,
+    "question": "Alma bought a laptop computer at a store that gave a 20 percent discount off its original price. The total amount she paid to the cashier was $p$ dollars, including an 8 percent sales tax on the discounted price. Which of the following represents the original price of the computer in terms of $p$ ? \nAnswer Choices: (A) $0.88 p$ (B) $\\frac{p}{0.88}$ (C) $(0.8)(1.08) p$ (D) $\\frac{p}{(0.8)(1.08)}$",
+    "output": "Let's think about the multi-choice question step by step.\nIf the original price is $x$, then the price $p$ is: $0.8x + 0.08x = 0.96x$.\nSince the question asks for the original price in terms of $p$, we need to isolate $x$. We can do this by dividing both sides of the equation by 0.96, giving $x = \\frac{p}{0.96}$.\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "Dreams Recalled during One Week\\begin{center}\\begin{tabular}{|l|c|c|c|c|}\\hline& None & 1 to 4 & 5 or more & Total \\\\\\hline\\hlineGroup X & 15 & 28 & 57 & 100 \\\\\\hlineGroup Y & 21 & 11 & 68 & 100 \\\\\\hlineTotal & 36 & 39 & 125 & 200 \\\\\\hline\\end{tabular}\\end{center}The data in the table above were produced by a sleep researcher studying the number of dreams people recall when asked to record their dreams for one week. Group X consisted of 100 people who observed early bedtimes, and Group Y consisted of 100 people who observed later bedtimes. If a person is chosen at random from those who recalled at least 1 dream, what is the probability that the person belonged to Group Y ? \nAnswer Choices: (A) $\\frac{68}{100}$ (B) $\\frac{79}{100}$ (C) $\\frac{79}{164}$ (D) $\\frac{164}{200}$",
+    "output": "Let's solve the multi-choice question step by step.\nThe probability that a person who recalled at least 1 dream belonged to Group Y is $\\frac{68+21}{100}=\\frac{89}{100}$. This is not among the answer choices, so I believe there is a mistake in the answer choices provided. The answer should be $\\frac{68+21}{89}=\\frac{89}{164}$.\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "\\frac{25}{9}",
+    "question": "Which of the following is an equation of a circle in the $x y$-plane with center $(0,4)$ and a radius with endpoint $\\left(\\frac{4}{3}, 5\\right)$ ? \nAnswer Choices: (A) $x^{2}+(y-4)^{2}=\\frac{25}{9}$ (B) $x^{2}+(y+4)^{2}=\\frac{25}{9}$ (C) $x^{2}+(y-4)^{2}=\\frac{5}{3}$ (D) $x^{2}+(y+4)^{2}=\\frac{3}{5}$",
+    "output": "The equation of a circle with center $(h, k)$ and radius r is $(x - h)^2 + (y - k)^2 = r^2$.  So, if the center is at $(0, 4)$ and the radius has endpoint $\\left(\\frac{4}{3}, 5\\right)$, then the equation is \\[(x - 0)^2 + (y - 4)^2 = \\left(\\frac{4}{3}\\right)^2 + (5 - 4)^2 = \\frac{25}{9}.\\]Thus, the answer is $\\boxed{x^{2}+(y-4)^{2}=\\frac{25}{9}}$. The answer is x^{2}+(y-4)^{2}=\\frac{25}{9}",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "D",
+    "err": false,
+    "question": "$$h=-4.9 t^{2}+25 t$$The equation above expresses the approximate height $h$, in meters, of a ball $t$ seconds after it is launched vertically upward from the ground with an initial velocity of 25 meters per second. After approximately how many seconds will the ball hit the ground? \nAnswer Choices: (A) 3.5 (B) 4.0 (C) 4.5 (D) 5.0",
+    "output": "Let's reason about the multi-choice question.\nIf you look at the equation carefully, you will see that h is a quadratic function of t.\nThe graph of a quadratic function is a parabola that may be intercepted by horizontal lines at two points and therefore have two solutions.\nSince the ball is launched upward, the positive root is the answer to the question.\nThe positive root is approximately 4.5 seconds.\nThe answer is C.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "Katarina is a botanist studying the production of pears by two types of pear trees. She noticed that Type A trees produced 20 percent more pears than Type B trees did. Based on Katarina's observation, if the Type A trees produced 144 pears, how many pears did the Type B trees produce? \nAnswer Choices: (A) 115 (B) 120 (C) 124 (D) 173",
+    "output": "Let's solve the multi-choice question step by step.\nLet x be the number of pears the Type B trees produced.\nType A trees produced 144 pears, which is 20 percent more than the number of pears Type B trees produced.\n20% * x = 144\nx = 144/20 = 7.2\nThe Type B trees produced 7.2 pears.\nThe answer is D.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "C",
+    "err": false,
+    "question": "A square field measures 10 meters by 10 meters. Ten students each mark off a randomly selected region of the field; each region is square and has side lengths of 1 meter, and no two regions overlap. The students count the earthworms contained in the soil to a depth of 5 centimeters beneath the ground's surface in each region. The results are shown in the table below.\\begin{center}\\begin{tabular}{|c|c|c|c|}\\hlineRegion & $\\begin{array}{c}\\text { Number of } \\\\ \\text { earthworms }\\end{array}$ & Region & $\\begin{array}{c}\\text { Number of } \\\\ \\text { earthworms }\\end{array}$ \\\\\\hlineA & 107 & $\\mathrm{~F}$ & 141 \\\\\\hlineB & 147 & $\\mathrm{G}$ & 150 \\\\\\hlineC & 146 & $\\mathrm{H}$ & 154 \\\\\\hlineD & 135 & $\\mathrm{I}$ & 176 \\\\\\hlineE & 149 & $\\mathrm{~J}$ & 166 \\\\\\hline\\end{tabular}\\end{center}Which of the following is a reasonable approximation of the number of earthworms to a depth of 5 centimeters beneath the ground's surface in the entire field? \nAnswer Choices: (A) $\\quad 150$ (B) $\\quad 1,500$ (C) 15,000 (D) 150,000",
+    "output": "The number of earthworms in each region is between 100 and 150, so about 125 is a reasonable approximation for the entire field.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "D",
+    "err": false,
+    "question": "For a polynomial $p(x)$, the value of $p(3)$ is -2 .Which of the following must be true about $p(x)$ ? \nAnswer Choices: (A) $x-5$ is a factor of $p(x)$. (B) $x-2$ is a factor of $p(x)$. (C) $x+2$ is a factor of $p(x)$. (D) The remainder when $p(x)$ is divided by $x-3$ is -2 .",
+    "output": "Let's think about the multi-choice question step by step.\nWe are looking for a polynomial $p(x)$ that satisfies $p(3)=-2$. We can make a guess and check all options to see which one fits.\nIf we try option (a), we get that $x-5=-2$ and $x=3$ is a solution. But we know that $x=3$ is not a solution to $p(x)$. So (a) is not the correct option.\nIf we try option (b), we get that $x-2=-2$ and $x=3$ is a solution. So (b) is the correct option.\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "$$2 z+1=z$$What value of $z$ satisfies the equation above? \nAnswer Choices: (A) -2 (B) -1 (C) $\\frac{1}{2}$ (D) 1",
+    "output": "Subtracting $2z$ from both sides of the equation, we have that $1=z$. The answer is $\\boxed{D}$. The answer is D",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "8",
+    "question": "A television with a price of $\\$ 300$ is to be purchased with an initial payment of $\\$ 60$ and weekly payments of $\\$ 30$. Which of the following equations can be used to find the number of weekly payments, $w$, required to complete the purchase, assuming there are no taxes or fees? \nAnswer Choices: (A) $300=30 w-60$ (B) $300=30 w$ (C) $300=30 w+60$ (D) $300=60 w-30$",
+    "output": "The cost of the television was $\\$ 300$, but $\\$ 60$ has already been paid. So, there are $300-60=\\$ 240$ left to pay.\n\nThe weekly payment is $\\$ 30$, so the number of weeks it takes to pay the remaining amount is $240/30=\\boxed{8}$. The answer is 8",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "Shipping Charges\\begin{center}\\begin{tabular}{|c|c|}\\hline$\\begin{array}{c}\\text { Merchandise weight } \\\\ \\text { (pounds) }\\end{array}$ & $\\begin{array}{c}\\text { Shipping } \\\\ \\text { charge }\\end{array}$ \\\\\\hline5 & $\\$ 16.94$ \\\\\\hline10 & $\\$ 21.89$ \\\\\\hline20 & $\\$ 31.79$ \\\\\\hline40 & $\\$ 51.59$ \\\\\\hline\\end{tabular}\\end{center}The table above shows shipping charges for an online retailer that sells sporting goods. There is a linear relationship between the shipping charge and the weight of the merchandise. Which function can be used to determine the total shipping charge $f(x)$, in dollars, for an order with a merchandise weight of $x$ pounds? \nAnswer Choices: (A) $f(x)=0.99 x$ (B) $f(x)=0.99 x+11.99$ (C) $f(x)=3.39 x$ (D) $f(x)=3.39 x+16.94$",
+    "output": "Note that the y-intercept of the graph of the function is $(0,16.94)$. This means that the shipping charge is $16.94$ when the merchandise weight is $0$. So the function is of the form $f(x) = mx + 16.94$.\n\nThe given information tells us that when $x = 5$, $f(x) = 16.94$. So we have $f(5) = 16.94$. Substituting these values into the function gives us $m(5) + 16.94 = 16.94$. Solving for $m$, we find that $m = 0.99$. Therefore, the function is of the form $f(x) = 0.99 x + 16.94$, which means The answer is $\\boxed{D}$.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "$$\\sqrt{9 x^{2}}$$If $x>0$, which of the following is equivalent to the given expression? \nAnswer Choices: (A) $3 x$ (B) $3 x^{2}$ (C) $18 x$ (D) $18 x^{4}$",
+    "output": "Since $x>0$, we can write $\\sqrt{9 x^{2}}$ as $\\sqrt{3^2}\\sqrt{x^{2}} = 3\\sqrt{x^{2}}$.  So, $3\\sqrt{x^{2}} = 3x$.  The answer is $\\boxed{A}$. The answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "-3",
+    "question": "$$\\frac{x^{2}-1}{x-1}=-2$$What are all values of $x$ that satisfy the equation above? \nAnswer Choices: (A) -3 (B) 0 (C) 1 (D) -3 and -1",
+    "output": "We could go about this problem by multiplying both sides by $(x-1)$, but that doesn't look like much fun. Instead, we first factor the left side $\\frac{x^{2}-1}{x-1}$ to get: $$\\frac{(x-1)(x+1)}{x-1}$$Canceling the common factor on the numerator and denominator leaves us with: $$x+1$$So, we have $(x+1)=-2$.  Solving this equation gives us $x=\\boxed{-3}$. The answer is -3",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "4",
+    "question": "A circle in the $x y$-plane has center $(5,7)$ and radius 2. Which of the following is an equation of the circle? \nAnswer Choices: (A) $(x-5)^{2}+(y-7)^{2}=4$ (B) $(x+5)^{2}+(y+7)^{2}=4$ (C) $(x-5)^{2}+(y-7)^{2}=2$ (D) $(x+5)^{2}+(y+7)^{2}=2$",
+    "output": "The equation of a circle with center $(h,k)$ and radius $r$ units is $(x-h)^2 + (y-k)^2 = r^2$. So, the equation of the circle in the problem is $(x-5)^2 + (y-7)^2 = 2^2 = \\boxed{4}$. The answer is 4",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "In the $x y$-plane, the graph of the function $f(x)=x^{2}+5 x+4$ has two $x$-intercepts. What is the distance between the $x$-intercepts? \nAnswer Choices: (A) 1 (B) 2 (C) 3 (D) 4",
+    "output": "Let's think about the multi-choice question step by step.\nIf a graph has two x-intercepts, then the x-coordinate of the two points are the solutions to the equation $f(x)=0$.\nIn other words, the x-coordinate of the points are the solutions to the equation $x^2+5x+4=0$.\nFactoring, we have $(x+1)(x+4)=0$.\nSo the solutions are $x=-1$ and $x=-4$.\nThus, the distance between the x-intercepts is $|-1+(-4)|=\\boxed{3}$.\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "1,9",
+    "question": "$$\\sqrt{4 x}=x-3$$What are all values of $x$ that satisfy the given equation?I. 1II. 9 \nAnswer Choices: (A) I only (B) II only (C) I and II (D) Neither I nor II",
+    "output": "Squaring both sides of the equation, we get $4x=(x-3)^2=x^2-6x+9$. This simplifies to $x^2-10x+9=0$. Factoring, we get $(x-1)(x-9)=0$, so $x=1$ or $x=9$. Thus, the given equation has solutions $\\boxed{1, 9}$. The answer is 1,9",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "$\\boxed{-1}",
+    "question": "$$\\begin{aligned}& -3 x+y=6 \\\\& a x+2 y=4\\end{aligned}$$In the system of equations above, $a$ is a constant. For which of the following values of $a$ does the system have no solution? \nAnswer Choices: (A) -6 (B) -3 (C) 3 (D) 6",
+    "output": "If you add the two equations, you get: $$(a+1)x + (y+y) = (4+6)$$ $$(a+1)x + 2y = 10$$ The question is asking for what value of $a$ makes the system unsolvable. In other words, what is the value of $a$ that makes $(a+1)x + 2y = 10$ unsolvable? To make this equation unsolvable, we can make it degenerate, by making one of the coefficients $0$. In other words, we need to make $(a+1)$ or $2$ zero. This is only possible if $a=-1$. If $a=-1$, then the system becomes: $$-4x+y=6$$ $$ax+2y=4$$ We can now multiply the first equation by $-1$ and add it to the second: $$(-4x+y)+(-a x+2 y)=6+4$$ $$(-5x+3y)=10$$ At this point, we could say that $y=\\frac{10}{-5x+3y}$, and then try to substitute this into the other original equation. However, there is a faster way. Note that if $y=3x$, then the second equation becomes $ax+2(3x)=4$, which is true no matter what $a$ is. Therefore, the system becomes: $$\\begin{aligned} -3x+y&=6 \\\\ y&=3x \\end{aligned}$$ Substituting the second equation into the first gives $-3x+3x=6$, which is true no matter what $x$ is (including $x=0$). Therefore, the system has no solution if $a=-1$. The answer is $\\boxed{-1}",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "A helicopter, initially hovering 40 feet above the ground, begins to gain altitude at a rate of 21 feet per second. Which of the following functions represents the helicopter's altitude above the ground $y$, in feet, $t$ seconds after the helicopter begins to gain altitude? \nAnswer Choices: (A) $y=40+21$ (B) $y=40+21 t$ (C) $y=40-21 t$ (D) $y=40 t+21$",
+    "output": "Since the helicopter is initially 40 feet above the ground, we can start by adding 40 to the altitude it gains each second. $21+40=61$. So, the helicopter will be $61$ feet above the ground after one second. The function will be of the form $y=40+21t$.  The answer is $\\boxed{B}$. The answer is B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "5",
+    "question": "If $20-x=15$, what is the value of $3 x$ ? \nAnswer Choices: (A) 5 (B) 10 (C) 15 (D) 35",
+    "output": "We have $20-x=15$, so $x=20-15=5$. This is the first step in solving the problem.\n\nMultiplying both sides of the equation $20-x=15$ by $3$, we get $3(20-x)=3(15)$, so $60-3x=45$. This is the second step in solving the problem.\n\nSubtracting $60$ from both sides of the equation, we get $-3x=45-60=-15$. This is the third step in solving the problem.\n\nDividing both sides of the equation $-3x=-15$ by $-3$, we get $x=\\frac{-15}{-3}$. This is the last step in solving the problem.\n\nThe value of $x$ is $\\boxed{5}$. The answer is 5",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "$$f(x)=\\frac{x+3}{2}$$For the function $f$ defined above, what is the value of $f(-1)$ ? \nAnswer Choices: (A) -2 (B) -1 (C) 1 (D) 2",
+    "output": "Let's think about the multi-choice question step by step.\n$$f(x)=\\frac{x+3}{2}$$\nReplace x with -1 in the equation:\n$$f(-1)=\\frac{-1+3}{2}=\\frac{2}{2}=1$$\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "Which of the following is equivalent to $2 x\\left(x^{2}-3 x\\right)$ ? \nAnswer Choices: (A) $-4 x^{2}$ (B) $3 x^{3}-x^{2}$ (C) $2 x^{3}-3 x$ (D) $2 x^{3}-6 x^{2}$",
+    "output": "We have $2 x\\left(x^{2}-3 x\\right)=2 x(x-3) x=2 x^{2}-6 x$.  Alternatively, we could expand the product on the right to get $2 x^{2}-6 x=2 x(x-3) x=2 x^{3}-6 x^{2}$. The answer is D",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "A retail company has 50 large stores located in different areas throughout a state. A researcher for the company believes that employee job satisfaction varies greatly from store to store. Which of the following sampling methods is most appropriate to estimate the proportion of all employees of the company who are satisfied with their job? \nAnswer Choices: (A) Selecting one of the 50 stores at random and then surveying each employee at that store (B) Selecting 10 employees from each store at random and then surveying each employee selected (C) Surveying the 25 highest-paid employees and the 25 lowest-paid employees (D) Creating a website on which employees can express their opinions and then using the first 50 responses",
+    "output": "Let's reason about the multi-choice question.\nSince the researcher is trying to estimate the proportion of all employees who are satisfied with their job, the sample size should be large. The larger the sample size, the more certain we can be that the estimate is close to the actual proportion. Methods A and B are the most straightforward ways to select a large sample size, since they involve selecting a large number of stores or a large number of employees, respectively. However, these methods may be inefficient, since not all employees in a store are surveyed. Method C involves surveying a small number of employees from each store, so it would not provide a very accurate estimate. Method D involves surveying a large number of employees, but it is not a random sample. The researcher would have to make assumptions about the representativeness of the responses.\nThe answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "$$h(x)=2^{x}$$The function $h$ is defined above. What is $h(5)-h(3)$ ? \nAnswer Choices: (A) 2 (B) 4 (C) 24 (D) 28",
+    "output": "Let's think about the multi-choice question.\nTo find h(5) - h(3), we must first evaluate each term. Because h(x) = 2x, we have:\nh(5) = 25 = 32\nh(3) = 23 = 8\nSo, h(5) - h(3) = 32 - 8 = 24\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "A researcher surveyed a random sample of students from a large university about how often they see movies. Using the sample data, the researcher estimated that $23 \\%$ of the students in the population saw a movie at least once per month. The margin of error for this estimation is $4 \\%$. Which of the following is the most appropriate conclusion about all students at the university, based on the given estimate and margin of error? \nAnswer Choices: (A) It is unlikely that less than $23 \\%$ of the students see a movie at least once per month. (B) At least 23\\%, but no more than $25 \\%$, of the students see a movie at least once per month. (C) The researcher is between $19 \\%$ and $27 \\%$ sure that most students see a movie at least once per month. (D) It is plausible that the percentage of students who see a movie at least once per month is between $19 \\%$ and $27 \\%$.",
+    "output": "The margin of error is $4\\%$, so the researcher's estimate is $23 \\% \\pm 4 \\%$, which means the percentage of students who see a movie at least once per month is between $19 \\%$ and $27 \\%$. The answer is D.",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "\\begin{center}\\begin{tabular}{|c|c|c|c|c|c|c|}\\hlineList A & 1 & 2 & 3 & 4 & 5 & 6 \\\\\\hlineList B & 2 & 3 & 3 & 4 & 4 & 5 \\\\\\hline\\end{tabular}\\end{center}The table above shows two lists of numbers. Which of the following is a true statement comparing list $\\mathrm{A}$ and list B ? \nAnswer Choices: (A) The means are the same, and the standard deviations are different. (B) The means are the same, and the standard deviations are the same. (C) The means are different, and the standard deviations are different. (D) The means are different, and the standard deviations are the same.",
+    "output": "Let's think about the multi-choice question step by step.\nList A has one number, 1, that appears only once while all other numbers appear twice. List B has all numbers appearing twice.\nSo, the standard deviation for list A is 1 and for list B is 1.5. The means are the same for both lists.\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "30.00",
+    "question": "A book was on sale for $40 \\%$ off its original price. If the sale price of the book was $\\$ 18.00$, what was the original price of the book? (Assume there is no sales tax.) \nAnswer Choices: (A) $\\$ 7.20$ (B) $\\$ 10.80$ (C) $\\$ 30.00$ (D) $\\$ 45.00$",
+    "output": "Let $x$ be the original price of the book. The sale price is $0.6x$. Setting $0.6x=18$, we find $x=\\boxed{\\$ 30.00}$. The answer is 30.00",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "6",
+    "question": "A right circular cone has a volume of $24 \\pi$ cubic inches. If the height of the cone is 2 inches, what is the radius, in inches, of the base of the cone? \nAnswer Choices: (A) $2 \\sqrt{3}$ (B) 6 (C) 12 (D) 36",
+    "output": "The volume of a cone is $\\frac{1}{3} \\pi r^2 h$. We're given that the volume is $24 \\pi$ and the height is $2$. Thus, $\\frac{1}{3} \\pi r^2 \\cdot 2 = 24 \\pi$. Solving for $r$, we find $r = \\boxed{6}$. The answer is 6",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "In 2015 the populations of City $\\mathrm{X}$ and City $\\mathrm{Y}$ were equal. From 2010 to 2015, the population of City X increased by $20 \\%$ and the population of City $\\mathrm{Y}$ decreased by $10 \\%$. If the population of City $\\mathrm{X}$ was 120,000 in 2010, what was the population of City Y in 2010 ? \nAnswer Choices: (A) 60,000 (B) 90,000 (C) 160,000 (D) 240,000",
+    "output": "Let's think about the multi-choice question.\nPopulation of City X in 2010 = 120000\nPopulation of City Y in 2010 = 120000\n120000+20%(120000) = 144000\n144000-10%(144000) = 129600\nTherefore, Population of City Y in 2010 = 129600\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "The volume of a sphere is given by the formula $V=\\frac{4}{3} \\pi r^{3}$, where $r$ is the radius of the sphere. Which of the following gives the radius of the sphere in terms of the volume of the sphere? \nAnswer Choices: (A) $\\frac{4 \\pi}{3 V}$ (B) $\\frac{3 V}{4 \\pi}$ (C) $\\sqrt[3]{\\frac{4 \\pi}{3 V}}$ (D) $\\sqrt[3]{\\frac{3 V}{4 \\pi}}$",
+    "output": "We are trying to find the radius of the sphere, so we must get the $r$ in terms of the given information. Starting with the volume formula, we have: $$V=\\frac{4}{3}\\pi r^3$$ $$\\Rightarrow \\quad 3V=4\\pi r^3$$ $$\\Rightarrow \\quad r^3=\\frac{3V}{4\\pi}.$$ So, $r=\\sqrt[3]{\\frac{3V}{4\\pi}}.$ The answer is D.",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "Survey Results\\begin{center}\\begin{tabular}{|l|c|}\\hlineAnswer & Percent \\\\\\hlineNever & $31.3 \\%$ \\\\\\hlineRarely & $24.3 \\%$ \\\\\\hlineOften & $13.5 \\%$ \\\\\\hlineAlways & $30.9 \\%$ \\\\\\hline\\end{tabular}\\end{center}The table above shows the results of a survey in which tablet users were asked how often they would watch video advertisements in order to access streaming content for free. Based on the table, which of the following is closest to the probability that a tablet user answered \"Always,\" given that the tablet user did not answer \"Never\"? \nAnswer Choices: (A) 0.31 (B) 0.38 (C) 0.45 (D) 0.69",
+    "output": "Let's solve the multi-choice question step by step.\nAlways $= 30.9 %$\nNever $= 31.3 %$\nRarely $= 24.3 %$\nOften $= 13.5 %$\nGiven that tablet user did not answer \"Never\", the probability that a tablet user answered \"Always\" is $\\frac{30.9}{100-31.3}=\\frac{30.9}{68.7}=0.45$\nThe answer is C.",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "$$y=-(x-3)^{2}+a$$In the equation above, $a$ is a constant. The graph of the equation in the $x y$-plane is a parabola. Which of the following is true about the parabola? \nAnswer Choices: (A) Its minimum occurs at $(-3, a)$. (B) Its minimum occurs at $(3, a)$. (C) Its maximum occurs at $(-3, a)$. (D) Its maximum occurs at $(3, a)$.",
+    "output": "We need to find the vertex of the parabola. The vertex form of a parabola is $y=a(x-h)^2+k$, where $(h,k)$ is the vertex. In the given equation, we can rewrite the equation as $y=-(x-3)^2+a$. Thus, $h=3$ and $k=a$. Therefore, the vertex is at $(3, a)$, which makes the answer $\\boxed{D}$ the correct answer. The answer is D",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "The maximum value of a data set consisting of 25 positive integers is 84 . A new data set consisting of 26 positive integers is created by including 96 in the original data set. Which of the following measures must be 12 greater for the new data set than for the original data set? \nAnswer Choices: (A) The mean (B) The median (C) The range (D) The standard deviation",
+    "output": "Let's think about the multi-choice question.\nThe maximum value of a data set consisting of 25 positive integers is 84\nA new data set consisting of 26 positive integers is created by including 96 in the original data set.\nThe mean of the new data set will be 84+12.\nThe median of the new data set will be 84+6.\nThe range of the new data set will be 96-84 = 12.\nThe standard deviation of the new data set will be the same as that of the original data set.\nThe answer is C.",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "$$0.10 x+0.20 y=0.18(x+y)$$Clayton will mix $x$ milliliters of a $10 \\%$ by mass saline solution with $y$ milliliters of a $20 \\%$ by mass saline solution in order to create an $18 \\%$ by mass saline solution. The equation above represents this situation. If Clayton uses 100 milliliters of the $20 \\%$ by mass saline solution, how many milliliters of the $10 \\%$ by mass saline solution must he use? \nAnswer Choices: (A) 5 (B) 25 (C) 50 (D) 100",
+    "output": "Let's solve the multi-choice question step by step.\n$0.10x+0.20y=0.18(x+y)$\n$0.10x+0.20y=0.18x+0.18y$\n$0.02x=0.02y$\n$x=y$\nIf $y=100$ then $x=100$.\nThe answer is D.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "D",
+    "err": false,
+    "question": "The first year Eleanor organized a fund-raising event, she invited 30 people. For each of the next 5 years, she invited double the number of people she had invited the previous year. If $f(n)$ is the number of people invited to the fund-raiser $n$ years after Eleanor began organizing the event, which of the following statements best describes the function $f$ ? \nAnswer Choices: (A) The function $f$ is a decreasing linear function. (B) The function $f$ is an increasing linear function. (C) The function $f$ is a decreasing exponential function. (D) The function $f$ is an increasing exponential function.",
+    "output": "Let's think about the multi-choice question.\n$f(1) = 30$\n$f(2) = 2 \\cdot 30 = 60$\n$f(3) = 2 \\cdot 60 = 120$\n$f(4) = 2 \\cdot 120 = 240$\n$f(5) = 2 \\cdot 240 = 480$\nThe function $f$ is an increasing linear function.\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "\\begin{center}\\begin{tabular}{|c|c|c|c|}\\hline$x$ & $a$ & $3 a$ & $5 a$ \\\\\\hline$y$ & 0 & $-a$ & $-2 a$ \\\\\\hline\\end{tabular}\\end{center}Some values of $x$ and their corresponding values of $y$ are shown in the table above, where $a$ is a constant. If there is a linear relationship between $x$ and $y$, which of the following equations represents the relationship? \nAnswer Choices: (A) $x+2 y=a$ (B) $x+2 y=5 a$ (C) $2 x-y=-5 a$ (D) $2 x-y=7 a$",
+    "output": "Let's think about the multi-choice question.\nIf there is a linear relationship between $x$ and $y$, then the relationship can be expressed as a line in the form $y=mx+b$. If we plug in the point $(x,y)=(0,0)$ we get $0=m(0)+b\\Rightarrow b=0$. Now we can use the other two points to find the slope, $m$. Plugging in $(x,y)=(a,-a)$ we get $-a=ma+0\\Rightarrow m=-1/a$. So the equation is $y=-(1/a)x$. When we plug in $(x,y)=(3a,-2a)$ we get $-2a=-(1/a)(3a)\\Rightarrow -2=-3\\Rightarrow$ this is not a valid point. So instead we can use $(x,y)=(5a,-2a)$ to get $-2a=-5(1/a)\\Rightarrow a=-2$. So the equation is $y=-(1/a)x\\Rightarrow y=-5x$. The answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "0.8",
+    "question": "$$\\begin{aligned}& 2.4 x-1.5 y=0.3 \\\\& 1.6 x+0.5 y=-1.3\\end{aligned}$$The system of equations above is graphed in the $x y$-plane. What is the $x$-coordinate of the intersection point $(x, y)$ of the system? \nAnswer Choices: (A) -0.5 (B) -0.25 (C) 0.8 (D) 1.75",
+    "output": "The intersection of the two lines is the solution to the system of equations. We can solve this system by substitution or elimination. Using the elimination method, we can multiply the first equation by 0.5 and the second equation by $-2$ to eliminate $y$: \\begin{align*}\n& 1.2x - 0.75y = 0.15\\\\\n& -3.2x - y = -2.6\n\\end{align*}Adding the two equations gives $0.5y = -0.5$, so $y = -1$. Substituting into the first equation, we get $2.4x - 1.5(-1) = 0.3$, so $2.4x = 0.8$ and $x = \\boxed{0.8}$. The answer is 0.8",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "Keith modeled the growth over several hundred years of a tree population by estimating the number of the trees' pollen grains per square centimeter that were deposited each year within layers of a lake's sediment. He estimated there were 310 pollen grains per square centimeter the first year the grains were deposited, with a $1 \\%$ annual increase in the number of grains per square centimeter thereafter. Which of the following functions models $P(t)$, the number of pollen grains per square centimeter $t$ years after the first year the grains were deposited? \nAnswer Choices: (A) $P(t)=310^{t}$ (B) $P(t)=310^{1.01 t}$ (C) $P(t)=310(0.99)^{t}$ (D) $P(t)=310(1.01)^{t}$",
+    "output": "Let's think about the multi-choice question.\nThe number of pollen grains per square centimeter $t$ years after the first year the grains were deposited is $P(t)=310(1.01)^t$. The answer is D.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "-2",
+    "question": "$$\\frac{2}{3}(9 x-6)-4=9 x-6$$Based on the equation above, what is the value of $3 x-2$ ? \nAnswer Choices: (A) -4 (B) $-\\frac{4}{5}$ (C) $-\\frac{2}{3}$ (D) 4",
+    "output": "Let's think about the multi-choice question step by step.\n\\begin{align*}\n\\frac{2}{3}(9 x-6)-4&=9 x-6\\\\\n\\frac{2}{3}(9 x-6)&=9 x-6+4\\\\\n\\frac{2}{3}\\cdot 9 x&=\\frac{3}{3}\\cdot 9 x\\\\\n2 x&=3 x\\\\\n\\frac{2}{3} x&=0\\\\\nx&=0\n\\end{align*}Therefore, $3 x-2=3(0)-2=\\boxed{-2}$. The answer is -2",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "D",
+    "err": false,
+    "question": "$$H=1.88 L+32.01$$The formula above can be used to approximate the height $H$, in inches, of an adult male based on the length $L$, in inches, of his femur. What is the meaning of 1.88 in this context? \nAnswer Choices: (A) The approximate femur length, in inches, for a man with a height of 32.01 inches (B) The approximate increase in a man's femur length, in inches, for each increase of 32.01 inches in his height (C) The approximate increase in a man's femur length, in inches, for each one-inch increase in his height (D) The approximate increase in a man's height, in inches, for each one-inch increase in his femur length",
+    "output": "The meaning of 1.88 in this context is The approximate increase in a man's femur length, in inches, for each one-inch increase in his height.\nTo see this, note that when $L = 0$, the formula predicts $H = 32.01$, which is the height of a man with a femur length of 0 inches. For every one-inch increase in $L$, the formula predicts an increase in $H$ of $1.88$ inches. Thus, a man with a femur length of 1 inch will have a height of $32.01 + 1.88 = 33.99$ inches, and so on. The answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "A painter will paint $n$ walls with the same size and shape in a building using a specific brand of paint. The painter's fee can be calculated by the expression $n K \\ell h$, where $n$ is the number of walls, $K$ is a constant with units of dollars per square foot, $\\ell$ is the length of each wall in feet, and $h$ is the height of each wall in feet. If the customer asks the painter to use a more expensive brand of paint, which of the factors in the expression would change? \nAnswer Choices: (A) $h$ (B) $\\ell$ (C) $K$ (D) $n$",
+    "output": "The painter's fee is proportional to the area of the walls, which is $\\ell h.$  The constant $K$ converts the area to dollars.  If the customer asks for a more expensive paint, then $K$ will change.  The answer is $\\boxed{\\text{C}}.$. The answer is \\text{C}",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "15",
+    "question": "If $3 r=18$, what is the value of $6 r+3$ ? \nAnswer Choices: (A) 6 (B) 27 (C) 36 (D) 39",
+    "output": "The value of $3r$ is 6. If you multiply this by 2, you get $6r=12$. This means $6r+3=12+3=\\boxed{15}$. The answer is 15",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "Which of the following is equal to $a^{\\frac{2}{3}}$, for all values of $a$ ? \nAnswer Choices: (A) $\\sqrt{a^{\\frac{1}{3}}}$ (B) $\\sqrt{a^{3}}$ (C) $\\sqrt[3]{a^{\\frac{1}{2}}}$ (D) $\\sqrt[3]{a^{2}}$",
+    "output": "Let's think about the multi-choice question.\nWe want to find the value of $a^{\\frac{2}{3}}$.\nIf we write $a^{\\frac{2}{3}}$ as $\\sqrt[3]{a^{2}}$, then we can see that this is equivalent to $\\sqrt[3]{a^{2}}$.\nThis can be seen by taking the cube root of both sides of the equation $a^{\\frac{2}{3}} = \\sqrt[3]{a^{2}}$.\nThe answer is D.",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "The number of states that joined the United States between 1776 and 1849 is twice the number of states that joined between 1850 and 1900. If 30 states joined the United States between 1776 and 1849 and $x$ states joined between 1850 and 1900 , which of the following equations is true? \nAnswer Choices: (A) $30 x=2$ (B) $2 x=30$ (C) $\\frac{x}{2}=30$ (D) $x+30=2$",
+    "output": "Let's think about the multi-choice question step by step.\nThe number of states that joined the United States between 1776 and 1849 is twice the number of states that joined between 1850 and 1900. If 30 states joined the United States between 1776 and 1849 and $x$ states joined between 1850 and 1900 , which of the following equations is true?\nSolution\nLet x be the number of states that joined the United States between 1850 and 1900. The number of states that joined the United States between 1776 and 1849 is 2x.\nWrite the equation. 2x+x=30\nSolve. 3x=30\nx=10\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "2",
+    "question": "If $\\frac{5}{x}=\\frac{15}{x+20}$, what is the value of $\\frac{x}{5}$ ? \nAnswer Choices: (A) 10 (B) 5 (C) 2 (D) $\\frac{1}{2}$",
+    "output": "Solve for $x$ to get $x = 2$. Then, divide both sides of the original equation by 5 to get $\\frac{x}{5}=2$. The answer is $\\boxed{2}$. The answer is 2",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "-2",
+    "question": "$$\\begin{aligned}& 2 x-3 y=-14 \\\\& 3 x-2 y=-6\\end{aligned}$$If $(x, y)$ is a solution to the system of equations above, what is the value of $x-y$ ? \nAnswer Choices: (A) -20 (B) $\\quad-8$ (C) -4 (D) 8",
+    "output": "Add the given equations together: \\begin{align*}\n5x&= -20\\\\\nx&= -4\n\\end{align*}Substitute for $x$ into one of the given equations to find $y$: \\begin{align*}\n3(-4)-2y&=-6\\\\\ny&=-2\n\\end{align*}Now compute $x-y$: $-4-(-2)=\\boxed{-2}$. The answer is -2",
+    "matching_err": true,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "$x-2$",
+    "question": "\\begin{center}\\begin{tabular}{|c|c|}\\hline$x$ & $f(x)$ \\\\\\hline0 & 3 \\\\\\hline2 & 1 \\\\\\hline4 & 0 \\\\\\hline5 & -2 \\\\\\hline\\end{tabular}\\end{center}The function $f$ is defined by a polynomial. Some values of $x$ and $f(x)$ are shown in the table above. Which of the following must be a factor of $f(x)$ ? \nAnswer Choices: (A) $x-2$ (B) $x-3$ (C) $x-4$ (D) $x-5$",
+    "output": "Let's think about the multi-choice question.\nAs the function is defined by a polynomial, it can be written as $f(x) = a(x - 2)(x - 4)(x - 5) + b(x - 3)(x - 5) + c(x - 2)(x - 3) + d(x - 5) + f$ for some constants $a$, $b$, $c$, $d$, and $f$.\nWe know that $f(0) = 3$, $f(2) = 1$, $f(4) = 0$, and $f(5) = -2$.\nUsing these values, we can set up the following system of equations:\n\\begin{align*}\n3 &= 2a + 4b + 2c + 5d + f, \\\\\n1 &= -2a + 3b + 2c + 5d + f, \\\\\n0 &= 2a + 2b + 2c + 5d + f, \\\\\n-2 &= -2a + 3b + 2c + d + f.\n\\end{align*}Subtracting the first and second equations gives $2 = 3b + 2c + 5d + f$, and subtracting the third and fourth equations gives $-3 = 3b + 2c + d + f$.\nTherefore, $b + c + 2d + 2f = 0$ and $b + c + d + f = -3$.\nNote that the first equation implies that $f = -2a - 4b - 2c - 5d$. Substituting this into the second equation gives\n\\[-2a - 4b - 2c - 5d = -2a + 3b + 2c + 5d.\\]Solving for $b$ gives $b = 2$.\nSubstituting $b = 2$ into the first equation gives $-2a - 4 + 2c + 5d = 0$, so $-2a + 2c + 5d = 4$.\nSolving for $a$ gives $a = -2$, and substituting $a = -2$ into the second equation gives $-4 - 4b - 2c - 5d = -2$, so $-4b - 2c - 5d = 2$.\nSolving for $c$ gives $c = 6$, and substituting $c = 6$ into the second equation gives $-4 - 4b - 6d = -2$, so $-4b - 6d = 6$.\nSolving for $d$ gives $d = -2$, and substituting $d = -2$ into the second equation gives $-4 - 4b - 2c = -3$, so $-4b - 2c = 1$.\nSubstituting $b = 2$, $c = 6$, and $d = -2$ into the first equation gives $-2a - 4 - 12 - 10 = 0$, so $-2a = 20$ and $a = -10$.\nTherefore, $f(x) = -10(x - 2)(x - 4)(x - 5) - 2(x - 3)(x - 5) - 6(x - 2)(x - 3) - 2(x - 5) + f$ for some constant $f$.\nThe answer is $x-2$.",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "The line $y=k x+4$, where $k$ is a constant, is graphed in the $x y$-plane. If the line contains the point $(c, d)$, where $c \\neq 0$ and $d \\neq 0$, what is the slope of the line in terms of $c$ and $d$ ? \nAnswer Choices: (A) $\\frac{d-4}{c}$ (B) $\\frac{c-4}{d}$ (C) $\\frac{4-d}{c}$ (D) $\\frac{4-c}{d}$",
+    "output": "Let's think about the multi-choice question.\nThe slope of a line through $(a,b)$ and $(c,d)$ is $\\frac{d-b}{c-a}$. In this case, $a=c$ and $b=d$, so the slope is $\\frac{d-d}{c-c}=\\frac{0}{0}$, which is undefined. However, the line does not pass through the origin, so $a=0$ and $b=d$. The slope of the line is $\\frac{d-0}{0-d}=-\\frac{d}{d}=-1$.\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "A",
+    "err": false,
+    "question": "$$\\begin{aligned}& k x-3 y=4 \\\\& 4 x-5 y=7\\end{aligned}$$In the system of equations above, $k$ is a constant and $x$ and $y$ are variables. For what value of $k$ will the system of equations have no solution? \nAnswer Choices: (A) $\\frac{12}{5}$ (B) $\\frac{16}{7}$ (C) $-\\frac{16}{7}$ (D) $-\\frac{12}{5}$",
+    "output": "Let's think about the multi-choice question.\nThe system of equations will have no solution when the two lines are parallel. The slope of the first line is $-\\frac{3}{k}$ and the slope of the second line is $-\\frac{5}{4}$. For the two lines to be parallel, we must have $\\frac{5}{4} = -\\frac{3}{k}$. Solving for $k$ gives us $k = -\\frac{12}{5}$.\nThe answer is D.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "44",
+    "question": "In the $x y$-plane, the parabola with equation $y=(x-11)^{2}$ intersects the line with equation $y=25$ at two points, $A$ and $B$. What is the length of $\\overline{A B}$ ? \nAnswer Choices: (A) 10 (B) 12 (C) 14 (D) 16",
+    "output": "Let's think about the multi-choice question step by step.\nThe line $y=25$ intersects the parabola when $25=(x-11)^2$.\nExpanding, we get $25=x^2-22x+121$. Rearranging, we get the quadratic $x^2-22x-119=0$.\nThe sum of the roots of a quadratic of the form of $ax^2+bx+c$ is $\\frac{-b}{a}$. Since the roots are symmetric around $x=\\frac{-b}{a}$, the length of the line segment connecting the roots is $2\\times\\frac{22}{1}=\\boxed{44}$.\nThe answer is 44",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "$$y=a(x-2)(x+4)$$In the quadratic equation above, $a$ is a nonzero constant. The graph of the equation in the $x y$-plane is a parabola with vertex $(c, d)$. Which of the following is equal to $d$ ? \nAnswer Choices: (A) $-9 a$ (B) $-8 a$ (C) $-5 a$ (D) $-2 a$",
+    "output": "Since the vertex form of a parabola is $y=a(x-h)^2+k$, where $(h,k)$ is the vertex. In this case, $h=2$ and $k=-4a$. So $d=-4a$. The answer is A.",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "The equation $\\frac{24 x^{2}+25 x-47}{a x-2}=-8 x-3-\\frac{53}{a x-2}$ is true for all values of $x \\neq \\frac{2}{a}$, where $a$ is a constant.What is the value of $a$ ? \nAnswer Choices: (A) -16 (B) -3 (C) 3 (D) 16",
+    "output": "Let's think about the multi-choice question.\n$\\frac{24 x^{2}+25 x-47}{a x-2}=-8 x-3-\\frac{53}{a x-2}$\n$(24 x^{2}+25 x-47) = (-8 x-3)(a x-2) - 53$\n$24 x^{2}+25 x-47 = -8 a x^2 + 16x - 53 - 53$\n$24 x^{2}+25 x-47 = -8 a x^2 + 16x - 106$\n$33 = -8 a$\n$-33/8 = a$\n$a = -33/8$\nThe answer is B.",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "A",
+    "err": false,
+    "question": "What are the solutions to $3 x^{2}+12 x+6=0$ ? \nAnswer Choices: (A) $x=-2 \\pm \\sqrt{2}$ (B) $x=-2 \\pm \\frac{\\sqrt{30}}{3}$ (C) $x=-6 \\pm \\sqrt{2}$ (D) $x=-6 \\pm 6 \\sqrt{2}$",
+    "output": "We can re-write the quadratic as $3 x^{2}+12 x+6=(3 x+6)(x+1)=0$.  Setting each factor equal to zero gives the solutions $x=-6,-\\frac{1}{3}$.  The answer is C.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "$$C=\\frac{5}{9}(F-32)$$The equation above shows how a temperature $F$, measured in degrees Fahrenheit, relates to a temperature $C$, measured in degrees Celsius. Based on the equation, which of the following must be true?I. A temperature increase of 1 degree Fahrenheit is equivalent to a temperature increase of $\\frac{5}{9}$ degree Celsius.II. A temperature increase of 1 degree Celsius is equivalent to a temperature increase of 1.8 degrees Fahrenheit.III. A temperature increase of $\\frac{5}{9}$ degree Fahrenheit is equivalent to a temperature increase of 1 degree Celsius. \nAnswer Choices: (A) I only (B) II only (C) III only (D) I and II only",
+    "output": "Let's solve the multi-choice question step by step.\n$C=\\frac{5}{9}(F-32)$\nI. A temperature increase of 1 degree Fahrenheit is equivalent to a temperature increase of $\\frac{5}{9}$ degree Celsius.\nIf $F$ increases by 1, then $C=\\frac{5}{9}(1)=1.25$ degrees Celsius. True.\nII. A temperature increase of 1 degree Celsius is equivalent to a temperature increase of 1.8 degrees Fahrenheit.\nIf $C$ increases by 1, then $F=9(1)+32=41$ degrees Fahrenheit. True.\nIII. A temperature increase of $\\frac{5}{9}$ degree Fahrenheit is equivalent to a temperature increase of 1 degree Celsius.\nIf $F$ increases by $\\frac{5}{9}$, then $C=1$ degree Celsius. This is not true, so this statement is not true.\nThe answer is D.",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "B",
+    "err": false,
+    "question": "\\begin{center}\\begin{tabular}{|l||c|c||c|}\\cline { 2 - 4 }\\multicolumn{1}{c||}{} & \\multicolumn{2}{c||}{Age} & \\multirow{2}{c|}{Total} \\\\\\hlineGender & Under 40 & 40 or older \\\\\\hline\\hlineMale & 12 & 2 & 14 \\\\\\hlineFemale & 8 & 3 & 11 \\\\\\hline\\hlineTotal & 20 & 5 & 25 \\\\\\hline\\end{tabular}\\end{center}The table above shows the distribution of age and gender for 25 people who entered a contest. If the contest winner will be selected at random, what is the probability that the winner will be either a female under age 40 or a male age 40 or older? \nAnswer Choices: (A) $\\frac{4}{25}$ (B) $\\frac{10}{25}$ (C) $\\frac{11}{25}$ (D) $\\frac{16}{25}$",
+    "output": "Let's think about the multi-choice question step by step.\nThe number of people who are either a female under age 40 or a male age 40 or older is $8+12+3+2 = 23.$ So, the probability that the winner is one of them is $\\frac{23}{25},$ or $\\boxed{\\frac{11}{25}}.$\nNote that we can also solve this problem using the complement. The probability that the winner is not one of them is $\\frac{12}{25} + \\frac{1}{25} = \\frac{13}{25},$ so the probability that the winner is one of them is $1 - \\frac{13}{25} = \\frac{12}{25}.$\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "\\begin{center}\\begin{tabular}{|c||c|c|c|c|}\\hline$n$ & 1 & 2 & 3 & 4 \\\\\\hline$f(n)$ & -2 & 1 & 4 & 7 \\\\\\hline\\end{tabular}\\end{center}The table above shows some values of the linear function $f$. Which of the following defines $f$ ? \nAnswer Choices: (A) $f(n)=n-3$ (B) $f(n)=2 n-4$ (C) $f(n)=3 n-5$ (D) $f(n)=4 n-6$",
+    "output": "Let's think about the multi-choice question step by step.\nNote that the slope of the line is $\\frac{1-(-2)}{2-1} = 3$, so the equation of the line is $f(n) = 3 n - 5$.\nThe answer is C.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "At Lincoln High School, approximately 7 percent of enrolled juniors and 5 percent of enrolled seniors were inducted into the National Honor Society last year. If there were 562 juniors and 602 seniors enrolled at Lincoln High School last year, which of the following is closest to the total number of juniors and seniors at Lincoln High School last year who were inducted into the National Honor Society? \nAnswer Choices: (A) 140 (B) 69 (C) 39 (D) 30",
+    "output": "Let's solve the multi-choice question step by step.\nJuniors = 562\nSeniors = 602\nTotal = 1164\n% of NHS = 7% of 562 + 5% of 602 = 41.3 + 30.1 = 71.4%\nNow, 71.4% of 1164 = 808\nSo, Total number of juniors and seniors inducted into NHS = 808\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "$$\\begin{aligned}& 3 x^{2}-5 x+2 \\\\& 5 x^{2}-2 x-6\\end{aligned}$$Which of the following is the sum of the two polynomials shown above? \nAnswer Choices: (A) $8 x^{2}-7 x-4$ (B) $8 x^{2}+7 x-4$ (C) $8 x^{4}-7 x^{2}-4$ (D) $8 x^{4}+7 x^{2}-4$",
+    "output": "Let's think about the multi-choice question.\n$$\\begin{aligned}& 3 x^{2}-5 x+2 \\\\& 5 x^{2}-2 x-6\\end{aligned}$$The sum of the two polynomials can be found by adding the like terms. The like terms are those that have the same exponent of the variable, x. The sum is: $$(3 x^{2}+5 x^{2})+(-5 x-2 x)+(2-6)=8 x^{2}-7 x-4$$. The answer is A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "\\frac{20}{9}",
+    "question": "If $\\frac{3}{5} w=\\frac{4}{3}$, what is the value of $w$ ? \nAnswer Choices: (A) $\\frac{9}{20}$ (B) $\\frac{4}{5}$ (C) $\\frac{5}{4}$ (D) $\\frac{20}{9}$",
+    "output": "Multiplying both sides by $\\frac{5}{3}$ gives $\\frac{9}{5}w = \\frac{20}{9}$. Multiplying both sides by $\\frac{5}{9}$ gives $w = \\boxed{\\frac{20}{9}}$. The answer is \\frac{20}{9}",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "The average number of students per classroom at Central High School from 2000 to 2010 can be modeled by the equation $y=0.56 x+27.2$, where $x$ represents the number of years since 2000 , and $y$ represents the average number of students per classroom. Which of the following best describes the meaning of the number 0.56 in the equation? \nAnswer Choices: (A) The total number of students at the school in 2000 (B) The average number of students per classroom in 2000 (C) The estimated increase in the average number of students per classroom each year (D) The estimated difference between the average number of students per classroom in 2010 and in 2000",
+    "output": "The number 0.56 in the equation $y=0.56 x+27.2$ is the slope of the line. The slope of a line is the ratio between the change in $y$ and the change in $x$. In other words, it is the number that tells us how much $y$ increases (or decreases) when $x$ increases (or decreases) by 1. In this case, $0.56$ tells us that when $x$ increases by 1 (which means 2010 - 2000 = 1), $y$ increases by $0.56$ (which means 2010 - 2000 = 1). Thus, 0.56 is the estimated increase in the average number of students per classroom each year. The answer is C.",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "B",
+    "err": false,
+    "question": "Nate walks 25 meters in 13.7 seconds. If he walks at this same rate, which of the following is closest to the distance he will walk in 4 minutes? \nAnswer Choices: (A) 150 meters (B) 450 meters (C) 700 meters (D) 1,400 meters",
+    "output": "Let's think about the multi-choice question step by step.\nThe distance Nate walks in 4 minutes is 4*60*25/13.7 = 700 meters\nThe answer is C.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "\\begin{center}.\\begin{tabular}{|l|c|}.\\hline.\\multicolumn{1}{|c|}{Planet} & Acceleration due to gravity $\\left(\\frac{\\mathrm{m}}{\\mathrm{sec}^{2}}\\right)$ \\\\.\\hline\\hline.Mercury & 3.6 \\\\.\\hline.Venus & 8.9 \\\\.\\hline.Earth & 9.8 \\\\.\\hline.Mars & 3.8 \\\\.\\hline.Jupiter & 26.0 \\\\.\\hline.Saturn & 11.1 \\\\.\\hline.Uranus & 10.7 \\\\.\\hline.Neptune & 14.1 \\\\.\\hline.\\end{tabular}.\\end{center}.The chart above shows approximations of the acceleration due to gravity in meters per.second squared $\\left(\\frac{\\mathrm{m}}{\\sec ^{2}}\\right)$ for the eight planets in our solar system. The weight of an object on a given planet can be found by using the formula $W=m g$, where $W$ is the weight of the object measured in newtons, $m$ is the mass of the object measured in kilograms, and $g$ is the acceleration due to gravity on the planet measured in $\\frac{m}{\\sec ^{2}}$What is the weight, in newtons, of an object on Mercury with a mass of 90 kilograms? \nAnswer Choices: (A) 25 (B) 86 (C) 101 (D) 324",
+    "output": "Let's solve the multi-choice question step by step.\nAcceleration due to gravity on Mercury = 3.6 m/s^2\nWeight = m*g\nm = 90 kg\ng = 3.6 m/s^2\nW = 90*3.6 = 324 N\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "\\begin{center}.\\begin{tabular}{|l|c|}.\\hline.\\multicolumn{1}{|c|}{Planet} & Acceleration due to gravity $\\left(\\frac{\\mathrm{m}}{\\mathrm{sec}^{2}}\\right)$ \\\\.\\hline\\hline.Mercury & 3.6 \\\\.\\hline.Venus & 8.9 \\\\.\\hline.Earth & 9.8 \\\\.\\hline.Mars & 3.8 \\\\.\\hline.Jupiter & 26.0 \\\\.\\hline.Saturn & 11.1 \\\\.\\hline.Uranus & 10.7 \\\\.\\hline.Neptune & 14.1 \\\\.\\hline.\\end{tabular}.\\end{center}.The chart above shows approximations of the acceleration due to gravity in meters per.second squared $\\left(\\frac{\\mathrm{m}}{\\sec ^{2}}\\right)$ for the eight planets in our solar system. The weight of an object on a given planet can be found by using the formula $W=m g$, where $W$ is the weight of the object measured in newtons, $m$ is the mass of the object measured in kilograms, and $g$ is the acceleration due to gravity on the planet measured in $\\frac{m}{\\sec ^{2}}$An object on Earth has a weight of 150 newtons. On which planet would the same object have an approximate weight of 170 newtons? \nAnswer Choices: (A) Venus (B) Saturn (C) Uranus (D) Neptune",
+    "output": "Let's think about the multi-choice question.\nWeight on Earth = 150 N\nWeight on other planets = 170 N\nMass of object remains same, so let's say it's m\nOn Earth, Acceleration due to gravity = 9.8 m/s^2\nOn other planets, Acceleration due to gravity differs from that of Earth\nWe can set up a proportion to solve for the acceleration due to gravity on the other planets\n9.8m/s^2 : 170 N = x m/s^2 : 150 N\nCross multiply\n9.8 * 150 = 170 * x\nx = 135/17\nx = 8.28 m/s^2\nSubstitute x in the table\nAcceleration due to gravity on Venus = 8.9 m/s^2\nAcceleration due to gravity on Saturn = 11.1 m/s^2\nAcceleration due to gravity on Uranus = 10.7 m/s^2\nAcceleration due to gravity on Neptune = 14.1 m/s^2\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "$$h=-16 t^{2}+v t+k$$The equation above gives the height $h$, in feet, of a ball $t$ seconds after it is thrown straight up with an initial speed of $v$ feet per second from a height of $k$ feet. Which of the following gives $v$ in terms of $h, t$, and $k$ ? \nAnswer Choices: (A) $v=h+k-16 t$ (B) $v=\\frac{h-k+16}{t}$ (C) $v=\\frac{h+k}{t}-16 t$ (D) $v=\\frac{h-k}{t}+16 t$",
+    "output": "Let's think about the multi-choice question.\nWe know that h = -16t^2 + vt + k\nThis means that -16t^2 + vt + k = h\nAdd 16t^2 to both sides of the equation\n-16t^2 + vt + k + 16t^2 = h + 16t^2\nvt + k = h + 16t^2\nSubtract k from both sides\nvt = h + 16t^2 - k\nDivide both sides by t\nv = h/t + 16t - k/t\nWhich simplifies to\nv = h/t + 16t - k/t\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "In order to determine if treatment $\\mathrm{X}$ is successful in improving eyesight, a research study was conducted. From a large population of people with poor eyesight, 300 participants were selected at random. Half of the participants were randomly assigned to receive treatment $X$, and the other half did not receive treatment $X$. The resulting data showed that participants who received treatment $X$ had significantly improved eyesight as compared to those who did not receive treatment $X$. Based on the design and results of the study, which of the following is an appropriate conclusion? \nAnswer Choices: (A) Treatment $\\mathrm{X}$ is likely to improve the eyesight of people who have poor eyesight. (B) Treatment $\\mathrm{X}$ improves eyesight better than all other available treatments. (C) Treatment $X$ will improve the eyesight of anyone who takes it. (D) Treatment $\\mathrm{X}$ will cause a substantial improvement in eyesight.",
+    "output": "Let's think about the multi-choice question step by step.\nThis is a causal study. The researchers randomly assigned treatment X to half of the participants and a placebo (treatment that looks exactly like treatment X, but does not improve eyesight) to the other half. The study was well designed and the results were significant. Treatment X improved eyesight more than the placebo.\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "$$.\\begin{aligned}.& S(P)=\\frac{1}{2} P+40 \\\\.& D(P)=220-P.\\end{aligned}.$$.The quantity of a product supplied and the quantity of the product demanded in an economic market are functions of the price of the product. The functions above are the estimated supply and demand functions for a certain product. The function $S(P)$ gives the quantity of the product supplied to the market when the price is $P$ dollars, and the function $D(P)$ gives the quantity of the product demanded by the market when the price is $P$ dollars.How will the quantity of the product supplied to the market change if the price of the product is increased by $\\$ 10$ ? \nAnswer Choices: (A) The quantity supplied will decrease by 5 units. (B) The quantity supplied will increase by 5 units. (C) The quantity supplied will increase by 10 units. (D) The quantity supplied will increase by 50 units.",
+    "output": "Let's solve the multi-choice question step by step.\nIf $P$ increases by 10, then the new price is $P+10$. We need to find $S(P+10)$.\nSince $S(P)=\\frac{1}{2} P+40$, we have that $S(P+10)=\\frac{1}{2}(P+10)+40=\\frac{1}{2}P+50$.\nThis means that the quantity supplied to the market will increase by 50 units.\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "133",
+    "question": "$$.\\begin{aligned}.& S(P)=\\frac{1}{2} P+40 \\\\.& D(P)=220-P.\\end{aligned}.$$.The quantity of a product supplied and the quantity of the product demanded in an economic market are functions of the price of the product. The functions above are the estimated supply and demand functions for a certain product. The function $S(P)$ gives the quantity of the product supplied to the market when the price is $P$ dollars, and the function $D(P)$ gives the quantity of the product demanded by the market when the price is $P$ dollars.At what price will the quantity of the product supplied to the market equal the quantity of the product demanded by the market? \nAnswer Choices: (A) $\\$ 90$ (B) $\\$ 120$ (C) $\\$ 133$ (D) $\\$ 155$",
+    "output": "Let $S(P)=D(P).$ Then we have $$\\frac{1}{2} P+40=220-P.$$Solving for $P$ gives $P=\\boxed{\\$ 133}.$. The answer is 133",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "$$.\\begin{aligned}.& S(P)=\\frac{1}{2} P+40 \\\\.& D(P)=220-P.\\end{aligned}.$$.The quantity of a product supplied and the quantity of the product demanded in an economic market are functions of the price of the product. The functions above are the estimated supply and demand functions for a certain product. The function $S(P)$ gives the quantity of the product supplied to the market when the price is $P$ dollars, and the function $D(P)$ gives the quantity of the product demanded by the market when the price is $P$ dollars.Graphene, which is used in the manufacture of integrated circuits, is so thin that a sheet weighing one ounce can cover up to 7 football fields. If a football field has an area of approximately $1 \\frac{1}{3}$ acres, about how many acres could 48 ounces of graphene cover? \nAnswer Choices: (A) 250 (B) 350 (C) 450 (D) 1,350",
+    "output": "Let's solve the multi-choice question step by step.\nSuppose the function $S(P)$ is a linear function. Then, by the definition of a linear function, for $P_1$ and $P_2$ dollars, $S(P_1+P_2)=S(P_1)+S(P_2)$. We can use this to our advantage to find the value of $S(1)$ (which we will need to find the answer).\nSince $S(1)=\\frac{1}{2}(1)+40=40.5$, and $S(2)=91$, we can say that $S(P)=40.5+2(P-1)$.\nThus, when $P=4$, we have $S(4)=40.5+2(4-1)=101$.\nTherefore, 48 ounces of graphene could cover $101/7=14$ football fields.\nThis means that 48 ounces could cover $14\\cdot 1.5=21$ acres (rounded).\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "C",
+    "err": false,
+    "question": "Of the following four types of savings account plans, which option would yield exponential growth of the money in the account? \nAnswer Choices: (A) Each successive year, $2 \\%$ of the initial savings is added to the value of the account. (B) Each successive year, $1.5 \\%$ of the initial savings and $\\$ 100$ is added to the value of the account. (C) Each successive year, $1 \\%$ of the current value is added to the value of the account. (D) Each successive year, $\\$ 100$ is added to the value of the account.",
+    "output": "We examine the first two options.\n\nOption A: Each successive year, $2 \\%$ of the initial savings is added to the value of the account.\n\nLet the initial amount of money be $m$.  After one year, the account has grown to $m + 0.02m = 1.02m$.  After two years, the account has grown to $1.02m + 0.02(1.02m) = 1.0404m$.  After three years, the account has grown to $1.0404m + 0.02(1.0404m) = 1.0812m$.  Notice that the growth is exponential.\n\nOption B: Each successive year, $1.5 \\%$ of the initial savings and $\\$ 100$ is added to the value of the account.\n\nLet the initial amount of money be $m$.  After one year, the account has grown to $m + 0.015m + 100 = 1.015m + 100$.  After two years, the account has grown to $1.015m + 100 + 0.015(1.015m + 100) = 1.04975m + 110.25$.  After three years, the account has grown to $1.04975m + 110.25 + 0.015(1.04975m + 110.25) = 1.09901m + 121.0075$.  Again, the growth is exponential.\n\nThus, option A is the exponential growth plan.  The answer is $\\boxed{\\text{A}}$. The answer is \\text{A}",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "The sum of three numbers is 855 . One of the numbers, $x$, is $50 \\%$ more than the sum of the other two numbers. What is the value of $x$ ? \nAnswer Choices: (A) 570 (B) 513 (C) 214 (D) 155",
+    "output": "Let's solve the multi-choice question step by step.\nLet the sum of the other two numbers be $y$. Then $x=150/100y+y=3/2y+y$.\nSince the sum of three numbers is 855 , we get $y+3/2y+y=855$, which gives $y=210$.\nSo $x=3/2y+y=3/2*210+210=155$.\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "17",
+    "question": "Mr. Kohl has a beaker containing $n$ milliliters of solution to distribute to the students in his chemistry class. If he gives each student 3 milliliters of solution, he will have 5 milliliters left over. In order to give each student 4 milliliters of solution, he will need an additional 21 milliliters. How many students are in the class? \nAnswer Choices: (A) 16 (B) 21 (C) 23 (D) 26",
+    "output": "Let's think about the multi-choice question step by step.\nIf he gives each student 3 milliliters of solution, he will have 5 milliliters left over.\n$n - 3m = 5$\n$n = 3m + 5$\nIf he gives each student 4 milliliters of solution, he will need an additional 21 milliliters.\n$n - 4m = 21$\n$n = 4m + 21$\nTherefore, $3m + 5 = 4m + 21$.\n$m = 8$\nThe number of students in the class is $2m + 1 = 2(8) + 1 = \\boxed{17}$.\nThe answer is 17",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "C",
+    "err": false,
+    "question": "In the $x y$-plane, the line determined by the points $(2, k)$ and $(k, 32)$ passes through the origin. Which of the following could be the value of $k$ ? \nAnswer Choices: (A) 0 (B) 4 (C) 8 (D) 16",
+    "output": "The slope of the line is $\\frac{32-k}{k-2}$. Through the origin, $(0,0)$, this slope must be equal to $\\frac{0-0}{0-2}=0$. Therefore, $32-k=0\\Rightarrow k=32$.\n\nOnly answer choice $\\boxed{D}$ is a possible value of $k$. The answer is D",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "A rectangle was altered by increasing its length by 10 percent and decreasing its width by $p$ percent. If these alterations decreased the area of the rectangle by 12 percent, what is the value of $p$ ? \nAnswer Choices: (A) 12 (B) 15 (C) 20 (D) 22",
+    "output": "Let's solve the multi-choice question step by step.\nLet $l$ be the original length and $w$ be the original width.\nThe original area was $lw$.\nThe new area is $.9l(.8w)=.72lw$.\nThe area decreased by 12%, so $.28lw=.12lw$\n$.16lw=lw\\Rightarrow p=20$\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "In planning maintenance for a city's infrastructure, a civil engineer estimates that, starting from the present, the population of the city will decrease by 10 percent every 20 years. If the present population of the city is 50,000, which of the following expressions represents the engineer's estimate of the population of the city $t$ years from now? \nAnswer Choices: (A) $50,000(0.1)^{20 t}$ (B) $50,000(0.1)^{\\frac{t}{20}}$ (C) $50,000(0.9)^{20 t}$ (D) $50,000(0.9)^{\\frac{t}{20}}$",
+    "output": "The population decreases by 10% every 20 years. So, if it takes $t$ years for the population to decrease by 10%, then it takes $t/20$ 20-year intervals. So, the population 20 years from now is $50,000(0.9)^2 = 45,000$, which is the same as $50,000(0.9)^{\\frac{t}{20}}$. The answer is D.",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "\\begin{center}\\begin{tabular}{|l|c|c|}\\cline { 2 - 3 }\\multicolumn{1}{c|}{} & \\multicolumn{2}{c|}{Handedness} \\\\\\hlineGender & Left & Right \\\\\\hline\\hlineFemale &  &  \\\\\\hlineMale &  &  \\\\\\hline\\hlineTotal & 18 & 122 \\\\\\hline\\end{tabular}\\end{center}The incomplete table above summarizes the number of left-handed students and right-handed students by gender for the eighth-grade students atKeisel Middle School. There are 5 times as many right-handed female students as there are left-handed female students, and there are 9 times as many right-handed male students as there are left-handed male students. If there is a total of 18 left-handed students and 122 right-handed students in the school, which of the following is closest to the probability that a right-handed student selected at random is female? (Note: Assume that none of the eighth-grade students are both right-handed and left-handed.) \nAnswer Choices: (A) 0.410 (B) 0.357 (C) 0.333 (D) 0.250",
+    "output": "Let's think about the multi-choice question step by step.\nKeisel Middle School 8th grade female students = 18\nKeisel Middle School 8th grade male students = 122-18 = 104\nKeisel Middle School 8th grade total students = 122\nKeisel Middle School 8th grade female students with right hand = 5*18 = 90\nKeisel Middle School 8th grade male students with right hand = 9*104 = 938\nProbability(female|right hand) = (90)/(90+938) = 90/1028 = 0.0875 (right hand first)\nOr, Probability(female|right hand) = (18)/(18+104) = 18/122 = 0.15 (left hand first)\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "$$\\begin{aligned}& 3 x+b=5 x-7 \\\\& 3 y+c=5 y-7\\end{aligned}$$In the equations above, $b$ and $c$ are constants.If $b$ is $c$ minus $\\frac{1}{2}$, which of the following is true? \nAnswer Choices: (A) $x$ is $y$ minus $\\frac{1}{4}$. (B) $x$ is $y$ minus $\\frac{1}{2}$. (C) $x$ is $y$ minus 1 . (D) $x$ is $y$ plus $\\frac{1}{2}$.",
+    "output": "Subtracting the first equation from the second, we get:$$\\begin{aligned} 3 x-b &=5 x-7-c \\\\ 2 x &=c-\\frac{1}{2} \\\\ x &= c-\\frac{1}{4} \\end{aligned}$$The answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "What are the solutions of the quadratic equation $4 x^{2}-8 x-12=0$ ? \nAnswer Choices: (A) $x=-1$ and $x=-3$ (B) $x=-1$ and $x=3$ (C) $x=1$ and $x=-3$ (D) $x=1$ and $x=3$",
+    "output": "We can use the quadratic formula $x=\\frac{-b\\pm\\sqrt{b^{2}-4ac}}{2a}$ to find the solutions of the quadratic equation. Here, $a=4$, $b=-8$ and $c=-12$. Substituting these values into the quadratic formula, we get \\begin{align*}\nx&=\\frac{8\\pm\\sqrt{(-8)^{2}-4(4)(-12)}}{2(4)}\\\\\n&=\\frac{8\\pm\\sqrt{64+192}}{8}\\\\\n&=\\frac{8\\pm\\sqrt{256}}{8}\\\\\n&=\\frac{8}{8}\\pm\\frac{16}{8}\\\\\n&=1\\pm2.\n\\end{align*}Thus, the solutions of the quadratic equation are $x=1+2=-1$ and $x=1-2=-3$. The answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "$$\\sqrt{k+2}-x=0$$In the equation above, $k$ is a constant. If $x=9$, what is the value of $k$ ? \nAnswer Choices: (A) 1 (B) 7 (C) 16 (D) 79",
+    "output": "Let's solve the multi-choice question step by step.\n$$\\sqrt{k+2}-x=0$$In the equation above, $k$ is a constant. If $x=9$, what is the value of $k$ ?\n$$\\sqrt{k+2}=9$$We square both sides to get rid of the square root sign.\n$$k+2=81$$$$k=79$$The answer is D.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Which of the following is equivalent to the sum of the expressions $a^{2}-1$ and $a+1$ ? \nAnswer Choices: (A) $a^{2}+a$ (B) $a^{3}-1$ (C) $2 a^{2}$ (D) $a^{3}$",
+    "output": "We have \\begin{align*}\na^{2}-1+(a+1) &= (a^{2}-1+a+1) \\\\\n&= (a^{2}+a-1).\n\\end{align*} completing the square. This expression is not among the choices, but we can write $a^{2}+a-1 = (a^{2}+a-1+2)-2 = (a+1)^{2}-2$, so the sum of $a^{2}-1$ and $a+1$ is two less than $(a+1)^2$. The answer is therefore $\\boxed{a^{2}+a}$. The answer is a",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "A",
+    "err": false,
+    "question": "In air, the speed of sound $S$, in meters per second, is a linear function of the air temperature $T$, in degrees Celsius, and is given by $S(T)=0.6 T+331.4$. Which of the following statements is the best interpretation of the number 331.4 in this context? \nAnswer Choices: (A) The speed of sound, in meters per second, at $0^{\\circ} \\mathrm{C}$ (B) The speed of sound, in meters per second, at $0.6^{\\circ} \\mathrm{C}$ (C) The increase in the speed of sound, in meters per second, that corresponds to an increase of $1^{\\circ} \\mathrm{C}$ (D) The increase in the speed of sound, in meters per second, that corresponds to an increase of $0.6^{\\circ} \\mathrm{C}$",
+    "output": "The speed of sound $S$ is given by $S=0.6T+331.4$. When $T=0$, $S=331.4$. When $T=1$, $S=0.6+331.4=332.06$. Thus the increase in the speed of sound that corresponds to an increase of $1^{\\circ}$C is $332.06-331.4=0.6$ m/s. The answer is $\\boxed{C}$. The answer is C",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "1",
+    "question": "$$\\begin{aligned}y & =x^{2} \\\\2 y+6 & =2(x+3)\\end{aligned}$$If $(x, y)$ is a solution of the system of equations above and $x>0$, what is the value of $x y$ ? \nAnswer Choices: (A) 1 (B) 2 (C) 3 (D) 9",
+    "output": "Substituting the first equation into the second to eliminate $y$ gives $2x^2+6=2x+6$. We can re-write this as $2x^2-2x=0$. Factoring out a $2x$ gives $2x(x-1)=0$. So, $x=1$ or $x=0$. We are given that $x>0$, so $x=1$. Substituting this into the first equation gives $y=1^2=1$. Thus, $xy=1\\cdot 1=\\boxed{1}$. The answer is 1",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "If $a^{2}+b^{2}=z$ and $a b=y$, which of the following is equivalent to $4 z+8 y$ ? \nAnswer Choices: (A) $(a+2 b)^{2}$ (B) $(2 a+2 b)^{2}$ (C) $(4 a+4 b)^{2}$ (D) $(4 a+8 b)^{2}$",
+    "output": "Let's think about the multi-choice question.\n$4z+8y=4(a^2+b^2)+8ab=4z+8y=(2a+2b)^2$\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "C",
+    "err": false,
+    "question": "The volume of right circular cylinder A is 22 cubic centimeters. What is the volume, in cubic centimeters, of a right circular cylinder with twice the radius and half the height of cylinder A? \nAnswer Choices: (A) 11 (B) 22 (C) 44 (D) 66",
+    "output": "Let's think about the multi-choice question.\nVolume of a cylinder = pi*r^2*h\nVolume of cylinder A = 22\npi*r1^2*h1 = 22\npi*r2^2*h2 = 22\npi*(2r1)^2*(h1/2) = 22\n4*pi*r1^2*h1 = 22\n4*22 = 88\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "\\sqrt{3}",
+    "question": "Which of the following is equivalent to $9^{\\frac{3}{4}}$ ? \nAnswer Choices: (A) $\\sqrt[3]{9}$ (B) $\\sqrt[4]{9}$ (C) $\\sqrt{3}$ (D) $3 \\sqrt{3}$",
+    "output": "We have $9^{\\frac{3}{4}} = (3^2)^{\\frac{3}{4}} = 3^{2\\cdot \\frac{3}{4}} = 3^{\\frac{6}{4}} = 3^{\\frac{3}{2}} = (3^{\\frac{3}{2}})^{\\frac{1}{2}} = (\\sqrt{3^3})^{\\frac{1}{2}} = 3^{\\frac{1}{2}} = \\boxed{\\sqrt{3}}$. The answer is \\sqrt{3}",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "B",
+    "err": false,
+    "question": "At a restaurant, $n$ cups of tea are made by adding $t$ tea bags to hot water. If $t=n+2$, how many additional tea bags are needed to make each additional cup of tea? \nAnswer Choices: (A) None (B) One (C) Two (D) Three",
+    "output": "Let's think about the multi-choice question.\n$t=n+2$\n$n+2=n+2+0$\n$n+2=n+2+1$\n$n+2=n+2+2$\netc.\nEach additional cup of tea requires 2 more tea bags.\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "75",
+    "question": "Alan drives an average of 100 miles each week. His car can travel an average of 25 miles per gallon of gasoline. Alan would like to reduce his weekly expenditure on gasoline by $\\$ 5$. Assuming gasoline costs $\\$ 4$ per gallon, which equation can Alan use to determine how many fewer average miles, $m$, he should drive each week? \nAnswer Choices: (A) $\\frac{25}{4} m=95$ (B) $\\frac{25}{4} m=5$ (C) $\\frac{4}{25} m=95$ (D) $\\frac{4}{25} m=5$",
+    "output": "Let's think about the multi-choice question step by step.\nThe original number of gallons of gasoline Alan needs per week is $\\frac{100\\text{ miles}}{25\\text{ miles/gallon}}=\\frac{4}{1}$ gallons.\nThe new number of gallons of gasoline Alan needs per week is $\\frac{95\\text{ miles}}{25\\text{ miles/gallon}}=\\frac{19}{5}$ gallons.\nThe number of fewer gallons of gasoline Alan needs per week is $\\frac{19}{5}-\\frac{4}{1}=\\frac{15}{5}=3$ gallons.\nThe number of fewer average miles Alan needs to drive per week is $3\\cdot25=\\boxed{75}$ miles.\nThe answer is 75",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "\\begin{center}\\begin{tabular}{|c|c|}\\hline$x$ & $f(x)$ \\\\\\hline1 & 5 \\\\\\hline3 & 13 \\\\\\hline5 & 21 \\\\\\hline\\end{tabular}\\end{center}Some values of the linear function $f$ are shown in the table above. Which of the following defines $f$ ? \nAnswer Choices: (A) $f(x)=2 x+3$ (B) $f(x)=3 x+2$ (C) $f(x)=4 x+1$ (D) $f(x)=5 x$",
+    "output": "Let's solve the multi-choice question step by step.\nNote that the slope of the line is $\\frac{13-5}{3-1} = 4$.  (This is the slope that joins $(1,5)$ and $(3,13)$ on the graph.)\nSo $f(x) = 4x + b$ for some constant $b$.  Since $f(5) = 21$, we have $21 = 4(5) + b$ and find that $b = 1$.  Thus $f(x) = 4x + 1$.\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "To make a bakery's signature chocolate muffins, a baker needs 2.5 ounces of chocolate for each muffin. How many pounds of chocolate are needed to make 48 signature chocolate muffins?( 1 pound $=16$ ounces) \nAnswer Choices: (A) 7.5 (B) 10 (C) 50.5 (D) 120",
+    "output": "Let's think about the multi-choice question.\nNumber of ounces needed for 48 muffins = 48 \u00d7 2.5 = 120 ounces\nNumber of pounds needed for 48 muffins = $\\frac{120}{16}=\\frac{15}{2}=7.5$ pounds\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "If $3(c+d)=5$, what is the value of $c+d$ ? \nAnswer Choices: (A) $\\frac{3}{5}$ (B) $\\frac{5}{3}$ (C) 3 (D) 5",
+    "output": "Let's think about the multi-choice question.\nIf $3(c+d)=5$, then $c+d=\\boxed{\\frac{5}{3}}$.\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "140",
+    "question": "The weight of an object on Venus is approximately $\\frac{9}{10}$ of its weight on Earth. The weight of an object on Jupiter is approximately $\\frac{23}{10}$ of its weight on Earth. If an object weighs 100 pounds on Earth, approximately how many more pounds does it weigh on Jupiter than it weighs on Venus? \nAnswer Choices: (A) 90 (B) 111 (C) 140 (D) 230",
+    "output": "Let's reason about the multi-choice question.\nAccording to the question, we have that the weight of an object on Venus is $\\frac{9}{10} * 100 = 90$ pounds and the weight of an object on Jupiter is $\\frac{23}{10} * 100 = 230$ pounds. Thus, the difference in weight between these two planets is $230 - 90 = \\boxed{140}$ pounds. The answer is 140",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "4",
+    "question": "An online bookstore sells novels and magazines. Each novel sells for $\\$ 4$, and each magazine sells for $\\$ 1$. If Sadie purchased a total of 11 novels and magazines that have a combined selling price of $\\$ 20$, how many novels did she purchase? \nAnswer Choices: (A) 2 (B) 3 (C) 4 (D) 5",
+    "output": "Let's reason about the multi-choice question.\nIf $n$ is the number of novels Sadie purchased, then she purchased $11-n$ magazines. The cost of the novels is $4n$, and the cost of the magazines is $1(11-n)$. Thus, we have $4n+1(11-n)=20$. This simplifies to $5n=9$, so $n=18/5$, which is not an integer. However, if $n=4$, then $11-n=7$, and $4(4)+1(7)=20$, so $n=\\boxed{4}$. The answer is 4",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "The Downtown Business Association (DBA)  in a certain city plans to increase its membership by a total of $n$ businesses per year. There were $b$ businesses in the DBA at the beginning of this year. Which function best models the total number of businesses, $y$, the DBA plans to have as members $x$ years from now? \nAnswer Choices: (A) $y=n x+b$ (B) $y=n x-b$ (C) $y=b(n)^{x}$ (D) $y=n(b)^{x}$",
+    "output": "The answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "C",
+    "err": false,
+    "question": "Which of the following is an equivalent form of $(1.5 x-2.4)^{2}-\\left(5.2 x^{2}-6.4\\right)$ ? \nAnswer Choices: (A) $-2.2 x^{2}+1.6$ (B) $-2.2 x^{2}+11.2$ (C) $-2.95 x^{2}-7.2 x+12.16$ (D) $-2.95 x^{2}-7.2 x+0.64$",
+    "output": "Let's think about the multi-choice question step by step.\n$(1.5 x-2.4)^{2}-\\left(5.2 x^{2}-6.4\\right)$\n$(1.5 x-2.4)(1.5 x-2.4)-(5.2 x^{2}-6.4)$\n$(2.25 x^{2}-3.6 x-3.6 x+5.76)-(5.2 x^{2}-6.4)$\n$-2.2 x^{2}+1.6\n$\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "The density $d$ of an object is found by dividing the mass $m$ of the object by its volume $V$. Which of the following equations gives the mass $m$ in terms of $d$ and $V$ ? \nAnswer Choices: (A) $m=d V$ (B) $m=\\frac{d}{V}$ (C) $m=\\frac{V}{d}$ (D) $m=V+d$",
+    "output": "Rearranging the given equation, we have $m=d V$. The answer is A.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "$$-2 x+3 y=6$$In the $x y$-plane, the graph of which of the following equations is perpendicular to the graph of the equation above? \nAnswer Choices: (A) $3 x+2 y=6$ (B) $3 x+4 y=6$ (C) $2 x+4 y=6$ (D) $2 x+6 y=3$",
+    "output": "Let's solve the multi-choice question step by step.\nFor two lines to be perpendicular, the product of slopes should be equal to -1.\nSlope of $-2x+3y=6$ is $-2/3$\nNow, check the options by calculating slope\nOption A: $3 x+2 y=6$ => slope = 3/2\nOption B: $3 x+4 y=6$ => slope = 3/4\nOption C: $2 x+4 y=6$ => slope = 1/2\nOption D: $2 x+6 y=3$ => slope = -1/3\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "6",
+    "question": "$$\\begin{array}{r}\\frac{1}{2} y=4 \\\\x-\\frac{1}{2} y=2\\end{array}$$The system of equations above has solution $(x, y)$. What is the value of $x$ ? \nAnswer Choices: (A) 3 (B) $\\frac{7}{2}$ (C) 4 (D) 6",
+    "output": "Adding the two equations, we get: $x = \\boxed{6}$. The answer is 6",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "$$\\begin{gathered}y \\leq 3 x+1 \\\\x-y>1\\end{gathered}$$Which of the following ordered pairs $(x, y)$ satisfies the system of inequalities above? \nAnswer Choices: (A) $(-2,-1)$ (B) $(-1,3)$ (C) $(1,5)$ (D) $(2,-1)$",
+    "output": "We substitute the coordinates of each point into the inequalities.\n\n$\\bullet$ For $(-2,-1)$, we have $-1 \\leq 3(-2)+1$ and $-2-(-1)>1$, which are both true.\n\n$\\bullet$ For $(-1,3)$, we have $3 \\leq 3(-1)+1$ and $-1-3>1$, which are both false.\n\n$\\bullet$ For $(1,5)$, we have $5 \\leq 3(1)+1$ and $1-5>1$, which are both false.\n\n$\\bullet$ For $(2,-1)$, we have $-1 \\leq 3(2)+1$ and $2-(-1)>1$, which are both true.\n\nTherefore, only $(2,-1)$ satisfies the system of inequalities.\n\nSo the answer is D.",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "A",
+    "err": false,
+    "question": "\\begin{center}\\begin{tabular}{|l|c|c|c|}\\hline\\multirow{2}{*}{$\\begin{array}{c}\\text { Type of } \\\\\\text { surgeon }\\end{array}$} & \\multicolumn{2}{|c|}{$\\begin{array}{c}\\text { Major professional } \\\\\\text { activity }\\end{array}$} & \\multirow{2}{*}{Total} \\\\\\cline { 2 - 3 }& Teaching & Research \\\\\\hlineGeneral & 258 & 156 & 414 \\\\\\hlineOrthopedic & 119 & 74 & 193 \\\\\\hlineTotal & 377 & 230 & 607 \\\\\\hline\\end{tabular}\\end{center}In a survey, 607 general surgeons and orthopedic surgeons indicated their major professional activity. The results are summarized in the table above. If one of the surgeons is selected at random, which of the following is closest to the probability that the selected surgeon is an orthopedic surgeon whose indicated professional activity is research? \nAnswer Choices: (A) 0.122 (B) 0.196 (C) 0.318 (D) 0.379",
+    "output": "Let's reason about the multi-choice question.\nGeneral surgeons: 414/607=0.673\nOthopedic surgeons: 193/607=0.327\nThe probability that the selected surgeon is an orthopedic surgeon whose indicated professional activity is research is 0.327/0.991=0.330\nThe answer is C.",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "A",
+    "err": false,
+    "question": "A polling agency recently surveyed 1,000 adults who were selected at random from a large city and asked each of the adults, \"Are you satisfied with the quality of air in the city?\" Of those surveyed, 78 percent responded that they were satisfied with the quality of air in the city. Based on the results of the survey, which of the following statements must be true?I. Of all adults in the city, 78 percent are satisfied with the quality of air in the city.II. If another 1,000 adults selected at random from the city were surveyed, 78 percent of them would report they are satisfied with the quality of air in the city.III. If 1,000 adults selected at random from a different city were surveyed, 78 percent of them would report they are satisfied with the quality of air in the city. \nAnswer Choices: (A) None (B) II only (C) I and II only (D) I and III only",
+    "output": "Let's think about the multi-choice question.\nStatement I: This is a direct application of the law of large numbers. The law of large numbers is a theorem in probability that states that as the number of trials increases, the average of the results will be close to the expected value, and will tend to become closer as the number of trials increases.\nStatement II: This is also a direct application of the law of large numbers. The law of large numbers is a theorem in probability that states that as the number of trials increases, the average of the results will be close to the expected value, and will tend to become closer as the number of trials increases.\nStatement III: This statement is not necessarily true. The reason is that we don't know the proportion of the city's population that was surveyed. For all we know, the city could be populated with 1,000 people who are all satisfied with the quality of air, in which case, the proportion would be 100 percent.\nThe answer is C.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "\\begin{center}.\\begin{tabular}{|l|c|}.\\hline.\\multicolumn{1}{|c|}{Species of tree} & Growth factor \\\\.\\hline.Red maple & 4.5 \\\\.\\hline.River birch & 3.5 \\\\.\\hline.Cottonwood & 2.0 \\\\.\\hline.Black walnut & 4.5 \\\\.\\hline.White birch & 5.0 \\\\.\\hline.American elm & 4.0 \\\\.\\hline.Pin oak & 3.0 \\\\.\\hline.Shagbark hickory & 7.5 \\\\.\\hline.\\end{tabular}.\\end{center}.One method of calculating the approximate age, in years, of a tree of a particular species is to multiply the diameter of the tree, in inches, by a constant called the growth factor for that species. The table above gives the growth factors for eight species of trees.According to the information in the table, what is the approximate age of an American elm tree with a diameter of 12 inches? \nAnswer Choices: (A) 24 years (B) 36 years (C) 40 years (D) 48 years",
+    "output": "Let's reason about the multi-choice question.\nThe age of the tree is approximately 12*4=48 years.\nThe answer is D.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "0",
+    "question": "If a white birch tree and a pin oak tree each now have a diameter of 1 foot, which of the following will be closest to the difference, in inches, of their diameters 10 years from now? $(1$ foot $=12$ inches $)$ \nAnswer Choices: (A) 1.0 (B) 1.2 (C) 1.3 (D) 1.4",
+    "output": "Let's solve the multi-choice question step by step.\nIn ten years, their diameters will be $1+1=2$ feet. Converted to inches, this is $2\\cdot12=24$ inches. Thus, the difference in diameters will be $24-24=\\boxed{0}$ inches. The answer is 0",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "A",
+    "err": false,
+    "question": "$$\\frac{a-b}{a}=c$$In the equation above, if $a$ is negative and $b$ is positive, which of the following must be true? \nAnswer Choices: (A) $c>1$ (B) $c=1$ (C) $c=-1$ (D) $c<-1$",
+    "output": "If $a$ is negative, then we can divide both sides of the equation by $-a$ to get $\\frac{b}{a}=-c$. Since $b$ is positive and $a$ is negative, $-c$ is negative. Since $-c$ is negative, $-c>-1$. The answer is D.",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "In State X, Mr. Camp's eighth-grade class consisting of 26 students was surveyed and 34.6 percent of the students reported that they had at least two siblings. The average eighth-grade class size in the state is 26. If the students in Mr. Camp's class are representative of students in the state's eighth-grade classes and there are 1,800 eighth-grade classes in the state, which of the following best estimates the number of eighth-grade students in the state who have fewer than two siblings? \nAnswer Choices: (A) 16,200 (B) 23,400 (C) 30,600 (D) 46,800 Questions 23 and 24 refer to the following information.",
+    "output": "Let's think about the multi-choice question.\nSince the average eighth-grade class size is 26, the number of students in Mr. Camp's class is about 26*1800=46,800.\n34.6% of the students in Mr. Camp's class have at least two siblings, so 65.4% of the students have fewer than two siblings.\nThe number of eighth-grade students in the state who have fewer than two siblings is about 65.4%*46,800=30,600.\nThe answer is C.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "D",
+    "err": false,
+    "question": "\\begin{center}\\begin{tabular}{|l|c|c|}\\hline\\multicolumn{3}{|c|}{Townsend Realty Group Investments} \\\\\\hlineProperty address & $\\begin{array}{c}\\text { Purchase price } \\\\ \\text { (dollars) }\\end{array}$ & $\\begin{array}{c}\\text { Monthly rental } \\\\ \\text { price } \\\\ \\text { (dollars) }\\end{array}$ \\\\\\hlineClearwater Lane & 128,000 & 950 \\\\\\hlineDriftwood Drive & 176,000 & 1,310 \\\\\\hlineEdgemont Street & 70,000 & 515 \\\\\\hlineGlenview Street & 140,000 & 1,040 \\\\\\hlineHamilton Circle & 450,000 & 3,365 \\\\\\hline\\end{tabular}\\end{center}The Townsend Realty Group invested in the five different properties listed in the table above. The table shows the amount, in dollars, the company paid for each property and the corresponding monthly rental price, in dollars, the company charges for the property at each of the five locations. 23The relationship between the monthly rental price $r$, in dollars, and the property's purchase price $p$, in thousands of dollars, can be represented by a linear function. Which of the following functions represents the relationship? \nAnswer Choices: (A) $r(p)=2.5 p-870$ (B) $r(p)=5 p+165$ (C) $r(p)=6.5 p+440$ (D) $r(p)=7.5 p-10$",
+    "output": "Let's reason about the multi-choice question.\nThe function $r(p)=2.5 p-870$ represents the relationship between the monthly rental price $r$, in dollars, and the property's purchase price $p$, in thousands of dollars, as the table below shows.\n\\begin{center}\\begin{tabular}{|l|c|c|}\\hline\\multicolumn{3}{|c|}{Townsend Realty Group Investments} \\\\\\hlineProperty address & $\\begin{array}{c}\\text { Purchase price } \\\\ \\text { (dollars) }\\end{array}$ & $\\begin{array}{c}\\text { Monthly rental } \\\\ \\text { price } \\\\ \\text { (dollars) }\\end{array}$ \\\\\\hlineClearwater Lane & 128,000 & 950 \\\\\\hlineDriftwood Drive & 176,000 & 1,310 \\\\\\hlineEdgemont Street & 70,000 & 515 \\\\\\hlineGlenview Street & 140,000 & 1,040 \\\\\\hlineHamilton Circle & 450,000 & 3,365 \\\\\\hline\\end{tabular}\\end{center}\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "291,700",
+    "question": "Townsend Realty purchased the Glenview Street property and received a $40 \\%$ discount off the original price along with an additional $20 \\%$ off the discounted price for purchasing the property in cash. Which of the following best approximates the original price, in dollars, of the Glenview Street property? \nAnswer Choices: (A) $\\$ 350,000$ (B) $\\$ 291,700$ (C) $\\$ 233,300$ (D) $\\$ 175,000$",
+    "output": "Let $x$ be the original price of the Glenview Street property. Then, the discounted price is $0.6x$. The final discount is $0.8(0.6x)=0.48x$. Thus, $0.48x \\approx \\$ 350,\\!000$. This approximation is not far from the correct answer, which is $\\boxed{\\$ 291,\\!700}$. The answer is 291,700",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "D",
+    "err": false,
+    "question": "A psychologist set up an experiment to study the tendency of a person to select the first item when presented with a series of items. In the experiment, 300 people were presented with a set of five pictures arranged in random order. Each person was asked to choose the most appealing picture. Of the first 150 participants, 36 chose the first picture in the set. Among the remaining 150 participants, $p$ people chose the first picture in the set. If more than $20 \\%$ of all participants chose the first picture in the set, which of the following inequalities best describes the possible values of $p$ ? \nAnswer Choices: (A) $p>0.20(300-36)$, where $p \\leq 150$ (B) $p>0.20(300+36)$, where $p \\leq 150$ (C) $p-36>0.20(300)$, where $p \\leq 150$ (D) $p+36>0.20(300)$, where $p \\leq 150$",
+    "output": "Let's solve the multi-choice question step by step.\nThe total number of pictures is 5. The number of people is 300. The number of people who chose the first picture is 36. We're told that the number of people who chose the first picture is greater than 20% of the total number of people. We're asked for the range of possible values of p, where p is the number of people who chose the first picture.\nSince the number of people who chose the first picture is greater than 20% of the total number of people, we know that p must be GREATER THAN 20% of 300.\n20% of 300 = 0.20(300) = 60\nSo, p must be GREATER THAN 60. There's really no other information to work with, so the correct answer is E.\nThe answe is E",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "The surface area of a cube is $6\\left(\\frac{a}{4}\\right)^{2}$, where $a$ is a positive constant. Which of the following gives the perimeter of one face of the cube? \nAnswer Choices: (A) $\\frac{a}{4}$ (B) $a$ (C) $4 a$ (D) $6 a$",
+    "output": "Let's think about the multi-choice question.\nThe question gives us the surface area of the cube. If we cut off one face of the cube, we are left with a square. The side length of this square is $\\frac{a}{4}$. The perimeter of a square is $4$ times the length of a side, so the perimeter of this face of the cube is $4\\left(\\frac{a}{4}\\right)=\\frac{a}{4}$. The answer is $\\boxed{\\frac{a}{4}}$. The answer is \\frac{a}{4}",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "C",
+    "err": false,
+    "question": "The mean score of 8 players in a basketball game was 14.5 points. If the highest individual score is removed, the mean score of the remaining 7 players becomes 12 points. What was the highest score? \nAnswer Choices: (A) 20 (B) 24 (C) 32 (D) 36",
+    "output": "Let's think about the multi-choice question step by step.\nThe mean of 8 numbers is 14.5\nThe sum of 8 numbers will be 14.5 x 8 = 120\nThe mean of 7 numbers is 12\nThe sum of 7 numbers will be 12 x 7 = 84\nHence the highest number = 120 - 84 = 36\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "(-10,-8)",
+    "question": "$$x^{2}+20 x+y^{2}+16 y=-20$$The equation above defines a circle in the $x y$-plane. What are the coordinates of the center of the circle? \nAnswer Choices: (A) $(-20,-16)$ (B) $(-10,-8)$ (C) $(10,8)$ (D) $(20,16)$",
+    "output": "We complete the square on the quadratic in $x$ by adding $(20/2)^2=100$ to both sides, and complete the square on the quadratic in $y$ by adding $(16/2)^2=64$ to both sides. We have the equation:\n\\[(x^2+20x+100)+(y^2+16y+64)=164\\]We can easily factor the left side, to get:\n\\[(x+10)^2+(y+8)^2=164\\]We see that the center of the circle is at point $(-10,-8)$. The answer is $\\boxed{(-10,-8)}$. The answer is (-10,-8)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "$$y=x^{2}-a$$In the equation above, $a$ is a positive constant and the graph of the equation in the $x y$-plane is a parabola. Which of the following is an equivalent form of the equation? \nAnswer Choices: (A) $y=(x+a)(x-a)$ (B) $y=(x+\\sqrt{a})(x-\\sqrt{a})$ (C) $y=\\left(x+\\frac{a}{2}\\right)\\left(x-\\frac{a}{2}\\right)$ (D) $y=(x+a)^{2}$ DIRECTIONS",
+    "output": "Let's think about the multi-choice question step by step.\n$$y=x^{2}-a$$Factoring, we have: $$y=(x-a)(x+a)$$$$y=(x+\\sqrt{a})(x-\\sqrt{a})$$ because $x+\\sqrt{a}$ and $x-\\sqrt{a}$ are the factors of $x^{2}-a$.\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "$$x+y=75$$The equation above relates the number of minutes, $x$, Maria spends running each day and the number of minutes, $y$, she spends biking each day. In the equation, what does the number 75 represent? \nAnswer Choices: (A) The number of minutes spent running each day (B) The number of minutes spent biking each day (C) The total number of minutes spent running and biking each day (D) The number of minutes spent biking for each minute spent running",
+    "output": "The sum of $x$ and $y$ is 75. This means that, for every $x$ minutes spent running, $y$ minutes are spent biking. So, the number 75 in the equation represents the total number of minutes spent running and biking each day. The answer is C.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "C",
+    "err": false,
+    "question": "Which of the following is equivalent to $3(x+5)-6$ ? \nAnswer Choices: (A) $3 x-3$ (B) $3 x-1$ (C) $3 x+9$ (D) $15 x-6$",
+    "output": "Let's think about the multi-choice question.\nUsing the distributive property, we can rewrite the expression as $3x+15-6$.\nCombining like terms, we get $3x+9-6=3x+3$.\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "(0,3)",
+    "question": "$$\\begin{aligned}& x=y-3 \\\\& \\frac{x}{2}+2 y=6\\end{aligned}$$Which ordered pair $(x, y)$ satisfies the system of equations shown above? \nAnswer Choices: (A) $(-3,0)$ (B) $(0,3)$ (C) $(6,-3)$ (D) $(36,-6)$",
+    "output": "Substitute the first equation into the second to eliminate $x$. \\begin{align*}\n\\frac{y-3}{2}+2y&=6\\quad\\Rightarrow\\\\\n\\frac{5y-6}{2}&=6\\quad\\Rightarrow\\\\\n5y-6&=12\\quad\\Rightarrow\\\\\n5y&=18\\quad\\Rightarrow\\\\\ny&=3.\n\\end{align*}Substitute this value into the first equation to find $x$. \\begin{align*}\nx&=y-3\\quad\\Rightarrow\\\\\nx&=3-3\\quad\\Rightarrow\\\\\nx&=0.\n\\end{align*}The solution is $\\boxed{(0,3)}$. The answer is (0,3)",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "Which of the following complex numbers is equal to $(5+12 i)-\\left(9 i^{2}-6 i\\right)$, for $i=\\sqrt{-1}$ ? \nAnswer Choices: (A) $-14-18 i$ (B) $-4-6 i$ (C) $4+6 i$ (D) $14+18 i$",
+    "output": "We have  \\begin{align*}\n(5+12 i)-\\left(9 i^{2}-6 i\\right) &= 5+12i-9(-1)-6i\\\\\n&=5+12i+9-6i\\\\\n&=\\boxed{14+18i}.\n\\end{align*}. The answer is D",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "If $f(x)=\\frac{x^{2}-6 x+3}{x-1}$, what is $f(-1)$ ? \nAnswer Choices: (A) -5 (B) -2 (C) 2 (D) 5",
+    "output": "Let's think about the multi-choice question step by step.\nf(-1) = \\frac{(-1)^2 - 6(-1) + 3}{-1 - 1} = \\frac{1 + 6 + 3}{-2} = \\frac{10}{-2} = -5\nThe answer is A.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "29,700",
+    "question": "A company that makes wildlife videos purchases camera equipment for $\\$ 32,400$. The equipment depreciates in value at a constant rate for 12 years, after which it is considered to have no monetary value. How much is the camera equipment worth 4 years after it is purchased? \nAnswer Choices: (A) $\\$ 10,800$ (B) $\\$ 16,200$ (C) $\\$ 21,600$ (D) $\\$ 29,700$",
+    "output": "Let the cost of the equipment be $A$, and let the value of the equipment $n$ years after it is purchased be $V_n$. It is given that $V_{12}=0$, and depreciation follows a constant rate.\nWe are asked to find $V_4=A\\left(1-\\frac{n}{12}\\right)^4$.\nWe need to find the value of $A$ first. We know that $V_{12}=A\\left(1-\\frac{n}{12}\\right)^{12}=0$.\nThus, $\\left(1-\\frac{n}{12}\\right)^{12}=0$, so $\\left(1-\\frac{n}{12}\\right)=0$, giving $n=12$.\nThus, $V_4=A\\left(1-\\frac{4}{12}\\right)^4=A\\left(\\frac{1}{3}\\right)^4=\\frac{A}{81}$.\nFrom the cost of the equipment, we know that $\\frac{A}{81}=32400$, so $A=2,496,000$.\nThus, $V_4=\\boxed{29,700}$. The answer is 29,700",
+    "matching_err": true,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "$$x^{2}+6 x+4$$Which of the following is equivalent to the expression above? \nAnswer Choices: (A) $(x+3)^{2}+5$ (B) $(x+3)^{2}-5$ (C) $(x-3)^{2}+5$ (D) $(x-3)^{2}-5$",
+    "output": "Let's think about the multi-choice question step by step.\nWe know that $(x+a)^2=x^2+2ax+a^2$.\nGiven expression is $x^2+6x+4$, which can be written as $(x+3)^2-5$.\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "33",
+    "question": "Ken is working this summer as part of a crew on a farm. He earned $\\$ 8$ per hour for the first 10 hours he worked this week. Because of his performance, his crew leader raised his salary to $\\$ 10$ per hour for the rest of the week. Ken saves $90 \\%$ of his earnings from each week. What is the least number of hours he must work the rest of the week to save at least $\\$ 270$ for the week? \nAnswer Choices: (A) 38 (B) 33 (C) 22 (D) 16",
+    "output": "Let $x$ be the number of hours Ken works at the higher rate. Since Ken saves $90 \\%$ of his earnings, he saves $0.9(8x)+0.1(10(10)=270$ dollars. Solving the equation $0.9(8x)+0.1(10(10)=270$ yields $x=33$. Hence, Ken must work $\\boxed{33}$ hours this week to save at least $\\$ 270$. The answer is 33",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "Marisa needs to hire at least 10 staff members for an upcoming project. The staff members will be made up of junior directors, who will be paid $\\$ 640$ per week, and senior directors, who will be paid $\\$ 880$ per week. Her budget for paying the staff members is no more than $\\$ 9,700$ per week. She must hire at least 3 junior directors and at least 1 senior director. Which of the following systems of inequalities represents the conditions described if $x$ is the number of junior directors and $y$ is the number of senior directors? \nAnswer Choices: (A) $640 x+880 y \\geq 9,700$ $x+y \\leq 10$ $x \\geq 3$ $y \\geq 1$ (B) $640 x+880 y \\leq 9,700$ $x+y \\geq 10$ $x \\geq 3$ $y \\geq 1$ (C) $640 x+880 y \\geq 9,700$ $x+y \\geq 10$ $x \\leq 3$ $y \\leq 1$ (D) $640 x+880 y \\leq 9,700$ $x+y \\leq 10$ $x \\leq 3$ $y \\leq 1$",
+    "output": "The project must hire at least 3 junior directors, so $x \\geq 3$. The project must hire at least 1 senior director, so $y \\geq 1$. The total weekly pay for the junior directors is $640 x$, and the total weekly pay for the senior directors is $880 y$. The total weekly pay for all the staff members is at most $9,700$, so $640 x + 880 y \\leq 9,700$. Also, the total number of staff members cannot exceed 10, so $x + y \\leq 10$. The system of inequalities is represented by $\\boxed{(A)}$. The answer is A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "$$a x^{3}+b x^{2}+c x+d=0$$In the equation above, $a, b, c$, and $d$ are constants. If the equation has roots $-1,-3$, and 5 , which of the following is a factor of $a x^{3}+b x^{2}+c x+d$ ? \nAnswer Choices: (A) $x-1$ (B) $x+1$ (C) $x-3$ (D) $x+5$",
+    "output": "Let's solve the multi-choice question step by step.\nThe roots of the polynomial are the factors of $-1,-3$, and $5$. The factors are the roots are $-1,-3$, and $5$.\nWhen factoring, we can ignore the constants $a$ and $d$. When we multiply the factors together, we get the original polynomial.\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "The function $f$ is defined by $f(x)=(x+3)(x+1)$. The graph of $f$ in the $x y$-plane is a parabola. Which of the following intervals contains the $x$-coordinate of the vertex of the graph of $f$ ? \nAnswer Choices: (A) $-4<x<-3$ (B) $-3<x<1$ (C) $1<x<3$ (D) $3<x<4$",
+    "output": "Let's think about the multi-choice question step by step.\n$f(x)=(x+3)(x+1)=x^2+4x+3$\n$f'(x)=2x+4$\n$f''(x)=2$\nThe graph of $f$ is a parabola that opens upward. The $x$-coordinate of the vertex is at the value of $x$ that makes $f'(x)=0$.\n$2x+4=0$\n$x=-2$\nThe answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "D",
+    "err": false,
+    "question": "Which of the following expressions is equivalent to $\\frac{x^{2}-2 x-5}{x-3}$ ? \nAnswer Choices: (A) $x-5-\\frac{20}{x-3}$ (B) $x-5-\\frac{10}{x-3}$ (C) $x+1-\\frac{8}{x-3}$ (D) $x+1-\\frac{2}{x-3}$",
+    "output": "Let's think about the multi-choice question step by step.\nBy factoring the numerator, we get $\\frac{x^{2}-2 x-5}{x-3}=\\frac{(x-5)(x+1)}{x-3}$.\nUsing the technique of long division, we can rewrite the fraction as $x+1-\\frac{5}{x-3}$.\nRewriting the last term, we get $x+1-\\frac{5}{x-3}=x+1-\\frac{5}{x-3}\\cdot\\frac{x+3}{x+3}=x+1-\\frac{5(x+3)}{x^{2}-3x-3}$.\nCombining the numerators, we get $x+1-\\frac{5(x+3)}{x^{2}-3x-3}=x+1-\\frac{5x+15}{x^{2}-3x-3}$.\nSo, $\\frac{x^{2}-2 x-5}{x-3}=x+1-\\frac{5x+15}{x^{2}-3x-3}$.\nThe answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "12\\frac{3}{11}",
+    "question": "A shipping service restricts the dimensions of the boxes it will ship for a certain type of service. The restriction states that for boxes shaped like rectangular prisms, the sum of the perimeter of the base of the box and the height of the box cannot exceed 130 inches. The perimeter of the base is determined using the width and length of the box. If a box has a height of 60 inches and its length is 2.5 times the width, which inequality shows the allowable width $x$, in inches, of the box? \nAnswer Choices: (A) $0<x \\leq 10$ (B) $0<x \\leq 11 \\frac{2}{3}$ (C) $0<x \\leq 17 \\frac{1}{2}$ (D) $0<x \\leq 20$",
+    "output": "Let's reason about the multi-choice question. The perimeter of the base of the box is given by $2(l+w)$ and the height of the box is $60$ inches. The sum of the perimeter of the base and the height cannot exceed $130$ inches. We can write the inequality as: $$2(l+w)+60 \\leq 130.$$We know that $l=2.5w$, so we can substitute this value into the inequality above to get: $$2(2.5w+w)+60 \\leq 130.$$This simplifies to: $$2.5w + 2w + 60 \\leq 130.$$It simplifies further to: $$5.5w + 60 \\leq 130.$$Subtracting $60$ from both sides we get: $$5.5w \\leq 70.$$Dividing both sides by $5.5$, we get: $$w \\leq \\frac{70}{5.5}.$$The width must be less than or equal to $\\boxed{12\\frac{3}{11}}$ inches. The answer is 12\\frac{3}{11}",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "D",
+    "err": false,
+    "question": "The expression $\\frac{1}{3} x^{2}-2$ can be rewritten as $\\frac{1}{3}(x-k)(x+k)$, where $k$ is a positive constant.What is the value of $k$ ? \nAnswer Choices: (A) 2 (B) 6 (C) $\\sqrt{2}$ (D) $\\sqrt{6}$",
+    "output": "Let's think about the multi-choice question.\nWe complete the square.\n$\\frac{1}{3} x^{2}-2 = \\frac{1}{3}(x^{2}-6x) = \\frac{1}{3}(x^{2}-6x+\\left(\\frac{6}{2}\\right)^{2})-\\frac{1}{3}\\left(\\frac{6}{2}\\right)^{2} = \\frac{1}{3}(x-\\frac{6}{2})^{2}-\\frac{1}{3}\\left(\\frac{6}{2}\\right)^{2} = \\frac{1}{3}\\left(x-\\frac{6}{2}\\right)^{2}-\\frac{9}{12} = \\frac{1}{3}\\left(x-3\\right)^{2}-\\frac{9}{12}$.\nSince the factor of $x-3$ is $x-3$, $k=3$.\nThe answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "\\begin{center}\\begin{tabular}{|c|c|c|c|}\\hline& $\\begin{array}{c}\\text { Fed only } \\\\ \\text { dry food }\\end{array}$ & $\\begin{array}{c}\\text { Fed both wet } \\\\ \\text { and dry food }\\end{array}$ & Total \\\\\\hlineCats & 5 & 11 & 16 \\\\\\hlineDogs & 2 & 23 & 25 \\\\\\hlineTotal & 7 & 34 & 41 \\\\\\hline\\end{tabular}\\end{center}The table above shows the kinds of foods that are fed to the cats and dogs currently boarded at a pet care facility. What fraction of the dogs are fed only dry food? \nAnswer Choices: (A) $\\frac{2}{41}$ (B) $\\frac{2}{25}$ (C) $\\frac{7}{41}$ (D) $\\frac{2}{7}$",
+    "output": "Let's think about the multi-choice question step by step.\nThe number of dogs fed only dry food is 2. The total number of dogs is 25. The fraction of dogs fed only dry food is $\\frac{2}{25}$.\nThe answer is B.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "$$\\left(x^{2}-3\\right)-\\left(-3 x^{2}+5\\right)$$Which of the following expressions is equivalent to the one above? \nAnswer Choices: (A) $4 x^{2}-8$ (B) $4 x^{2}-2$ (C) $-2 x^{2}-8$ (D) $-2 x^{2}-2$",
+    "output": "Let's think about the multi-choice question step by step.\nx^2 - 3 - (-3x^2 +5)\n= x^2 - 3 + 3x^2 - 5\n= 4x^2 - 8\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "A certain package requires 3 centimeters of tape to be closed securely. What is the maximum number of packages of this type that can be secured with 6 meters of tape? $(1$ meter $=100 \\mathrm{~cm})$ \nAnswer Choices: (A) 100 (B) 150 (C) 200 (D) 300",
+    "output": "Let's think about the multi-choice question step by step.\nSince $1$ meter $=100 \\mathrm{~cm}$, then $6$ meters $=6 \\cdot 100=600 \\mathrm{~cm}$. Thus, the maximum number of packages of the given type that can be secured with $600$ centimeters of tape is $600 \\div 3=200$.\nThe answer is C.",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "A market researcher selected 200 people at random from a group of people who indicated that they liked a certain book. The 200 people were shown a movie based on the book and then asked whether they liked or disliked the movie. Of those surveyed, $95 \\%$ said they disliked the movie. Which of the following inferences can appropriately be drawn from this survey result? \nAnswer Choices: (A) At least $95 \\%$ of people who go see movies will dislike this movie. (B) At least $95 \\%$ of people who read books will dislike this movie. (C) Most people who dislike this book will like this movie. (D) Most people who like this book will dislike this movie.",
+    "output": "Let's think about the multi-choice question.\nNote that the given percentage is not an accurate number. It is merely an estimate. Thus, no inferences can be drawn from the percentage alone.\nThe answer is most definitely D.",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "C",
+    "err": false,
+    "question": "Which of the following ordered pairs $(x, y)$ satisfies the inequality $5 x-3 y<4$ ?I. $(1,1)$II. $(2,5)$III. $(3,2)$ \nAnswer Choices: (A) I only (B) II only (C) I and II only (D) I and III only",
+    "output": "Let's think about the multi-choice question.\nSubstituting the coordinates of the points into the inequality, we obtain the following results:I. $5(1)-3(1)<4$ is not true.II. $5(2)-3(5)<4$ is not true.III. $5(3)-3(2)<4$ is true.\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "C",
+    "err": false,
+    "question": "In the equation $(a x+3)^{2}=36, a$ is a constant. If $x=-3$ is one solution to the equation, what is a possible value of $a$ ? \nAnswer Choices: (A) -11 (B) -5 (C) -1 (D) 0",
+    "output": "One solution to the equation is $x=-3$. So, we can say $(a x+3)^2 = 36$ and $ax+3 = \\pm 6$.\nThus, $ax = -3 \\pm 6$ and $a = \\frac{-3 \\pm 6}{x}$. Now, we know that $x=-3$ is a solution, so $a = \\frac{-3 \\pm 6}{-3} = \\frac{3 \\pm 6}{3}$. Thus, $a$ could be 11 or $-5$.\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "$$9 a x+9 b-6=21$$Based on the equation above, what is the value of $a x+b$ ? \nAnswer Choices: (A) 3 (B) 6 (C) 8 (D) 12",
+    "output": "Simplify both sides of the equation, we get: $9 a x+9 b-6=21$ $9 a x+9 b=27$Divide both sides by 9, we get: $a x+b=3$ The answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "1.2",
+    "question": "Lani spent $15 \\%$ of her 8-hour workday in meetings. How many minutes of her workday did she spend in meetings? \nAnswer Choices: (A) 1.2 (B) 15 (C) 48 (D) 72",
+    "output": "Let's think about the multi-choice question step by step.\nLet $x$ be the number of minutes of her workday that Lani spent in meetings. Then, $\\frac{x}{8} = 0.15$, so $x = 8 \\cdot 0.15 = \\boxed{1.2}$. The answer is 1.2",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "A software company is selling a new game in a standard edition and a collector's edition. The box for the standard edition has a volume of 20 cubic inches, and the box for the collector's edition has a volume of 30 cubic inches. The company receives an order for 75 copies of the game, and the total volume of the order to be shipped is 1,870 cubic inches. Which of the following systems of equations can be used to determine the number of standard edition games, $s$, and collector's edition games, $c$, that were ordered? \nAnswer Choices: (A) $75-s=c$ $20 s+30 c=1,870$ (B) $75-s=c$ $30 s+20 c=1,870$ (C) $\\quad s-c=75$ $25(s+c)=1,870$ (D) $\\quad s-c=75$ $30 s+20 c=1,870$",
+    "output": "Let's solve the multi-choice question step by step.\nThe equations in each answer choice are equivalent except for the order of the variables. In other words, answer choice A is the same as answer choice B but with the variables switched. So we look to see which answer choice matches the information in the problem. We know that the total number of games ordered is 75, so answer choice C and D are eliminated. Also, we know that the volume of the smaller boxes is 20 cubic inches and the volume of the larger boxes is 30 cubic inches, so answer choice A is eliminated. Thus, answer choice B is the only answer left.\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "50",
+    "question": "A customer paid $\\$ 53.00$ for a jacket after a 6 percent sales tax was added. What was the price of the jacket before the sales tax was added? \nAnswer Choices: (A) $\\$ 47.60$ (B) $\\$ 50.00$ (C) $\\$ 52.60$ (D) $\\$ 52.84$",
+    "output": "Let $x$ be the price of the jacket before the sales tax was added. Then, the price after the sales tax is $1.06x$. It follows that $1.06x = 53$. Solving for $x$, we find $x = \\frac{53}{1.06} = \\$ 50.00$. The answer is $\\boxed{\\$ 50.00}$. The answer is 50",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "B",
+    "err": false,
+    "question": "If 50 one-cent coins were stacked on top of each other in a column, the column would be approximately $3 \\frac{7}{8}$ inches tall. At this rate, which of the following is closest to the number of one-cent coins it would take to make an 8-inch-tall column? \nAnswer Choices: (A) 75 (B) 100 (C) 200 (D) 390",
+    "output": "Let's think about the multi-choice question.\nWe can solve this problem by setting up a proportion. We can say: 50 coins / 3.75 inches = x coins / 8 inches.\nNow, we can solve for x: 50 x 8 = 3.75 x X\nWe get: X = 200\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "52",
+    "question": "If $a-b=12$ and $\\frac{b}{2}=10$, what is the value of $a+b$ ? \nAnswer Choices: (A) 2 (B) 12 (C) 32 (D) 52",
+    "output": "Since $\\frac{b}{2}=10$ and $b$ is a whole number, $b=20$. Since $a-b=12$, $a=b+12=32$. Thus, $a+b=32+20=\\boxed{52}$. The answer is 52",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "$$y=19.99+1.50 x$$The equation above models the total cost $y$, in dollars, that a company charges a customer to rent a truck for one day and drive the truck $x$ miles. The total cost consists of a flat fee plus a charge per mile driven. When the equation is graphed in the $x y$-plane, what does the $y$-intercept of the graph represent in terms of the model? \nAnswer Choices: (A) A flat fee of $\\$ 19.99$ (B) A charge per mile of $\\$ 1.50$ (C) A charge per mile of $\\$ 19.99$ (D) Total daily charges of $\\$ 21.49$",
+    "output": "The $y$-intercept of the graph is the point at which the line crosses the $y$-axis. On the $y$-axis, $x=0$. We can substitute $x=0$ into the equation to find the $y$-intercept.  \\[y=19.99+1.50(0)=19.99\\]The $y$-intercept is $(0,19.99)$. This point corresponds to the cost of renting the truck for one day and driving $0$ miles. In the model, this is the flat fee of $\\boxed{\\$ 19.99}$. The answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "$$.\\begin{aligned}.& \\text { Mosteller's formula: } A=\\frac{\\sqrt{h w}}{60} \\\\.& \\text { Current's formula: } A=\\frac{4+w}{30}.\\end{aligned}.$$.The formulas above are used in medicine to estimate the body surface area $A$, in square meters, of infants and children whose weight $w$ ranges between 3 and 30 kilograms and whose height $h$ is measured in centimeters.Based on Current's formula, what is $w$ in terms of $A$ ? \nAnswer Choices: (A) $w=30 A-4$ (B) $w=30 A+4$ (C) $w=30(A-4)$ (D) $w=30(A+4)$",
+    "output": "Let's solve the multi-choice question step by step.\nCurrent's formula: $A=\\frac{4+w}{30}$.\nTo express $w$ in terms of $A$, we multiply both sides of the equation by $30$ and subtract 4 from both sides to get $w=30A-4$.\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "\\frac{(4+w)^2}{1,800}",
+    "question": "$$.\\begin{aligned}.& \\text { Mosteller's formula: } A=\\frac{\\sqrt{h w}}{60} \\\\.& \\text { Current's formula: } A=\\frac{4+w}{30}.\\end{aligned}.$$.The formulas above are used in medicine to estimate the body surface area $A$, in square meters, of infants and children whose weight $w$ ranges between 3 and 30 kilograms and whose height $h$ is measured in centimeters.If Mosteller's and Current's formulas give the same estimate for $A$, which of the following expressions is equivalent to $\\sqrt{h w}$ ? \nAnswer Choices: (A) $\\frac{4+w}{2}$ (B) $\\frac{4+w}{1,800}$ (C) $2(4+w)$ (D) $\\frac{(4+w)^{2}}{2}$",
+    "output": "Let's solve the multi-choice question step by step.\nCurrent's formula gives $A = \\frac{4 + w}{30} = \\frac{1}{30} (4 + w).$\nMosteller's formula gives $A = \\frac{\\sqrt{h w}}{60}.$\nSince the two formulas give the same result,\n$$\\frac{1}{30} (4 + w) = \\frac{\\sqrt{h w}}{60}.$$Squaring both sides,\n$$\\frac{1}{900} (4 + w)^2 = \\frac{h w}{3600}.$$Thus,\n$$\\frac{(4 + w)^2}{900} = \\frac{h w}{3600}.$$Dividing both sides by 900,\n$$\\frac{(4 + w)^2}{1,800} = \\frac{h w}{1,800}.$$The answer is $\\boxed{\\frac{(4 + w)^2}{1,800}}.$.The answer is \\frac{(4+w)^2}{1,800}",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "Percent of Residents Who Earned a Bachelor's Degree or Higher\\begin{center}\\begin{tabular}{|c|c|}\\hlineState & Percent of residents \\\\\\hlineState A & $21.9 \\%$ \\\\\\hlineState B & $27.9 \\%$ \\\\\\hlineState C & $25.9 \\%$ \\\\\\hlineState D & $19.5 \\%$ \\\\\\hlineState E & $30.1 \\%$ \\\\\\hlineState F & $36.4 \\%$ \\\\\\hlineState G & $35.5 \\%$ \\\\\\hline\\end{tabular}\\end{center}A survey was given to residents of all 50 states asking if they had earned a bachelor's degree or higher.The results from 7 of the states are given in the table above. The median percent of residents who earned a bachelor's degree or higher for all 50 states was $26.95 \\%$. What is the difference between the median percent of residents who earned a bachelor's degree or higher for these 7 states and the median for all 50 states? \nAnswer Choices: (A) $0.05 \\%$ (B) $0.95 \\%$ (C) $1.22 \\%$ (D) $7.45 \\%$",
+    "output": "Since the 7 states are State A, State B, State C, State D, State E, State F, and State G, we can number these states 1, 2, 3, 4, 5, 6, and 7. Then, the median percent of residents who earned a bachelor's degree or higher for all 7 states is the average of the third and fourth numbers, which is $\\frac{25.9+27.9}{2}=26.95$. The difference between this and the median for all 50 states is $26.95-26.9=0.05$. The answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "A cylindrical can containing pieces of fruit is filled to the top with syrup before being sealed. The base of the can has an area of $75 \\mathrm{~cm}^{2}$, and the height of the can is $10 \\mathrm{~cm}$. If $110 \\mathrm{~cm}^{3}$ of syrup is needed to fill the can to the top, which of the following is closest to the total volume of the pieces of fruit in the can? \nAnswer Choices: (A) $7.5 \\mathrm{~cm}^{3}$ (B) $185 \\mathrm{~cm}^{3}$ (C) $640 \\mathrm{~cm}^{3}$ (D) $750 \\mathrm{~cm}^{3}$",
+    "output": "Let's solve the multi-choice question step by step.\nThe volume of the can is $\\pi r^2h=75\\pi\\cdot 10=750\\pi$. Since we don't know the radius, we can guess that the volume of the can is about 750 cubic cm. Now we just need to find the volume of the syrup. The rest of the volume is the volume of the fruit. $110 cm^3=750\\pi-75\\pi=675\\pi$. Since we know that $\\pi=3.14$, we can estimate that the volume of the fruit is about $675\\cdot 3.14=2400$ cubic cm. The answer is $B",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "$$h(t)=-16 t^{2}+110 t+72$$The function above models the height $h$, in feet, of an object above ground $t$ seconds after being launched straight up in the air. What does the number 72 represent in the function? \nAnswer Choices: (A) The initial height, in feet, of the object (B) The maximum height, in feet, of the object (C) The initial speed, in feet per second, of the object (D) The maximum speed, in feet per second, of the object",
+    "output": "Let's think about the multi-choice question.\nThe vertex of the parabola is $(10,72)$. When $t=0$, the height of the object is $h(0)=72$ feet. This is the initial height of the object.\nThe maximum height of the object is the $y$-coordinate of the vertex, which is 72 feet.\nThe initial speed of the object is $\\frac{1}{2}$ of the slope of the line, which is $\\frac{1}{2}(110-72)=\\frac{1}{2}(38)=19$ feet per second.\nThe maximum speed of the object is the absolute value of the slope of the line, which is 19 feet per second.\nThe answer is A.",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "Energy per Gram of Typical Macronutrients.\\begin{center}.\\begin{tabular}{|l|c|c|}.\\hline.Macronutrient & Food calories & Kilojoules \\\\.\\hline.Protein & 4.0 & 16.7 \\\\.\\hline.Fat & 9.0 & 37.7 \\\\.\\hline.Carbohydrate & 4.0 & 16.7 \\\\.\\hline.\\end{tabular}.\\end{center}.The table above gives the typical amounts of energy per gram, expressed in both food calories and kilojoules, of the three macronutrients in food.If $x$ food calories is equivalent to $k$ kilojoules, of the following, which best represents the relationship between $x$ and $k$ ? \nAnswer Choices: (A) $k=0.24 x$ (B) $k=4.2 x$ (C) $x=4.2 k$ (D) $x k=4.2$",
+    "output": "Let's think about the multi-choice question step by step.\nSince 1 food calorie = 4 kilojoules, then 1 food calories = 4 kilojoules.\nThe answer is D.",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "B",
+    "err": false,
+    "question": "Energy per Gram of Typical Macronutrients.\\begin{center}.\\begin{tabular}{|l|c|c|}.\\hline.Macronutrient & Food calories & Kilojoules \\\\.\\hline.Protein & 4.0 & 16.7 \\\\.\\hline.Fat & 9.0 & 37.7 \\\\.\\hline.Carbohydrate & 4.0 & 16.7 \\\\.\\hline.\\end{tabular}.\\end{center}.The table above gives the typical amounts of energy per gram, expressed in both food calories and kilojoules, of the three macronutrients in food.If the 180 food calories in a granola bar come entirely from $p$ grams of protein, $f$ grams of fat, and $c$ grams of carbohydrate, which of the following expresses $f$ in terms of $p$ and $c$ ? \nAnswer Choices: (A) $f=20+\\frac{4}{9}(p+c)$ (B) $f=20-\\frac{4}{9}(p+c)$ (C) $f=20-\\frac{4}{9}(p-c)$ (D) $f=20+\\frac{9}{4}(p+c)$",
+    "output": "Let's solve the multi-choice question step by step.\nThe sum of the three macronutrients is 180 calories. Each gram of protein has 4 calories. Each gram of fat has 9 calories. Each gram of carbohydrate has 4 calories.\nThe equation is:\n$p+f+c=180$\nSubstitute $p$ , $f$ , and $c$ with the corresponding values in the table above.\n$16.7p+37.7f+16.7c=180$\nDivide both sides by $16.7$.\n$p+3.7f+c=180/16.7=10$\nSubstitute $c$ with $10-p-3.7f$ .\n$p+3.7f+10-p-3.7f=10$\n$10=10$\nThe answer is $f=20-\\frac{4}{9}(p+c)$ .\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "The world's population has grown at an average rate of 1.9 percent per year since 1945. There were approximately 4 billion people in the world in 1975. Which of the following functions represents the world's population $P$, in billions of people, $t$ years since $1975 ?(1$ billion $=1,000,000,000)$ \nAnswer Choices: (A) $P(t)=4(1.019)^{t}$ (B) $P(t)=4(1.9)^{t}$ (C) $P(t)=1.19 t+4$ (D) $P(t)=1.019 t+4$",
+    "output": "Let's think about the multi-choice question.\nThe population grew by 1.9 billion people per year.\nIn 1975, the population was 4 billion people.\nNow, we can use the formula $P=A(1+r)^t$ where,\n$P=$ the final population\n$A=$ the initial population\n$r=$ the rate of growth\n$t=$ the time in years\nSubstituting in the values, we get $4(1.019)^t$\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "D",
+    "err": false,
+    "question": "A circle in the $x y$-plane has equation$(x+3)^{2}+(y-1)^{2}=25$. Which of the following points does NOT lie in the interior of the circle? \nAnswer Choices: (A) $(-7,3)$ (B) $(-3,1)$ (C) $(0,0)$ (D) $(3,2)$",
+    "output": "Let's think about the multi-choice question step by step.\nIf a point $(x,y)$ lies inside the circle, then the distance from $(x,y)$ to the center of the circle must be less than the radius of the circle.\nIn the given equation, the center of the circle is $(-3,1)$ and the radius is $\\sqrt{25}=5$.\nA. $(-7,3)$ is outside the circle because the distance from $(-7,3)$ to the center $(-3,1)$ is $\\sqrt{(-7-(-3))^2+(3-1)^2}=\\sqrt{16+4}=2\\sqrt{5}>5$.\nB. $(-3,1)$ is inside the circle because the distance from $(-3,1)$ to the center $(-3,1)$ is $\\sqrt{(-3-(-3))^2+(1-1)^2}=0<5$.\nC. $(0,0)$ is inside the circle because the distance from $(0,0)$ to the center $(-3,1)$ is $\\sqrt{(0-(-3))^2+(0-1)^2}=\\sqrt{9+1}=\\sqrt{10}<5$.\nD. $(3,2)$ is outside the circle because the distance from $(3,2)$ to the center $(-3,1)$ is $\\sqrt{(3-(-3))^2+(2-1)^2}=\\sqrt{16+1}=\\sqrt{17}>5$.\nThe answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "\\begin{center}\\begin{tabular}{c|c}Year & $\\begin{array}{c}\\text { Subscriptions } \\\\ \\text { sold }\\end{array}$ \\\\\\hline2012 & 5,600 \\\\2013 & 5,880 \\\\\\end{tabular}\\end{center}The manager of an online news service received the report above on the number of subscriptions sold by the service. The manager estimated that the percent increase from 2012 to 2013 would be double the percent increase from 2013 to 2014 . How many subscriptions did the manager expect would be sold in 2014 ? \nAnswer Choices: (A) 6,020 (B) 6,027 (C) 6,440 (D) 6,468 DIRECTIONS",
+    "output": "Let's reason about the multi-choice question.\nSolution -\nLet the % increase in 2013 to 2014 be x.\nThen, % increase in 2012 to 2013 = 2x.\n5,880 = 5,600(1 + 2x/100)\n120 = 5,600*2x/100\nx = 20/6 = 10/3 = 3.33\nThe percent increase from 2012 to 2014 = 2x = 2*3.33 = 6.66\nSubscriptions sold in 2014 = 5,880(1 + 6.66/100) = 5,880 + 5,880*6.66/100 = 6,468\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "D",
+    "err": false,
+    "question": "$$3 x+x+x+x-3-2=7+x+x$$In the equation above, what is the value of $x$ ? \nAnswer Choices: (A) $-\\frac{5}{7}$ (B) 1 (C) $\\frac{12}{7}$ (D) 3",
+    "output": "Let's solve the multi-choice question step by step.\n\\begin{align*}\n3x+x+x+x-3-2&=7+x+x\\\\\n4x-3&=7+x\\\\\n4x&=10\\\\\nx&=\\frac{10}{4}\\\\\nx&=\\frac{5}{2}\\\\\nx&=\\boxed{\\frac{12}{7}}\n\\end{align*}. The answer is C",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "A",
+    "err": false,
+    "question": "The formula below is often used by project managers to compute $E$, the estimated time to complete a job, where $O$ is the shortest completion time, $P$ is the longest completion time, and $M$ is the most likely completion time.$$E=\\frac{O+4 M+P}{6}$$Which of the following correctly gives $P$ in terms of $E, O$, and $M$ ? \nAnswer Choices: (A) $P=6 E-O-4 M$ (B) $P=-6 E+O+4 M$ (C) $P=\\frac{O+4 M+E}{6}$ (D) $P=\\frac{O+4 M-E}{6}$",
+    "output": "Let's think about the multi-choice question.\nThis is a fairly straightforward problem, especially if you notice that the term $4M$ in the numerator cancels out $4M$ in the denominator. So all you have to do is plug in the other two variables:\n\\begin{align*}\nP&=\\frac{O+4 M+P}{6}\\\\\n\\Rightarrow\\qquad 6P&=O+4 M+P\\\\\n\\Rightarrow\\qquad 5P&=O+4 M\\\\\n\\Rightarrow\\qquad P&=\\frac{O+4 M}{5}\n\\end{align*}Notice that you can eliminate the $5$ in the denominator by multiplying both sides by $5$. Now, you can easily find $P$ by plugging in the values of $O$ and $M$ in the last step.\nThe answer is $P=\\frac{O+4 M}{5}$. The correct answer is choice C.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "The width of a rectangular dance floor is $w$ feet. The length of the floor is 6 feet longer than its width. Which of the following expresses the perimeter, in feet, of the dance floor in terms of $w$ ? \nAnswer Choices: (A) $2 w+6$ (B) $4 w+12$ (C) $w^{2}+6$ (D) $w^{2}+6 w$",
+    "output": "Let's think about the multi-choice question step by step.\nThe length of the floor is $w+6$ feet. The perimeter is $2 w+2(w+6)=2 w+2 w+12=4 w+12$ feet.\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "$$\\begin{aligned}y & >2 x-1 \\\\2 x & >5\\end{aligned}$$Which of the following consists of the $y$-coordinates of all the points that satisfy the system of inequalities above? \nAnswer Choices: (A) $y>6$ (B) $y>4$ (C) $y>\\frac{5}{2}$ (D) $y>\\frac{3}{2}$",
+    "output": "Plotting the graph of $y>2x-1$, we find that the line passes through $(0,-1)$.  All points above this line satisfy the first inequality.\n\nPlotting the graph of $2x>5$, we find that the line passes through $(0,2)$.  All points above this line satisfy the second inequality.\n\n[asy]\nsize(150);\ndraw((-2,0)--(8,0),Arrow);\ndraw((0,-4)--(0,4),Arrow);\nlabel(\"$x$\",(8,0),S);\nlabel(\"$y$\",(0,4),E);\nlabel(\"2\",(5,2),NW);\nlabel(\"-1\",(0,-1),S);\ndraw((0,0)--(5,2),linewidth(0.7));\n[/asy]\n\nTherefore, the $y$-coordinates of all the points that satisfy the system of inequalities are $y>2x-1$ and $y>2$.  Among the choices, the only line that satisfies both inequalities is $y>4$.  The answer is $\\boxed{B}$. The answer is B",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "$$\\sqrt{2 x+6}+4=x+3$$What is the solution set of the equation above? \nAnswer Choices: (A) $\\{-1\\}$ (B) $\\{5\\}$ (C) $\\{-1,5\\}$ (D) $\\{0,-1,5\\}$",
+    "output": "Subtracting 4 from both sides of the equation, we have $\\sqrt{2x+6}=x-1$. Squaring both sides, we get $2x+6=(x-1)^2=x^2-2x+1$. This simplifies to $x^2-5x+5=0$, which factors as $(x-5)(x-1)=0$. The solution is $x=5$ or $x=1$. Thus the solution set is $\\boxed{B}$. The answer is B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "\\frac{x}{x+1}",
+    "question": "$$\\begin{aligned}& f(x)=x^{3}-9 x \\\\& g(x)=x^{2}-2 x-3\\end{aligned}$$Which of the following expressions is equivalent to$\\frac{f(x)}{g(x)}$, for $x>3$ ? \nAnswer Choices: (A) $\\frac{1}{x+1}$ (B) $\\frac{x+3}{x+1}$ (C) $\\frac{x(x-3)}{x+1}$ (D) $\\frac{x(x+3)}{x+1}$",
+    "output": "Let's reason about the multi-choice question.\nWe have that\n\\[\\frac{f(x)}{g(x)}=\\frac{x^3-9x}{x^2-2x-3}.\\]Since $x>3$, we can write\n\\[\\frac{x^3-9x}{x^2-2x-3}=\\frac{x(x^2-9)}{x^2-2x-3}=\\frac{x(x-3)}{x^2-2x-3}.\\]Now, we can factor the denominator as\n\\[x^2-2x-3=(x+1)(x-3).\\]Thus,\n\\[\\frac{x(x-3)}{(x+1)(x-3)}=\\frac{x}{x+1}.\\]The answer is $\\boxed{\\frac{x}{x+1}}$. The answer is \\frac{x}{x+1}",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "A group of 202 people went on an overnight camping trip, taking 60 tents with them. Some of the tents held 2 people each, and the rest held 4 people each. Assuming all the tents were filled to capacity and every person got to sleep in a tent, exactly how many of the tents were 2-person tents? \nAnswer Choices: (A) 30 (B) 20 (C) 19 (D) 18 11",
+    "output": "Let's think about the multi-choice question.\n202 people went on a camping trip with 60 tents.\nIf the trip was successful, then 202/60 = 3.33 tents were occupied.\nSince the first set of tents was 2-person tents, then 3.33 - 1.33 = 2 tents were 4-person tents.\nSince 10 tents were 2-person tents, then 20 tents were 4-person tents.\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "4",
+    "question": "If $\\frac{2 a}{b}=\\frac{1}{2}$, what is the value of $\\frac{b}{a}$ ? \nAnswer Choices: (A) $\\frac{1}{8}$ (B) $\\frac{1}{4}$ (C) 2 (D) 4",
+    "output": "Multiply both sides of the given equation by $2ab$ to get $4a^2=b^2$. Since $a^2=b^2/4$, $a=\\pm\\sqrt{b^2/4}$. Thus $\\frac{b}{a}=\\boxed{4}$. The answer is 4",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "C",
+    "err": false,
+    "question": "Oil and gas production in a certain area dropped from 4 million barrels in 2000 to 1.9 million barrels in 2013. Assuming that the oil and gas production decreased at a constant rate, which of the following linear functions $f$ best models the production, in millions of barrels, $t$ years after the year 2000 ? \nAnswer Choices: (A) $f(t)=\\frac{21}{130} t+4$ (B) $f(t)=\\frac{19}{130} t+4$ (C) $f(t)=-\\frac{21}{130} t+4$ (D) $f(t)=-\\frac{19}{130} t+4$",
+    "output": "Let's think about the multi-choice question.\nThis is a linear function. The rate of production is decreasing by 21/130 million barrels per year.\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "$$\\begin{aligned}& y=x^{2}+3 x-7 \\\\& y-5 x+8=0\\end{aligned}$$How many solutions are there to the system of equations above? \nAnswer Choices: (A) There are exactly 4 solutions. (B) There are exactly 2 solutions. (C) There is exactly 1 solution. (D) There are no solutions.",
+    "output": "Let's solve the multi-choice question step by step.\n\\begin{align*}\n(1) y&=x^{2}+3 x-7 \\\\\n(2) y-5 x+8&=0\n\\end{align*}If we eliminate $y$ from the system, we have a quadratic equation in $x$.\n\\[x^{2}+3 x-7-5 x+8=0\\]This simplifies to $x^{2}-2x+1=0$, which has solutions $x=1$ and $x=-1$.\n\nTherefore, the original system has exactly $\\boxed{2}$ solutions. The answer is B",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "D",
+    "err": false,
+    "question": "$$\\begin{aligned}& g(x)=2 x-1 \\\\& h(x)=1-g(x)\\end{aligned}$$The functions $g$ and $h$ are defined above. What is the value of $h(0)$ ? \nAnswer Choices: (A) -2 (B) 0 (C) 1 (D) 2",
+    "output": "Let's think about the multi-choice question.\nWe have $h(x)=1-g(x)=1-(2x-1)=-2x+1$. Hence, $h(0)=-2\\cdot 0 +1 = \\boxed{1}$. The answer is C",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "2c",
+    "question": "One pound of grapes costs $\\$ 2$. At this rate, how many dollars will $c$ pounds of grapes cost? \nAnswer Choices: (A) $2 c$ (B) $2+c$ (C) $\\frac{2}{c}$ (D) $\\frac{c}{2}$",
+    "output": "This is a linear equation, so we can solve for the constant of the equation. One pound of grapes costs $\\$ 2$, so $1$ pound of grapes is $\\$ 2$. Multiplying both sides of this equation by $c$, we get $c\\cdot 1 = c \\cdot 2$, so $c = \\boxed{2c}$. The answer is 2c",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "In a random sample of 200 cars of a particular model, 3 have a manufacturing defect. At this rate, how many of 10,000 cars of the same model will have a manufacturing defect? \nAnswer Choices: (A) 150 (B) 200 (C) 250 (D) 300",
+    "output": "Let's solve the multi-choice question step by step.\nExperiment 1: 200 cars of a particular model, 3 have a manufacturing defect\nExperiment 2: 10,000 cars of the same model\nMake a ratio of the number of cars with defects out of the total number of cars.\n3/200 = x/10,000\n3 x 10,000 = 200 x x\nx = 150\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "D",
+    "err": false,
+    "question": "Two types of tickets were sold for a concert held at an amphitheater. Tickets to sit on a bench during the concert cost $\\$ 75$ each, and tickets to sit on the lawn during the concert cost $\\$ 40$ each. Organizers of the concert announced that 350 tickets had been sold and that $\\$ 19,250$ had been raised through ticket sales alone. Which of the following systems of equations could be used to find the number of tickets for bench seats, $B$, and the number of tickets for lawn seats, $L$, that were sold for the concert? \nAnswer Choices: (A) $(75 B) (40 L)=1,950$ $B+L=350$ (B) $40 B+75 L=19,250$ $B+L=350$ (C) $75 B+40 L=350$ $B+L=19,250$ (D) $75 B+40 L=19,250$ $B+L=350$",
+    "output": "Let's solve the multi-choice question step by step.\nThe two equations that can be formed are:\n(1) $75B+40L=19250$\n(2) $B+L=350$\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "-3x+3",
+    "question": "In the $x y$-plane, the graph of which of the following equations is a line with a slope of 3 ? \nAnswer Choices: (A) $y=\\frac{1}{3} x$ (B) $y=x-3$ (C) $y=3 x+2$ (D) $y=6 x+3$",
+    "output": "Let's think about the multi-choice question step by step.\nThe slope of a line in the $x y$-plane is given by the formula $m=\\frac{\\text{change in } y}{\\text{change in } x}$.\nIf the slope of the line is 3, then $\\text{change in } y=3\\times \\text{change in } x$.\nStarting at a point $(x,y)$, the slope of the line through this point and $(x+1,0)$ is $\\frac{0-y}{1-x}$.\nSetting this equal to 3, we find  \\begin{align*}\n\\frac{0-y}{1-x}&=3 \\quad \\Rightarrow \\\\\ny&=-3 x+3.\n\\end{align*}\nThe answer is $\\boxed{y=-3 x+3}$. The answer is y=-3x+3",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "$$x+1=\\frac{2}{x+1}$$In the equation above, which of the following is a possible value of $x+1$ ? \nAnswer Choices: (A) $1-\\sqrt{2}$ (B) $\\sqrt{2}$ (C) 2 (D) 4",
+    "output": "Let's think about the multi-choice question step by step.\n$x+1=\\frac{2}{x+1}$\n$(x+1)^2=(\\frac{2}{x+1})^2$\n$x^2+2x+1=\\frac{4}{x^2+2x+1}$\n$x^2+2x+1=2$\n$x^2+2x-1=0$\n$(x+1)(x-1)=0$\n$x=-1$ or $x=1$\n$x+1=1-\\sqrt{2}$ or $x+1=\\sqrt{2}$\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "Roberto is an insurance agent who sells two types of policies: a $\\$ 50,000$ policy and a $\\$ 100,000$ policy. Last month, his goal was to sell at least 57 insurance policies. While he did not meet his goal, the total value of the policies he sold was over $\\$ 3,000,000$. Which of the following systems of inequalities describes $x$, the possible number of $\\$ 50,000$ policies, and $y$, the possible number of $\\$ 100,000$ policies, that Roberto sold last month? \nAnswer Choices: (A) $x+y<57$ $50,000 x+100,000 y<3,000,000$ (B) $x+y>57$ $50,000 x+100,000 y>3,000,000$ (C) $x+y<57$ $50,000 x+100,000 y>3,000,000$ (D) $x+y>57$ $50,000 x+100,000 y<3,000,000$",
+    "output": "The first inequality describes the number of policies sold ($x+y$), while the second inequality describes the total value of the policies sold ($50,000x+100,000y$). Therefore, we are looking for a system of inequalities that describes these two values. In particular, we want the number of policies sold to be at least 57 ($x+y\\ge57$), and we want the total value of the policies sold to be at least 3,000,000 ($50,000x+100,000y\\ge3,000,000$). This value is greater than 3,000,000 because we know that the goal was to sell at least 57 policies, and we have already sold 56 policies (by the options, because we know that $x+y\\ge57$). Therefore, we have that $x+y\\ge57$ and $50,000x+100,000y\\ge3,000,000$. Looking at the inequalities, we see that only option (B) matches the description. Therefore, the answer is $\\boxed{B}$. The answer is B",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "$$\\begin{aligned}& 2 x-y=8 \\\\& x+2 y=4\\end{aligned}$$For the system of equations above, what is the value of $x+y$ ? \nAnswer Choices: (A) -1 (B) 4 (C) 5 (D) 20",
+    "output": "Add the left terms and right terms of the two equation to obtain a new equation $3x=12$. Solving for $x$, we get $x=4$. Substitute $x$ back into $2x-y=8$ to find $y=0$. Thus, $x+y=4+0=\\boxed{4}$. The answer is B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Which of the following is equivalent to $2\\left(x^{2}-x\\right)+3\\left(x^{2}-x\\right)$ ? \nAnswer Choices: (A) $5 x^{2}-5 x$ (B) $5 x^{2}+5 x$ (C) $5 x$ (D) $5 x^{2}$",
+    "output": "Let's think about the multi-choice question.\n$2\\left(x^{2}-x\\right)+3\\left(x^{2}-x\\right) = 2 x^{2}-2 x+3 x^{2}-3 x = \\boxed{5 x^{2}-5 x}$\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "D",
+    "err": false,
+    "question": "Which of the following statements is true about the graph of the equation $2 y-3 x=-4$ in the $x y$-plane? \nAnswer Choices: (A) It has a negative slope and a positive $y$-intercept. (B) It has a negative slope and a negative $y$-intercept. (C) It has a positive slope and a positive $y$-intercept. (D) It has a positive slope and a negative $y$-intercept.",
+    "output": "The slope of the line is $-\\frac32$ and the $y$-intercept is $-4$.  The slope of the line is negative, so the line goes down as the $x$ increases.  The $y$-intercept is negative, so the line goes below the $y$-axis.  The answer is $\\boxed{\\text{(B)}}$. The answer is \\text{(B)}",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "The front of a roller-coaster car is at the bottom of a hill and is 15 feet above the ground. If the front of the roller-coaster car rises at a constant rate of 8 feet per second, which of the following equations gives the height $h$, in feet, of the front of the roller-coaster car $s$ seconds after it starts up the hill? \nAnswer Choices: (A) $h=8 s+15$ (B) $h=15 s+\\frac{335}{8}$ (C) $h=8 s+\\frac{335}{15}$ (D) $h=15 s+8$",
+    "output": "If the front of the roller-coaster car rises at a constant rate of 8 feet per second, then after $s$ seconds, the height $h$ of the front of the roller-coaster car is $8s$ feet higher than when it started up the hill. (Note that the front of the roller-coaster car did not rise at a constant rate of 8 feet per second from the time it started up the hill to the time it reached the top of the hill, since at the top of the hill its speed was 0 feet per second.) Therefore, the equation is $h=8 s+15$. The answer is A.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "C",
+    "err": false,
+    "question": "$$C=75 h+125$$The equation above gives the amount $C$, in dollars, an electrician charges for a job that takes $h$ hours. Ms. Sanchez and Mr. Roland each hired this electrician. The electrician worked 2 hours longer on Ms. Sanchez's job than on Mr. Roland's job. How much more did the electrician charge Ms. Sanchez than Mr. Roland? \nAnswer Choices: (A) $\\$ 75$ (B) $\\$ 125$ (C) $\\$ 150$ (D) $\\$ 275$",
+    "output": "Let's think about the multi-choice question step by step.\nIf the electrician worked 2 hours longer on Ms. Sanchez's job than on Mr. Roland's job, then he worked 2+1=3 hours on Mr. Roland's job.\nSince the electrician charges $75 per hour, he charged Mr. Roland 75*3=225 dollars.\nIf the electrician charged Ms. Sanchez 225 dollars, then he charged Ms. Sanchez 75*2=150 dollars per hour.\nThe difference in the amount charged is 150-225=75 dollars.\nThe answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "0.05",
+    "question": "If $\\frac{8}{x}=160$, what is the value of $x$ ? \nAnswer Choices: (A) 1,280 (B) 80 (C) 20 (D) 0.05",
+    "output": "Multiply both sides of the equation by $x$ to obtain \\[160 x = 8.\\]Then divide both sides by $160$ to find that $x = \\boxed{0.05}$. The answer is 0.05",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "\\boxed{25}",
+    "question": "$$2 a x-15=3(x+5)+5(x-1)$$In the equation above, $a$ is a constant. If no value of $x$ satisfies the equation, what is the value of $a$ ? \nAnswer Choices: (A) 1 (B) 2 (C) 4 (D) 8",
+    "output": "Let's think about the multi-choice question step by step.\n\\begin{align*}\n2ax-15&=3(x+5)+5(x-1)\\\\\n2ax-15&=3x+15+5x-5\\\\\n2ax-15&=8x+10\\\\\n2ax-8x&=15+10\\\\\n\\Rightarrow\\qquad 1ax&=25\\\\\n\\Rightarrow\\qquad a&=25\\\\\nThe answer is \\boxed{25}",
+    "matching_err": true,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "-4",
+    "question": "$$(a x+3)\\left(5 x^{2}-b x+4\\right)=20 x^{3}-9 x^{2}-2 x+12$$The equation above is true for all $x$, where $a$ and $b$ are constants. What is the value of $a b$ ? \nAnswer Choices: (A) 18 (B) 20 (C) 24 (D) 40",
+    "output": "Let's think about the multi-choice question step by step.\nWe multiply $(ax+3)$ by $5x^2-bx+4$ and try to match the coefficients of $x^3$, $x^2$, $x$ and the constant term with those in the right hand side of the equation.\n\\begin{align*}\n(ax+3)(5x^2-bx+4) &= 5ax^3 +(-ab+3b)x^2 +(4a-3b)x +12\\\\\n&= 5ax^3 +(-ab+3b)x^2 +(4a-3b)x +12\\\\\n\\end{align*}In the above equation, we want the coefficients of $x^3$, $x^2$, $x$ and the constant term to be equal to those in the right hand side of the original equation. So we have $5a=20$, $-ab+3b=-9$, $4a-3b=-2$ and $12=12$. Solving these equations we get $a=4$, $b=-1$. Thus $ab=4\\cdot -1 = \\boxed{-4}$. The answer is -4",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "$$\\frac{x}{x-3}=\\frac{2 x}{2}$$Which of the following represents all the possible values of $x$ that satisfy the equation above? \nAnswer Choices: (A) 0 and 2 (B) 0 and 4 (C) -4 and 4 (D) 4",
+    "output": "First we simplify the fraction $\\frac{x}{x-3}=\\frac{2 x}{2}$. Multiplying both sides by $2(x-3)$, we obtain $2x=2(x-3)$. Expanding both sides, we get $2x=2x-6$. Subtracting $2x$ from both sides, we get $-6=0$. This is a contradiction, so there are no possible values of $x$ that satisfy the equation. The answer is $\\boxed{\\text{D}}$.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "D",
+    "err": false,
+    "question": "$$\\frac{1}{2 x+1}+5$$Which of the following is equivalent to the expression above for $x>0$ ? \nAnswer Choices: (A) $\\frac{2 x+5}{2 x+1}$ (B) $\\frac{2 x+6}{2 x+1}$ (C) $\\frac{10 x+5}{2 x+1}$ (D) $\\frac{10 x+6}{2 x+1}$",
+    "output": "We're given the fraction $\\frac{1}{2 x+1}+5$. We're asked to find an answer that is equivalent to this expression.\nTo start, we need to find a common denominator.\nThe first option, $\\frac{2 x+5}{2 x+1}$, doesn't look like it has a common denominator, but it actually does. If we multiply the entire fraction by 2x+1, we end up with...\n$\\frac{2 x+5}{2 x+1} = \\frac{2 x+5}{2 x+1} \\cdot \\frac{2x+1}{2x+1} = \\frac{(2x+5)(2x+1)}{(2x+1)(2x+1)} = \\frac{4x^2+10x+5}{4x^2+2x+1}$\nSince the resulting fraction is complicated, we can't just 'cancel' the denominators.\nInstead, we have to look at the fraction and see if there's a way to simplify it.\nBoth of the numerators and denominators are 'multiples' of 2x+1, so the fraction can be rewritten as...\n$\\frac{4x^2+10x+5}{4x^2+2x+1} = \\frac{2(2x^2+5x+2)}{2(2x^2+x+1)} = \\frac{2x+6}{2x+1}$\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "What is the set of all solutions to the equation $\\sqrt{x+2}=-x$ ? \nAnswer Choices: (A) $\\{-1,2\\}$ (B) $\\{-1\\}$ (C) $\\{2\\}$ (D) There are no solutions to the given equation.",
+    "output": "Let's reason about the multi-choice question.\nSquaring both sides of the equation, we get $x+2=x^2$. There are no solutions to this equation, so there are no solutions to the original equation.\nThe answer is D.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "8",
+    "question": "What value of $x$ satisfies the equation $3 x+3=27$ ? \nAnswer Choices: (A) 3 (B) 8 (C) 10 (D) 27",
+    "output": "Subtracting 3 from both sides of the equation, we have $3 x=24$, so $x= \\boxed{8}$. The answer is 8",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "If $\\frac{2 n}{5}=10$, what is the value of $2 n-1$ ? \nAnswer Choices: (A) 24 (B) 49 (C) 50 (D) 99",
+    "output": "To solve the equation $\\frac{2 n}{5}=10$, we multiply both sides by 5, which gives $2 n=50$. Next, we divide both sides by 2, which gives $n=25$. Finally, we evaluate $2 n-1=2(25)-1=\\boxed{49}$. The answer is B.",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "$$\\sqrt{x^{2}}=x$$Which of the following values of $x$ is NOT a solution to the equation above? \nAnswer Choices: (A) -4 (B) 0 (C) 1 (D) 3",
+    "output": "Let's think about the multi-choice question step by step.\n$$\\sqrt{x^{2}}=x$$Thus, we have $\\sqrt{x^{2}}=x$ and must square both sides.\nSquaring, we have $x^2 = x^2$.\nThus, $x=\\boxed{0}$ is not a solution.\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "144",
+    "question": "Washington High School randomly selected freshman, sophomore, junior, and senior students for a survey about potential changes to next year's schedule. Of students selected for the survey, $\\frac{1}{4}$ were freshmen and $\\frac{1}{3}$ were sophomores. Half of the remaining selected students were juniors. If336 students were selected for the survey, how many were seniors? \nAnswer Choices: (A) 240 (B) 140 (C) 120 (D) 70",
+    "output": "Let's reason about the multi-choice question.\nLet $x$ be the number of students selected for the survey. Then $\\frac{1}{4}x+ \\frac{1}{3}x + \\frac{1}{2}(x - (\\frac{1}{4}x+ \\frac{1}{3}x)) = 336$. Solving for $x$, we get $x = 480$. The number of seniors is $480 - 336 = \\boxed{144}$.\nThe answer is 144",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "A",
+    "err": false,
+    "question": "Plant A is currently 20 centimeters tall, and Plant B is currently 12 centimeters tall. The ratio of the heights of Plant A to Plant B is equal to the ratio of the heights of Plant $\\mathrm{C}$ to Plant D. If Plant $\\mathrm{C}$ is 54 centimeters tall, what is the height of Plant $\\mathrm{D}$, in centimeters? \nAnswer Choices: (A) 32.4 (B) 44.0 (C) 62.0 (D) 90.0",
+    "output": "Let's think about the multi-choice question.\nThe height of Plant A is 20 cm and the height of Plant B is 12 cm. The ratio of the heights of Plant A to Plant B is $20/12=5/3$. Thus the height of Plant C is $54\\cdot5/3=90$ cm. The answer is D.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "D",
+    "err": false,
+    "question": "Biologists found a new species of pale shrimp at the world's deepest undersea vent, the Beebe Vent Field. The vent is 3.1 miles below the sea's surface.Approximately how many kilometers below the sea's surface is the vent? ( 1 kilometer $\\approx 0.6214$ miles) \nAnswer Choices: (A) 2 (B) 3 (C) 4 (D) 5",
+    "output": "Let's think about the multi-choice question.\n3.1 miles = 3.1 * 0.6214 = 1.9 kilometers\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "C",
+    "err": false,
+    "question": "A cargo helicopter delivers only 100-pound packages and 120-pound packages. For each delivery trip, the helicopter must carry at least 10 packages, and the total weight of the packages can be at most 1,100 pounds. What is the maximum number of 120-pound packages that the helicopter can carry per trip? \nAnswer Choices: (A) 2 (B) 4 (C) 5 (D) 6",
+    "output": "Let's think about the multi-choice question step by step.\nLet x be the number of 100-pound packages.\nThen 120x + 10y \u2264 1100.\nBut 120x + 10y = 10(x + y) \u2265 10.\nThus, 120x + 10y = 10.\nThen x + y = 1.\nSince x is the number of 100-pound packages, x is an integer between 0 and 10.\nThe only integer which satisfies the equation is x = 9.\nThus, y = 1 and the maximum number of 120-pound packages is 1.\nThe answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "A company purchased a machine valued at $\\$ 120,000$. The value of the machine depreciates by the same amount each year so that after 10 years the value will be $\\$ 30,000$. Which of the following equations gives the value, $v$, of the machine, in dollars, $t$ years after it was purchased for $0 \\leq t \\leq 10$ ? \nAnswer Choices: (A) $v=30,000-9,000 t$ (B) $v=120,000-9,000 t$ (C) $v=120,000+9,000 t$ (D) $v=120,000-30,000 t$",
+    "output": "Let's think about the multi-choice question.\nAfter $t$ years, the value of the machine is $v=120,000-kt$ where $k$ is a constant. We have the two points $(0,120,000)$ and $(10,30,000)$. These yield the system of equations: \\begin{align*}\n120,000-10k &= 30,000 \\\\\n120,000-100k &= 30,000 \\\\\n\\end{align*} which yields $k=9,000$. So the value of the machine $t$ years after it was purchased is $v=120,000-9,000t$. The answer is $\\boxed{B}$.",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "Line $m$ in the $x y$-plane contains the points $(2,4)$ and $(0,1)$. Which of the following is an equation of line $m$ ? \nAnswer Choices: (A) $y=2 x+3$ (B) $y=2 x+4$ (C) $y=\\frac{3}{2} x+3$ (D) $y=\\frac{3}{2} x+1$",
+    "output": "The slope of a line through two points $(x_1,y_1)$ and $(x_2,y_2)$  is: $$\\frac{y_2-y_1}{x_2-x_1}=\\frac{1-4}{0-2}=-\\frac{3}{2}$$The equation of the line is $y=-\\frac{3}{2}x+b$. Substituting any of the points into this equation to solve for $b$, we get the equation of the line as $y=-\\frac{3}{2}x+1$. The answer is $\\boxed{\\text{(D)}}.$. The answer is \\text{(D)}",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "4",
+    "question": "$$(4 x+4)(a x-1)-x^{2}+4$$In the expression above, $a$ is a constant. If the expression is equivalent to $b x$, where $b$ is a constant, what is the value of $b$ ? \nAnswer Choices: (A) -5 (B) -3 (C) 0 (D) 12",
+    "output": "Let's think about the multi-choice question step by step.\nFactoring out $4x$ from the first two terms, we have $(4x(x+1)-x^2+4=0$. This simplifies to $x^2+4x-4=0$.\nThe roots of this quadratic are the solutions to the equation $x^2+4x-4=0$. The product of the roots is $-4/1=-4$ and the sum of the roots is $-4/1=-4$.\nIf we let the roots of the quadratic be $r_1$ and $r_2$, we have $r_1r_2=-4$ and $r_1+r_2=-4$. If we multiply the second equation by $-1$, we get $r_1+r_2=4$. This is a system of equations that we can solve for $r_1$ and $r_2$.\n$r_1r_2=-4$\n$r_1+r_2=4$\nSubtracting the second equation from the first, we get $r_1-r_2=0$. So $r_1=r_2=2$.\nThe roots of the quadratic are $2$ and $-2$. So $4x(x+1)-x^2+4=4x(x+1)-x^2-4x+4+4x=4x(x+1)-x(x+1)+4x+4=4(x+1)(x+1)$.\nThe answer is $b=\\boxed{4}$. The answer is 4",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "C",
+    "err": false,
+    "question": "If $2 w+4 t=14$ and $4 w+5 t=25$, what is the value of $2 w+3 t$ ? \nAnswer Choices: (A) 6 (B) 10 (C) 13 (D) 17",
+    "output": "Solve the system of equations by elimination. Multiply the first equation by 2 and subtract it from the second equation: \\begin{align*}\n4 w+8 t&=28\\\\\n4 w+5 t&=25\n\\end{align*}Now subtract the second equation from the first: \\begin{align*}\n4 w+8 t&=28\\\\\n-4 w-5 t&=-25\n\\end{align*}Solve for $t$: \\begin{align*}\n4 w+8 t&=28\\\\\n-4 w-5 t&=-25\\\\\n\\Rightarrow\\qquad 3t&=13\\\\\n\\Rightarrow\\qquad t&=4\n\\end{align*}Substitute $t=4$ into either equation and solve for $w$: \\begin{align*}\n2 w+4 t&=14\\\\\n2 w+4(4)&=14\\\\\n2 w+16&=14\\\\\n\\Rightarrow\\qquad 2 w&=-2\\\\\n\\Rightarrow\\qquad w&=-1\n\\end{align*}Substitute $w=-1$ and $t=4$ into the expression $2 w+3 t$ to find that $2 w+3 t=6$. The answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "Jennifer bought a box of Crunchy Grain cereal. The nutrition facts on the box state that a serving size of the cereal is $\\frac{3}{4}$ cup and provides 210 calories, 50 of which are calories from fat. In addition, each serving of the cereal provides 180 milligrams of potassium, which is $5 \\%$ of the daily allowance for adults.If $p$ percent of an adult's daily allowance of potassium is provided by $x$ servings of Crunchy Grain cereal per day, which of the following expresses $p$ in terms of $x$ ? \nAnswer Choices: (A) $p=0.5 x$ (B) $p=5 x$ (C) $p=(0.05)^{x}$ (D) $p=(1.05)^{x}$",
+    "output": "Let's think about the multi-choice question.\nThe answer is \tTotal amount of potassium provided in x servings of cereal is 180x.\nAllowance for adults is 100%.\nHence, p=180x/100\nor p=0.18x\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "\\frac{1}{3}",
+    "question": "Jennifer bought a box of Crunchy Grain cereal. The nutrition facts on the box state that a serving size of the cereal is $\\frac{3}{4}$ cup and provides 210 calories, 50 of which are calories from fat. In addition, each serving of the cereal provides 180 milligrams of potassium, which is $5 \\%$ of the daily allowance for adults.On Tuesday, Jennifer will mix Crunchy Grain cereal with Super Grain cereal for her breakfast. Super Grain cereal provides 240 calories per cup. If the total number of calories in one cup of Jennifer's mixture is 270, how much Super Grain cereal is in one cup of the mixture? \nAnswer Choices: (A) $\\frac{1}{8} \\operatorname{cup}$ (B) $\\frac{1}{4} \\operatorname{cup}$ (C) $\\frac{1}{3} \\operatorname{cup}$ (D) $\\frac{1}{2} \\operatorname{cup}$",
+    "output": "Let $x$ be the amount of Super Grain cereal in one cup of the mixture. Since the total number of calories in one cup of the mixture is 270, the amount of Crunchy Grain cereal in one cup is $1-x$ in order for the total number of calories to be 270. Therefore, we have the equation $210 + 240x = 270$, or $x=\\frac{1}{3}$. The answer is $\\boxed{\\frac{1}{3} \\operatorname{cup}}$. The answer is \\frac{1}{3}",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "The graph of the exponential function $h$ in the $x y$-plane, where $y=h(x)$, has a $y$-intercept of $d$, where $d$ is a positive constant. Which of the following could define the function $h$ ? \nAnswer Choices: (A) $h(x)=-3(d)^{x}$ (B) $h(x)=3(x) d$ (C) $h(x)=d(-x)^{3}$ (D) $h(x)=d(3)^{x}$",
+    "output": "The $y$-intercept of a function is the point at which the line crosses the $y$-axis. In other words, it is the $y$-value of the function when $x=0$. By plugging in $x=0$ to each answer choice, we can determine which one yields a $y$-intercept of $d$. Only choice D is a positive constant, $d$, when $x=0$. Thus, the function $h(x)=d(3)^{x}$ is the only function that satisfies the conditions. The answer is D.",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "The weights, in pounds, for 15 horses in a stable were reported, and the mean, median, range, and standard deviation for the data were found. The horse with the lowest reported weight was found to actually weigh 10 pounds less than its reported weight. What value remains unchanged if the four values are reported using the corrected weight? \nAnswer Choices: (A) Mean (B) Median (C) Range (D) Standard deviation",
+    "output": "Let's solve the multi-choice question step by step.\nThere are 15 horses.\nLet the lowest weight be x.\nThen the remaining weights are greater than or equal to x + 10.\nThe median is the average of the 8th and 9th largest weights.\nThe range is the difference between the largest and smallest weights.\nThe standard deviation is a measure of the spread of the data.\nCorrecting the lowest weight changes the mean, median, and range.\nThe standard deviation, however, is unchanged.\nThe answer is D.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "Near the end of a US cable news show, the host invited viewers to respond to a poll on the show's website that asked, \"Do you support the new federal policy discussed during the show?\" At the end of the show, the host reported that $28 \\%$ responded \"Yes,\" and $70 \\%$ responded \"No.\" Which of the following best explains why the results are unlikely to represent the sentiments of the population of the United States? \nAnswer Choices: (A) The percentages do not add up to $100 \\%$, so any possible conclusions from the poll are invalid. (B) Those who responded to the poll were not a random sample of the population of the United States. (C) There were not $50 \\%$ \"Yes\" responses and $50 \\%$ \"No\" responses. (D) The show did not allow viewers enough time to respond to the poll.",
+    "output": "First, we note that the percentages do not add up to $100 \\%$. The host reported that $28 \\%$ of respondents answered \"Yes\" and $70 \\%$ of respondents answered \"No,\" so the sum is $28 \\% + 70 \\% = 98 \\%$. This means that the rest of the percentages must be equal to $2 \\%$, and this is not a likely split in the actual population.\n\nSecond, the host did not specify how many people were polled. It is possible that the number of people who responded to the poll was very small, so the percentages do not necessarily represent the actual percentages in the population.\n\nThird, the host did not specify how many people were polled. It is possible that the number of people who responded to the poll was very large, so the percentages do not necessarily represent the actual percentages in the population.\n\nFourth, the host allowed viewers to respond to the poll for only a short time. This means that the percentages are not a true representation of the population, because not all people had a chance to respond.\n\nTherefore, the host's report that $28 \\%$ of people responded \"Yes\" and $70 \\%$ of people responded \"No\" is unlikely to represent the sentiments of the population of the United States. The answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "If $f(x)=5 x^{2}-3$ and $f(x+a)=5 x^{2}+30 x+42$, what is the value of $a$ ? \nAnswer Choices: (A) -30 (B) $\\quad-3$ (C) 3 (D) 30",
+    "output": "Let's think about the multi-choice question step by step.\n$f(x+a)=5 x^{2}+30 x+42$\n$5(x+a)^{2}-3=5 x^{2}+30 x+42$\n$5 x^{2}+10 x+5 a-3=5 x^{2}+30 x+42$\n$10 x+5 a-30 x=42-3$\n$-20 x+5 a=39$\n$5 a=39+20 x$\n$a=\\frac{39+20 x}{5}$\n$a=\\frac{39+20 \\cdot-3}{5}$\n$a=-3$\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "C",
+    "err": false,
+    "question": "If $\\sin x^{\\circ}=a$, which of the following must be true for all values of $x$ ? \nAnswer Choices: (A) $\\cos x^{\\circ}=a$ (B) $\\sin \\left(90^{\\circ}-x^{\\circ}\\right)=a$ (C) $\\cos \\left(90^{\\circ}-x^{\\circ}\\right)=a$ (D) $\\sin \\left(x^{2}\\right)^{\\circ}=a^{2}$",
+    "output": "A. $\\cos x^{\\circ}=a$ is not necessarily true. Consider $x=0$ and $a=1$. Then $\\sin 0^{\\circ}=0$ but $\\cos 0^{\\circ}=1$. So statement A is incorrect.\nB. $\\sin \\left(90^{\\circ}-x^{\\circ}\\right)=a$ is not necessarily true. Consider $x=10$ and $a=1$. Then $\\sin 89^{\\circ}=a$ and $\\sin (90-10)^{\\circ}=\\sin 80^{\\circ}$ which is not equal to $a$. So statement B is incorrect.\nC. $\\cos \\left(90^{\\circ}-x^{\\circ}\\right)=a$ is not necessarily true. Consider $x=10$ and $a=1$. Then $\\cos 89^{\\circ}=a$ and $\\cos (90-10)^{\\circ}=\\cos 80^{\\circ}$ which is not equal to $a$. So statement C is incorrect.\nD. $\\sin \\left(x^{2}\\right)^{\\circ}=a^{2}$ is true. Since $\\sin x^{\\circ}=a$, we have $\\sin (x^{2})^{\\circ}=\\sin (x\\cdot x)^{\\circ}=a\\cdot a=a^{2}$. So statement D is correct.\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "-1/4",
+    "question": "$$h(x)=-16 x^{2}+100 x+10$$The quadratic function above models the height above the ground $h$, in feet, of a projectile $x$ seconds after it had been launched vertically. If $y=h(x)$ is graphed in the $x y$-plane, which of the following represents the real-life meaning of the positive $x$-intercept of the graph? \nAnswer Choices: (A) The initial height of the projectile (B) The maximum height of the projectile (C) The time at which the projectile reaches its maximum height (D) The time at which the projectile hits the ground",
+    "output": "The $x$-intercept of the graph is the value(s) of $x$ for which $h(x)=0$. Substituting $h(x)=0$ into the equation gives us the quadratic equation $$-16x^2+100x+10=0.$$Factoring gives us $(-2x+5)(8x+2)=0$, which has solutions $x=2/8=1/4$ and $x=-2/8=-1/4$. Therefore, the $x$-intercept of the graph is the time at which the projectile hits the ground, which is $\\boxed{-1/4}$ seconds. The answer is -1/4",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "In the $x y$-plane, the graph of the polynomial function $f$ crosses the $x$-axis at exactly two points, $(a, 0)$ and $(b, 0)$, where $a$ and $b$ are both positive. Which of the following could define $f$ ? \nAnswer Choices: (A) $f(x)=(x-a)(x-b)$ (B) $f(x)=(x+a)(x+b)$ (C) $f(x)=(x-a)(x+b)$ (D) $f(x)=x(x-a)(x-b)$",
+    "output": "The problem is asking us for a polynomial function $f(x)$ that has two distinct roots $a$ and $b$, where $a$ and $b$ are both positive. We know that if a polynomial has a root at $x=a$, then $(x-a)$ must be a factor of the polynomial. Similarly, if a polynomial has a root at $x=b$, then $(x-b)$ must be a factor of the polynomial. Therefore, the polynomial must be of the form $f(x) = k(x-a)(x-b)$, where $k$ is a nonzero constant. Now, we can choose a value for $k$ and check the answer choices to see which one matches the form. Since $a$ and $b$ are both positive, we know that $x-a$ and $x-b$ must have a positive leading coefficient. Therefore, $k$ must be positive.\n\nA. $f(x)=(x-a)(x-b)$ This function is a perfect match for our definition of $f(x)$. The only thing left to check is the sign of the constant $k$. Since we know that $f(x)$ must be positive, we must have $k>0$.\n\nB. $f(x)=(x+a)(x+b)$ This function is not a match, since $(x+a)$ and $(x+b)$ would both have a negative leading coefficient, which would make $f(x)$ negative.\n\nC. $f(x)=(x-a)(x+b)$ This function is not a match, since $(x-a)$ has a leading coefficient of 1, but $(x+b)$ has a leading coefficient of $-1$.\n\nD. $f(x)=x(x-a)(x-b)$ This function is not a match, since it includes a factor of $x$, which changes the root at $x=0$ to a factor of the constant term. The constant term in our original definition of $f(x)$ was the product of $a$ and $b$, so this function does not match the roots we were given.\n\nTherefore, The answer is A.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "err": false,
+    "gt": "C",
+    "raw_ans": "2",
+    "question": "If $y=3 x^{2}+6 x+2$ is graphed in the $x y$-plane, which of the following characteristics of the graph is displayed as a constant or coefficient in the equation? \nAnswer Choices: (A) $y$-coordinate of the vertex (B) $x$-intercept $(\\mathrm{s})$ (C) $y$-intercept (D) $x$-intercept of the line of symmetry",
+    "output": "Let's think about the multi-choice question.\nThe graph of $y=3 x^{2}+6 x+2$ is a parabola that opens upward.  Therefore the $y$-coordinate of the vertex of this parabola is the constant term, $2$.  (The $x$-coordinate of the vertex is the negative of the average of the $x$-coordinates of the $x$-intercepts, which is $\\frac{-6}{2\\cdot 3}=-1$.)  The $y$-intercept of this graph is the point at which $x=0$, and the $x$-intercepts are the points at which $y=0$.  (There are two $x$-intercepts, but only one of them is displayed in the list of choices.)  Thus the desired characteristic of the graph is displayed as a constant or coefficient in the equation.  The answer is $\\boxed{2}$. The answer is 2",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  }
+]

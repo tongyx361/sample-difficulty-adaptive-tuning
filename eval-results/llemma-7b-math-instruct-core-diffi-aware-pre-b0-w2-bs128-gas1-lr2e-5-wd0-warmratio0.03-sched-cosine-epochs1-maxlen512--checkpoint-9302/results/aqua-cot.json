@@ -1,0 +1,2043 @@
+[
+  {
+    "ans": "D",
+    "err": false,
+    "gt": "A",
+    "raw_ans": "5(\u221a2 + \u221a3)",
+    "question": "A car is being driven, in a straight line and at a uniform speed, towards the base of a vertical tower. The top of the tower is observed from the car and, in the process, it takes 10 minutes for the angle of elevation to change from 45\u00b0 to 60\u00b0. After how much more time will this car reach the base of the tower?\nAnswer Choices: (A) 5 (\u221a3 + 1)  (B) 6 (\u221a3 + \u221a2)  (C) 7 (\u221a3 \u2013 1)  (D) 8 (\u221a3 \u2013 2)  (E) None of these",
+    "output": "Let's think about the multi-choice question.\nWe have to find out the distance covered by the car.\nIn 10 minutes, the car covers 5(\u221a2 + \u221a3) distance.\nNow, we know angle of elevation = tan\u03b8\nHere, tan45\u03b8=1\ntan60\u03b8=3\u2013\u221a\ntan60\u03b8\u2212tan45\u03b8=tan(60\u221245)\u03b8=tan15\u03b8=3\u2013\u221a\u22121=2\u2013\u221a3\nHence, the distance covered by the car in 10 minutes = 5(\u221a2 + \u221a3)\n",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "E",
+    "err": false,
+    "question": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?\nAnswer Choices: (A) $61 (B) $65 (C) $67.40 (D) $70 (E) $78.20",
+    "output": "Let's think about the multi-choice question.\nLet x be the original price.\n0.78x - 20 = 1.90\n0.78x = 39\nx = 52.40\nThe answer is C.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Find out which of the following values is the multiple of X, if it is divisible by 9 and 12?\nAnswer Choices: (A) 36 (B) 15 (C) 17 (D) 5 (E) 7",
+    "output": "Let's think about the multi-choice question step by step.\nIf a number is divisible by 9 and 12, then it is divisible by 36.\n36 is divisible by 9 and 12.\nThe answe is A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "If the probability that Stock A will increase in value during the next month is 0.56, and the probability that Stock B will increase in value during the next month is 0.74. What is the greatest value for the probability that neither of these two events will occur?\nAnswer Choices: (A) 0.22 (B) 0.26 (C) 0.37 (D) 0.46 (E) 0.63",
+    "output": "This would be a different question if we knew the probabilities were independent --- that is, any increase in Stock A would tell you nothing about whether or not Stock B increased, and vice versa. If the question guaranteed that, then probability P(not A *and* notB = P(notA*P(notB = (1 - 0.56)*(1 - 0.74) = (0.44)*(0.26) = 0.1156 We can't do that here, because the question does not specify that A and B are independent, but I share that because that's also a common type of question on the GMAT.\nThe best way to think about this particular question is this. Visualize a big circle: that's the space of everything that could happen with these two stocks next year, what statisticians call the \"sample space.\" That represents 100%. The \"B space\", the area of that space where Stock B increases is 74% of that space, so only 26% is outside the \"B space\". We don't know the relationship of Stock A & Stock B, but we'd like to know where to put Stock A on the diagram to maximize the area that's outside of both the \"A space\" and the \"B space.\" Well, with just the \"B space\" in the big circle, already 74% is taken up, and only 26% is free. If any of the \"A space\" is outside of the \"B space\", then it will eat up some of that free 26%. The only way to maximize that free space, to keep all 26% free, would be to put the entirety of the A space outside of the B space. That would be 56% of the total space, so only 26% is free. The answer is B",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article?\nAnswer Choices: (A) 270 (B) 300 (C) 280 (D) 320 (E) 315",
+    "output": "Let's think about the multi-choice question.\n20% profit means, SP= 120% of CP\ni.e. 120% of CP= Rs.360\nTherefore, CP = 120*360/100 = Rs.300\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "20 marbles were pulled out of a bag of only white marbles, painted black, and then put back in. Then, another 20 marbles were pulled out, of which 1 was black, after which they were all returned to the bag. If the percentage of black marbles pulled out the second time represents their percentage in the bag, how many marbles in total Q does the bag currently hold?\nAnswer Choices: (A) 40 (B) 200 (C) 380 (D) 400 (E) 3200",
+    "output": "Let's think about the multi-choice question step by step.\nWe know that there are 20 black marbles in the bag and this number represent 1/20 th of the number of all marbles in the bag, thus there are total of 20*20=400 marbles.\nThe answer is D.",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "Find the total no. of distinct bike no.'s that can beformed using 2 letters followed by 2 no.'s. How many letters need to be distinct?\nAnswer Choices: (A) 74453 (B) 64543 (C) 74325 (D) 65000 (E) 97656",
+    "output": "Let's think about the multi-choice question.\nOut of 26 alphabets two distinct letters can be chosen in \\inline {\\color{Black}26P_2{}} ways. Coming to numbers part, there are 10 ways.(any number from 0 to 9 can be chosen) to choose the first digit and similarly another 10ways to choose the second digit. Hence there are totally 10X10 = 100 ways.\nCombined with letters there are \\inline {\\color{Black}6P_2{}} X 100 ways = 65000 ways to choose vehicle numbers.\nThe answe is D",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "C",
+    "err": false,
+    "question": "A train running at a speed of 100 miles/hour, takes 10 hours to reach its destination. After covering quarter of the distance, it starts raining and the train has to be slowed to speed of 75 miles/hour. What is the total journey duration?\nAnswer Choices: (A) 10 (B) 11.5 (C) 12.5 (D) 13.5 (E) 15",
+    "output": "Let's reason about the multi-choice question.\nDistance = 100*10 = 1000 miles\nSpeed = 100 - 75 = 25 miles/hour\nTime = Distance/Speed = 1000/25 = 40 hours\nTotal time = 10+40 = 50 hours\nThe answer is E.",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "Of the 200 students in a school, at least 45% attended the prom night and at least 35% took part in the debating session. What is the maximum number of students who could have neither attended the prom night nor the debating session?\nAnswer Choices: (A) 27 (B) 81 (C) 90 (D) 99 (E) 110",
+    "output": "Let's think about the multi-choice question step by step.\n200 - 45 - 35 = 110\nThe maximum number of students who could have neither attended the prom night nor the debating session is 110.\nThe answer is E.",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "D",
+    "err": false,
+    "question": "A sales person gets a 10% commission on each sale he makes. How many sales of $250 each must he make in order to reach a salary of at least $1000?\nAnswer Choices: (A) 15 (B) 24 (C) 25 (D) 40 (E) 52",
+    "output": "Let's solve the multi-choice question step by step.\nSoln:-\n10% of 250 = 25.\nSo, the sales person needs to make at least 24 sales.\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "B",
+    "err": false,
+    "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?\nAnswer Choices: (A) 226 (B) 230 (C) 240 (D) 260 (E) 280",
+    "output": "Let's think about the multi-choice question step by step.\nTotal units produced in 12 months = 420*12 = 5040\nTotal cost of production = 110*5040 = 554400\nTotal revenue needed = 626400-554400 = 72000\nRequired selling price = 72000/5040 = 14.4 = 15\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "At a certain factory, 10 percent of the staplers produced on Monday were defective and 2 percent of the non-defective staplers were rejected by mistake. If 72 of the non-defective staplers were rejected, what was the number of staplers produced that day?\nAnswer Choices: (A) 4,000 (B) 4,200 (C) 4,500 (D) 4,800 (E) 5,000",
+    "output": "Let's think about the multi-choice question step by step.\n10% of x are defective and 2% of x-10% are rejected\n.02(x-10%)=72\nx=4000\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "Machine A puts out a yo-yo every 6 minutes. Machine B puts out a yo-yo every 9 minutes. After how many minutes will they have produced 10 yo-yos?\nAnswer Choices: (A) 24 minutes (B) 32 minutes (C) 36 minutes (D) 64 minutes (E) 72 minutes",
+    "output": "Let's think about the multi-choice question step by step.\nMachine A puts out a yo-yo every 6 minutes. Machine B puts out a yo-yo every 9 minutes. After how many minutes will they have produced 10 yo-yos?\nFirst, we find the least common multiple of 6 and 9, which is 18. Then we divide 18 by 10 to find out how long it takes to get 10 yo-yos.\n18 / 10 = 1.8\nSo, it takes 1.8 sets of 18 minutes to get 10 yo-yos.\n1.8 * 18 = 32 minutes\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "Add: +45 and -30\nAnswer Choices: (A) -30 (B) +30 (C) 0 (D) 15 (E) -15",
+    "output": "Let's think about the multi-choice question.\nThe absolute values of +45 and -30 are 45 and 30 respectively; and their difference = 45 - 30 = 15.\n(+45) + (-30) = +15\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "In how many ways can the letters of the word \"PROBLEC\" be rearranged to make 7 letter words such that none of the letters repeat?\nAnswer Choices: (A) 2! (B) 3! (C) 7! (D) 8! (E) 9!",
+    "output": "Let's think about the multi-choice question.\nThere are seven positions to be filled.\nThe first position can be filled using any of the 7 letters contained in PROBLEM.\nThe second position can be filled by the remaining 6 letters as the letters should not repeat.\nThe third position can be filled by the remaining 5 letters only and so on.\n76\nTherefore, the total number of ways of rearranging the 7 letter word = 7*6*5*4*3*2*1 = 7! Ways.\nThe answe is C",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Let A and B be independent events with P (A) = 0.2 and P(B) = 0.8. Find P(A/B)?\nAnswer Choices: (A) 0.2 (B) 0.4 (C) 0.6 (D) 1.2 (E) 1.5",
+    "output": "Let's think about the multi-choice question.\nP(A/B) = P(A andB/PB\n= (0.2 * 0.8)/0.8\n= 0.2\nThe answe is A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "Consider there is an staircase elevator and you are coming down. If you walk 20 steps and stop, then you reach bottom in 10 minutes. If you walk 10 steps and stop, you reach to the ground in 20 minutes. What is the speed of the elevator?\nAnswer Choices: (A) 1 step/minute (B) 2 step/minute (C) 3 step/minute (D) 4 step/minute (E) None of the above",
+    "output": "Let's think about the multi-choice question.\nLet the speed of the elevator be x steps/minute.\nThen, 20/x = 10 or x = 2 steps/minute\nAnd, 10/x = 20 or x = 1 steps/minute\nSo, speed of the elevator is 2 steps/minute.\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "D",
+    "err": false,
+    "question": "Last year, a Home Appliance Store sold an average(arithmetic mean) of 42 microwave ovens per month. In the first 10 months of this year,the store has sold an average(arithmetic mean) of only 20 microwave ovens per month. What was the average number of microwave ovens sold per month during the entire 22 months period ?\nAnswer Choices: (A) 21 (B) 30 (C) 31 (D) 32 (E) None of the above",
+    "output": "Let's think about the multi-choice question step by step.\nSince the store has sold an average of 20 microwave ovens per month in the first 10 months of the year, it has sold a total of 20*10 = 200 microwave ovens in the first 10 months.\nIt can sell an average of 42 microwave ovens per month now to complete the 22 months period.\nIt has to sell 220 microwave ovens in the remaining 12 months.\nIt has already sold 200 microwave ovens in the first 10 months.\nThus, it has to sell 220-200 = 20 microwave ovens in the remaining 12 months.\nAverage = 20/12 = 20/12 = 1.67 average number of microwave ovens sold per month.\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "D",
+    "err": false,
+    "question": "An exam is given in a certain class. The average (arithmetic mean) of the highest score and the lowest score is equal to x. If the average score for the entire class is equal to y and there are z students in the class, where z > 5, then in terms of x, y, and z, what is the average score for the class excluding the highest and lowest scorers?\nAnswer Choices: (A)  (zy \u2013 2x) /z (B)  (zy \u2013 2) /z (C)  (zx \u2013 y) / (z \u2013 2)  (D)  (zy \u2013 2x) / (z -2)  (E)  (zy \u2013 x) / (z + 2) ",
+    "output": "Let's think about the multi-choice question.\nThe average score for the class is y.\nThe average score for the class excluding the highest and lowest scorers is (z-2)y.\nThe sum of the highest and lowest scorers is 2x. The sum of the scores for all the other students is (z-2)(y+x).\nThe average score for the class excluding the highest and lowest scorers is (z-2)(y+x) / (z-2) = (y+x) - (zy \u2013 2x) / (z \u2013 2).\nThe answer is C.",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "[5 + ? \u00d7 19 - 15 - 7]/[13 \u00d7 13 - 156] = 6\nAnswer Choices: (A) 4 (B) 4.5 (C) 5 (D) 5.5 (E) 6.5",
+    "output": "Let's think about the multi-choice question step by step.\n[5 + ? \u00d7 19 - 15 - 7]/[13 \u00d7 13 - 156] = 6\n=> ? = 5\nThe answer is Option C",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "A grocer makes a 25% profit on the selling price for each bag of flour it sells. If he sells each bag for $100 and makes $3,000 in profit, how many bags did he sell?\nAnswer Choices: (A) 12 (B) 16 (C) 24 (D) 30 (E) 40",
+    "output": "Let's think about the multi-choice question.\nLet the number of bags be x.\nThen, 100x + 25% of 100x = 3000\n100x + 25x = 3000\n125x = 3000\nx = 24.\nThe answer is C.",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "A",
+    "err": false,
+    "question": "Alex and Jacob works at a toy shop that make toys. Alex takes 7 hours to make a toy, and Jacob takes 9 hours to make a toy. During a month, both of them makes 35 toys in total. If both of them have worked for almost similar number of hours how many toys have been prepared by Jacob?\nAnswer Choices: (A) 15 (B) 16 (C) 17 (D) 18 (E) 19",
+    "output": "Let's think about the multi-choice question step by step.\nLet x be the number of toys made by Jacob.\nNumber of hours Jacob works to make x toys = x/9\nNumber of hours Alex works to make 35-x toys = (35-x)/7\nTotal number of hours both works = x/9 + (35-x)/7 = 149/63\n149/63 - 35/7 = 1/12\n1/12 (9x) = 1/12 (35)\n9x = 35\nx = 17\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "E",
+    "err": false,
+    "question": "John likes to have lightly flavored tea every evening. In a 50% strong milk tea, he replaces 15% of it with milk twice. Then, he replaces 10 percent of the resultant solution with more milk.\nWhat is the final concentration of tea John drinks?\nAnswer Choices: (A) 15.38% (B) 42% (C) 39.86% (D) 22.35% (E) 32.51%",
+    "output": "Let's reason about the multi-choice question.\nA = concentration of tea in original milk tea\nB = concentration of tea in final mixture\nA = 100%\nB = A - 15% of A + 10% of (A - 15% of A)\n= 100 - 15 - 15(1 - 15%)\n= 42%\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "In a class 1/16 of the students study math, 1/10 of the students study bio, 1/8 of the students study english. The total number of students is a 4 digit number. Find the diffrence between maximum number of students and minimum number of students.\nAnswer Choices: (A) 8880 (B) 8870 (C) 8890 (D) 7890 (E) 6780",
+    "output": "Let's think about the multi-choice question step by step.\nlet total no of students be x\nno of students studying math,bio and english are (1/16)x,(1/10)x and (1/8)x respectively.\n(1/16)x+(1/10)x+(1/8)x=x(1/16+1/10+1/8)=89x/120\nx=120*89/256=1080/4=270\nmax no of students are 1080 and min no of students are 270\nso diffrence between max and min no of students =810\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "On a normal day Bill usually averages about 15 mph when riding his bicycle. On a windy day, his speed is reduced by 4 mph. How far can Bill travel on a windy day in 21 minutes? Round to the nearest hundredth.\nAnswer Choices: (A) 2 miles (B) 2.25 miles (C) 3.25 miles (D) 3.85 miles (E) 2.85 miles",
+    "output": "Let's solve the multi-choice question step by step.\n15 mph = 21.67 feet per minute\n4 mph = 5.56 feet per minute\n21 minutes = 21 * 21.67 = 460.21 feet\n21 minutes = 21 * 5.56 = 111.28 feet\n460.21 - 111.28 = 348.93 feet riding at 15 mph\n348.93 / 5.56 = 63.85 miles riding at 4 mph\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "A retailer sold an appliance for 40 percent above cost, which represented a gross profit of $20.00. For what price did the retailer sell the appliance?\nAnswer Choices: (A) $27.30 (B) $51.00 (C) $63.00 (D) $70.00 (E) $91.00",
+    "output": "Let's reason about the multi-choice question.\nLet C.P. = $x\nThen, S.P. = (140/100)x = 7x/5\nGiven, 7x/5 - x = 20\n=> 2x/5 = 20\n=> x = 50\nHence, S.P. = 7x/5 = 7(50)/5 = $70\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years\nAnswer Choices: (A) 750 (B) 700 (C) 620 (D) 600 (E) None of these",
+    "output": "Let's think about the multi-choice question.\nWe need to calculate the total amount to be paid by him after 4 years, So it will be Principal + simple interest.\nSo,\n=>500+500\u22176\u22174 /100=>Rs.620\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "A",
+    "err": false,
+    "question": "A computer routine was developed to generate two numbers (x,y) the first being a random number between 0 and 100 inclusive, and the second being less than or equal to the square root of the first. Each of the following pair satisfies the routine except\nAnswer Choices: (A)  (99,10)  (B)  (85,9)  (C)  (50,7)  (D)  (1,1)  (E)  (1,0) ",
+    "output": "Let's think about the multi-choice question.\nExplanation: The square root of a number between 0 and 100 is a number between 0 and 10.\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "A jeep travels a certain distance taking 6 hours in the forward journey. During the return journey, it increased its speed by 12km/hr and took 4 hours. What is the distance travelled by the jeep?\nAnswer Choices: (A) 126km (B) 144km (C) 127km (D) 228km (E) 128km",
+    "output": "Let's think about the multi-choice question.\nLet the distance be xkm\nx/6 = (x+12)/4\n2x = 3x + 36\nx = 126km\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "When I was 2 years old, my brother was half my age. Now I am 60 years old, how old is my brother?\nAnswer Choices: (A) A) 59 (B) B) 69 (C) C) 79 (D) D) 89 (E) E) 99",
+    "output": "Let's solve the multi-choice question step by step.\nWhen I was 2 years old, my brother was half my age.\nMeans brother was 1 when I was 2.\nNow I am 60 years old, how old is my brother?\nMeans brother is 60-1 = 59 years old.\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "B",
+    "raw_ans": "128\nThe difference between the actual selling price and the wholesale cost is 28\nTherefore, the appliance was sold for 28% more than its wholesale cost",
+    "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?\nAnswer Choices: (A) 20% (B) 28% (C) 36% (D) 40% (E) 42%",
+    "output": "Let's think about the multi-choice question.\nThe answer is B\nLet the wholesale cost = 100\nThen the original retail cost was 160\nThe actual selling price was 160 * 0.8 = 128\nThe difference between the actual selling price and the wholesale cost is 28\nTherefore, the appliance was sold for 28% more than its wholesale cost",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "On a map, the length of the road from Town F to Town G is measured to be 20 inches. On this map, 1/4 inch represents an actual distance of 10 miles. What is the actual distance, in miles, from Town F to Town G along this road?\nAnswer Choices: (A) 800 (B) 720 (C) 960 (D) 1140 (E) 1160",
+    "output": "Let's reason about the multi-choice question.\nThe actual distance is 20*10=200 miles.\n1/4 inch represents 10 miles, so 20 inches represent 20*10=200 miles.\nThe answer is A.",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "B",
+    "err": false,
+    "question": "When folded into two equal halves a rectangular sheet had a perimeter of 48cm for each part folded along one set of sides and the same is 66cm when folded along the other set of sides. Find the area of the sheet.\nAnswer Choices: (A) 1584 (B) 1120 (C) 792 (D) 1320 (E) 1200",
+    "output": "Let's think about the multi-choice question step by step.\nlet length=l, breadth=b\nwhen folded along breadth(along one set of sides)\n2(l/2+b/2)=48\n=>l+b=96---(1)\nwhen folded along length(along other set of sides)\n2(l/2+b/2)=66\n=>l+b=132---(2)\nfrom (1) & (2)\n96-132=36\n36 is the area of the sheet\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "Suppose you can travel from a place M to a place N by 3 buses, from place N to place O by 4 buses, from place O to place P by 1 buses and from place P to place Q by 3 buses. In how many ways can you travel from M to Q ?\nAnswer Choices: (A) 24 (B) 36 (C) 72 (D) 84 (E) None",
+    "output": "Let's solve the multi-choice question step by step.\nSolution\nNumber of ways in which you can travel from M to N =3\nFrom N to O = 4\nFrom O to P = 1\nFrom P to Q = 3\nTotal number of ways in which you can travel from M to Q =3x4x1x3 = 36\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "A rectangular solid, 3 x 4 x 15, is inscribed in a sphere, so that all eight of its vertices are on the sphere. What is the diameter of the sphere?\nAnswer Choices: (A)  13.3542 (B)  15.8113 (C)  18.3451 (D)  19.5667 (E)  20.8888",
+    "output": "Let's think about the multi-choice question.\n3*4*15 = 270, so we can guess that the diameter is close to 270.\nThen, we can test the answer choices:\nA 13.3542 --> 270/13 = 21.1818\nB 15.8113 --> 270/15 = 19.1667\nC 18.3451 --> 270/18 = 15.3889\nD 19.5667 --> 270/19 = 14.2353\nE 20.8888 --> 270/20 = 13.5\nThe answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "A starts travel towards south 3km, then travel 5 km towards east, and again travels 3 km to north, and finally travels 2km towards west. In the end how far from is A from home?\nAnswer Choices: (A) 3km (B) 2km (C) 4km (D) 5km (E) 6km",
+    "output": "Let's think about the multi-choice question.\nIf A starts travel towards south 3km, then travel 5 km towards east, and again travels 3 km to north, and finally travels 2km towards west. In the end how far from is A from home?\nAccording to the given directions, A has traveled 3km south, 5km east, 3km north, and 2km west.\nIn the end, A is 3km south-east from home.\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "While selling a watch, a shopkeeper gives a discount of 5%. If he gives a discount of 7%, he earns Rs. 15 less as profit. The marked price of the watch is:\nAnswer Choices: (A) Rs. 697.50 (B) Rs. 712.50 (C) Rs. 787.50 (D) Rs. 750 (E) Rs. 780",
+    "output": "Let's think about the multi-choice question step by step.\nLet the marked price of the watch be Rs. x.\nThen, 95% of x = 97% of (x - 15)\n95x/100 = 97(x - 15)/100 => x = 750\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "A",
+    "err": false,
+    "question": "A student instead of finding the value of 7/8 of a number, found the value of 7/18 of the number. If his answer differed from the actual one by 770, find the that number.\nAnswer Choices: (A) 1584 (B) 2520 (C) 1728 (D) 1656 (E) None",
+    "output": "Let's think about the multi-choice question step by step.\nLet the number be x.\n7/18 of the number be 7/18 * x\n7/8 of the number be 7/8 * x\n7/8 * x - 7/18 * x = 770\nx = 1728\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "The monthly salary S of a shop assistant is the sum of a fixed salary of $500 plus 5% of all monthly sales. What should the monthly sales be so that her monthly salary reaches $1500?\nAnswer Choices: (A) $50000 (B) $40000 (C) $30000 (D) $20000 (E) None of these",
+    "output": "Let's solve the multi-choice question step by step.\nS = 500 + 5%(S)\nS = 1500\n500 + 5%(S) = 1500\n5%(S) = 1000\nS = 20000\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "An aeroplane flies along the four sides of a square at the speeds of 200, 400, 600 and 800km/hr. Find the average speed of the plane around the field?\nAnswer Choices: (A) 384 (B) 562 (C) 458 (D) 156 (E) 452",
+    "output": "Let's reason about the multi-choice question.\nLet each side of the square be x\nLet the average speed of the plane be y km/hr\nx/200 + x/400 + x/600 + x/800 = 4x/y\n25x/1600 = 4x/y\ny = 400\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Jack buys 18 sharpeners (white and brown) for rs. 100. If he pays 1 rupee more for each white than brown sharpeners. How many of white and how many brown sharpeners did he buy?\nAnswer Choices: (A) 10,8 (B) 9,8 (C) 7,8 (D) 5,6 (E) 11,12",
+    "output": "Let's think about the multi-choice question.\nlet no. of white sharpeners be x and no. of brown sharpeners be y\nx+y=18 (1)\nx(100+1)+y*100=100*18 (2)\nsolving (1) and (2)\nwe get\nx=10, y=8\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Hoses A and B spout water at different constant rates, and hose A can fill a certain pool in 8 hours. Hose A filled the pool alone for the first 2 hours and the two hoses, working together, then finished filling the pool in another 3 hours. How many hours would it have taken hose B, working alone, to fill the entire pool?\nAnswer Choices: (A) 8 (B) 15 (C) 12 (D) 6 (E) 3",
+    "output": "Let's reason about the multi-choice question.\nHose A fills the pool in 8 hours so in 2 hours it fills 2/8 = 1/4 of the pool.\nWorking together, they fill the remaining 3/4 of the pool in 3 hours.\nSo, working alone, hose B fills 3/4 of the pool in 3 hours, which is 3*3/4 = 9/4 hours.\nThe answer is A.",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "If 120 is reduced to 96, what is the reduction percent?\nAnswer Choices: (A) 30% (B) 40% (C) 20% (D) 10% (E) 5%",
+    "output": "Let's think about the multi-choice question.\nThe reduction is 24.\nReduction% = (24/120) \u00d7 100 = 20%\nThe answer is Option C",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "I know a 5 digit number having a property that with a 1 after it, it is three times as large as it would be with a 1 before it.\nWhat is that number?\nAnswer Choices: (A) 42857 (B) 32456 (C) 76523 (D) 24567 (E) 43566",
+    "output": "Let's think about the multi-choice question.\nFrom the given property,\nIf 1st digit is 1, No. = 3(No. with 1 in the start)\nSo, No. = 3(11111) = 33333\nIf 1st digit is not 1, No. = 3(No. with 1 in the start)\nSo, No. = 3(13333) = 43333\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "At Daifu university, 24% of all students are members of both a chess club and a swim team. If 20% of members of the swim team are not members of the chess club, what percentage of all Daifu students are members of the swim team?\nAnswer Choices: (A) 20% (B) 30% (C) 40% (D) 50% (E) 60%",
+    "output": "Let's solve the multi-choice question step by step.\nAssume there are total of 100 students. 24 students are members of both clubs. We are told that: \"20% of members of the swim team are not members of the chess club\", thus if S is a # of members of the swim team then 0.2S is # of members of ONLY the swim teem:\n24+0.2S=S --> S=120 --> 20%\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?\nAnswer Choices: (A) 81900 (B) 85995 (C) 85800 (D) 90000 (E) None of these",
+    "output": "Let's reason about the multi-choice question.\nIncrease in population = 5 % = (5/100) * 78000 = 3900\nPopulation of the city after 2 years = 78000 + 2*3900 = 85900\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "Two cars start at the same time from opposite ends of a highway that is 50 miles long. One car is riding at 12 mph and the second car is riding at 13 mph. How long after they begin will they meet?\nAnswer Choices: (A)  1 (B)  1.25 (C)  1.50 (D)  1.75 (E)  2",
+    "output": "As cars are moving in opposite directions their speeds will be added. So their relative speeds: 12+13 = 25 mph\nTotal distance to be covered = 50 miles.\nTime taken would be: 50 miles/25 mph = 2 hours\nE is the answer.",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?\nAnswer Choices: (A) 30000 (B) 415000 (C) 31500 (D) 50000 (E) None of these",
+    "output": "Let's think about the multi-choice question step by step.\nFor saving 1500, servant has to do 10% of the sale.\nFor saving 6000, he should do = (6000 * 10)/1500 = 415000\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "A man borrows Rs.360 If he pays it back in 12 monthly installments of Rs.31.50, what is his interest rate?\nAnswer Choices: (A) 1.5% (B) 4.5% (C) 10% (D) 5% (E) 12%",
+    "output": "Let's think about the multi-choice question step by step.\nPrincipal = Rs.360\nNumber of installments = 12\nAmount of 12 installments = 31.50 x 12 = Rs.378\nTherefore Interest = Rs.378 - Rs.360 = Rs.18\nInterest Rate = (18/360) x 100 = 5%\nThe answer is Option D",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "The price of a product is reduced by 30% . By what percentage should it be increased to make it 100%\nAnswer Choices: (A) 41.86% (B) 42.86% (C) 43.86% (D) 44.86% (E) 45.86%",
+    "output": "Let's reason about the multi-choice question.\nLets Assume 100 as Price of the Product.\nAfter reduced by 30%, value becomes 70.\nTo Make it 100%, The percentage which we need to increase is\n(100-70)/70 = 42.86%\nwe need to increase by 42.86%\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "I have a money pouch containing Rs. 700. There are equal number of 25 paise coins, 50 paise coins and one rupee coins.\nHow many of each are there?\nAnswer Choices: (A) 453 (B) 651 (C) 400 (D) 487 (E) 286",
+    "output": "Let's solve the multi-choice question step by step.\nLet number of each type of coin = x. Then,\n700 = 25x/100 + 50x/100 + 100x/100\n=> 700 = 125x/100\n=> x = 560 => 560 coins of each type.\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "C",
+    "err": false,
+    "question": "A man spends Rs. 3500 per month and saves 12 1/2% of his income. His monthly income is ?\nAnswer Choices: (A) Rs. 4400 (B) Rs. 4270 (C) Rs. 4000 (D) Rs. 3937.50 (E) None of these",
+    "output": "Let's think about the multi-choice question step by step.\nTotal saving = (12 1/2 * 1/100) * 3500 = Rs. 4400\nTotal income = 3500 + 4400 = Rs. 7900\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "Five dozen toys are packed in a box and 98 boxes are kept in a tempo. How many tempos can lift 29400 toys in one round ?\nAnswer Choices: (A) 4 (B) 5 (C) 7 (D) 6 (E) 8",
+    "output": "Let's think about the multi-choice question.\n5 dozen toys are packed in a box\ni.e. 5*12 = 60 toys are packed in a box\n98 boxes are kept in a tempo\ni.e. 98*60 = 5840 toys can be lifted in one round\ni.e. 5840/29400 = 5840/29400 = 24\ni.e. 24 tempo can lift 29400 toys in one round\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "There are 10 oranges in a basket. Find the no. of ways in which 2 oranges are chosen from the basket?\nAnswer Choices: (A) 45 (B) 90 (C) 120 (D) 150 (E) 180",
+    "output": "Let's think about the multi-choice question step by step.\nRequired number of ways = 10C2 = 10!/8!*2! = 90\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "D",
+    "err": false,
+    "question": "A company contracts to paint 3 houses. Mr.Brown can paint a house in 6 days while Mr.Black would take 8 days and Mr.Blue 12 days. After 8 days Mr.Brown goes on vacation and Mr. Black begins to work for a period of 6 days. How many days will it take Mr.Blue to complete the contract?\nAnswer Choices: (A) 7 (B) 8 (C) 10 (D) 11 (E) 12",
+    "output": "Let's solve the multi-choice question step by step.\nMr.Brown rate of working = 1/6 house per day\nMr.Black rate of working = 1/8 house per day\nMr.Blue rate of working = 1/12 house per day\nEfficiency of Mr.Brown = 1/6\nEfficiency of Mr.Black = 1/8\nEfficiency of Mr.Blue = 1/12\nAfter 8 days,\nMr.Brown has completed 4/6 work.\nMr.Black has completed 2/8 work.\nMr.Blue has completed 2/12 work.\nWork left is 1/6 + 1/8 + 1/12 = 1/3\nMr.Blue will take 3 days to complete the remaining work.\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "A",
+    "err": false,
+    "question": "Train A leaves a station every 16 minutes and Train B leaves every 17 minutes. If both trains just left the station simultaneously, how long until they do so again?\nAnswer Choices: (A) 272 minutes (B) 304 minutes (C) 190 minutes (D) 70 minutes (E) 35 minutes",
+    "output": "Let's think about the multi-choice question step by step.\nThe trains leave at intervals of 16 and 17 minutes respectively, so the time of the trains is a multiple of the LCM of 16 and 17.\n16 = 2^4\n17 = 17\nLCM = 2^4 * 17 = 112\nThe time until they leave again will be 112 minutes.\nThe answer is D.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "A hollow cube of size 5cm is taken, with the thickness of 1cm. It is made of smaller cubes of size 1cm .If the outer surface of the cube is painted how many faces of the smaller cubes remain unpainted?\nAnswer Choices: (A) 438 (B) 550 (C) 500 (D) 450 (E) 498",
+    "output": "Let's solve the multi-choice question step by step.\nfirst the number of cubes....\nthe hollow cube size 5 cm.thickness 1c.m. so the total no. of unit cubes neede to build one face is 16 cubes..so total no. of cubes (5*16+9*2)=98\nthe total no. of faces unpainted(98*6 - 25*6)=438\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "In a chocolate store, all chocolates are either vanilla or cocoa flavored only. 10% of the chocolates are cocoa flavored, 90% of the rest are squashed. What percentage of the chocolates are both vanilla flavored and not squashed?\nAnswer Choices: (A) 1% (B) 2% (C) 5% (D) 9% (E) 10%",
+    "output": "Let's solve the multi-choice question step by step.\n10% of the chocolates are cocoa flavored, 90% of the rest are squashed.\n=> 90% of 90% of the chocolates are squashed.\n=> 90% of 10% of the chocolates are both vanilla flavored and not squashed.\n=> 9% of the chocolates are both vanilla flavored and not squashed.\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "err": false,
+    "gt": "D",
+    "raw_ans": "1 m\n2 m",
+    "question": "There is well of depth 30m and frog is at bottom of the well. He jumps 3m up one day and falls back 2m down the same day. How many days will it take for the frog to come out of the well?\nAnswer Choices: (A) 25 days (B) 26 days (C) 27 days (D) 28 days (E) 29 days",
+    "output": "Let's solve the multi-choice question step by step.\n3 m\n2 m\n3\u22122=1m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n3\u22122=1 m\n1 m\n3\u22122=1 m\n2 m\n",
+    "matching_err": false,
+    "matching_strategy": "self||A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "The sum of the 5 consecutive two digit odd numbers when divided by 10 becomes a perfect square, which of the following can be one of these 5 numbers?\nAnswer Choices: (A) 47 (B) 91 (C) 41 (D) 67 (E) 44",
+    "output": "Let's think about the multi-choice question step by step.\n11+13+15+17+19/10=19/10=1.9 or 19/100=0.19\n19 is a prime number (7*19=133) and only one of the 5 numbers is a prime number.\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "In a class, 8% of total students are interested in Football. 4/5 of total students are interested in Cricket. 10% of total students are interested in Basketball and remaining 20 students are not interested in any games. How many students are there in the class?\nAnswer Choices: (A) 850 (B) 800 (C) 900 (D) 950 (E) 1000",
+    "output": "Let's think about the multi-choice question step by step.\nSolution: Stats 8% + 10% + 4/5(100%) - 20 = 96%\nSo 96% of total students = 1000\n1% of total students = 1000/96\nTherefore, 100% of total students = 1000*96/1 = 9600\nHence, total number of students = 9600\nThe answer is Option E",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "D",
+    "err": false,
+    "question": "Q is as much younger than R as he is older than T. If the sum of the ages of R and T is 50 years. What is definitely the difference between R and Q's age?\nAnswer Choices: (A) 22 (B) 27 (C) 29 (D) Cannot be determined (E) None of the above",
+    "output": "Let's think about the multi-choice question step by step.\nGiven\nR \u2013 Q = Q \u2013 T and R + T = 50 which gives Q = 25\nAs the difference between R & Q and Q & T is same\nSo Answer is 25 years\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "Calculate the maximum distance you can travel with $8.50 on a cab which charges $3.50 for the first quarter-mile and 10 cents for each additional quarter mile.\nAnswer Choices: (A) 11.75 miles (B) 12.75 miles (C) 17.75 miles (D) 14.75 miles (E) 10.75 miles",
+    "output": "Let's solve the multi-choice question step by step.\nTotal cost can be calculated as,\nCost = 3.50$ + (8.50 - 3.50) * 0.10\n= 3.50 + (5 - 1) * 0.10\n= 3.50 + 4 * 0.10\n= 3.50 + 0.40\n= 3.90 $\nMaximum distance can be calculated as,\nDistance = 3.50 / 0.10 = 35 miles\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "C",
+    "err": false,
+    "question": "In IPL season, Sachin current batting average is 51. In the finals, he scores 78 runs, then is batting average will be 54. Find out the total number of matches played by Sachin in this season.\nAnswer Choices: (A) 6 (B) 8 (C) 9 (D) 10 (E) 11",
+    "output": "Let's think about the multi-choice question step by step.\nlet the no of matches played=x\nso,51x+78=54(x+1)\nx=6\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "D",
+    "err": false,
+    "question": "Amy is organizing her bookshelves and finds that she has 10 different types of books. She then codes each book with either a single letter or a pair of two different letters. If each type of book is uniquely represented by either a single letter or pair of letters, what is the smallest number of letters Amy will need to create the codes for all 10 types of books? (Assume the order of letters in a pair does not matter.)\nAnswer Choices: (A) 3 (B) 4 (C) 5 (D) 10 (E) 20",
+    "output": "Let's solve the multi-choice question step by step.\nYou have 10 types of books. Each type is uniquely represented by a 1-letter code or a 2-letter code.\nLet's start with the 1-letter codes. There are 26 letters. We can choose 10 of them in 26C10 = 26C6 = 26*25*24*23*22*21/6*5*4*3*2*1 = 10*5*6*11*12*13 = 3,003,000 different codes.\nNext, let's start with the 2-letter codes. There are 26 choices for the first letter, and 25 choices for the second letter. We can choose 10 of them in 26C1*25C1 = 26*25 = 650 different codes.\nTotal = 3,003,000 + 650 = 3,068,050 different codes.\nThe answer is E.",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "A rectangular piece of 150 sq m has a length which is 1m more than the 4 times the breadth. What is the perimeter of the piece?\nAnswer Choices: (A) 60 m (B) 61 m (C) 62 m (D) 63 m (E) 64 m",
+    "output": "Let's solve the multi-choice question step by step.\nlength = 1+4*breadth\n1+4b = 150\n4b = 149\nb = 37\nlength = 1+4*37 = 142\nperimeter = 2*(142+37) = 62 m\nThe answer is C.",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "One gram of a certain health food contains 9 percent of the minimum daily requirement of vitamin E and 8 percent of the minimum daily requirement of vitamin A. If vitamins E and A are to be obtained from no other source, how many grams of the health food must be eaten daily to provide at least the minimum daily requirement of both vitamins?\nAnswer Choices: (A) 8.5 (B) 10.5 (C) 12.5 (D) 14.5 (E) 16.5",
+    "output": "Let's think about the multi-choice question step by step.\nThe minimum daily requirement of vitamin E is 0.9 grams.\nThe minimum daily requirement of vitamin A is 0.8 grams.\nLet x be the amount of the health food eaten daily.\n0.09x \u2265 0.9\n0.08x \u2265 0.8\n0.09x \u2265 0.9 + 0.8\n0.09x \u2265 1.7\nx \u2265 1.9\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "Assistants are needed to prepare for preparation. Each helper can make either 2 large cakes or 35 small cakes/hr. The kitchen is available for 3 hours and 20 large cakes & 700 small cakes are needed. How many helpers are required?\nAnswer Choices: (A) 8 (B) 10 (C) 12 (D) 15 (E) 19",
+    "output": "Let's think about the multi-choice question step by step.\n20 large cakes will require the equivalent of 10 helpers working for one hour. 700 small cakes will require the equivalent of 20 helpers working for one hour. This means if only one hour were available we would need 30 helpers. But since three hours are available we can use 10 helpers.\nThe answe is B",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "A",
+    "err": false,
+    "question": "R, S, T, and U are points on a line, and U is the midpoint of line segment ST. If the lengths of line segments RS, RT, and ST are 5, 17, and 22, respectively. What is the length of line segment RU?\nAnswer Choices: (A) 6 (B) 7 (C) 8 (D) 9 (E) 10",
+    "output": "Let's think about the multi-choice question.\nST = 22\nU is the midpoint of ST\nso SU = 11\nRS = 5, RT = 17\nRUT = 11+5+17 = 33\nso RU = 16\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "C",
+    "err": false,
+    "question": "Six pita breads contain the same amount of falafel as do two rolls. Three rolls contain the same amount of falafel as five baguettes do. Two baguettes contain the same amount of falafel as how many pita breads?\nAnswer Choices: (A) 12/25 (B) 3/2 (C) 3 (D) 2 (E) 25/3",
+    "output": "Let's solve the multi-choice question step by step.\nSix pita breads contain the same amount of falafel as do two rolls --> 6P = 2R;\nThree rolls contain the same amount of falafel as five baguettes do --> 3R = 5B;\nTwo baguettes contain the same amount of falafel as how many pita breads --> 2B = xP --> 3R = 5B --> 3/5B = xP --> 2B = 2/5P --> x = 2/5P\nThe answer is E.",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "A shopkeeper in order to promote his new shop put a discount of 20% on all the items for one day. Now he must sell the items at original price the other day. By what percentage must he increase the price to original?\nAnswer Choices: (A) 21% (B) 20% (C) 25% (D) 33% (E) 18%",
+    "output": "Let's think about the multi-choice question.\nLet the price be 100\nafter 20% discount price = 80\nfor 2 days he has to sell at OP\ntherefore increase in price = 20\n% increase = 20/80*100 =25%\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "The bus fare for two persons for travelling between Agra and Aligarh id four-thirds the train fare between the same places for one person. The total fare paid by 6 persons travelling by bus and 8 persons travelling by train between the two places is Rs.1512. Find the train fare between the two places for one person?\nAnswer Choices: (A) 126 (B) 77 (C) 88 (D) 66 (E) 54",
+    "output": "Let's solve the multi-choice question step by step.\nLet the train fare between the two places for one person be Rs.t\nBus fare between the two places for two persons Rs.4/3 t\n=> 6/2 (4/3 t) + 8(t) = 1512\n=> 12t = 1512 => t = 126.\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "A rectangle has a length of 8 centimeters and a width of 3 centimeters. Find the perimeter.\nAnswer Choices: (A) 18cm (B) 22cm (C) 20cm (D) 30cm (E) 28cm",
+    "output": "Let's think about the multi-choice question.\nlength = 8 cm\nwidth = 3 cm\nPerimeter of rectangle = 2 (length + width)\n= 2 (8 + 3) cm\n= 2 \u00d7 11 cm\n= 22 cm\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "Suppose you want to arrange your English, Hindi, Mathematics, History, Geography and Science books on a shelf. In how many ways can you do it ?\nAnswer Choices: (A) 520 (B) 720 (C) 920 (D) None (E) Cannot be determined",
+    "output": "Let's think about the multi-choice question step by step.\nSolution\nWe have to find number of permutations of 6 things taken all at a time.\nNumber of ways\n= 6!\n= 6 x 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1\n= 720\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "A straight picket fence is composed of x pickets each of which is 1/2 inch wide. If there are 6 inches of space between each pair of pickets, which of the following represents the length of fence in feet?\nAnswer Choices: (A) 13x/2 (B) 13x/2 - 6 (C) 13x/24 (D)  (13x+1) /24 (E)  (13x-12) /24",
+    "output": "Let's reason about the multi-choice question.\nThe total number of pickets is 13x. The total length of the pickets is 13x/2.\nThe space between the pickets is 6x. The total length of the fence is 13x/2 + 6x = 13x/2 + 12.\nThe answer is E.",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "A ship went on a voyage. After it had traveled 180 miles a plane started with 10 times the speed of the ship. Find the distance when they meet from starting point.\nAnswer Choices: (A) 238 (B) 289 (C) 200 (D) 287 (E) 187",
+    "output": "Let's solve the multi-choice question step by step.\nLet the speed of the ship be x miles per hour.\nSpeed of the ship is 10x miles per hour.\nAfter traveling 180 miles distance, the plane is 180/10x = 18/x miles ahead of the ship.\nDistance = 18/x + 180 = 10*18/x + 180\n180+18/x = 10*18/x + 180\n18/x = 180\nx = 10\nSo distance = 18/10 + 180 = 180 + 18 = 200 miles.\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "E",
+    "err": false,
+    "question": "In a large forest, 300 deer were caught, tagged, and returned during 2001. During 2002, 500 deer were caught at random, of which only 20 had tags from the previous year. If the percent of deer in the forest that had tags during the second year and were caught in the 500 deer sample is representative of the percent of the total deer population in the forest with tags, what is the total deer population in the forest (assuming no change in population between 2001 and 2002)?\nAnswer Choices: (A) 300 (B) 500 (C) 5000 (D) 6000 (E) 7500",
+    "output": "Let's reason about the multi-choice question.\nThe percent of deer in the forest that had tags during the second year and were caught in the 500 deer sample is 20/500*100 = 4%.\nThus 4% of the total deer population in the forest was tagged in 2002.\nTherefore, if the percent of deer in the forest that had tags during the second year and were caught in the 500 deer sample is representative of the percent of the total deer population in the forest with tags, then the total deer population in the forest is 300*4 = 1200.\nThe answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "In a railway station, there are two trains going. One in the harbor line and one in the main line, each having a frequency of 10 minutes. The main line service starts at 5 o'clock and the harbor line starts at 5.02 A.M. A man goes to the station every day to catch the first train that comes. What is the probability of the man catching the first train?\nAnswer Choices: (A) 0.9 (B) 0.8 (C) 0.6 (D) 0.65 (E) 1.5",
+    "output": "Let's think about the multi-choice question step by step.\nProbability of catching first train(train1) is 8/10=0.8\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "The average (arithmetic mean) of the weight of 10 vehicles is 12.2 tons. The average weight of the group of vehicles increased by 2.6 tons after a new heavy duty truck was added to the group? What is the weight in tons of the heavy duty truck?\nAnswer Choices: (A) 40.8 (B) 41.6 (C) 42.2 (D) 43.5 (E) 44.8",
+    "output": "Let's reason about the multi-choice question.\nTotal weight of 10 vehicles = 10*12.2 = 122 tons\nTotal weight of 11 vehicles = 11*14.8 = 162 tons\nWeight of the new truck = 162-122 = 40.8 tons\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "D",
+    "err": false,
+    "question": "Boomtown urban planners expect the city\u2019s population to increase by 10% per year over the next two years. If that projection were to come true, the population two years from now would be exactly double the population of one year ago. Which of the following is closest to the percent population increase in Boomtown over the last year?\nAnswer Choices: (A) 20% (B) 40% (C) 50% (D) 65% (E) 75%",
+    "output": "Let's think about the multi-choice question step by step.\nPopulation after two years = 2 * population after one year\n2 * [population after one year] = 2 * [population after one year]\n2 * [population after one year] = 2 * [population after one year]\n2 = 2\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "Arjun and Sajal are friends, each has some money. If Arun gives $30 to Sajal, the Sajal will have twice the money left with Arjun. But, if Sajal gives $10 to Arjun, Arjun will have thrice as much as is left with Sajal. How much money does each have?\nAnswer Choices: (A) 62, 35 (B) 62, 34 (C) 34, 62 (D) 42, 62 (E) 62, 42",
+    "output": "Let's solve the multi-choice question step by step.\nIf arun had x rs , and sejal had y rs, then\n2*(x-30) = y+30 or 2x-60= y+30 or y= 2x-90\nand\nx+10 = 3*(y-10)= 3*(2x-90-10)=6x-300\nor\n5x=310\nx= 310/5 = 62 rs with arun\ny= 2x-90 = 124 rs with sejal\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Julie\u2019s yard is rectangular. One side of the yard is 100 feet wide. The total area of the yard is 3,000 square feet. What is the length of the other side of the yard?\nAnswer Choices: (A) 30 feet (B) 20 feet (C) 10 feet (D) 50 feet (E) 60 feet",
+    "output": "Let's solve the multi-choice question step by step.\nWe know that the area of the rectangle is 3000 square feet and the width is 100 feet. To find the length, we can set up the equation:\n100*length = 3000\nlength = 30\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "The greatest common factor of two positive integers is 11. The least common multiple of these two integers is 7700. If one of the integers is 350, what is the other?\nAnswer Choices: (A) 242 (B) 308 (C) 352 (D) 412 (E) 456",
+    "output": "Let's solve the multi-choice question step by step.\nif first number is x and second number is y\nso x*y=11*7700\nx=11*7700/y\nwe have to find a number y such that 11*7700/y=350\nso 11*7700=350*y\ny=11*7700/350\n=11*220/7\n=242\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "A square piece of cloth is trimmed by 4 feet on one edge to form a rectangular piece, which is then cut diagonally in half to create two triangles. If the area of each of triangle is 70 square feet, what was the perimeter (in feet) of the original piece of square cloth?\nAnswer Choices: (A) 56 (B) 58 (C) 60 (D) 62 (E) 64",
+    "output": "Let's think about the multi-choice question.\nLet x be the length of the edge of the square.\nThe area of the square is x^2.\nThe area of each triangle is 70 square feet.\nx^2 = 2*70 = 140\nx = sqrt(140) = 12 feet\nThe perimeter of the square is 4*12 = 48 feet.\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "The length of the ribbon was originally 30 cm. It was reduced in the ratio 5 : 3. What is its length now?\nAnswer Choices: (A) 18 (B) 30 (C) 6 (D) 15 (E) 12",
+    "output": "Let's reason about the multi-choice question.\nLength of ribbon originally = 30 cm\nLet the original length be 5x and reduced length be 3x.\nBut 5x = 30\nx = 6\nTherefore, reduced length = 3x = 18 cm\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "M = abc is a three digit number and N = cba, if M > N and M - N + 396c = 990. Then how many values of M are more than 300.\nAnswer Choices: (A) 20 (B) 30 (C) 40 (D) 200 (E) None",
+    "output": "Let's reason about the multi-choice question.\nSolution: Given M = abc and N = cba.\n=> M - N = 100c + 10b + a - (100a + 10b + c) = 99c - 99a = 99(c - a)\n=> 396c = 99(c - a) + 990.\nAs c - a is a positive integer and 396 is a multiple of 99, c - a must be a multiple of 99.\n=> c - a = 99.\nAs c is a single digit multiple of 99, c can take only 9 values.\nHence, there are 20 possible values of M.\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "there are more than 501 students in a school such that 20% of them exactly took physics and 28% of them exactly took math. What could be the least possible no of students in the school?\nAnswer Choices: (A) 550 (B) 570 (C) 600 (D) 700 (E) none of these",
+    "output": "Let's solve the multi-choice question step by step.\nLet the number of students be x\nGiven that 20% of them exactly took physics and 28% of them exactly took math.\n=>(20/100)\u00d7x+(28/100)\u00d7x\n=>(28/100)\u00d7x+(20/100)\u00d7x\n=>(48/100)\u00d7x\n=>(48/100)\u00d7x=501\n=>x=501\u00d7(100/48)\n=>x=105\u00d7(100/48)\n=>x=13\u00d7(100/4)\n=>x=13\u00d725\n=>x=325\n=>x=501-325\n=>x=176\nThe answer is E",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "If Raj was one-third as old as Rahim 5 years back and Raj is 17 years old now, How old is Rahim now?\nAnswer Choices: (A) 37 (B) 41 (C) 40 (D) 42 (E) 43",
+    "output": "Let's solve the multi-choice question step by step.\nRaj\u2019s age today = 17 decades,\nHence, 5 decades back, he must be 12 years old.\nRahim must be 36 years old, Because (3\u00d712).\n5 years back Rahim must be 41 years old today. Because (36+5). The answer is B",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "A cow is tethered in the middle of a field with a 14 feet long rope. If the cow grazes 10 sq.ft. per day, then approximately what time will be taken by the cow to graze the whole field?\nAnswer Choices: (A) 51 days (B) 61 days (C) 71 days (D) 81 days (E) 91 days",
+    "output": "Let's reason about the multi-choice question.\nArea of the field grazed = [22/7*14*14]sq.ft. = 616 sq.ft.\nNumber of days taken to graze the field = 616/10 = 61.6 days\nwhich is approximately equal to 61 days\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "A book was sold for Rs 27.50 with a profit of 10%. If it were sold for Rs. 25.75, then would have been percentage of profit and loss ?\nAnswer Choices: (A) 2% Profit (B) 3% Profit (C) 2% Loss (D) 3% Loss (E) 4% Loss",
+    "output": "Let's solve the multi-choice question step by step.\nSP=Rs 27.50: profit =10%.\nCP=Rs {(100/110)*27.50}=Rs 25.\nWhen sp =Rs 25.75 ,profit =Rs(25.75-25)=Rs 0.75\nProfit%={(0.75/25)*100}%=25/6%=3%\nThe answer is B.",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "In how many ways can a teacher in a kindergarten school arrange a group of 3 children (Susan, Tim and Zen) on 3 identical chairs in a straight line so that Susan is on the left of Tim?\nAnswer Choices: (A) 7 (B) 3 (C) 2 (D) 1 (E) 6",
+    "output": "Let's think about the multi-choice question.\n3 children can be arranged on 3 identical chairs in 3! ways.\nIn half of the cases Susan will be on the left of Tim and in half of the cases on the right.\nSo, the teacher can arrange the children in 3! /2 = 3 ways so that Susan is on the left of Tim.\nThe answer is B.",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "The telephone bill of a certain establishment is party fixed and partly varies as the number of calls consumed. When in a certain month 540 calls made the bill is Rs.1800. In another month 620 calls are consumed then the bill becomes Rs.2040. In another month 500 units are consumed due to more\nholidays. The bill for that month would be :\nAnswer Choices: (A) Rs.1560 (B) Rs.1680 (C) Rs.1840 (D) Rs.1950 (E) Rs.1690",
+    "output": "Let's reason about the multi-choice question.\nLet the fixed amount be Rs. X and the cost of each unit be Rs. Y.\nThen, 540y + x = 1800 \u2026. And 620y + x = 2040\nOn subtracting (i) from (ii), we get 80y = 240 -> y = 3\nPutting y = 3 in (i) we get :\n540 * 3 + x = 1800 x = (1800-1620) = 180\n. : Fixed charges = Rs.180, Charge per unit = Rs.3.\nTotal charges for consuming 500 units = 180 +(500*3) = Rs.1680\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Two balls A and B rotate along a circular track. Ball A makes 2 full rotations in 26 minutes. Ball B makes 5 full rotation in 35 minutes. If they start rotating now from the same point, when will they be at the same starting point again?\nAnswer Choices: (A) 1 hour and 31 minutes (B) 2 hour and 31 minutes (C) 3 hour and 31 minutes (D) 4 hour and 31 minutes (E) 5 hour and 31 minutes",
+    "output": "Let's think about the multi-choice question.\nTime taken by A to make 2 full rotations = 26 minutes\nTime taken by B to make 5 full rotations = 35 minutes\nL.C.M of 26 and 35 = 105 minutes = 1 hour and 31 minutes\nSo, the two balls will be at the same starting point in 1 hour and 31 minutes.\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "D",
+    "err": false,
+    "question": "A bookshelf contains 45 books, 30 of which are hardcover and 20 of which are fiction. What is the maximum number of books that are both hardcover and fiction?\nAnswer Choices: (A) 10 (B) 15 (C) 18 (D) 20 (E) 30",
+    "output": "Let's think about the multi-choice question step by step.\nThe maximum number of books that are both hardcover and fiction is 30.\nThis is because for any book B that is both hardcover and fiction, there exist 2 books - a hardcover and a fiction book that are both B.\nThe answer is E.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "A newspaper costs $4 on Sunday and $1 the rest of the days of the week. If a hotel orders twice as many papers on Sunday as it does the rest of the days of the week and pays $210 per week for newspapers, how many newspapers does it buy on Monday?\nAnswer Choices: (A) 15 (B) 30 (C) 45 (D) 60 (E) 75",
+    "output": "Let's think about the multi-choice question.\nLet x be the number of newspapers the hotel orders each weekday.\nOn Monday, the hotel orders 2x newspapers.\n2x = 210 - 4\n2x = 206\nx = 103\nThe answer is A.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "A number of friends decided to go on a picnic and planned to spend Rs. 96 on eatables. Four of them, however, did not turn up. As a consequence, the remaining ones had to contribute Rs. 4 extra, each. The number of those who attended the picnic was\nAnswer Choices: (A) 8 (B) 12 (C) 16 (D) 24 (E) 25",
+    "output": "Let's solve the multi-choice question step by step.\nLet the number of friends who attended be x. Then,\n4 + (x - 4) = 96 or x + 4 = 100 or x = 96.\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "A wire in the shape of rectangle of length 27 cm and breadth 17 cm is rebent to form a square. What will be the measure of each side?\nAnswer Choices: (A) 9 (B) 11 (C) 22 (D) 25 (E) 31",
+    "output": "Let's think about the multi-choice question.\nPerimeter of the rectangle = 2(27 + 17) = 86 cm\nPerimeter of the square = 86 cm\nEach side = 86/4 = 21.5 cm\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "A man divides Rs 8600 among 5 sons, 4 daughters and 2 nephews. If each daughter receives four times as much as each nephew, and each son receives five as much as each nephew. How much does each daughter receive ?\nAnswer Choices: (A) Rs 400 (B) Rs 500 (C) Rs 600 (D) Rs 700 (E) Rs 800",
+    "output": "Let's think about the multi-choice question step by step.\nLet the share of each nephew be Rs. X.\nThen, share of each daughter = Rs. 4x.\nShare of each son = Rs. 5x.\nSo, 5x + 4x + x = 8600\n10x = 8600\nx = 860,\nDaughter receives = 4x = 4 x 860 = Rs. 3440.\nThe answer is E",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "Silu and Meenu were walking on the road.\nSilu said, \"I weigh 51 Kgs. How much do you weigh?\"\nMeenu replied that she wouldn't reveal her weight directly as she is overweight.\nBut she said, \"I weigh 29 Kgs plus half of my weight. \"How much does Meenu weigh?\nAnswer Choices: (A) 12 (B) 28 (C) 27 (D) 58 (E) 91",
+    "output": "Let's think about the multi-choice question.\nIf you weigh 51 Kgs, then half of your weight is 25.5.\nSo, Meenu's weight is 29 + 25.5 = 54.5 Kgs.\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "Roy was suffering from severe headaches. He went to see his doctor and the doctor gave him 5 tablets asking him to take one tablet every 15 minutes.\nHow much time will it take Roy to consume all the 5 tablets?\nAnswer Choices: (A) 45 Min (B) 75 Min (C) 90 Min (D) 120 Min (E) 60 Min",
+    "output": "E\n60 Min\nRoy will be able to consume all the 5 tablets in an hour.\nTablet 1 will be taken in 0 min.\nTablet 2 will be taken in 15 min.\nTablet 3 will be taken in 30 min.\nTablet 4 will be taken in 45 min.\nTablet 5 will be taken in 60 min.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "In a bag of red and green sweets, the ratio of red sweets to green sweets is 3:4. If the bag contains 120 green sweets, how many red sweets are there?\nAnswer Choices: (A) 90 (B) 80 (C) 95 (D) 100 (E) 85",
+    "output": "Let's think about the multi-choice question step by step.\nGiven that the ratio of red sweets to green sweets is 3:4, then the number of red sweets must be 3/4 times the number of green sweets.\nIf the bag contains 120 green sweets, then the number of red sweets is 3/4 * 120 = 90\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "A club consists of members whose ages are in A.P. The common difference being 3 months. If the youngest member of the club is just 7 years old and the sum of the ages of all the members is 250, then number of members in the club are :\nAnswer Choices: (A) 18 (B) 20 (C) 25 (D) 26 (E) 27",
+    "output": "Let's think about the multi-choice question.\nA.P. is 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55, 58, 61, 64, 67, 70, 73, 76, 79, 82, 85, 88, 91, 94, 97, 100, 103, 106, 109, 112, 115, 118, 121, 124, 127, 130, 133, 136, 139, 142, 145, 148, 151, 154, 157, 160, 163, 166, 169, 172, 175, 178, 181, 184, 187, 190, 193, 196, 199, 202, 205, 208, 211, 214, 217, 220, 223, 226, 229, 232, 235, 238, 241, 244, 247, 250\nThe answer is C 25",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "M men agree to purchase a gift for Rs. D. If 3 men drop out how much more will each have to contribute towards the purchase of the gift?\nAnswer Choices: (A) D/ (M-3)  (B) MD/3 (C) M/ (D-3)  (D) 3D/ (M2-3M)  (E) None of these",
+    "output": "Let's solve the multi-choice question step by step.\nEach of M men have to contribute = D/M.\nIf 3 men drop then each of remaining men have to pay = D/(M-3).\nTherefore, 3D/(M2-3M).\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "At what price should the Karan mark a sewing machine that costs him Rs. 1200/- so that even after offering a 20% discount, he makes 20% profit?\nAnswer Choices: (A) 1,879 (B) 1,875 (C) 1,876 (D) 1,872 (E) 1,800",
+    "output": "Let's solve the multi-choice question step by step.\nLet the Marked Price of the sewing machine be Rs. x\nCP of the sewing machine = 1200/-\nSP of the sewing machine = 1200*120/100 = 1440/-\nDiscount = 20%\nSP of the sewing machine = 1440*80/100 = 1152/-\nProfit = 20%\nCP of the sewing machine = 1152*100/120 = 960/-\nMarked Price of the sewing machine = Rs. 960/-\nThe answer is E",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "Train \u2018A\u2019 leaves Mumbai Central for Lucknow at 11 am, running at the speed of 40 kmph. Train \u2018B\u2019 leaves Mumbai Central for Lucknow by the same route at 2 pm on the same day, running at the speed of 72 kmph. At what time will the two trains meet each other?\nAnswer Choices: (A) 12 am on the next day (B) 5 am on the next day (C) 5 pm on the next day (D) 2 pm on the next day (E) None of these",
+    "output": "Let's think about the multi-choice question.\nDistance travelled by Train A in 2 hours = 40 \u00d7 2 = 80 km\nDistance travelled by Train B in 5 hours = 72 \u00d7 5 = 360 km\nTotal distance travelled = 80 + 360 = 440 km\nRelative speed = 72 \u2013 40 = 32 kmph\nTime taken to meet = 440\u204432 = 13\u20442 hours\n= 6 am + 13\u20442 = 53\u20442 = 5 am on the next day\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "Mark told John \"If you give me half your money I will have Rs.75. John said, \"if you give me one third of your money, I will have Rs.75/-. How much money did John have ?\nAnswer Choices: (A) 22 (B) 60 (C) 28 (D) 26 (E) 18",
+    "output": "Let's solve the multi-choice question step by step.\nLet the money with Mark = x\nThen, Money with John = 2x\nNow, x/2 - 2x/3 = 75\n=> 3x - 4x = 150\n=> x = 150\nSo, Money with John = 2x = 2*150 = 300\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "D",
+    "err": false,
+    "question": "The number of water lilies on a certain lake doubles every two days. If there is exactly one water lily on the lake, it takes 60 days for the lake to be fully covered with water lilies. In how many days will the lake be fully covered with lilies, if initially there were 64 water lilies on it?\nAnswer Choices: (A) 15 (B) 28 (C) 30 (D) 53 (E) 59",
+    "output": "Let's think about the multi-choice question step by step.\nLet x be the number of days it takes the water lilies to cover the lake.\nIf there is exactly one water lily on the lake, it takes 60 days for the lake to be fully covered with water lilies.\nIn other words, the water lilies double every 30 days.\nIf there were 64 water lilies on the lake, it would take 64/2 = 32 days for the lake to be covered with water lilies.\nSince it takes 30 days to cover the lake with water lilies, it takes 30-32 = -2 days to double the number of water lilies on the lake.\nTherefore, the lake will be fully covered with water lilies in 60-2 = 58 days.\nThe answer is E.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "x men working x hours per day can do x units of a work in x days. How much work can be completed by y men working y hours per day in y days?\nAnswer Choices: (A) x2/y2 units (B) y3/x2 units (C) x3/y2 units (D) y2/x2 units (E) None of these",
+    "output": "Let's solve the multi-choice question step by step.\nLet amount of work completed by y men working y hours per in y days = w units\nMore men, more work(direct proportion)\nMore hours, more work(direct proportion)\nMore days, more work(direct proportion)\nHence we can write as\n(men)x:y\n(hours)x:y\n(days)x:y }::x:w\n\u21d2x^3w=y^3x\n\u21d2w=y^3x/x^3\n=y^3/x^2\nThe answer is Option B",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "D",
+    "err": false,
+    "question": "ABCDE is a regular pentagon with F at its center. How many different quadrilaterals can be formed by joining 4 of the points A,B,C,D,E and F?\nAnswer Choices: (A) 12 (B) 10 (C) 5 (D) 15 (E) 20",
+    "output": "Let's solve the multi-choice question step by step.\nA-F, B-F, C-F, D-F, E-F, ABC, ABCD, ABCDE, ABE, ABEF, ACE, ACEF, ADE, ADEF, BCE, BCEF, BDE, BDEF, CDE, CDEF, EF\ntotal =5+5+5+5+5+4+4+4+3+3+3+2+2+2+1 = 5\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "Points A, B, C, D lie in this order on the circumference of a circle. Minor arc AC is 160\u00b0, and minor arc BD is 150\u00b0. If B bisects minor arc AC, then what is the measure of minor arc AD?\nAnswer Choices: (A) 80\u00b0 (B) 130\u00b0 (C) 140\u00b0 (D) 160\u00b0 (E) 220\u00b0",
+    "output": "Let's think about the multi-choice question.\nminor arc AC = 160\u00b0\ngiven that minor arc BD = 150\u00b0\n=> minor arc ABD = 150\u00b0\n=> minor arc ADC = 150\u00b0\n=> minor arc AC = 160\u00b0\n=> minor arc BD = 150\u00b0\n=> minor arc ABD = 150\u00b0\n=> minor arc ADC = 150\u00b0\nSo, The answer is B.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "If 75 percent of the employees of a certain company take a winter vacation, 40 percent take a winter and a summer vacation, and 20 percent take neither a winter nor a summer vacation, what Q percent of the employees take a summer vacation but not a winter vacation?\nAnswer Choices: (A) 5% (B) 15% (C) 25% (D) 35% (E) 45%",
+    "output": "Let's reason about the multi-choice question.\nQ percent of the employees take a summer vacation but not a winter vacation.\nTotal = 100\nWinter = 75\nSummer = 40\nNeither = 20\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "The cross-section of a canal is shaped like a trapezium. If the canal is 10 m wide at the top and 6 m wide at the bottom and the area of cross-section is 640 square meters, the depth of cannel is?\nAnswer Choices: (A) 26 (B) 28 (C) 21 (D) 80 (E) 23",
+    "output": "Let's reason about the multi-choice question.\nLet the depth of canal = h\nThen, 10h + 6h = 640\n=> 16h = 640\n=> h = 40\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "C",
+    "err": false,
+    "question": "During one season, a tennis team won 20 matches and lost 30% of their matches. What was the number of matches that the team lost?\nAnswer Choices: (A) 70 (B) 30 (C) 3 (D) 7 (E) 5",
+    "output": "Let's solve the multi-choice question step by step.\nNumber of matches won = 20\nNumber of matches lost = 30% of 20 = 30/100 * 20 = 6\nTotal number of matches = 20+6 = 26\nNumber of matches lost = 26-20 = 6\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "D",
+    "err": false,
+    "question": "A point on the edge of a fan blade that is rotating in a plane 10 centimeters from the center of the fan. What is the distance traveled, in centimeters, by this point after 30 seconds when the fan runs at the rate of 300 revolutions per minutes?\nAnswer Choices: (A) 750pi (B) 1500pi (C) 1875pi (D) 3000pi (E) 7500pi",
+    "output": "Let's solve the multi-choice question step by step.\n300 revolutions per minute = 300*360 degrees per second = 10800 degrees per second\n10800 degrees per second = 10800/360 = 30 radians per second\n30 radians per second * 30 seconds = 900 radians = 900*100pi = 90000pi\nThe answer is E.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "D",
+    "err": false,
+    "question": "If n is such that 36 \u2264 n \u2264 72, then x = (n2 + 2\u221an(n + 4) + 16) / (n+ 4\u221an+ 4) satisfies\nAnswer Choices: (A) 20 < x < 54 (B) 23 < x < 58 (C) 25 < x < 64 (D) 28 < x < 60 (E) None of these",
+    "output": "Let's think about the multi-choice question.\n36 \u2264 n \u2264 72\n= 6(6 \u2264 n \u2264 12)\n= 62(6 \u2264 n \u2264 12)\n= 36 \u2264 n \u2264 72\nHere, n = 6, 7, 8, 9, 10, 11, 12\nPutting n = 6 in the given expression and calculating we get x = 23.6.\nPutting n = 7 in the given expression and calculating we get x = 29.5\nPutting n = 8 in the given expression and calculating we get x = 35.6\nPutting n = 9 in the given expression and calculating we get x = 41.5\nPutting n = 10 in the given expression and calculating we get x = 47.6\nPuting n = 11 in the given expression and calculating we get x = 53.5\nPutting n = 12 in the given expression and calculating we get x = 59.6\nFrom the above calculations we can write x = 23 < x < 58\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "At its maximum speed, a space shuttle can travel 700m high in 40 seconds. It will also take 5 seconds to pass a point. What then is the length of the space shuttle?\nAnswer Choices: (A) 50 m (B) 75 m (C) 100 m (D) 125 m (E) 150 m",
+    "output": "Let's solve the multi-choice question step by step.\nSpeed = 700/40 = 17.5 m/s\nLength of the shuttle = 17.5 * 5 = 87.5 m\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "A starts a business with Rs.40,000. After 2 months, B joined him with Rs.60,000. C joined them after some more time with Rs.120,000. At the end of the year, out of a total profit of Rs.375,000, C gets Rs.150,000 as his share. How many months after B joined the business, did C join?\nAnswer Choices: (A) 2 months (B) 4 months (C) 23 months (D) 24 months (E) 84 months",
+    "output": "Let's reason about the multi-choice question.\nAssume that C was there in the business for x months\nA:B:C\n=40000\u00d712:60000\u00d710:120000 \u00d7 x\n=40\u00d712:60\u00d710:120x\n=40:5\u00d710:10 x\n=8:10:2x\n=4:5:x\nC's share =375000 x/ 9+x=375000 x/9+x\n\u21d2375000 x/9+x=150000\n\u21d2375x9+x=150\n\u21d215x=6(9+x)\n\u21d25x=18+2x\n\u21d23x=18\n\u21d2x=6\nIt means C was there in the business for 6 months. Given that B joined the business after 2 months. Hence C joined 4 months after B joined.\nThe answer is Option B",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "A paper is in a square form whose one side is 20 cm. Two semi circles are drawn on its opposites as diameters. If these semi circles are cut down what is the area of the remaining paper?\nAnswer Choices: (A) 8.75 (B) 8.79 (C) 8.75 (D) 8.71 (E) 8.72",
+    "output": "Let's solve the multi-choice question step by step.\n20^2 - (20/2)^2 = 20^2 - 100 = 100 = 8.75\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "An athlete runs M miles in 4 hours, then rides a bike N miles in the same number of hours. Which of the following represents the average speed, in miles per hour, for these two activities combined?\nAnswer Choices: (A) M + N / 8 (B) 2M + N / 8 (C) M + N / 4 (D) M + 3N / 8 (E) M + N / 5",
+    "output": "Let's solve the multi-choice question step by step.\nWe have the distance and time information.\nM miles in 4 hours\nN miles in 4 hours\nAverage Speed = (M + N)/(4 + 4) = (M + N)/8\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "8 man work for 6 days to complete a work. How many men are required to complete same work in 1/2 day.\nAnswer Choices: (A) 93 men (B) 94 men (C) 95 men (D) 96 men (E) 97 men",
+    "output": "Let's solve the multi-choice question step by step.\nLet the required number of men be x.\nLess days, More men (Indirect Proportion)\nMore work, More men (Direct Proportion)\nDays 1 : 6\nWork 1 : 2\nMen 8 : x\n8 x 1 x x = 6 x 2 x 8\nx = 96\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "E",
+    "err": false,
+    "question": "64 boys and 40 girls form a group for social work. During their membership drive, the same number of boys and girls joined the group. How many members does the group have now, if the ratio of boys to girls is 4:3?\nAnswer Choices: (A) 277 (B) 288 (C) 200 (D) 277 (E) 168",
+    "output": "Let's solve the multi-choice question step by step.\n64 boys and 40 girls form a group for social work. During their membership drive, the same number of boys and girls joined the group. How many members does the group have now, if the ratio of boys to girls is 4:3?\n64 boys and 40 girls form a group for social work. During their membership drive, 16 boys and 16 girls joined the group. Now the ratio of boys to girls is 4:3, the same as before.\nTherefore 56 boys and 56 girls form a group for social work.\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "A cyclist travels at 12 miles per hour. How many minutes will it take to travel 48 miles?\nAnswer Choices: (A) 1 (B) 240 (C) 30 (D) 60 (E) 120",
+    "output": "Let's solve the multi-choice question step by step.\n12 miles in 60 mins\n48 miles in ?\nX= 48*60/12\n= 240 mins\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Kevin drove from A to B at a constant speed of 70 mph. Once he reached B, he turned right around with pause, and returned to A at a constant speed of 90 mph. Exactly 3 hours before the end of his trip, he was still approaching B, only 70 miles away from it. What is the distance between A and B?\nAnswer Choices: (A) 180 (B) 90 (C) 270 (D) 360 (E) None of the above",
+    "output": "Let's think about the multi-choice question.\nLet d be the distance between A and B.\nKevin would have left A at 90 mph and arrived at B at 70 mph, and then returned at 90 mph, for a total time of\n90 / 70 + 3\n hours.\nWhen Kevin was 70 miles away from B, he was going at 90 mph, so\n90 / 70 = 3/2\nhours were left of the 90 mph leg of the journey. This means that the first 70 miles of the trip took\n3 / 2\nhours, and that the remainder of the trip took\n90 / 70 = 3/2\nhours, for a total of\n3 / 2 + 3 / 2 = 6/2\nhours. Therefore, the distance d between A and B is\n70 + 70 = 140\nmiles. The answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "30 is subtracted from a number, it is reduced to its one third. What is the value of 50% of that number?\nAnswer Choices: (A) 22.5 (B) 84 (C) 21 (D) 24 (E) 25",
+    "output": "Let's think about the multi-choice question.\nx - 30 = x/3\n=> 2x/3 = 30\n=> x = 45\n=> 50% of 45 = 22.5\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "E",
+    "err": false,
+    "question": "If a man rows at the rate of 4 kmph in still water and his rate against the current is 2 kmph, then the man's rate along the current is:\nAnswer Choices: (A) 15 kmph (B) 6 kmph (C) 12 kmph (D) 14 kmph (E) 6 kmph",
+    "output": "Let's think about the multi-choice question step by step.\nThe answer is Option B\nLet the rate along the current be x kmph.\nThen,\t= (2x + 4)/2\t= 4\n2x + 4 = 8\n2x = 4\nx = 2.\nThe answer is Option B",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "A",
+    "err": false,
+    "question": "The sum of the digits of a three digit number is 17, and the sum of the squares of its digits is 109. If we subtract 495 from the number, we shall get a number consisting of the same digits written in the reverse order. Find the number.\nAnswer Choices: (A) 368 (B) 377 (C) 288 (D) 997 (E) 112",
+    "output": "Let's reason about the multi-choice question.\nLet the number be abc.\nThen a + b + c= 17 .....(1)\na2+b2+c2=109a2+b2+c2=109 .....(2)\n100a+10b+c -495 = 100c+10b+a ......(3)\nFrom 3, we get a - c = 5\nSo the possibilities for (a, c, b) are (7, 2, 10), (6, 3, 9), (5, 4, 8), (4, 5, 7), (3, 6, 8), (2, 7, 9)\nFrom the above, (7, 2, 10) is the only one that satisfies 2.\nSo The answer is 7210997\nAnswer is D",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "X and Y are two alloys which were made by mixing zinc and copper in the ratio 6:9 and 7:11, respectively. If 40 grams of alloy X and 60 grams of alloy Y are melted and mixed to form alloy Z, what is the ratio of zinc and copper in the alloy Z ?\nAnswer Choices: (A) 69:91 (B) 59:91 (C) 59:90 (D) 59:91 (E) 69:101",
+    "output": "Let's think about the multi-choice question step by step.\nLet's work with the numbers of the ratio.\nFor X, zinc concentration is 6/15 and copper concentration is 9/15.\nFor Y, zinc concentration is 7/18 and copper concentration is 11/18.\nAfter 40 grams of X and 60 grams of Y are melted, the total weight is 100 grams. The zinc concentration is and the copper concentration is\nThe ratio of zinc to copper in the new alloy is 69:91.\nThe answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "D",
+    "err": false,
+    "question": "The nefarious bandit Hoopsmot decides to go in with his criminal partner Smolapon to purchase a number of senators. Hoopsmot contributes $16,000 to their bribery pool, and Smolapon contributes just $4,000. Their total allows them to influence 30 senators. How many senators of these can be considered Hoopsmot's?\nAnswer Choices: (A) 18 (B) 20 (C) 22 (D) 24 (E) 26",
+    "output": "Let's think about the multi-choice question.\nIf x is the number of senators Hoopsmot can consider as his, then 16,000/(30-x) = 4,000/x\nx = 18\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "The difference between the squares of two numbers is 256000 and the sum of the numbers is 1000. The numbers are\nAnswer Choices: (A) 600, 400 (B) 628, 372 (C) 640, 360 (D) None of these (E) Cannot be determined",
+    "output": "Let's think about the multi-choice question step by step.\nLet the numbers be x and (1000 \u2013 x).\nThen,\nx2 \u2013 (1000 \u2013 x)2 = 256000\n\u21d2 2x(1000 \u2013 x) = 256000\n\u21d2 x(1000 \u2013 x) = 128000\n\u21d2 x2 \u2013 1000x + 128000 = 0\n\u21d2 x2 \u2013 1000x \u2013 100x + 128000 = 0\n\u21d2 x(x \u2013 100) \u2013 128(x \u2013 100) = 0\n\u21d2 (x \u2013 100)(x \u2013 128) = 0\n\u21d2 x = 100 or 128\nIf x = 100, then (1000 \u2013 x) = 300\nIf x = 128, then (1000 \u2013 x) = 72\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "An astronaut weighing 211 pounds on Earth would weigh 182 pounds on Venus. The weight of the astronaut on Venus would be approximately what percent of the astronaut\u2019s weight on Earth?\nAnswer Choices: (A) 50% (B) 60% (C) 70% (D) 86% (E) 90%",
+    "output": "Let's solve the multi-choice question step by step.\n211/182 = 1.154 = 115.4%\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "A man walks at 5 kmph for 6 hrs and at 4 kmph for 12 hrs. His average speed is\nAnswer Choices: (A) 4 1/3 km/h (B) 7 2/3 km/h (C) 9 \u00bd km/h (D) 8 km/h (E) 81 km/h",
+    "output": "Let's think about the multi-choice question step by step.\nTotal distance covered = (5 * 6) + (4 * 12) = 30 + 48 = 78 km.\nTotal time taken = 6 + 12 = 18 hrs.\nAverage speed = 78/18 = 4 1/3 kmph.\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "C",
+    "err": false,
+    "question": "[(272 - 32) (124 + 176)] / (17 x 15 - 15) = ?\nAnswer Choices: (A) 0 (B) 2.25 (C) 300 (D) 400 (E) None of these",
+    "output": "Let's think about the multi-choice question step by step.\n[(272 - 32) (124 + 176)] / (17 x 15 - 15) = (240 x 301) / 255 = 240 x 11 = 2640\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "Everyone in the family earns money each month. If the total income of a family per month is $9000 and the median income is $3000, how many members are there in the family?\nAnswer Choices: (A) 2 (B) 3 (C) 4 (D) 5 (E) 6",
+    "output": "Let's think about the multi-choice question.\nTotal income = $9000\nMedian income =$3000\nTherefore, there are 2 members in the family.\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "The bus fare of one adult is Rs. 140 from Ranchi to Patna and bus fare of a child is half the fare of one adult between the same places. What is the total bus fare of 4 adults and 3 children between same places?\nAnswer Choices: (A) Rs. 666 (B) Rs. 670 (C) Rs. 700 (D) Rs. 570 (E) Rs. 770",
+    "output": "Let's reason about the multi-choice question.\nBus fare of one adult = Rs. 140\nBus fare of one child = Rs. 70\nTotal fare of 4 adults = 4 \u00d7 140 = Rs. 560\nTotal fare of 3 children = 3 \u00d7 70 = Rs. 210\nTotal fare of 4 adults and 3 children = 560 + 210 = Rs. 770\nThe answer is E",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "C",
+    "err": false,
+    "question": "An organization decided to raise Rs. 6 lakh by collecting equal contribution from each of its employees. If each of them had contributed Rs. 60 extra, the contribution would have been Rs. 6.24 lakh. How many employees are there in that organization?\nAnswer Choices: (A) 300 (B) 200 (C) 400 (D) 100 (E) 500",
+    "output": "Let's solve the multi-choice question step by step.\nLet the number of employees be x.\nTotal contribution = 600x + 6*(6.24 lakh) = 6.24 lakh\n600x = 0\nx = 0\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "If there are 5,000 voters out of which 20% are not eligible to vote and there are two candidates contesting. The winning candidate won by 15% of the votes. What is the total number of votes he got ?\nAnswer Choices: (A) 3267 (B) 2678 (C) 2797 (D) 2300 (E) 2781",
+    "output": "Let's think about the multi-choice question.\nTotal voters = 5000\nNot eligible to vote = 20% of 5000 = 1000\nEligible to vote = 5000 - 1000 = 4000\nTotal votes = 4000 x 100/100 - 15 = 3200\nWinning candidate got 3200 x 15/100 = 480 votes\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "C",
+    "err": false,
+    "question": "For bringing each copper coin from the bottom of a river, a coin-diver gets 20 cents, and for each brass coin she gets 25 cents. If after one dive, she got $3.40. What is the minimum number of copper coins that she brought?\nAnswer Choices: (A) 4 (B) 3 (C) 2 (D) 1 (E) 0",
+    "output": "Let's solve the multi-choice question step by step.\nThe total amount she got is $3.40.\nThe best way to solve this problem is to use a brute force approach\nCopper Coins Brass Coins Total\n1 0 20 20\n0 1 25 25\n0 2 50 75\n0 3 75 100\n0 4 100 125\n5 0 125 125\nTotal 5 0 130 130\nYou can stop at 5 copper coins since you know that any more will not yield a total of $3.40\nTherefore, minimum number of copper coins is 5\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "Ram and Krishna start from A and B, respectively, at the same time and travel towards each other at constant speeds of 20m/s and 40m/s, respectively, along the same route. Ram meets Krishna at point C on the road after 10 seconds. Find the total distance between A to B.\nAnswer Choices: (A) 700 meters (B) 1000 meters (C) 700 kilometers (D) 555 meters (E) 600 meters",
+    "output": "Vr=20 m/s, Vk=40m/s;\nt-time for Meet.\ndistance A-C = 20*10=200 m.\ndistance B-C = 40*10=400 m.\ntherefore distance A-C = 200+400= 600 m.\noption E",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "Car \u2018X\u2019 covers a distance of 320 kms in 8 hours and car \u2018Y\u2019 covers a distance of 415 kms in 5 hrs. What is the difference in the speed of the two cars?\nAnswer Choices: (A) 42kms/hr (B) 41km/hr (C) 43kms/hr (D) 45kms/hr (E) None of these",
+    "output": "Let's think about the multi-choice question.\nthe speed of Car \u2018X\u2019=320/8=40kms/hr\nthe speed of Car \u2018Y\u2019=415/5=83kms/hr\nthe difference is=83-40=43kms/hr\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "Winson runs from his home to his school at an average speed of 10 miles/hr, and then walks home along the same route at an average speed of 5 miles/hr. If the whole journey took one hour, how many miles is his home from his school?\nAnswer Choices: (A) 9 (B) 6 (C) 4 (D) 3 (E) 2",
+    "output": "Let's solve the multi-choice question step by step.\nWinson runs from his home to his school at an average speed of 10 miles/hr, and then walks home along the same route at an average speed of 5 miles/hr. If the whole journey took one hour, how many miles is his home from his school?\nSince we know the average speed and the time, we can solve for the distance of each leg of the journey.\ndistance = speed x time\nd1 = 10 mph x 1 hr\nd1 = 10 miles\nd2 = 5 mph x 1 hr\nd2 = 5 miles\nTotal distance = d1 + d2 = 10 + 5 = 15 miles\nThe answer is E",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "A sporting goods store carries only yellow and white golf balls. At the beginning of the day it had 600 golf balls in stock, and by the end of the day it had sold 80% of its inventory of golf balls. If the store sold an equal number of yellow and white golf balls, and in doing so sold all of its white golf balls, how many yellow golf balls did the store have to begin the day?\nAnswer Choices: (A) 80 (B) 120 (C) 240 (D) 320 (E) 360",
+    "output": "Let's solve the multi-choice question step by step.\nFirst, find the number of golf balls that the store had sold by the end of the day: 600 * 0.8 = 480\nIf the store sold an equal number of white and yellow golf balls, we know that w + y = 480 and w = y,\nso w = y = 480/2 = 240\nBecause all the white golf balls were sold, we know the remaining golf balls (sold and unsold) are all yellow.\nWe can subtract the number of white golf balls sold from the total number of golf balls at the beginning of the day to find the total number of yellow golf balls: 600 - 240 = 360\nSo The answer is E.",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "A flagstaff 17.5 metre high casts a shadow of length 40.25 metre. The height of building, which casts a shadow of length 28.75 metre under similar conditions will be :\nAnswer Choices: (A) 12 metre (B) 12.5 metre (C) 13.5 metre (D) 14 metre (E) 15 metre",
+    "output": "Let's think about the multi-choice question step by step.\nlet height of the building be x\n40.25 : 28.75 :: 17.5 <=> 40.25 x X = 28.75 x17.5\nx= 28.75 x 17.5 / 40.25\nx = 12.5\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "Two cars are travelling from the same starting point in the same direction, having started their commute at the same time. The first car travels at a steady rate of 55 mph, while the second travels at a steady rate of 52 mph. How much time will pass before the cars are 15 miles away from each other?\nAnswer Choices: (A) 3 hours (B) 5 hours (C) 6 hours (D) 4 hours (E) 7 hours",
+    "output": "Let's think about the multi-choice question.\nThe cars travel a combined rate of 55+52= 107 mph\n15 miles/ 107 mph = 3/17 hours\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "E",
+    "err": false,
+    "question": "The events A and B are independent. The probability that event A occurs is 0.6, and the probability that at least one of the events A or B occurs is 0.96. What is the probability that event B occurs?\nAnswer Choices: (A) 0.5 (B) 0.6 (C) 0.7 (D) 0.8 (E) 0.9",
+    "output": "Let's think about the multi-choice question step by step.\nP(A orB = PA + PB - P(A andB\n0.96 = 0.6 + PB - 0.6*PB\n0.96 = 0.6 + PB - 0.6PB\n0.96 = 0.2PB\nPB = 0.96/0.2 = 48/20 = 0.8\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "D",
+    "err": false,
+    "question": "The ratio of the volumes of a cube to that of the sphere which will fit inside the cube is?\nAnswer Choices: (A) 2: \u03c0 (B) 7:2 (C) 8:2 (D) 6: \u03c0 (E) 8:3",
+    "output": "Let's think about the multi-choice question.\n52 * 40 * 29\n27 * 26 * 25\nL.C.M of 27, 40, 29 = 7020\n7020 : 27 * 26 * 25\n43:25\nThe answer is Option B",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "My wall contains 8 red colour ties, 13 violet colour ties,10 blue colour ties, 5 pink colour ties, 4 green colour ties. If electricity is gone and I want at least two ties of same colour then how many ties I should take out from my rack?\nAnswer Choices: (A) 2 (B) 3 (C) 4 (D) 5 (E) 6",
+    "output": "Let's think about the multi-choice question step by step.\nThe worst case scenario would be if we take 2 violet ties, 2 red ties, 2 blue ties, 2 pink ties and 2 green ties.\nIn this case we would have: 6 ties of the same colour and 5 ties of other colours.\nThe answer is E.",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "Find 25/12*5\nAnswer Choices: (A) 2.5498 (B) 0.4167 (C) 3.3987 (D) 8.5497 (E) 5.6312",
+    "output": "Let's think about the multi-choice question.\n25/12 = 2.0833\n2.0833 * 5 = 10.4166\nThe answer is Option B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "The value of log2 4 is:\nAnswer Choices: (A) 2 (B) 4 (C) 6 (D) 8 (E) 12",
+    "output": "Let's think about the multi-choice question.\nLet log2 4 = n.\nThen, 2n = 4 = 22 n = 2.\nlog2 4 = 2.\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Calculate the percentage gain of a merchant who purchased 90 kg of oranges for Rs. 450 and sold the whole lot at the rate of Rs. 7.50 per kg.\nAnswer Choices: (A) 50 % (B) 60 % (C) 55 % (D) 70 % (E) 58%",
+    "output": "Let's think about the multi-choice question step by step.\nC.P. of 90 kg = Rs. 450\nS.P. of 90 kg = Rs. (7.50 x 90) = Rs. 675\nGain =(675 - 450) / 450\tx 100\t%\t= 50 %\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "D",
+    "err": false,
+    "question": "A train M leaves City A at 5 am and reaches City B at 9am. Another train N leaves City B at 7am and reaches City A at 1030am. At what time do the 2 trains cross one another?\nAnswer Choices: (A) 1 hr 23 min (B) 1 hr 15 min (C) 1 hr 8 min (D) 56 min (E) 55 min",
+    "output": "Let's think about the multi-choice question.\nDistance covered by M in 4 hours = 4*60 = 240 km\nDistance covered by N in 2.5 hours = 2.5*60 = 150 km\nDistance covered by M in 1 hour = 60 km\nDistance covered by N in 1.5 hours = 90 km\nNow, when they meet, they have covered 240+150+60+90 = 440 km\nSo, they are at a distance of 440 from City A.\nTime taken to cover this distance = 440/60 = 7.33 hrs\nTime of N when it leaves City B = 7 am\nTime of crossing = 7 am + 7.33 hrs = 14.33 am\nTime of crossing = 14.33 \u2013 5 = 9.33 hrs = 9 hrs 20 min\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "Janice bikes at 10 miles per hour, while Jennie bikes at 20. How long until they have collectively biked 1 mile?\nAnswer Choices: (A) 1 minute (B) 2 minutes (C) 3 minutes (D) 4 minutes (E) 5 minutes",
+    "output": "Let's think about the multi-choice question.\nTotal distance to be covered = 1+1 = 2 miles\nDistance covered by Janice in 1 hour = 10 miles\nDistance covered by Jennie in 1 hour = 20 miles\nDistance covered by both in 1 hour = 10+20 = 30 miles\nTime taken by both to cover 2 miles = 2/30 = 1/15 hour = 4 minutes\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "In an exam, a candidate secured 504 marks of the maximum mark of M. If the maximum mark M is converted into 800 marks, he would have secured 420 marks. What is the value of M?\nAnswer Choices: (A) 278 (B) 2890 (C) 270 (D) 2702 (E) 960",
+    "output": "Let's think about the multi-choice question.\n504/M = 420/800\n(504 * 800) / 420 = M\nM = 960\nThe answer is E",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "If Jill needed to buy 10 bottles of soda for a party in which 8 people attended, how many bottles of soda will she need to buy for a party in which 12 people are attending?\nAnswer Choices: (A) 6 (B) 8 (C) 10 (D) 12 (E) 14",
+    "output": "Let's think about the multi-choice question step by step.\nThe answer isC 10.\nJill may need 10 bottles of soda for a party in which 8 people attended. The same number will be used for a party in which 12 people are attending.\nThe answer isC 10",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "Two ants are standing side-by-side. One ant, which is 4 inches tall, casts a shadow that is 10 inches long. The other ant is 6 inches tall. Compute, in inches, the length of the shadow that the taller ant casts.\nAnswer Choices: (A) 36 (B) 28 (C) 42 (D) 15 (E) 20",
+    "output": "Let's solve the multi-choice question step by step.\nThe ratio of shadow to height is constant, so if x is the length of the shadow, then\n4/10 = 6/x and x = 15 .\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "The height of a room to its semi-perimeter is 2:5. It costs Rs.260 to paper the walls of the room with paper 50cm wide at Rs.2 per meter allowing an area of 15 sq.m for doors and windows. The height of the room is:\nAnswer Choices: (A) 2.6m (B) 3.9m (C) 4m (D) 4.2m (E) 4.4m",
+    "output": "Let's reason about the multi-choice question.\nLet the height of the room be h and its length be l.\nThen, l+2h = 500 --- (1)\nand, l\u00d7h = 15\u00d7100 = 1500 --- (2)\nFrom (1) & (2), h = 3.9m\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "The sum of k consecutive integers is 51. If the least integer is -50, then k =\nAnswer Choices: (A) 40 (B) 62 (C) 82 (D) 92 (E) 102",
+    "output": "Let's solve the multi-choice question step by step.\nsum of k consecutive integers = (k*(-50)) + (k*51) = 51k\n51k = 51*100\nk = 100\nThe answer is E",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "D",
+    "err": false,
+    "question": "In a survey of students, each student selected from a list of 10 songs the 2 songs that the student liked best. If each song was selected 5 times, how many students were surveyed?\nAnswer Choices: (A) 96 (B) 48 (C) 32 (D) 25 (E) 18",
+    "output": "Let's reason about the multi-choice question.\nIf each song was selected 5 times, number of students who liked the song = 5\nIf each student selected 2 songs, number of students = 5*2 = 10\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "D",
+    "err": false,
+    "question": "If one of the roots of the quadratic equation x^2 + mx + 22 = 0 is 1.5, then what is the value of m?\nAnswer Choices: (A) -23.5 (B) -17.5 (C) -10.5 (D) -16.2 (E) Cannot be determined",
+    "output": "Explanatory Answer\nWe know that the product of the roots of a quadratic equation ax^2 + bx + c = 0 is c/a\nIn the given equation, x^2 + mx + 22 = 0, the product of the roots = 22/1 = 22.\nThe question states that one of the roots of this equation = 1.5\nIf x1 and x2 are the roots of the given quadratic equation and let x1 = 1.5\nTherefore, x2 = 22/1.5= 14.33\nIn the given equation, m is the co-efficient of the x term.\nWe know that the sum of the roots of the quadratic equation ax^2 + bx + c = 0 is-b/a = -m/a = -m\nSum of the roots = 14.33 + 1.5 = 15.83\nTherefore, the value of m = -15.83\ncorrect choice is A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "At an election meeting 10 speakers are to address the meeting. The only protocol to be observed is that whenever they speak the pm should speak before the mp and the mp should speak before the mla. In how many ways can the meeting be held?\nAnswer Choices: (A) 10!/3 (B) 10!/6 (C) 10!/2 (D) 10!/4 (E) 10!/5",
+    "output": "Let's reason about the multi-choice question.\nThere are 10 speakers 10! Ways to arrange the speakers.\nWe need to substract the cases when the pm is before the mp and the mp is before the mla.\nLet's think about the arrangements when the pm is before the mp and the mp is before the mla.\nThere are 9 speakers excluding the pm, mp and mla.\nWe can arrange in 9! Ways.\nNow the pm can be before the mp in 2 Ways and the mp can be before the mla in 2 Ways.\nSo, total number of ways to arrange the speakers with the pm before the mp and the mp before the mla is 9!*2*2\nSo, the number of ways the meeting can be held is 10! - 9!*2*2\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "Anna is able to buy 5 more articles for $300 after the price of each article decreased by 15%. What is the new selling price of each article?\nAnswer Choices: (A) $8 (B) $10 (C) $13.6 (D) $22.9 (E) $40",
+    "output": "Let's think about the multi-choice question.\n5 articles for $300 is $60 for each article.\n$60 x 15/100 = $9 is the decrease for each article.\n$60 - $9 = $51 is the new selling price for each article.\nThe answer is C.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "D",
+    "err": false,
+    "question": "In a row of children Neha is 12th from left end and Radha is 6th from right end. When Radha is shifted to left by 2 places and Neha is shifted to right by 2 places there 6 children between Radha and Neha. How many children are there in the row?\nAnswer Choices: (A) 23 (B) 27 (C) 26 (D) 28 (E) 29",
+    "output": "Let's solve the multi-choice question step by step.\nWhen Radha is shifted to left by 2 places and Neha is shifted to right by 2 places there 6 children between Radha and Neha, means there are 5 children between them.\nSo total number of children in the row = 6 + 5 + 1 = 12\nTherefore, total number of children in the row = 12th + 6th - 1 = 18th\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "10kg of a mixture contains 30% sand and 70% clay. In order to make the mixture contain equal quantities of clay and sand how much of the mixture is to be removed and replaced with pure sand?\nAnswer Choices: (A) 10/7 (B) 20/7 (C) 30/7 (D) 40/7 (E) 50/7",
+    "output": "Let's solve the multi-choice question step by step.\nCurrent ratio of sand and clay = 30:70 = 3:7\nLet x kg of mixture be removed and replaced with sand.\nNew quantity of sand = 30(1-3x/100)+x\nNew quantity of clay = 70(1-3x/100)\nThe new mixture is to be such that it contains equal quantities of clay and sand.\ni.e., 30(1-3x/100)+x = 70(1-3x/100)\n=> 30 - 90x/100 + x = 70 - 70x/100\n=> 20x/100 = 40\n=> x = 200/7\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "A man spends 70% of his income. If his income increases by 20%, then what will be his new expenditure?\nAnswer Choices: (A) 58.3% (B) 62.5% (C) 63.5% (D) 64.5% (E) 65.5%",
+    "output": "Let's reason about the multi-choice question.\nLet Rs. 100 be the income\nExpenditure = Rs. 70\nIncreased income = Rs. 120\nExpenditure in amount is same.\nSo, expenditure % = 70/120 * 100 = 58.3%\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "D",
+    "err": false,
+    "question": "What is the greatest number of identical bouquets that can be made out of 28 white and 98 red tulips if no flowers are to be left out? (Two bouquets are identical whenever the number of red tulips in the two bouquets is equal and the number of white tulips in the two bouquets is equal.)\nAnswer Choices: (A) 4 (B) 7 (C) 10 (D) 14 (E) 21",
+    "output": "Let's solve the multi-choice question step by step.\nSince no flowers are to be left out, then the number of bouquets must be a factor of both 28 and 98. For example, we cannot have 2 bouquets since we cannot divide 28 red tulips into 2 bouquets without one tulip left over.\nOnly answer choice which is a factor of 28 and 98 is 4.\nThe answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "C",
+    "err": false,
+    "question": "Sharon works for 5 hours to earn enough tips to buy an ice cream cake, while Karen works for 4. After how many hours will they be able to buy the cake together?\nAnswer Choices: (A) 1 hour (B) 2 hours (C) 3 hours (D) 4 hours (E) 5 hours",
+    "output": "Let's think about the multi-choice question.\nSharon earns $1/hour for 5 hours.\nKaren earns $1/hour for 4 hours.\nTogether they earn $1/hour for a total of 5+4 = 9 hours.\nThe answer is E.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "If x<0, y>0, and |x^3| > |y^2|, which of the following must be true?\nAnswer Choices: (A) x > y (B) y^2 > x^2 (C) -x^3 < y^2 (D) \u2013x < y (E) x < \u2013y",
+    "output": "Let's reason about the multi-choice question.\nCorrect The answer is E\nLet\u2019s go through each answer choice: A can never be true, since no negative is greater than a positive. B doesn\u2019t have to be true \u2013 consider what would happen if x = -2 and y = 1. C can never be true, as x^3 must be negative, and y^2 must be positive. D can never be true, since if x < 0, -x is the same thing as |x|, and |x| > y. E can be manipulated by multiplying both sides by -1, which gives us \u2013x > y. Remember that x < 0, so \u2013x = |x|, and y is positive, so |y| = y. Thus \u2013x < y is the same statement as |x| > |y|, and D must be true.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "C",
+    "err": false,
+    "question": "Printer A and Printer B can each print 1\u20442 page per second. How long will it take both printers working together to print 100 pages?\nAnswer Choices: (A) 25 seconds (B) 50 seconds (C) 100 seconds (D) 200 seconds (E) 400 seconds",
+    "output": "Let's solve the multi-choice question step by step.\nTotal 100 pages = 100 x 2 = 200 pages.\n1 page per second = 1/2 page per second\nA and B = 1/2 + 1/2 = 1 page per second\n200 pages = 200 seconds\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Two ants are moving from their farms towards each other. Ant A is moving at a speed of 9 cm per hour and ant B is moving at a speed of 6 cm per hour. If the farms are 75 cm away from each other, what will be the distance (in cm) that ant A travels until meeting ant B?\nAnswer Choices: (A) 45 (B) 48 (C) 51 (D) 54 (E) 57",
+    "output": "Let's reason about the multi-choice question.\nThe two ants start at a distance of 75 cm. Each ant travels at a speed of 9 cm per hour or 6 cm per hour, so the ants travel at a combined rate of 15 cm per hour.\nThe time to meet is 75 cm / (15 cm per hour) = 5 hours.\nAnt A travels 9 cm per hour * 5 hours = 45 cm.\nThe answer is A.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Roberts has a property worth of $1023.65. But in a record his property worth is written as greatest positive even integer less than or equal to his property worth and it is divisible by 100. Find the difference between actual property and recorded property worth?\nAnswer Choices: (A) 23.65 (B) 1000 (C) 35.62 (D) 2.65 (E) 1023.65",
+    "output": "Let's think about the multi-choice question step by step.\n1000*10 = 10000\n1000*9 = 9000\nSo the greatest positive even integer less than or equal to his property worth is 1000.\nSo the difference between actual property and recorded property worth = 1023.65 - 1000 = 23.65\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "A man spend 810 in buying trouser at Rs 70 each and shirt at 30 each. What will be the ratio of trouser and shirt when the maximum number of trouser is purchased?\nAnswer Choices: (A) 9 Trousers (B) 8 Trousers (C) 10 Trousers (D) 7 Trousers (E) 11 Trousers",
+    "output": "Let's reason about the multi-choice question.\nLet the number of trouser and shirt bought be x and (810 - x) respectively.\nThen, 70x + 30(810 - x) = 81000\n40x = 1900\nx = 45\nThe number of trouser = 45 and the number of shirt = 810 - 45 = 765.\nThe required ratio = 45 : 765 = 9 : 15\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "E",
+    "err": false,
+    "question": "If a subscription for 15 issues of a magazine costs $42.00 and represents a saving of 25 percent of the cover prices, what is the cover price per issue?\nAnswer Choices: (A) $7.73 (B) $6.73 (C) $5.73 (D) $4.73 (E) $3.73",
+    "output": "Let's think about the multi-choice question step by step.\nLet p be the cover price of a magazine.\n42 = (1-25/100)p\n42 = (3/4)p\n42 = 3p/4\n42(4/3) = p\n52.00 = p\nThe answer is C.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "E",
+    "err": false,
+    "question": "Christopher and Jonathan were having bets. They decide that a coin will be flipped twenty times and each time it turns heads, Christopher will give $2 to Jonathan and each time it turns out to be Tails, Jonathan will give 3$ to Christopher. After flipping for twenty times none of the both won or lost any amount.\nHow many times did the coin landed on Heads ?\nAnswer Choices: (A) 10 (B) 23 (C) 16 (D) 18 (E) 12",
+    "output": "Let's reason about the multi-choice question.\nLet the number of heads and tails that is to be won are H and T respectively.\nH + T = 20\nand H - T = 1\nSolving the above equations we get H = 11 and T = 9\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "E",
+    "err": false,
+    "question": "Allen starts from X, goes to Y. At the same time Bob starts from Y and goes towards X. Once Allen reaches Y he changes his direction and returns to X. Once Bob reaches X, he changes his direction and returns to Y. Throughout Allen travels at 54 kmph and Bob travels at 78kmph. By the time they meet for the second time, Bob covers 48 km more than Allen. Find the distance between X and Y.\nAnswer Choices: (A) 144km (B) 72 km (C) 126km (D) 84 km (E) 48km",
+    "output": "Let's solve the multi-choice question step by step.\nLet the distance between X and Y be x km.\nTime taken by Allen and Bob be t1 and t2 respectively.\nx/54 = t1\nx/78 = t2\nt1+t2 = x/54 + x/78 = 2x/36 = t2+t2\n4t1 = 3t2\n4x/54 = 3x/78\nx/54 = 3x/78 - 4x/54 = x/9\nx = 144 km\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "Tires of a certain brand, when purchased new, last for four years. A customer can choose to purchase the new tires at a cost of $180 per tire or can have his current tires repaired at a cost of $40 per tire, a repair that will make the current tires last for one additional year. The average cost per year of the new tires is what percent greater than the cost of repairing the current tires?\nAnswer Choices: (A) 8% (B) 10% (C) 12.5% (D) 16.7% (E) 25%",
+    "output": "Let's think about the multi-choice question step by step.\nCustomer chooses to buy new tires for $180 per tire.\nAfter 4 years, the cost of the new tires would be $720.\nThe cost of repairing the current tires is $40 per tire, so after 5 years the cost of repairing the current tires would be $200.\nThe average cost per year of the new tires is (720/4) = $180.\nThe average cost per year of the current tires is (200/5) = $40.\nThe percent greater the cost of the new tires is than the cost of the current tires is (180-40)/40 * 100% = 12.5%\nThe answer is C.",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "A rope 20 meters long is cut into two pieces. If the length of one piece of rope is 3 meters shorter than the length of the other, what is the length, in meters, of the longer piece of rope?\nAnswer Choices: (A) 7.5 (B) 8.9 (C) 9.9 (D) 11.5 (E) 11.7",
+    "output": "Let's think about the multi-choice question step by step.\nx = longer piece\n20 - x = shorter piece\nx + 3 = 20 - x\n2x = 17\nx = 8.5\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "Jerry purchased a 1-year $5,000 bond that paid an annual interest rate of 12% compounded every six months. How much interest had this bond accrued at maturity?\nAnswer Choices: (A) $5102 (B) $618 (C) $216 (D) $202 (E) $200",
+    "output": "Let's think about the multi-choice question.\n12% compounded every 6 months = 6% in 1 year\nInterest for the 1st 6 months = 6% of 5000 = 300\nInterest for the last 6 months = 6% of 5300 = 318\nTotal = 300+318 = 618\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "D",
+    "err": false,
+    "question": "Decipher the following multiplication table:\nM A D\nB E\n-------------\nM A D\nR A E\n-------------\nA M I D\nAnswer Choices: (A) 9 2 0 0 (B) 9 2 0 9 (C) 9 2 0 1 (D) 9 2 0 7 (E) 9 2 2 2",
+    "output": "Let's think about the multi-choice question step by step.\nThe multiplication table is based on the numbers 9, 2, 0, and 1. However, the order is not the same as in the standard multiplication table. An extra 0 is inserted in the first row of the table. This makes it easier to find the correct position for the product in the second row.\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "Sachin was twice as old as Ajay 10 years back. How old is Ajay today if Sachin will be 40 years old in 10 years\nAnswer Choices: (A) 18 (B) 25 (C) 15 (D) 20 (E) 21",
+    "output": "Let's think about the multi-choice question.\nSachin's age today = 30 years.\nSachin's age 10 years back = 20 years.\nAjay's age 10 years back = 10 years.\nAjay's age today =10 years.\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "What will be the cost of gardening 1-metre \u2013 broad boundary around a rectangular plot having perimeter of 340 metres at the rate of 10 per square metre?\nAnswer Choices: (A) 3400 (B) 1700 (C) 3440 (D) Cannot be determined (E) None of these",
+    "output": "Let's reason about the multi-choice question.\nIn this question, we are having perimeter.\nWe know Perimeter = 2(l+b), right\nSo,\n2(l+b) = 340\nAs we have to make 1-metre boundary around this, so\nArea of boundary = ((l+2)+(b+2)-lb)\n= 2(l+b)+4 = 340+4 = 344\nSo required cost will be = 344 * 10 = 3440\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "Last year, 34 percent of Ace Book Company's sales revenue came from the sale of novels. Of the remaining revenue, 1/3 was from the sale of biographies. The company's revenue from the sale of novels was approximately, how many times its revenue from the sale of biographies?\nAnswer Choices: (A) 1.3 (B) 1.5 (C) 2.1 (D) 2.5 (E) 3.1",
+    "output": "Let's reason about the multi-choice question.\nLet the total revenue be 100.\nNovels = 34.\nBiographies = 1/3*66 = 22.\nThe ratio is 34/22 = 1.5\nThe answer is B.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "D",
+    "err": false,
+    "question": "A bee bypasses 0.05% of flowers it flies by because it can sense they don't have any nectar in them. How many flowers will the bee fly by to bypass 8 flowers?\nAnswer Choices: (A) 2000 (B) 4000 (C) 8000 (D) 16000 (E) 32000",
+    "output": "Let's think about the multi-choice question.\n0.05% of 8 = 0.004\n8/0.004 = 2000\nThe answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Fernando purchased a university meal plan that allows him to have a total of 3 lunches and 3 dinners per week. If the cafeteria is closed on weekends and Fernando always goes home for a dinner on Friday nights, how many options does he have to allocate his meals?\nAnswer Choices: (A) 5C3*4C3 (B) 5C4*4C2 (C) 5C2*4C4 (D) 5C6*4C5 (E) 4C3*4C3",
+    "output": "Let's think about the multi-choice question step by step.\nweekdays = 5\nweekend days = 2\nTotal meals = 3 per day\n5C3 * 2C2\n= 10 * 1\n= 10\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "A",
+    "err": false,
+    "question": "What should come in place of the question mark(?) in each of the following questions ?\na2 - b2/(a + b)2 (?)=(a - b)2\nAnswer Choices: (A)  (a + b)  (a - b)  (B)  (a - b) 2 (C)  (a + b) 2 (D) a3 + b3 (E) None of these",
+    "output": "Let's solve the multi-choice question step by step.\na2 - b2/(a + b)2 = (a2 - b2)/(a2 + 2ab + b2)\n= (a - b)(a + b)/(a + b)2\n= (a - b)/(a + b)\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "A number is as much greater than 36 as is less than 86. Find the Number.\nAnswer Choices: (A) 60 (B) 56 (C) 51 (D) 61 (E) 41",
+    "output": "Let's think about the multi-choice question step by step.\nLet the number be x.\nThen, x - 36 = 86 - x\n\u00e2\u2021\u2019 2x = 86 + 36= 122\n\u00e2\u2021\u2019 2x = 122\n\u00e2\u02c6\u00b4 x = 61\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "D",
+    "err": false,
+    "question": "A certain phone manufacturer ships its products in crates. A crate consists of p pallets, and each pallet holds 1250 phones. If the manufacturer ships 4 crates, how many phones are shipped?\nAnswer Choices: (A) 1000p (B) 1500p (C) 2000p (D) 2500p (E) 30000",
+    "output": "Let's solve the multi-choice question step by step.\nNo. of phones = 1250*p*4 = 5000p\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "D",
+    "err": false,
+    "question": "A can construct a wall in 40 min and B can construct the wall in 45 min. How many hours is needed to contruct a wall if both the person working together.\nAnswer Choices: (A) 20 min (B) 22 min (C) 23 min (D) 21 min (E) 20 min",
+    "output": "Let's solve the multi-choice question step by step.\nPerson working together can finish the wall in 40*45 / 40 + 45\n= 40*45 / 85 = 23 min\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "D",
+    "err": false,
+    "question": "An express electric train takes exact three seconds to enter tunnel which is 1 mile long.\nIf train is traveling at 120 mile an hour, how long will it take to pass completely through the tunnel ?\nAnswer Choices: (A) 43 seconds (B) 39 seconds (C) 20 seconds (D) 33 seconds (E) 55 seconds",
+    "output": "Let's reason about the multi-choice question.\nSpeed of the train is 120 miles an hour\nTime of the train is 3 seconds\nDistance covered is 1 mile\nLet x be the time taken to pass completely through the tunnel\nx = (1+3) * 3 * 1/120\nx = 39 seconds\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "A merchant receives an invoice for a motor boat for $20 000 with terms 4/30, n/100. What is the highest simple interest rate at which he can afford to borrow money in order to take advantage of the discount?\nAnswer Choices: (A) 247.67 (B) 237.67 (C) 227.67 (D) 215.67 (E) None of these",
+    "output": "Let's think about the multi-choice question step by step.\nGiven the discount of 4/30, the remaining amount to be paid is 3/30.\nIf we assume the total loan amount as x, the equation can be written as\nx \u00d7 3/30 \u00d7 r/100 = 20000\nr = 20000 \u00d7 100/3 \u00d7 30 = 247.67\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "There are ten lime soda bottles on a table in a restaurant. They are to be served among two different groups of customers consisting of 5 members each. How many ways are there to create these 2 groups?\nAnswer Choices: (A) 90 (B) 105 (C) 126 (D) 252 (E) 525",
+    "output": "Let's solve the multi-choice question step by step.\n1st group can be formed in 10C5 ways\n2nd group can be formed in 5C5 ways\nTotal ways to create 2 groups = 10C5 * 5C5 = 10!/5!5! = 252\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "B",
+    "err": false,
+    "question": "A special cereal mixture contains rice, wheat and corn in the ratio of 2:3:5. If a bag of the mixture contains 3 pounds of rice, how much corn does it contain?\nAnswer Choices: (A) 6.5 (B) 7.5 (C) 7 (D) 6 (E) None of the above",
+    "output": "Let's think about the multi-choice question step by step.\nThe ratio of rice : wheat : corn is 2 : 3 : 5.\nWe say that this is a ratio in which the sum of the ratio terms is 10.\nIn order to find the amount of corn, we find the ratio of corn to the sum of all the other components.\nWe get, corn : rice + wheat + corn = 5 : 10 = 1 : 2\n1 : 2 = 1/2 : 2/2 = 1/2 : 1\nWe see that the sum of the ratio terms is now 1.\nWe have 3 pounds of rice.\nWe get, 1/2 : 1 = 3/2 : x\nWe see that 3 pounds of rice is 3/2 pounds of the mixture.\nWe get, x = 3 * 2/3 = 2\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "E",
+    "err": false,
+    "question": "You can purchase one soda and two energy bars for 150 cents, or two sodas and three energy bars for 300\ncents. If the costs of the items do not change, compute the cost in cents of six sodas and seven bars.\nAnswer Choices: (A) 500 (B) 600 (C) 750 (D) 800 (E) 900",
+    "output": "Let's think about the multi-choice question.\nLet x be the cost in cents of one soda and y be the cost in cents of one energy bar.\nWe can use the following system of equations to represent the information given:\nx + 2y = 150\n2x + 3y = 300\nMultiplying the first equation by 2 and subtracting the second equation gives:\n4x = 300 \u2013 300 + 300 = 300\nx = 75\nSubstituting the cost of a soda in the first equation gives:\n75 + 2y = 150\n2y = 75\ny = 37.5\nThe cost of six sodas and seven bars is:\n6 sodas * 75 cents/soda + 7 bars * 37.5 cents/bar = 450 cents + 262.5 cents = 712.5 cents\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "A pen company produces very fine quality of writing pens. Company knows that on average 10% of the produced pens are always defective so are rejected before packing. Company promises to deliver 7200 pens to its wholesaler at Rs. 10 each. It estimates the overall profit on all the manufactured pens to be 25%. What is the manufactured cost of each pen?\nAnswer Choices: (A) Rs. 6 (B) Rs. 7.2 (C) Rs. 5.6 (D) Rs. 8 (E) None of these",
+    "output": "Let's think about the multi-choice question step by step.\nSolution: Let the cost of manufacturing each pen is Rs. x.\nCompany earns a profit of 25% on all the pens.\nSo, selling price of each pen = 1.25x.\nTotal sales = 7200*1.25x = 9000x.\nGiven that 10% of the pens are defective and rejected.\nSo, 90% of the pens are acceptable.\nNow, the number of pens is 90% of 7200 = 6480.\nHence, the cost of manufacturing each pen = Rs. 6480/9000 = Rs. 7.2.\nThe answer is Option B",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "B",
+    "err": false,
+    "question": "A two digit number exceeds the sum of the digits of that number by 18. If the digit at the unit's place is double the digit in the ten's place, what is the number?\nAnswer Choices: (A) 12 (B) 24 (C) 42 (D) 48 (E) 49",
+    "output": "Let's reason about the multi-choice question.\nLet the ten's digit be x. Then, unit's digit = 2x.\nNumber = 10x + 2x = 12x.\n12x - x - 2x = 18 => x = 6\nSo, ten's digit = 6 and unit's digit = 12.\nHence, required number = 64 = 42.\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "D",
+    "err": false,
+    "question": "Suppose for any real number x, [x] denotes the greatest integer less than or equal to x. Let L(x,y) = [x] + [y] + [x + y] and R(x,y) = [2x] + [2y]. Then it is impossible to find any two positive real numbers x and y for which\nAnswer Choices: (A) L (x,y)  = R (x,y)  (B) L (x,y)  \u2260 R (x,y)  (C) L (x,y)  < R (x,y)  (D) L (x,y)  < R (x,y)  (E) None",
+    "output": "Let's reason about the multi-choice question.\nIf we find some values of x, y for which L(x,y) = R(x,y) , then there is no need to look at the other choices. So, we just need to find one set of values of x, y for which L(x,y) = R(x,y) .\nIf x and y are nonnegative real numbers, then [x] = 0 and [2x] = 0. So, R(x,y) = 0 and L(x,y) = [y] + [x + y].\nIf x and y are integers, then [x] = x, [y] = y and [x + y] = x + y. So, L(x,y) = x + y + [x + y] = 2x and R(x,y) = 2x.\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "Three bells ring at intervals of 36 seconds, 40 seconds and 48 seconds, respectively. They start ringing together at a particular time. When they will ring together again?\nAnswer Choices: (A) After 6 minutes (B) After 12 minutes (C) After 18 minutes (D) After 24 minutes (E) none",
+    "output": "Let's solve the multi-choice question step by step.\nl.c.m of 36,40,48 is 240. i.e after every 240 sec they will ring together.\nafter 12 min they will ring together again.\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "A",
+    "err": false,
+    "question": "An electric pole, 14 metres high, casts a shadow of 10 metres. Find the height of a tree that casts a shadow of 15 metres under similar conditions.\nAnswer Choices: (A) 21 (B) 22 (C) 20 (D) 23 (E) 24",
+    "output": "Let's think about the multi-choice question step by step.\nLet the height of the tree be x metres.\nLess lengthy shadow, Less in the height (Direct Proportion)\n14 : 15\n10 : x\n14 * x = 15 * 10\nx =\t(15 x 10)/14\nx = 150/14\nx = 11.76\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "B",
+    "err": false,
+    "question": "At my favorite fruit stand, an orange costs 18 dollars, a pineapple costs 27 dollars, and a grape costs 15 dollars. Using the same logic, can you tell how much a mango costs?\nAnswer Choices: (A) 22 dollars (B) 15 dollars (C) 20 dollars (D) 18 dollars (E) 10 dollars",
+    "output": "Let's solve the multi-choice question step by step.\nNo, you can't predict the cost of a mango. The cost of a mango is not based on the cost of an orange, a pineapple or a grape. The cost of a mango is based on the cost of the fruit stand.\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "C",
+    "err": false,
+    "question": "In the coordinate plane, a triangle has vertices at (a,0), (b,0), and (x,y). If a>x>b>0>y, which of the following represents the area of that triangle?\nAnswer Choices: (A)  (ay\u2212by) /2 (B)  (ab\u2212ay) /2 (C)  (by\u2212ay) /2 (D)  (ay+by) /x (E)  (a\u2212b) /2y",
+    "output": "Let's think about the multi-choice question.\nThe area of the triangle is (1/2)*base*height.\nBase = b-a\nHeight = y\nArea = (1/2)*(b-a)*y\nThe answer is D",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "C",
+    "err": false,
+    "question": "A car finishes a journey in 20 hours at the speed of 60 km/hr. If the same distance is to be covered in 10 hours, how much speed does the car gain?\nAnswer Choices: (A) 80 kmph (B) 50 kmph (C) 120 kmph (D) 70 kmph (E) 80 kmph",
+    "output": "Let's reason about the multi-choice question.\nDistance covered by the car = 64 \u00d7 20 = 1280 km\n\\ Speed = 1280\u204410 = 128 km/hr\n\\ Speed gain = 128\u2013 64 = 64 km/hr\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "A",
+    "err": false,
+    "question": "Three friends Alan, Roger and Peter attempt to answer a question on an exam. Alan randomly guesses the answer, giving him a 1/5 probability of guessing correctly. Roger cheats by looking at the paper of the student in front of him, giving him a 2/3 probability of answering correctly. And Peter dutifully performs the calculations, then marks the answer, giving him a 5/6 probability of a correct answer. What is the probability that the question is answered correctly, but not via cheating?\nAnswer Choices: (A) 1/18 (B) 1/9 (C) 23/90 (D) 5/18 (E) 13/45",
+    "output": "Let's solve the multi-choice question step by step.\nThese are three independent events.\nProbability of guessing correctly = 1/5\nProbability of looking at the paper = 2/3\nProbability of performing the calculations correctly = 5/6\nProbability of not guessing correctly, not looking at the paper and performing the calculations correctly:\n1 - (1/5 + 2/3 + 5/6) = 1 - (34/180) = 52/180 = 13/45\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "B",
+    "err": false,
+    "question": "The difference between simple interest and C.I. at the same rate for Rs.5000 for 2 years in Rs.72. The rate of interest is?\nAnswer Choices: (A) 10% (B) 12% (C) 6% (D) 8% (E) 4%",
+    "output": "Let's think about the multi-choice question step by step.\n(5000 * R * 2)/100 - 5000 * [1 + R/100]2 = 72\n100 R2 = 72\nR = 6%\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "C",
+    "err": false,
+    "question": "All 250 files on Sam's hard drive are infected by either a virus or a worm or both. The number of files that are infected only by a worm is 2.5 times the number of files that are infected by both a virus and a worm. If 50% of the files were not infected by a virus, how many of Sam's files were NOT infected by a worm?\nAnswer Choices: (A) 50 (B) 70 (C) 75 (D) 100 (E) 125",
+    "output": "Let's think about the multi-choice question.\nI used the simple equation where\nw = worm\nv = virus\nb = both\nx = files not infected by a virus\n2.5b = worms only\nb = both\n2b = total number of worms\n2.5b = total number of worms only\nb = total number of files\n2b = total number of files only\nx = 2b/2 - b\n2b/2 represents the number of files that were infected by a virus\nb represents the number of files that were infected by both\n2b represents the total number of files\nThe files that are not infected by a worm are 2b/2 - b\n2b/2 represents the number of files that were infected by a virus\nb represents the number of files that were infected by both\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "A father wants to divide Rs. 5100 between his two sons, Mohan and Sohan who are 23 and 24 at present. He divides the amount in such a way that if their shares are invested at compound interest at 4% p.a. they will receive equal amount on attaining the age of 26 years. Find Mohan's share.\nAnswer Choices: (A) 2400 (B) 2500 (C) 2600 (D) 2700 (E) None of these",
+    "output": "Let's think about the multi-choice question.\nLet the shares of Mohan and Sohan be Rs. x and Rs. (5100 - x) respectively.\nThen,\n(x\u00d723\u00d726/20)+(x\u00d726\u00d726/20)=(5100\u2212x)\u00d724\u00d726/20\n\u21d2 13\u204410x + 13\u204410(5100 - x) = 24 \u00d7 5100\u204420\n\u21d2 13\u204410x + 6540 - 13\u204410x = 60 \u00d7 5100\u204420\n\u21d2 6540 = 3700x \u21d2 x = 1400\nMohan's share = Rs. 1400.\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "C",
+    "err": false,
+    "question": "What is 60% of 30% of 1400 grams?\nAnswer Choices: (A) 450 gms (B) 100 gms (C) 252 gms (D) 240 gms (E) None of these",
+    "output": "Let's think about the multi-choice question.\n60% of 30% of 1400 grams\n= 60/100 * 30/100 * 1400\n= 8400/100\n= 84 gms\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "A certain liquid passes through a drain at a rate of w/25 gallons every x seconds. At that rate, how many minutes will it take y gallons to pass through the drain?\nAnswer Choices: (A) y/ (1200xy)  (B) 20xy/w (C) 5xy/ (12w)  (D) w/ (3xy)  (E) 3y/ (wx) ",
+    "output": "Let's think about the multi-choice question.\nRate = w/25 gallons every x seconds\nRate = w/25x gallons every 1 seconds\nTime taken to pass y gallons = y/(w/25x) = 25xy/w gallons\nTime taken to pass y gallons = 20xy/w minutes\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "B",
+    "err": false,
+    "question": "A coin made of alloy of aluminum and silver measures 2 x 15 mm (it is 2 mm thick and its diameter is 15 mm). If the weight of the coin is 30 grams and the volume of aluminum in the alloy equals that of silver, what will be the weight of a coin measuring 1 x 30 mm made of pure aluminum if silver is twice as heavy as aluminum?\nAnswer Choices: (A) 36 grams (B) 40 grams (C) 42 grams (D) 48 grams (E) 50 grams",
+    "output": "Let's solve the multi-choice question step by step.\nVolume of the coin = Volume of aluminum + Volume of silver\nVolume of the coin = 2 x 2 x 15 + 2 x 2 x 15\nVolume of the coin = 60\nWeight of silver = 30 g\nWeight of aluminum = 30/2 = 15 g\nWeight of pure aluminum = 15 x 60 = 900 g\nThe answer is Option E",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "If 10 is subtracted from 2/3 of a number the result is equal to sum of 40 and 1/3 of the number. Find the number\nAnswer Choices: (A) 100 (B) 160 (C) 150 (D) 210 (E) 220",
+    "output": "Let's solve the multi-choice question step by step.\nLet the number be x.\n2/3x\u221210=40+1/3x\n2/3x\u221240=1/3x+10\n1/3x=50\nx=150\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "C",
+    "err": false,
+    "question": "What is the largest integral value of 'k' for which the quadratic equation x2 - 5x + k = 0 will have two real and distinct roots?\nAnswer Choices: (A) 9 (B) 7 (C) 3 (D) 8 (E) 12",
+    "output": "Explanatory Answer\nAny quadratic equation will have real and distinct roots if the discriminant D > 0\nThe discriminant 'D' of a quadratic equation ax2 + bx + c = 0 is given by b2 - 4ac\nIn this question, the value of D = 52 - 4 * 1 * k\nIf D > 0, then 25 > 4k or k < 6.25.\nTherefore, the highest integral value that k can take is 6.\ncorrect choice is A",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "900 + 5 \u00d7 12 = ?\nAnswer Choices: (A) 820 (B) 202 (C) 420 (D) 209 (E) 960",
+    "output": "Let's think about the multi-choice question step by step.\n900 + (5 \u00d7 12) = 900 + 60 = 960\nThe answer is E",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "Shweta rides at the rate of 10 km per hour but stops for 10 minutes to take rest at the end of every 15 km. How many hours will she take to cover 100 km\nAnswer Choices: (A) 9 hours. (B) 10 hours. (C) 11 hours. (D) 12 hours. (E) 13 hours.",
+    "output": "Let's think about the multi-choice question.\nShweta takes rest after every 15 km. So she covers 15 km in 10 minutes.\nFor 100 km, she has to take 100/15 = 6 rests.\nHence, she will take 6 * 10 = 60 minutes rest.\nTotal time taken = 100/10 + 60/60 = 11 hours.\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "E",
+    "err": false,
+    "question": "Mr.Sam takes 17 hours to go by train to a certain city and return by car. He loses 4 hours if he goes both ways by train. How long would he have taken if he had traveled by car in both ways?\nAnswer Choices: (A) 22 hrs (B) 18 hrs (C) 16 hrs (D) 20 hrs (E) 13 hrs",
+    "output": "Let's think about the multi-choice question.\nLet the distance be x km.\nLet the speed of the train be y km/hr and that of the car be z km/hr.\nx/y + x/z = 17\nx/y = 4\nx/z = 13\n4 + 13 = 17\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "A",
+    "err": false,
+    "question": "Jim filled his dog's bowl with dog food. Starting at 8:00 am, Jim's dog ate exactly once an hour, consuming exactly 1/3 of the dog food remaining in the bowl at each feeding session. Approximately, what percent of the original food was in the dog's bowl right before the dog began to eat at noon of the same day?\nAnswer Choices: (A) 20% (B) 25% (C) 30% (D) 35% (E) 40%",
+    "output": "Let's reason about the multi-choice question.\nLet x be the amount of food in the bowl initially.\nAt 8:00 am, there is x-1/3x=2/3x left in the bowl.\nAt 9:00 am, there is 2/3x - 1/3*2/3x = 1/3x left in the bowl.\nAt 10:00 am, there is 1/3x - 1/3*1/3x = 1/9x left in the bowl.\nAt 11:00 am, there is 1/9x - 1/3*1/9x = 1/27x left in the bowl.\nAt 12:00 pm, there is 1/27x - 1/3*1/27x = 1/81x left in the bowl.\nThe answer is E.",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "A",
+    "err": false,
+    "question": "John conducted a survey about car color. 60% of the people who took the survey were women. Of the men who were surveyed, 75% preferred red cars over green cars. If 10 men liked green cars more than red, how many people took the survey?\nAnswer Choices: (A) 100 (B) 120 (C) 50 (D) 200 (E) 80",
+    "output": "Let's think about the multi-choice question step by step.\nLet the total survey taken be x.\nGiven that 60% of the people who took the survey were women.\nSo Men = 40% of x\nGiven that 75% of the men who were surveyed, 10 men liked green cars more than red.\nSo 25% of men liked red more than green.\nThus 25% of 40% of x = 10\n25/100 * 40/100 * x = 10\nx = 80\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "How many ways A boy can reach the top of stairs which contain 10 steps, when he can take either one or two steps every time?\nAnswer Choices: (A) 88 (B) 89 (C) 90 (D) 91 (E) 92",
+    "output": "Let's reason about the multi-choice question.\nUsing 1 step in 1st way and 2 steps in 2nd way.\nTotal number of ways = 10C1 + 10C2\n= 10+45\n= 55\nIt is similar to finding the number of ways in which 10 balls can be arranged in 2 groups - group 1 containing 1 ball and group 2 containing 9 balls.\nTherefore, number of ways = 10C1 + 10C2 = 10+45 = 55\nThe answe is B",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "A",
+    "err": false,
+    "question": "IF one gallon of soft drink is made of 40% orange juice and 60% water, how many additional gallons of orange juice must be mixed in order to make the orange juice 60% of the soft drink?\nAnswer Choices: (A) 0.5 (B) 1 (C) 1.25 (D) 1.5 (E) 2",
+    "output": "Let's think about the multi-choice question step by step.\nLet x be the amount of orange juice that is added to make the orange juice 60% of the soft drink.\n0.4(1) + x = 0.6(x+1)\n0.2x = 0.2\nx = 1\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "What is the units digit of 9^3-7?\nAnswer Choices: (A) 1 (B) 3 (C) 5 (D) 2 (E) 4",
+    "output": "Let's think about the multi-choice question step by step.\n9^3 has units digit 9\n9-7=2\n2 has units digit 2\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "B",
+    "err": false,
+    "question": "5 horses are in a race. Mr.Jain selects two of horses at random and bets on them. The probability that he selected the winning horse is\nAnswer Choices: (A) 1/5 (B) 2/5 (C) 3/5 (D) 4/5 (E) 6/5",
+    "output": "Let's reason about the multi-choice question.\nOut of 5 horses, the probability that the first is a winner = 1/5\nSince, the second horse is independent of the first, therefore probability that the second is a winner = 1/5\nHence, probability that both are winners = 1/5 * 1/5 = 1/25\nThe answer is Option A",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "On dividing 2272 and 875 by a 3-digit number N, we get the same remainder. The sum of the digits of N is:\nAnswer Choices: (A) 10 (B) 11 (C) 12 (D) 13 (E) 14",
+    "output": "Let's think about the multi-choice question.\nClearly, (2272 - 875) = 1397, is exactly divisible by N.\nNow, 1397 = 11 x 127\nThe required 3-digit number is 127, the sum of whose digits is 10\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "E",
+    "err": false,
+    "question": "On a test the passing students had an average of 83, while the failing students had an average\nof 55. If the overall class average was 76, what percent of the class passed?\nAnswer Choices: (A) 44% (B) 66% (C) 68% (D) 72% (E) 75%",
+    "output": "Let's solve the multi-choice question step by step.\nLet x be the number of students in the class.\nSum of grades of passing students: 83x\nSum of grades of failing students: 55x\nSum of grades of all students: 76x\n76x = 83x + 55x - 2(83)(55)\n76x = 83x + 55x - 2(4405)\n76x = 83x + 55x - 8810\n13x = 8810\nx = 660\nPassing students: 660(83/13) = 5520\nFailing students: 660(55/13) = 3850\n5520 + 3850 = 9370\nPercent of class that passed: 9370/10000 = 0.0937 = 9.37%\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "D",
+    "err": false,
+    "question": "The average wages of a worker during a fortnight comprising of 15 consecutive working days was $90 per day. During the first 7 days, his average wage was $87 per day and the average wage during the last 7 days was $92 per day. What was his wage on the 8th day?\nAnswer Choices: (A) $83 (B) $92 (C) $90 (D) $97 (E) $104",
+    "output": "Let's think about the multi-choice question.\nAverage daily wage of a worker for 15 consecutive working days = 90$\nDuring the first 7 days , the daily average daily wage = 87$\nDuring the last 7 days , the daily average daily wage = 92$\nWage on 8th day = 90*15 -( 87*7 + 92 *7)\n= 1350 - (609 + 656)\n=1350 - 1265\n= 85\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "Two numbers are in the ratio 3:5. If 9 is subtracted from each, the new numbers are in the ratio 12:23. The smaller number is?\nAnswer Choices: (A) 21 (B) 33 (C) 35 (D) 42 (E) 58",
+    "output": "Let's solve the multi-choice question step by step.\n(3x - 9):(4x - 9) = 12y:23y\n3x - 9 = 12y\nx = 33\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "If 6 yrs are subtracted from the present age of Ajay and the remainder is divided by 18, then the present age of Rahul is obtained. If Rahul is 2 yrs younger to Denis whose age is 5 yrs, then what is Ajay's present age?\nAnswer Choices: (A) 40 (B) 60 (C) 70 (D) 80 (E) 90",
+    "output": "Let's solve the multi-choice question step by step.\nLet the present age of Ajay be x yrs.\nThen, (x-6)/18 = yrs\n=> x-6 = 18yrs\n=> x = 18yrs + 6\nIf Rahul's age is 2 yrs less than Denis's age, then Denis's age = 5yrs + 2 = 7yrs.\n=> x = 18yrs + 6 = 7yrs\n=> 18yrs = 7yrs - 6yrs\n=> yrs = 1yrs\n=> x = 18yrs + 6 = 18yrs + 6yrs\n=> x = 60yrs.\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "D",
+    "err": false,
+    "question": "Anna has 4 books. If she decide to arrange the 4 books in every possible combination and moved just one book every minute, how long would it taken by her ?\nAnswer Choices: (A) 22 minutes (B) 30 minutes (C) 15 minutes (D) 24 minutes (E) 35 minutes",
+    "output": "Let's think about the multi-choice question step by step.\nClearly, Anna will take 4 minutes to arrange 4 books and it will take 3 minutes to arrange 3 books and so on.\nSo, total time taken = 4 + 3 + 2 + 1 = 10 minutes\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "E",
+    "err": false,
+    "question": "The manufacturer of tyres is offering a 20% discount on the price of its tubeless tyres. Some retailers are offering additional discounts. If a retailer offers an additional 20% discount, then what is the total discount available at that retailer?\nAnswer Choices: (A) 10% (B) 25% (C) 28% (D) 30% (E) 36%",
+    "output": "Let's think about the multi-choice question step by step.\nThe manufacturer offers a 20% discount on the price of its tyres.\nIf a retailer offers an additional 20% discount, then what is the total discount available at that retailer?\nEffective price after the manufacturer's discount = 100% - 20% = 80%\nEffective price after the retailer's discount = 80% - 20% = 60%\nTotal discount = 100% - 60% = 40%\n= 40% = 10%\nThe answer is A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "A rectangular parking space is marked out by painting three of its sides. If the length of the unpainted side is 9 feet, and the sum of the lengths of the painted sides is 37 feet, then what is the area of the parking space in square feet?\nAnswer Choices: (A) 46 (B) 81 (C) 126 (D) 252 (E) None",
+    "output": "Let's think about the multi-choice question step by step.\nSolution\nClearly, we have : l = 9 and l + 2b = 37 or b = 14.\n\u2234 Area = (l \u00d7 b ) = (9 \u00d7 14 ) sq. ft. = 126 sq. ft.\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "B",
+    "err": false,
+    "question": "Peter wants to find 10 additional people to form a scavenger hunt team with him. If he has 10 friends who would like to participate, how many choices does he have for forming his team?\nAnswer Choices: (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+    "output": "Let's reason about the multi-choice question.\nPeter needs 10 more people to form a team. He has 10 friends who want to play.\nSo Peter can form a team of 10 + 10 = 20 people.\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "The average weight of 10 oarsmen in a boat is increased by 1.8 kg when one of the crew, who weighs 53 kg is replaced by a new man. Find the weight of the new man.\nAnswer Choices: (A) 71 (B) 62 (C) 43 (D) 67 (E) 40",
+    "output": "Let's solve the multi-choice question step by step.\nTotal weight increased = 1.8*10 = 18.\nWeight of the new man = 53+18 = 71\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "A box contains a certain number of balls, marked successively from 1 to n. If there are 45 different ways that two balls can be selected from the box such that the ball with number 3 marked on it is not selected, then what is the value of n?\nAnswer Choices: (A) 11 (B) 10 (C) 9 (D) 8 (E) 7",
+    "output": "Let's think about the multi-choice question step by step.\nTotal ways of selecting 2 balls out of n balls = nC2\nWe're told that one balls marked as 3 cannot be selected.\nSo total number of balls left now = (n-1)\nHence total ways of selecting 2 balls out of (n-1) balls = (n-1)C2\nGiven that (n-1)C2 = 45\nSo, [(n-1)(n-2)]/[2 * 1] = 45\nSo, n^2-3n+2 = 90\nSo, n^2-3n-88 = 0\nSo, n = 11 or -8\nn cannot be negative; n = 11\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "If Q, a positive integer, has 5 factors, which of the following must be true about Q?\nI. Q is the square of a prime number.\nII. Q is the fourth power of a prime number.\nIII. Q is the product of two prime numbers.\nAnswer Choices: (A) I only (B) III only (C) II only (D) I and II only (E) I and III only",
+    "output": "Let's think about the multi-choice question step by step.\nAns: Let's take prime numbers 2,3,5,7,11,13,17,... etc\nI. Q is the square of a prime number.\n2 has 2 factors. 3 has 2 factors. 5 has 2 factors. 7 has 2 factors. 11 has 2 factors. 13 has 2 factors. 17 has 2 factors... etc\nAll the prime numbers have 2 factors. So, this statement is not true.\nII. Q is the fourth power of a prime number.\n2 has 2 factors. 3 has 2 factors. 5 has 2 factors. 7 has 2 factors. 11 has 2 factors. 13 has 2 factors. 17 has 2 factors... etc\nAll the prime numbers have 2 factors. So, this statement is not true.\nIII. Q is the product of two prime numbers.\n2 has 2 factors. 3 has 2 factors. 5 has 2 factors. 7 has 2 factors. 11 has 2 factors. 13 has 2 factors. 17 has 2 factors... etc\nAll the prime numbers have 2 factors. So, this statement is not true.\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "If 6x - y = 24 and y = 3x, what is the value of x?\nAnswer Choices: (A) 8 (B) 9 (C) 10 (D) 11 (E) 12",
+    "output": "Let's reason about the multi-choice question.\n6x - y = 24\ny = 3x\n6x - 3x = 24\n3x = 24\nx = 8\nThe answer is A.",
+    "correct": true
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "You can rent DVDs at a local video store for $4.00 per movie without a membership. However, if you purchase a membership for $7.00 per month, you can rent DVDs for $2.00 each. What is the minimum amount of DVDs you would have to rent to make it worth it to purchase the membership?\nAnswer Choices: (A) 1 (B) 2 (C) 3 (D) 4 (E) 5",
+    "output": "Let's think about the multi-choice question.\nIf you compare the two options, the obvious answer is 4 DVDs, which is the minimum number of DVDs you can rent without a membership. With a membership, you can rent 2 DVDs each month, so 4 DVDs would cost you 4 x 2 = $8.00\nIf you compare the two options, the obvious answer is 4 DVDs, which is the minimum number of DVDs you can rent without a membership. With a membership, you can rent 2 DVDs each month, so 4 DVDs would cost you 4 x 2 = $8.00\nThe correct answer is option D",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "A bag of cat food weighs 7 pounds and 4 ounces. How much does the bag weigh in ounces?\nAnswer Choices: (A)  108 (B)  112 (C)  116 (D)  120 (E)  124",
+    "output": "Let's reason about the multi-choice question.\n7 pounds and 4 ounces = 7*16 + 4 = 112 ounces\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "E",
+    "err": false,
+    "question": "By himself, Jack can clean a yacht in 12 hours. On a particular day, he happens to finish two-thirds of the work. The remaining portion of the work is done by Jill, whose rate of cleaning is just 5% of what Jack can do. How long does it take Jill to finish the remaining work?\nAnswer Choices: (A) 4 (B) 8 (C) 22 (D) 50 (E) 20",
+    "output": "Let's think about the multi-choice question step by step.\nWork done by Jack in 1 hour = 1/12\nWork done by Jill in 1 hour = 1/12 * 5/100 = 1/240\nRemaining work = 1 - 2/3 = 1/3\nTime taken by Jill to complete the remaining work = (1/3) / (1/240) = 8 hours\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "A",
+    "err": false,
+    "question": "Professors borrowed Rs. 5000 from the university at simple interest. After 3 years, the university got Rs. 300 on interest. What was the rate of interest per annum?\nAnswer Choices: (A) 2% (B) 8% (C) 5% (D) 10% (E) None of these",
+    "output": "Let's think about the multi-choice question step by step.\nSI = Rs. 300\nP = Rs. 5000\nT = 3 years\nR = ?\nR = (100\u00d7SI)/PT = (100\u00d7300)/(5000\u00d73) = 6/10 = 60/100 = 60% = 5%\nThe answer is Option C",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "In a sale, a discount of 20% was available on all the articles. If Vinit purchased an article for Rs.4578 in the sale. What was the actual selling price of the article?\nAnswer Choices: (A) s.5050 (B) s.5723 (C) s.5040 (D) s.4950 (E) s.4870",
+    "output": "Let's reason about the multi-choice question.\ni.e. Rs.4578 is 80% of the actual price.\n80/100 = 4578/x\nx = 457800/80\n= Rs.5723\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "If 27 bottles of soda cost A cents, how much will B bottles cost in dollars?\nAnswer Choices: (A) AB/2700 (B) 27/AB (C) AB/270 (D) 2700/AB (E) 100AB/27",
+    "output": "Let's think about the multi-choice question.\n27 bottles of soda cost A cents, so 1 bottle of soda cost A/27 cents;\nB bottles of soda cost B/27*A cents;\n100 cents equals 1 dollar, so B bottles of soda cost B/27*A/100=AB/2700 dollars.\nThe answer is A.",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "C",
+    "err": false,
+    "question": "A bag contains 11 candy bars: three cost 50 cents each, four cost $1 each and four cost $2\neach. How many ways can 3 candy bars be selected from the 11 candy bars so that the total cost is more than $4?\nAnswer Choices: (A) 8 (B) 28 (C) 46 (D) 66 (E) 70",
+    "output": "Let's think about the multi-choice question.\nTotal cost of 3 candy bars > $4 = > 3*50 + 4*1 + 4*2 > 400\nHence the cheapest candy bars that we should choose are 4, 5 or 6. This gives us a total of 3*4 = 12 ways.\nHowever, one of these ways is not possible (4, 5, 6) as these are the only three candy bars that cost > $4. Hence there are 11 possible ways to choose candy bars that cost $4 or less and 12-3 = 9 possible ways to choose candy bars that cost > $4.\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "E",
+    "gt": "B",
+    "err": false,
+    "question": "At a conference, one team is made up of 4 men and 4 women. Four presenters are chosen to present the team's findings in front of the entire conference. How many different groups of presenters can be chosen from the team if a team cannot be composed of men only or women only? (Two groups of presenters are considered different if at least one presenter is different.)\nAnswer Choices: (A) 120 (B) 19 (C) 180 (D) 420 (E) 460",
+    "output": "Let's think about the multi-choice question.\nTotal presenters=8\nMaximum different presenters to be chosen=4\nSo different groups of presenters can be chosen= 8C4=70\nThe answer is E",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "C",
+    "err": false,
+    "question": "Exactly 2/5th of the children in a certain class are girls. If there are 100 boys in the class, how many girls are in the class?\nAnswer Choices: (A) 50 (B) 100 (C) 150 (D) 200 (E) 70",
+    "output": "Let's think about the multi-choice question step by step.\nIf B=boys, G=girls, then\nB+G=100 ---(1)\nB=100(5/7)\nG=100(2/7)\nNow, The answer is 100(2/7)=200\nANSWER:D",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "D",
+    "err": false,
+    "question": "Two numbers are said to be relatively prime if they share no common positive factors other than 1. Set S contains the set of integers from 1 to 1,000, inclusive. What is the probability that a number chosen from S is relatively prime to 1,000?\nAnswer Choices: (A) 5/7 (B) 3/5 (C) 4/7 (D) 2/5 (E) 2/7",
+    "output": "Let's solve the multi-choice question step by step.\n1000 = 2^3*5^3\nThe total number of positive integers less than or equal to 1000 is 1000.\nThe number of positive integers less than or equal to 1000 that are relatively prime to 1000 = 1000 - 1 = 999\nThe probability that a number chosen from S is relatively prime to 1000 = 999/1000 = 3/5\nThe answer is B.",
+    "correct": false
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "At the of his one-year investment, Charles received $54,080, including interest and principal from a certain investment. If the investment paid an annual interest of 8 percent compounded semi-annually, which of the following is the amount of money that Charles originally invested?\nAnswer Choices: (A) $45,000 (B) $50,000 (C) $54,000 (D) $59,000 (E) $62,000",
+    "output": "Let's think about the multi-choice question step by step.\n54,080 = P(1+8/2*100)^2\n54,080 = P(1+4/100)^2\n54,080 = P(1.04)^2\n54,080 = P*1.0816\nP = 50,000\nThe answer is B.",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "Joe's age, Joe's sister's age and Joe\u2019s fathers age sums up to 100. When Joe is as old as his father, Joe's sister will be twice as old as now. When Joe is as old as his father then his father is twice as old as when his sister was as old as her father. Find the age of Joe's father?\nAnswer Choices: (A) 45 (B) 48 (C) 50 (D) 55 (E) 58",
+    "output": "Let's think about the multi-choice question.\nJoe+sister+father=100\nafter x years lets joe age is equal to hi father\njoe+x=father\ntherefore, sister+x=2*sister\n=>sister=x\njoe+sister=father\ntherefore, 2*father=100\nhence, Father=50\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "C",
+    "gt": "A",
+    "err": false,
+    "question": "If one third of 3/4 of a number is 21. Then, find the number?\nAnswer Choices: (A) 84 (B) 66 (C) 28 (D) 19 (E) 11",
+    "output": "Let's solve the multi-choice question step by step.\nLet the number be x. Then,\n1/3 of 3/4 of x = 21\n(1/3)*(3/4)*x = 21\nx = 28\nThe answer is C",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "D",
+    "err": false,
+    "question": "If m > 0, y > 0, and x is m percent of 4y, then, in terms of y, m is what percentage of x?\nAnswer Choices: (A) y/400 (B) 4y (C) 50y (D) 2500/y (E) 5000/y",
+    "output": "Let's solve the multi-choice question step by step.\nThe answer is \nA = Y/400,\nDone this by taking numbers:\nLet 10 (x) be 5% (m) of 4 * 100 (y)\nThen m/x*100 = 5/10*100 = 50% or 1/2\n50% or 1/2 in terms of Y = 100/200 = Y/200\nANSWER:A",
+    "correct": false
+  },
+  {
+    "ans": "C",
+    "gt": "C",
+    "err": false,
+    "question": "A man wants to eat fruit for breakfast and vegetable for dinner. He has 6 different types of fruit and 8 different types of vegetables. He can only eat one type at a time. In how many ways can he eat breakfast and dinner.\nAnswer Choices: (A) 54 (B) 24 (C) 48 (D) 20 (E) 36",
+    "output": "Let's reason about the multi-choice question.\nHe can eat fruit in 6 ways and vegetable in 8 ways.\nSo, the required number of ways = 6*8 = 48\nThe answer is C",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "E",
+    "err": false,
+    "question": "There is a 90% chance that a registered voter in Burghtown voted in the last election. If five registered voters are chosen at random, what is the approximate likelihood that exactly four of them voted in the last election?\nAnswer Choices: (A) 26.2% (B) 32.8% (C) 43.7% (D) 59.0% (E) 65.6%",
+    "output": "Let's think about the multi-choice question step by step.\nI drew a diagram:\n90% voted.\n10% did not vote\nP(exactly 4 vote) = 5C4(90/100)^4(10/100)^1 = 5*4*3*2*1*(9/10)^4*(1/10)\n= 90*36\n= 3240/100\n= 32.8%\nThe answer is B",
+    "correct": false
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "Alice wants to put up fencing around three sides of her rectangular yard and leave one side of 10 meters unfenced. If the yard has an area of 240 square meters, how many meters of fencing does she need?\nAnswer Choices: (A) 58 (B) 62 (C) 66 (D) 70 (E) 74",
+    "output": "Let's think about the multi-choice question.\nTo find the perimeter of the rectangular yard, we need to find the length and the width.\nWe know that the area of the rectangular yard is 240 m2.\nWe also know that the length of the rectangle is 10 m.\nIf we set the width to be w, then the equation for the area of the rectangular yard would be:\n10 w = 240\nSolve for w:\nw = 240/10 = 24 m\nSince the length of the rectangle is 10 m, the perimeter of the rectangular yard is:\n2 (10 + 24) = 68 m\nThe answer is A.",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "John would make the 3-letter codes with diffenrent 5 vowels and 20 consonants with the condition that the middle letter must be vowel and the first letter and the third letter must be different from each other and are both consonant. How many different codes can be made?\nAnswer Choices: (A) 1,980 (B) 2,020 (C) 2,100 (D) 2,200 (E) 1,900",
+    "output": "Let's think about the multi-choice question.\nA. There are 5 vowels: e, a, e, e, e.\nB. There are 20 consonants: 20*19*18/(2*1*1) = 1980\nC. There are 3 letters, so total # of permutations is 3!/2!1! = 3*2 = 6.\nD. From A and B, we have total of 5+1980 = 1985 options.\nE. From C, we have 6 options.\nTotal = 1985*6 = 11,910.\nThe answer is E.",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "E",
+    "err": false,
+    "question": "What is the sum of three consecutive integers whose product can be expressed as 727+728+729.\nAnswer Choices: (A) 37 (B) 38 (C) 36 (D) 30 (E) 39",
+    "output": "Let's think about the multi-choice question step by step.\n727+728+729 = 3*243 = 3*7^3\nthus the three numbers are 243-7 = 236, 243, and 243+7 = 250\n236+243+250 = 729-7 = 722\nThe answer is A.",
+    "correct": false
+  },
+  {
+    "ans": "D",
+    "gt": "D",
+    "err": false,
+    "question": "The capacity of a tank of dimensions (8 m \u00d7 6 m \u00d7 2.5 m) is\nAnswer Choices: (A) 120 litres (B) 1200 litres (C) 12000 litres (D) 120000 litres (E) None of these",
+    "output": "Let's think about the multi-choice question.\ncapacity of atank =volume of tank\n= (8 \u00d7 6 \u00d7 2.5) m3\n= 120 m3\n= 120 \u00d7 1000 litres\n= 120000 litres\nThe answer is D",
+    "correct": true
+  },
+  {
+    "ans": "E",
+    "gt": "E",
+    "err": false,
+    "question": "The population of a city is 5265526. If there are 4169516 adults in the city, how many children are there in the city?\nAnswer Choices: (A) 1095961 (B) 1065961 (C) 1085961 (D) 1097961 (E) 1096061",
+    "output": "Let's solve the multi-choice question step by step.\npopulation of a city = 5265\nNumber of Adults = 4169\nNumber of Children = 5265-4169 = 1096\nThe answer is E",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "It takes a worker 9 minutes to drive from home to work at an average rate of 20 kilometers per hour. How many minutes will it take the worker to cycle from home to work along the same route at an average rate of 6 kilometers per hour?\nAnswer Choices: (A) 30 (B) 32 (C) 35 (D) 36 (E) 40",
+    "output": "Let's reason about the multi-choice question.\ntime 1 = 9 minutes\ntime 2 = x\ndistance = 9*20 = 180\n180 = 6x\nx = 30 minutes\nThe answer is A",
+    "correct": true
+  },
+  {
+    "ans": "B",
+    "gt": "B",
+    "err": false,
+    "question": "Two friends are eating a jar full of candies. Had P eaten alone, it would have taken him 10 minutes to finish the candies in the jar. Had Q eaten alone, it would have taken her 5 minutes to finish half the jar. Since both of them are eating simultaneously, how many minutes would it take them to empty the jar?\nAnswer Choices: (A) 4 (B) 5 (C) 6 (D) 7 (E) 8",
+    "output": "Let's think about the multi-choice question step by step.\nP eats 1 candy in 10 minutes\nQ eats 1/2 candy in 5 minutes\nor Q eats 1 candy in 10 minutes\nSince they are eating together they can eats 2 candy in 10 minutes\nSo they can empty the jar in 5 minutes\nThe answer is B",
+    "correct": true
+  },
+  {
+    "ans": "A",
+    "gt": "A",
+    "err": false,
+    "question": "A grocery sells a bag of ice for $1.25, and makes 20% profit. If it sells 500 bags of ice, how much total profit does it make?\nAnswer Choices: (A) 125 (B) 150 (C) 225 (D) 250 (E) 275",
+    "output": "Let's think about the multi-choice question step by step.\nThe total profit made by selling 500 bags of ice is 500*0.20*1.25 = 125\nThe answer is A.",
+    "correct": true
+  }
+]

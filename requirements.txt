@@ -1,0 +1,19 @@
+datasets
+transformers
+black
+numpy
+pandas
+scipy
+wolframalpha
+vllm
+accelerate
+deepspeed
+wandb
+# flash-atnn
+packaging
+ninja
+# visulization
+notebook
+ipywidgets
+matplotlib
+seaborn
